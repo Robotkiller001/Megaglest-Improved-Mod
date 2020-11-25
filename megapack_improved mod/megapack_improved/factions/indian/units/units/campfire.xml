@@ -1,0 +1,146 @@
+<?xml version="1.0" standalone="no" ?>
+<unit>
+	<parameters>
+		<size value="3" />
+		<height value="2" />
+		<ai-build-size value="5"/>
+		<max-hp value="6000" regeneration="0"/>
+		<max-ep value="0" />
+		<armor value="0" />
+		<armor-type value="stone"/>
+		<sight value="8" />
+		<time value="80" />
+		<multi-selection value="true"/>
+		<uniform-selection value="true"/>
+		<cellmap value="false"/>
+		<levels/>
+		<fields>
+			<field value="land" />
+		</fields>
+		<properties />
+		<light enabled="true" red="1.0" green="0.3" blue="0.0"/>
+		<rotationAllowed value="false" />
+		<unit-requirements>
+			<unit name="round_tent"/>
+		</unit-requirements>
+		<upgrade-requirements />
+		<resource-requirements>
+			<resource name="gold" amount="100"/>
+			<resource name="wood" amount="175"/>
+			<resource name="stone" amount="75"/>
+		</resource-requirements>
+		<resources-stored/>
+		<image path="images/campfire.bmp"/>
+		<image-cancel path="../archer/images/tech_cancel.bmp"/>
+		<meeting-point value="true" image-path="../main_teepee/images/meeting_point.bmp"/>
+		<selection-sounds enabled="true">
+			<sound path="$COMMONDATAPATH/sounds/tech_click.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="$COMMONDATAPATH/sounds/tech_click.wav"/>
+		</command-sounds>
+	</parameters>
+	<skills>
+		<skill>
+			<type value="be_built" />
+			<name value="be_built_skill"/>
+			<ep-cost value="0" />
+			<speed value="120"/>
+			<speed value="120"/>
+			<anim-speed value="0" />
+			<animation path="models/campfire_construction.g3d" />
+			<sound enabled="false" />
+		</skill>
+		<skill>
+			<type value="stop" />
+			<name value="stop_skill"/>
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="40" />
+			<animation path="models/campfire.g3d" />
+			<particles value="true">
+				<particle-file path="fire_particles2.xml"/>
+				<particle-file path="smoke_particles.xml"/>
+			</particles>
+			<sound enabled="false" />
+		</skill>
+		<skill>
+			<type value="die" />
+			<name value="die_skill"/>
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="0" />
+			<animation path="models/campfire_destroyed.g3d" />
+			<particles value="true">
+				<particle-file path="smoke_particles2.xml"/>
+			</particles>
+			<sound enabled="true" start-time="0">
+				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall5.wav"/>
+			</sound>
+			<fade value="false"/>
+		</skill>
+		<skill>
+			<type value="produce" />
+			<name value="produce_skill"/>
+			<ep-cost value="0" />
+			<speed value="250" />
+			<anim-speed value="40" />
+			<animation path="models/campfire.g3d" />
+			<particles value="true">
+				<particle-file path="fire_particles.xml"/>
+			</particles>
+			<sound enabled="false" />
+		</skill>
+		<skill>
+			<type value="upgrade"/>
+			<name value="upgrade_skill"/>
+			<ep-cost value="0"/>
+			<speed value="300"/>
+			<anim-speed value="30"/>
+			<animation path="models/campfire.g3d"/>
+			<particles value="true">
+				<particle-file path="fire_particles.xml"/>
+				<particle-file path="upgrade_particles.xml"/>
+			</particles>
+			<sound enabled="false"/>
+		</skill>
+	</skills>
+	<commands>
+		<command>
+			<type value="produce"/>
+			<name value="produce_fire_golem" />
+			<image path="../fire_golem/images/firegolem.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="fire_golem"/>
+		</command>
+		<command>
+			<type value="upgrade"/>
+			<name value="research_iron"/>
+			<image path="../../upgrades/iron/images/iron.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="iron"/>
+		</command>
+		<command>
+			<type value="upgrade"/>
+			<name value="research_advanced_iron"/>
+			<image path="../../upgrades/advanced_iron/images/iron_advanced.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="advanced_iron"/>
+		</command>
+		<command>
+			<type value="upgrade"/>
+			<name value="research_big_rock"/>
+			<image path="../../upgrades/big_rock/images/rock_plain.png"/>
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="big_rock"/>
+		</command>
+	</commands>
+</unit>
