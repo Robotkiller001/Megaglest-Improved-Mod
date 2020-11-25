@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+
+<faction>
+	<starting-resources>
+		<resource name="gold" amount="300"/>
+		<resource name="wood" amount="300"/>
+		<resource name="stone" amount="300"/>
+		<resource name="food" amount="40"/>
+	</starting-resources>
+	<starting-units>
+		<unit name="forum" amount="1"/>
+		<unit name="guard_tower" amount="1"/>
+		<unit name="slave" amount="4"/>
+		<unit name="spearman" amount="0"/>
+		<unit name="cow" amount="0"/>
+		<unit name="archer" amount="0"/>
+	</starting-units>
+	<music value="true" path="music/romans.ogg"/>
+	<flat-particle-positions value="true"/>
+</faction>
+

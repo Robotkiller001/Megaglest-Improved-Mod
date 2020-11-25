@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+
+<faction>
+	<starting-resources>
+		<resource name="gold" amount="300"/>
+		<resource name="wood" amount="300"/>
+		<resource name="stone" amount="300"/>
+		<resource name="food" amount="40"/>
+	</starting-resources>
+	<starting-units>
+		<unit name="castle" amount="1"/>
+		<unit name="defense_tower" amount="1"/>
+		<unit name="worker" amount="4"/>
+		<unit name="technician" amount="0"/>
+		<unit name="swordman" amount="0"/>
+		<unit name="archer" amount="0"/>
+		<unit name="cow" amount="1"/>
+	</starting-units>
+	<music value="true" path="music/music_tech.ogg"/>
+	<flat-particle-positions value="true"/>
+</faction>

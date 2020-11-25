@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+
+<faction>
+	<starting-resources>
+		<resource name="gold" amount="300"/>
+		<resource name="wood" amount="300"/>
+		<resource name="stone" amount="300"/>
+		<resource name="food" amount="40"/>
+	</starting-resources>
+	<starting-units>
+		<unit name="palace" amount="1"/>
+		<unit name="snake_basket" amount="1"/>
+		<unit name="worker" amount="4"/>
+		<unit name="princess" amount="0"/>
+		<unit name="sheep" amount="1"/>
+		<unit name="stickfighter" amount="0"/>
+		<unit name="fakir" amount="0"/>
+	</starting-units>
+	<music value="true" path="music/aminos-together_together.ogg"/>
+	<flat-particle-positions value="true"/>
+</faction>

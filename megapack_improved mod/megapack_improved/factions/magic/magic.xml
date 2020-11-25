@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+
+<faction>
+	<starting-resources>
+		<resource name="gold" amount="300"/>
+		<resource name="wood" amount="300"/>
+		<resource name="stone" amount="300"/>
+		<resource name="energy" amount="18"/>
+	</starting-resources>
+	<starting-units>
+		<unit name="mage_tower" amount="1"/>
+		<unit name="initiate" amount="4"/>
+		<unit name="tower_of_souls" amount="1"/>
+		<unit name="battlemage" amount="0"/>
+		<unit name="summoner" amount="0"/>
+		<unit name="negromante" amount="1"/>
+	</starting-units>
+	<music value="true" path="music/music_magic.ogg"/>
+	<flat-particle-positions value="true"/>
+</faction>

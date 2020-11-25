@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+
+<faction>
+	<starting-resources>
+		<resource name="gold" amount="20"/>
+	</starting-resources>
+	<starting-units>
+		<unit name="survivor" amount="1"/>
+	</starting-units>
+	<music value="true" path="music/music_tech.ogg"/>
+	<flat-particle-positions value="true"/>
+</faction>
