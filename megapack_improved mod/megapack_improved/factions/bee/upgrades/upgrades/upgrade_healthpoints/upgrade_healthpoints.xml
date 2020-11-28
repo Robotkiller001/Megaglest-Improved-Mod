@@ -16,7 +16,7 @@
 		<unit name="bee_magic"/>
 		<unit name="thunderstruck_swarm_of_bees"/>
 	</effects>
-	<max-hp value="200" value-percent-multiplier="true"/>
+	<max-hp value="100"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strenght value="0"/>
