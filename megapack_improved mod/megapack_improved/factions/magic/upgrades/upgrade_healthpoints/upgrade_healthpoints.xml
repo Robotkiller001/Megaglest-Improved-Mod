@@ -26,7 +26,7 @@
 		<unit name="summoner"/>
 		<unit name="thunderstruck_behemoth"/>
 	</effects>
-	<max-hp value="10" value-percent-multiplier="true"/>
+	<max-hp value="100"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strenght value="0"/>
