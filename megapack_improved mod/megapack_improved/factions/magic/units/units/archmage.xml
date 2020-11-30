@@ -5,7 +5,7 @@
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="600" regeneration="8"/>
-		<max-ep value="3000" regeneration="60"/>
+		<max-ep value="3000" regeneration="45"/>
 		<armor value="30"/>
 		<armor-type value="leather"/>
 		<sight value="12"/>
@@ -144,7 +144,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="static_fire_skill"/>
-			<ep-cost value="1750"/>
+			<ep-cost value="1500"/>
 			<speed value="40"/>
 			<anim-speed value="40"/>
 			<animation path="models/archmage_attacking.g3d"/>
@@ -161,8 +161,8 @@
 				<sound-file path="sounds/archmage_attack23.wav"/>
 				<sound-file path="sounds/archmage_attack24.wav"/>
 			</sound>
-			<attack-strenght value="900"/>
-			<attack-var value="200"/>
+			<attack-strenght value="800"/>
+			<attack-var value="150"/>
 			<attack-range value="9"/>
 			<attack-type value="energy"/>
 			<unit value="bad_ghost_armor" amount="1"/>
