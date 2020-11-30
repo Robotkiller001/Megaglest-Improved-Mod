@@ -109,7 +109,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>
-			<ep-cost value="500"/>
+			<ep-cost value="600"/>
 			<speed value="30"/>
 			<anim-speed value="150"/>
 			<animation path="models/engineer_idle.g3d"/>
