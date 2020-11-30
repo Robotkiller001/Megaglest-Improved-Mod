@@ -9,11 +9,11 @@
 		<armor value="25"/>
 		<armor-type value="leather"/>
 		<sight value="13"/>
-		<time value="70"/>
+		<time value="90"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="elite" kills="6"/>
+			<level name="elite" kills="8"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -158,7 +158,7 @@
 			<sound enabled="true" start-time="0.0">
 				<sound-file path="/sounds/throw2.wav"/>
 			</sound>
-			<attack-strenght value="140"/>
+			<attack-strenght value="150"/>
 			<attack-var value="50"/>
 			<attack-range value="10"/>
 			<attack-type value="energy"/>
