@@ -9,7 +9,7 @@
 		<armor value="0" />
 		<armor-type value="stone"/>
 		<sight value="4" />
-		<time value="70" />
+		<time value="90" />
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
 		<cellmap value="true">
@@ -28,6 +28,7 @@
 		<light enabled="false" />
 		<unit-requirements>
 			<unit name="tent" />
+			<unit name="big_tent" />
 		</unit-requirements>
 		<upgrade-requirements />
 		<resource-requirements>
