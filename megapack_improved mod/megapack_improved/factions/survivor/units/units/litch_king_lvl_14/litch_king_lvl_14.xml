@@ -1,0 +1,326 @@
+<?xml version="1.0" standalone="no"?>
+
+<unit>
+
+	<parameters>
+		<size value="1"/>
+		<height value="2"/>
+		<max-hp value="8050" regeneration="50"/>
+		<max-ep value="4000" regeneration="50" start-percentage="50"/>
+		<armor value="115"/>
+		<armor-type value="survivor"/>
+		<sight value="19"/>
+		<time value="50"/>
+		<multi-selection value="true"/>
+		<cellmap value="false"/>
+		<levels/>
+		<fields>
+			<field value="land"/>
+		</fields>
+		<properties/>
+		<light enabled="true" red="0.8" green="0.8" blue="0.5"/>
+		<unit-requirements/>
+		<upgrade-requirements/>
+		<resource-requirements>
+			<resource name="gold" amount="1000"/>
+		</resource-requirements>
+		<resources-stored>
+			<resource name="gold" amount="1400"/>
+		</resources-stored>
+		<image path="../litch_king_lvl_1/images/summoner.bmp"/>
+		<image-cancel path="../litch_king_lvl_1/images/magic_cancel.bmp"/>
+		<meeting-point value="false"/>
+		<selection-sounds enabled="true">
+			<sound path="../litch_king_lvl_1/sounds/summoner_select2.wav"/>
+			<sound path="../litch_king_lvl_1/sounds/summoner_select3.wav"/>
+			<sound path="../litch_king_lvl_1/sounds/summoner_select5.wav"/>
+			<sound path="../litch_king_lvl_1/sounds/summoner_select6.wav"/>
+			<sound path="../litch_king_lvl_1/sounds/summoner_select7.wav"/>
+			<sound path="../litch_king_lvl_1/sounds/summoner_select10.wav"/>
+			<sound path="../litch_king_lvl_1/sounds/summoner_select11.wav"/>
+			<sound path="../litch_king_lvl_1/sounds/summoner_select14.wav"/>
+			<sound path="../litch_king_lvl_1/sounds/summoner_select15.wav"/>
+			<sound path="../litch_king_lvl_1/sounds/summoner_select16.wav"/>
+			<sound path="../litch_king_lvl_1/sounds/summoner_select17.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="../litch_king_lvl_1/sounds/summoner_ack1.wav"/>
+			<sound path="../litch_king_lvl_1/sounds/summoner_ack2.wav"/>
+			<sound path="../litch_king_lvl_1/sounds/summoner_ack3.wav"/>
+			<sound path="../litch_king_lvl_1/sounds/summoner_ack4.wav"/>
+			<sound path="../litch_king_lvl_1/sounds/summoner_ack5.wav"/>
+			<sound path="../litch_king_lvl_1/sounds/summoner_ack6.wav"/>
+			<sound path="../litch_king_lvl_1/sounds/summoner_ack7.wav"/>
+			<sound path="../litch_king_lvl_1/sounds/summoner_ack8.wav"/>
+			<sound path="../litch_king_lvl_1/sounds/summoner_ack9.wav"/>
+			<sound path="../litch_king_lvl_1/sounds/summoner_ack10.wav"/>
+			<sound path="../litch_king_lvl_1/sounds/summoner_ack11.wav"/>
+			<sound path="../litch_king_lvl_1/sounds/summoner_ack12.wav"/>
+		</command-sounds>
+	</parameters>
+
+	<skills>
+
+		<skill>
+			<type value="stop"/>
+			<name value="stop_skill"/>
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="40"/>
+			<animation path="models/summoner_standing.g3d"/>
+                        <attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="0"/>
+                        	<target value="faction" include-self="true">
+				</target>
+				<max-hp value="0" regeneration="80"/>
+				<max-ep value="0"/>
+				<sight value="0"/>
+				<attack-strenght value="0" value-percent-multiplier="true"/>
+				<attack-range value="0"/>
+				<armor value="0"/>
+				<move-speed value="0"/>
+				<production-speed value="0"/>
+			<particles value="false">
+			</particles>
+                        </attack-boost>
+			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="glow_particles.xml"/>
+			</particles>
+		</skill>
+
+		<skill>
+			<type value="be_built" />
+			<name value="be_built_skill"/>
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/summoner_standing.g3d" />
+			<sound enabled="false" />
+		</skill>
+
+		<skill>
+			<type value="harvest"/>
+			<name value="harvest_skill"/>
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="80"/>
+			<animation path="models/summoner_attacking.g3d"/>
+			<particles value="true">
+				<particle-file path="glow_particles.xml"/>
+			</particles>
+			<sound enabled="true" start-time="0">
+				<sound-file path="$COMMONDATAPATH/sounds/summoner_summon1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/summoner_summon2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/summoner_summon3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/summoner_summon4.wav"/>
+			</sound>
+			<particles value="true">
+				<particle-file path="glow_particles.xml"/>
+			</particles>
+		</skill>
+
+		<skill>
+			<type value="move"/>
+			<name value="move_skill"/>
+			<ep-cost value="0"/>
+			<speed value="240"/>
+			<anim-speed value="130"/>
+			<animation path="models/summoner_walking.g3d"/>
+			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="glow_particles.xml"/>
+			</particles>
+		</skill>
+
+		<skill>
+			<type value="attack"/>
+			<name value="attack_skill"/>
+			<ep-cost value="0"/>
+			<speed value="110"/>
+			<anim-speed value="110"/>
+			<animation path="models/summoner_producing.g3d"/>
+			<sound enabled="true" start-time="0.5">
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack6.wav"/>
+			</sound>
+			<attack-strenght value="440"/>
+			<attack-var value="140"/>
+			<attack-range value="14"/>
+			<attack-type value="survivor"/>
+			<attack-fields>
+				<field value="land"/>
+				<field value="air"/>
+			</attack-fields>
+			<attack-start-time value="0.5"/>
+			<projectile value="true">
+			<particle value="true" path="particle_proj.xml"/>
+			<sound enabled="true">
+				<sound-file path="$COMMONDATAPATH/sounds/tower_hit1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_hit2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_hit3.wav"/>
+			</sound>
+			</projectile>
+			<splash value="true">
+				<radius value="3"/>
+				<damage-all value="true"/>
+				<particle value="true" path="particle_splash.xml"/>
+			</splash>
+			<particles value="true">
+				<particle-file path="glow_particles.xml"/>
+			</particles>
+		</skill>
+
+		<skill>
+			<type value="attack"/>
+			<name value="summon_skill"/>
+			<ep-cost value="1000"/>
+			<speed value="30"/>
+			<anim-speed value="30"/>
+			<animation path="models/summoner_producing.g3d"/>
+			<sound enabled="true" start-time="0.5">
+				<sound-file path="$COMMONDATAPATH/sounds/summoner_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/summoner_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/summoner_attack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/summoner_attack4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/summoner_attack5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/summoner_attack6.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/summoner_attack7.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/summoner_attack8.wav"/>
+			</sound>
+			<attack-strenght value="0"/>
+			<attack-var value="0"/>
+			<attack-range value="16"/>
+			<attack-type value="survivor"/>
+			<attack-fields>
+				<field value="land"/>
+			</attack-fields>
+			<attack-start-time value="0.5"/>
+				<unit value="ghost_armor_lvl_14" amount="1"/>
+			<projectile value="false"/>
+			<splash value="false"/>
+			<particles value="true">
+				<particle-file path="glow_particles.xml"/>
+				<particle-file path="produce_particles.xml"/>
+			</particles>
+		</skill>
+
+		<skill>
+			<type value="morph"/>
+			<name value="morph_skill"/>
+			<ep-cost value="0"/>
+			<speed value="500"/>
+			<anim-speed value="50"/>
+			<animation path="models/summoner_producing.g3d"/>
+			<particles value="true">
+				<particle-file path="glow_particles.xml"/>
+			</particles>
+			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="glow_particles.xml"/>
+			</particles>
+		</skill>
+
+		<skill>
+			<type value="die"/>
+			<name value="die_skill"/>
+			<ep-cost value="0"/>
+			<speed value="80"/>
+			<anim-speed value="80"/>
+			<animation path="models/summoner_dying.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="../litch_king_lvl_1/sounds/summoner_die1.wav"/>
+				<sound-file path="../litch_king_lvl_1/sounds/summoner_die2.wav"/>
+				<sound-file path="../litch_king_lvl_1/sounds/summoner_die3.wav"/>
+				<sound-file path="../litch_king_lvl_1/sounds/summoner_die4.wav"/>
+			</sound>
+			<fade value="false"/>
+		</skill>
+
+	</skills>
+
+	<commands>
+
+		<command>
+			<type value= "stop"/>
+			<name value="stop"/>
+			<image path="../litch_king_lvl_1/images/magic_stop.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+		</command>
+
+		<command>
+			<type value= "move"/>
+			<name value="move"/>
+			<image path="../litch_king_lvl_1/images/magic_move.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+		</command>
+
+		<command>
+			<type value= "attack"/>
+			<name value="skull"/>
+			<image path="../litch_king_lvl_1/images/tower_of_souls_attack_on.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+		<command>
+			<type value= "attack"/>
+			<name value="hell_gate"/>
+			<image path="../litch_king_lvl_1/images/hell_gate.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="summon_skill"/>
+		</command>
+
+                <command>
+			<type value="attack_stopped"/>
+			<name value="hold_position"/>
+			<image path="../litch_king_lvl_1/images/magic_hold.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+		<command>
+			<type value="harvest"/>
+			<name value="mine"/>
+			<image path="../litch_king_lvl_1/images/initiate_harvest.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<harvest-skill value="harvest_skill"/>
+			<stop-loaded-skill value="stop_skill"/>
+			<move-loaded-skill value="move_skill"/>
+			<harvested-resources>
+				<resource name="gold"/>
+			</harvested-resources>
+			<max-load value="60"/>
+			<hits-per-unit value="1"/>
+		</command>
+
+		<command>
+			<type value="morph"/>
+			<name value="promote_to_litch_king_lvl_15"/>
+			<image path="../litch_king_lvl_1/images/summoner.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<morph-skill value="morph_skill"/>
+			<morph-unit name="litch_king_lvl_15"/>
+			<discount value="0"/>
+		</command>
+
+	</commands>
+</unit>
