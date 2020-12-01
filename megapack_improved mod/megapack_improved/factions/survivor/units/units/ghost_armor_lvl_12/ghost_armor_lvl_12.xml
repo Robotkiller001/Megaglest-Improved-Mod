@@ -4,9 +4,9 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="1000" regeneration="-10"/>
+		<max-hp value="1250" regeneration="-15"/>
 		<max-ep value="0"/>
-		<armor value="30"/>
+		<armor value="35"/>
 		<armor-type value="metal"/>
 		<sight value="10"/>
 		<time value="80"/>
@@ -100,7 +100,7 @@
 				<sound-file path="../ghost_armor_lvl_8/sounds/ghost_armor_attack9.wav"/>
 				<sound-file path="../ghost_armor_lvl_8/sounds/ghost_armor_attack10.wav"/>
 			</sound>
-			<attack-strenght value="140"/>
+			<attack-strenght value="160"/>
 			<attack-var value="40"/>
 			<attack-range value="1"/>
 			<attack-type value="sword"/>

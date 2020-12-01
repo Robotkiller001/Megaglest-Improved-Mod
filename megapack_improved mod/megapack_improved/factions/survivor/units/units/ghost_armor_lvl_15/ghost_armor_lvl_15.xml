@@ -4,9 +4,9 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="1000" regeneration="-10"/>
+		<max-hp value="2500" regeneration="-20"/>
 		<max-ep value="0"/>
-		<armor value="30"/>
+		<armor value="50"/>
 		<armor-type value="metal"/>
 		<sight value="10"/>
 		<time value="80"/>
@@ -85,8 +85,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="70"/>
-			<anim-speed value="70"/>
+			<speed value="80"/>
+			<anim-speed value="80"/>
 			<animation path="models/ghost_armor_attacking.g3d"/>
 			<sound enabled="true" start-time="0.4">
 				<sound-file path="../ghost_armor_lvl_8/sounds/ghost_armor_attack1.wav"/>
@@ -100,8 +100,8 @@
 				<sound-file path="../ghost_armor_lvl_8/sounds/ghost_armor_attack9.wav"/>
 				<sound-file path="../ghost_armor_lvl_8/sounds/ghost_armor_attack10.wav"/>
 			</sound>
-			<attack-strenght value="140"/>
-			<attack-var value="40"/>
+			<attack-strenght value="240"/>
+			<attack-var value="80"/>
 			<attack-range value="1"/>
 			<attack-type value="sword"/>
 			<attack-fields>
@@ -112,7 +112,7 @@
 				<radius value="0"/>
                         	<target value="faction" include-self="true">
 				</target>
-				<max-hp value="0" regeneration="25"/>
+				<max-hp value="0" regeneration="40"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
 				<attack-strenght value="0" value-percent-multiplier="true"/>
