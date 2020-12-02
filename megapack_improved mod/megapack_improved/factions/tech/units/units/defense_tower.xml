@@ -82,7 +82,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/defense_tower_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/defense_tower_attack2.wav"/>
 			</sound>
-			<attack-strenght value="200"/>
+			<attack-strenght value="210"/>
 			<attack-var value="50"/>
 			<attack-range value="12"/>
 			<attack-type value="piercing"/>
@@ -93,7 +93,7 @@
 			</attack-fields>
 			<projectiles>
 			  
-			<projectile attack-start-time="0.01" damage-percentage="40">	
+			<projectile attack-start-time="0.01" damage-percentage="60">	
 				<particle value="true" path="particle_proj_1.xml"/>
 				<hitsound enabled="true">
 					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit1.wav"/>
@@ -101,7 +101,7 @@
 				</hitsound>
 			</projectile>
 			
-			<projectile attack-start-time="0.14" damage-percentage="30">	
+			<projectile attack-start-time="0.14" damage-percentage="20">	
 				<particle value="true" path="particle_proj_2.xml"/>
 				<hitsound enabled="true">
 					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit3.wav"/>
@@ -109,7 +109,7 @@
 				</hitsound>
 			</projectile>
 			
-			<projectile attack-start-time="0.28" damage-percentage="30">	
+			<projectile attack-start-time="0.28" damage-percentage="20">	
 				<particle value="true" path="particle_proj_3.xml"/>
 				<hitsound enabled="true">
 					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit1.wav"/>
