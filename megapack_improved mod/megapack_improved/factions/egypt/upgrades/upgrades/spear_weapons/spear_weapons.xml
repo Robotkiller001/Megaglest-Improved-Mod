@@ -8,8 +8,8 @@
 	<upgrade-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
-		<resource name="gold" amount="150"/>
-		<resource name="wood" amount="150"/>
+		<resource name="gold" amount="100"/>
+		<resource name="wood" amount="175"/>
 	</resource-requirements>
 	<effects>
 		<unit name="spearman"/>
@@ -18,7 +18,7 @@
 	<max-hp value="0"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
-	<attack-strenght value="40"/>
+	<attack-strenght value="30"/>
 	<attack-range value="0"/>
 	<armor value="15"/>
 	<move-speed value="0"/>
