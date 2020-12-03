@@ -15,6 +15,8 @@
 		<unit name="farm"/>
 		<unit name="technodrome"/>
 		<unit name="barracks"/>
+		<unit name="technician"/>
+		<unit name="swordman"/>
 	</effects>
 	<max-hp value="0"/>
 	<max-ep value="0"/>
