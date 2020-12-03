@@ -18,6 +18,9 @@
 		<unit name="mead_bar"/>
 		<unit name="mistletoe_tree"/>
 		<unit name="valhalla"/>
+		<unit name="battleaxe"/>
+		<unit name="spearman"/>
+		<unit name="swordman"/>
 	</effects>
 	<max-hp value="0"/>
 	<max-ep value="0"/>
