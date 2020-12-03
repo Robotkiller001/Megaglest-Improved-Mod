@@ -14,6 +14,10 @@
 		<unit name="mage_tower"/>
 		<unit name="summoner"/>
 		<unit name="summoner_guild"/>
+		<unit name="initiate"/>
+		<unit name="battlemage"/>
+		<unit name="dragon"/>
+		<unit name="golem"/>
 	</effects>
 	<max-hp value="0"/>
 	<max-ep value="0"/>
