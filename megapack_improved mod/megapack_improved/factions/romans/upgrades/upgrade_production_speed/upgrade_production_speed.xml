@@ -14,6 +14,9 @@
 		<unit name="gladiator_school"/>
 		<unit name="military_camp"/>
 		<unit name="training_camp"/>
+		<unit name="archer"/>
+		<unit name="cavalry"/>
+		<unit name="wartime_mechanic"/>
 	</effects>
 	<max-hp value="0"/>
 	<max-ep value="0"/>
