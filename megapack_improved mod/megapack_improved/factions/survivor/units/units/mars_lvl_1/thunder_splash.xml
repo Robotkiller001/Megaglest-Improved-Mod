@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<particle-system type="ice_nova_splash">
+    	<texture value="true" path="images/archmage_particle.bmp" luminance="true"/>
+    	<model value="false"/>
+	<primitive value="quad"/>
+	<offset x="0" y="0" z="0"/>
+	<color red="0.2" green="0.4" blue="0.9" alpha="0.8" />
+	<color-no-energy red="0.2" green="0.6" blue="1.0" alpha="0.2" />
+    	<size value="2.0" />
+    	<size-no-energy value="3.0" />
+    	<speed value="5.0" />
+	<gravity value="0"/>
+    	<emission-rate value="70" />
+    	<energy-max value="40" />
+    	<energy-var value="5" />
+
+	<emission-rate-fade value="8"/>
+	<vertical-spread a="0.8" b="0.4"/>
+	<horizontal-spread a="0.6" b="0.1"/>
+</particle-system>
