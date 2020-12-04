@@ -110,12 +110,7 @@
 			<speed value="120"/>
 			<anim-speed value="80"/>
 			<animation path="models/daemon_dying.g3d"/>
-			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/daemon_die1.wav"/>
-				<sound-file path="sounds/daemon_die2.wav"/>
-				<sound-file path="sounds/daemon_die3.wav"/>
-				<sound-file path="sounds/daemon_die4.wav"/>
-			</sound>
+			<sound enabled="false"/>
 			<fade value="false"/>
 		</skill>
 	</skills>
