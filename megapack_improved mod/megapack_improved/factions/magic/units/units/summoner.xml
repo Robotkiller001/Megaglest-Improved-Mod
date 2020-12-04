@@ -105,7 +105,7 @@
 			<type value="produce"/>
 			<name value="summon_skill"/>
 			<ep-cost value="0"/>
-			<speed value="150"/>
+			<speed value="250"/>
 			<anim-speed value="80"/>
 			<animation path="models/summoner_producing.g3d"/>
 			<sound enabled="true" start-time="0.3">
