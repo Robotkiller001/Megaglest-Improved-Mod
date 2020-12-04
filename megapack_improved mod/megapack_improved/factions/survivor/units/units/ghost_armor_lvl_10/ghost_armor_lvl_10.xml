@@ -136,13 +136,7 @@
 			<speed value="120"/>
 			<anim-speed value="120"/>
 			<animation path="models/ghost_armor_dying.g3d"/>
-			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/ghost_armor_die1.wav"/>
-				<sound-file path="sounds/ghost_armor_die2.wav"/>
-				<sound-file path="sounds/ghost_armor_die3.wav"/>
-				<sound-file path="sounds/ghost_armor_die4.wav"/>
-				<sound-file path="sounds/ghost_armor_die5.wav"/>
-			</sound>
+			<sound enabled="false"/>
 			<fade value="false"/>
 		</skill>
 
