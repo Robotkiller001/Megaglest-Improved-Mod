@@ -8,19 +8,17 @@
 	<upgrade-requirements/>
 	<resource-requirements>
 		<resource name="wood" amount="200"/>
-		<resource name="gold" amount="300"/>
+		<resource name="gold" amount="200"/>
 	</resource-requirements>
 	<effects>
-		<unit name="battleaxe"/>
-		<unit name="valkyrie"/>
+		<unit name="swordman_berserk"/>
 		<unit name="battleaxe_berserk"/>
-		<unit name="axe_thrower"/>
 		<unit name="spearman_berserk"/>
 	</effects>
 	<max-hp value="50"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
-	<attack-strenght value="50"/>
+	<attack-strenght value="40"/>
 	<attack-range value="0"/>
 	<armor value="15"/>
 	<move-speed value="0"/>
