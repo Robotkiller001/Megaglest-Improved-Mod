@@ -7,9 +7,9 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="900" regeneration="6"/>
+		<max-hp value="1000" regeneration="6"/>
 		<max-ep value="0"/>
-		<armor value="50"/>
+		<armor value="45"/>
 		<armor-type value="leather"/>
 		<sight value="10"/>
 		<time value="50"/>
@@ -91,8 +91,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="220"/>
-			<anim-speed value="90"/>
+			<speed value="240"/>
+			<anim-speed value="100"/>
 			<animation path="models/armored_swordman_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -101,8 +101,8 @@
 			<type value="move"/>
 			<name value="charge_skill"/>
 			<ep-cost value="0"/>
-			<speed value="220"/>
-			<anim-speed value="125"/>
+			<speed value="240"/>
+			<anim-speed value="130"/>
 			<animation path="models/armored_swordman_charging.g3d"/>
 			<sound enabled="false"/>
 		</skill>
