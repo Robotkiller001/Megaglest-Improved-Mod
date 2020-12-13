@@ -4,13 +4,13 @@
 	<parameters>
 		<size value="2" />
 		<height value="2" />
-		<max-hp value="4000" regeneration="1"/>
+		<max-hp value="5000" regeneration="1"/>
 		<max-ep value="0" />
 		<max-unit-count value="2"/>
 		<armor value="0" />
 		<armor-type value="wood"/>
-		<sight value="8" />
-		<time value="160" />
+		<sight value="4" />
+		<time value="150" />
 		<multi-selection value="true" />
 		<uniform-selection value="true"/>
 		<cellmap value="true">
@@ -123,10 +123,12 @@
 				<sound-file path="$COMMONDATAPATH/sounds/tower_hit3.wav"/>
 			</sound>
 			</projectile>
-			<splash value="true">				<radius value="2"/>
+			<splash value="true">
+				<radius value="2"/>
 				<damage-all value="true"/>
 				<particle value="true" path="particle_splash.xml"/>
-			</splash>		</skill>
+			</splash>
+		</skill>
 
 		<skill>
 			<type value="die" />
