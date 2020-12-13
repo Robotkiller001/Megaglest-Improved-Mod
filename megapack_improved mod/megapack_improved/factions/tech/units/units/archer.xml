@@ -6,10 +6,10 @@
 		<height value="2"/>
 		<max-hp value="700" regeneration="1"/>
 		<max-ep value="0"/>
-		<armor value="20"/>
+		<armor value="10"/>
 		<armor-type value="leather"/>
 		<sight value="13"/>
-		<time value="60"/>
+		<time value="50"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
@@ -26,7 +26,7 @@
 		<upgrade-requirements/>
 		<resource-requirements>
 			<resource name="wood" amount="50"/>
-			<resource name="gold" amount="100"/>
+			<resource name="gold" amount="75"/>
 			<resource name="food" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -108,8 +108,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="55"/>
-			<anim-speed value="55"/>
+			<speed value="45"/>
+			<anim-speed value="45"/>
 			<animation path="models/archer_attacking.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack1.wav"/>
@@ -117,8 +117,8 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack3.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack4.wav"/>
 			</sound>
-			<attack-strenght value="100"/>
-			<attack-var value="40"/>
+			<attack-strenght value="80"/>
+			<attack-var value="30"/>
 			<attack-range value="10"/>
 			<attack-type value="arrow"/>
 			<attack-start-time value="0.5"/>
