@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/piercing.bmp"/>
 	<image-cancel path="../advanced_architecture/images/tech_upgrade_cancel.bmp"/>
-	<time value="500"/>
+	<time value="400"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<upgrade-requirements/>
@@ -15,7 +15,6 @@
 		<unit name="archer"/>
 		<unit name="fire_archer"/>
 		<unit name="cavalry"/>
-		<unit name="spearman"/>
 		<unit name="gladiator"/>
 		<unit name="turtle_formation"/>
 	</effects>

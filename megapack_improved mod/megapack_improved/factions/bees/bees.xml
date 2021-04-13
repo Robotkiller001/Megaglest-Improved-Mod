@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="no"?>
+
+
+<faction>
+	<starting-resources>
+		<resource name="pollen" amount="400"/>
+		<resource name="1-up" amount="1"/>
+	</starting-resources>
+	<starting-units>
+		<unit name="beehive" amount="1"/>
+		<unit name="defence_bee_tower" amount="1"/>
+		<unit name="worker_bee" amount="4"/>
+		<unit name="bee_crossbow" amount="0"/>
+		<unit name="queen_bee" amount="0"/>
+		<unit name="thunderstruck_queen_bee" amount="0"/>
+	</starting-units>
+	<music value="true" path="music/music_bee.ogg"/>
+	<ai-behavior>
+		<warrior-units>
+			<unit name="worker_bee" minimum="6"/>
+		</warrior-units>
+		<upgrades>
+			<upgrade name="training_bees"/>
+			<upgrade name="thick_skin"/>
+			<upgrade name="better_bees_stings"/>
+			<upgrade name="magic_sharpening"/>
+			<upgrade name="piercing_stings"/>
+		</upgrades>
+	</ai-behavior>	
+</faction>

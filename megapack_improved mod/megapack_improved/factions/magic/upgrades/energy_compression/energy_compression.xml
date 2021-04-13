@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/enchant_sky.png"/>
 	<image-cancel path="../ancient_summoning/images/magic_upgrade_cancel.bmp"/>
-	<time value="200"/>
+	<time value="250"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
@@ -14,7 +14,8 @@
 		<unit name="summoner"/>
 		<unit name="dragon_rider"/>
 		<unit name="archmage"/>
-		<unit name="negromante"/>
+		<unit name="necromante"/>
+		<unit name="evil_dragon"/>
 	</effects>
 	<max-hp value="0" regeneration="0"/>
 	<max-ep value="500" regeneration="5"/>

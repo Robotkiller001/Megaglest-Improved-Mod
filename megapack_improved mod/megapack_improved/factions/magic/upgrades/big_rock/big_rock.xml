@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/rock_plain.bmp"/>
 	<image-cancel path="../ancient_summoning/images/magic_upgrade_cancel.bmp"/>
-	<time value="250"/>
+	<time value="350"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>

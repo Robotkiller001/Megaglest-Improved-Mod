@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<projectile-particle-system>
+    	<texture value="true" path="images/archmage_particle.bmp" luminance="true"/>
+    	<model value="true" path="models/dungball.g3d"/>
+	<primitive value="quad"/>
+	<offset x="0" y="0.5" z="0.2"/>
+	<color red="0.3" green="0.6" blue="0.9" alpha="0.6" />
+	<color-no-energy red="0.2" green="0.4" blue="0.4" alpha="0.0" />
+    	<size value="0.7" />
+    	<size-no-energy value="0.4" />
+    	<speed value="12.0" />
+	<gravity value="0.01"/>
+    	<emission-rate value="16" />
+    	<energy-max value="60" />
+    	<energy-var value="20" />
+
+	<trajectory type="linear">
+		<speed value="8.0"/>
+	</trajectory>
+</projectile-particle-system>

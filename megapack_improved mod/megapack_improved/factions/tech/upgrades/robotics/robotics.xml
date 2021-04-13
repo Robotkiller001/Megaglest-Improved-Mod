@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/robotics.bmp"/>
 	<image-cancel path="../advanced_architecture/images/tech_upgrade_cancel.bmp"/>
-	<time value="300"/>
+	<time value="350"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
@@ -16,7 +16,7 @@
 	<max-hp value="300"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
-	<attack-strenght value="30"/>
+	<attack-strenght value="20"/>
 	<attack-range value="0"/>
 	<armor value="15"/>
 	<move-speed value="0"/>

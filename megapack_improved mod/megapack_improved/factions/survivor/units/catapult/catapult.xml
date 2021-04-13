@@ -1,0 +1,349 @@
+<?xml version="1.0" standalone="no"?>
+
+<unit>
+	<parameters>
+		<size value="2"/>
+		<height value="2"/>
+		<ai-build-size value="3"/>
+		<max-hp value="2800" regeneration="40"/>
+		<max-ep value="1150" regeneration="100"/>
+		<armor value="20"/>
+		<armor-type value="survivor"/>
+		<sight value="15"/>
+		<time value="135"/>
+		<multi-selection value="true"/>
+		<cellmap value="false"/>
+		<levels>
+			<level name="basic" kills="14"/>
+			<level name="advanced" kills="36"/>
+			<level name="expert" kills="52"/>
+			<level name="master" kills="74"/>
+			<level name="grandmaster" kills="88"/>
+			<level name="mayor" kills="108"/>
+			<level name="imperator" kills="150"/>
+			<level name="destructor" kills="200"/>
+			<level name="adpocalypse" kills="300"/>
+		</levels>
+		<fields>
+			<field value="land"/>
+		</fields>
+		<properties>
+			<property value="rotated_climb"/>
+		</properties>
+		<light enabled="true" red="0.6" green="0.6" blue="0.8"/>
+		<unit-requirements/>
+		<upgrade-requirements>
+			<upgrade name="blade_weapons_2"/>
+			<upgrade name="shield_level_2"/>
+		</upgrade-requirements>
+		<resource-requirements>
+			<resource name="gold" amount="400"/>
+		</resource-requirements>
+		<resources-stored>
+			<resource name= "gold" amount="800"/>
+		</resources-stored>
+		<image path="images/catapult.bmp"/>
+		<image-cancel path="/images/tech_cancel.bmp"/>
+		<meeting-point value="false"/>
+		<selection-sounds enabled="true">
+			<sound path="$COMMONDATAPATH/sounds/technician_select1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_select2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_select3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_select4.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="$COMMONDATAPATH/sounds/technician_ack1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack6.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack7.wav"/>
+		</command-sounds>
+
+	</parameters>
+
+	<skills>
+
+		<skill>
+			<type value="stop"/>
+			<name value="stop_skill"/>
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="40"/>
+			<animation path="models/catapult_standing.g3d"/>
+                        <attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="0"/>
+                        	<target value="faction" include-self="true">
+					<unit-type name="catapult" />
+				</target>
+				<max-hp value="0" regeneration="60"/>
+				<max-ep value="0"/>
+				<sight value="0"/>
+				<attack-strenght value="0" value-percent-multiplier="true"/>
+				<attack-range value="0"/>
+				<armor value="0"/>
+				<move-speed value="0"/>
+				<production-speed value="0"/>
+			<particles value="false">
+			</particles>
+                        </attack-boost>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="be_built" />
+			<name value="be_built_skill"/>
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/catapult_standing.g3d" />
+			<sound enabled="false" />
+		</skill>
+
+		<skill>
+			<type value="upgrade" />
+			<name value="upgrade_skill"/>
+			<ep-cost value="0" />
+			<speed value="400" />
+			<anim-speed value="40" />
+			<animation path="models/catapult_walking.g3d" />
+			<sound enabled="true" start-time="0">
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build6.wav"/>
+			</sound>
+			<particles value="true">
+				<particle-file path="upgrade_particles.xml"/>
+			</particles>
+		</skill>
+
+		<skill>
+			<type value="move"/>
+			<name value="move_skill"/>
+			<ep-cost value="0"/>
+			<speed value="240"/>
+			<anim-speed value="170"/>
+			<animation path="models/catapult_walking.g3d"/>
+			<sound enabled="true" start-time="0.1">
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_walk1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_walk2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_walk3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_walk4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_walk5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_walk6.wav"/>
+			</sound>
+		</skill>
+
+		<skill>
+			<type value="harvest"/>
+			<name value="harvest_skill"/>
+			<ep-cost value="0"/>
+			<speed value="500"/>
+			<anim-speed value="210"/>
+			<animation path="models/catapult_mining.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/technician_mine1.wav"/>
+				<sound-file path="sounds/technician_mine2.wav"/>
+				<sound-file path="sounds/technician_mine3.wav"/>
+				<sound-file path="sounds/technician_mine4.wav"/>
+			</sound>
+		</skill>
+
+		<skill>
+			<type value="attack"/>
+			<name value="attack_skill"/>
+			<ep-cost value="0"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
+			<animation path="models/catapult_attacking.g3d"/>
+			<sound enabled="true" start-time="0.1">
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack2.wav"/>
+			</sound>
+			<attack-strenght value="240"/>
+			<attack-var value="80"/>
+			<attack-range value="10"/>
+			<attack-type value="survivor"/>
+			<attack-start-time value="0.65"/>
+			<attack-fields>
+				<field value="land"/>
+			</attack-fields>
+			<projectile value="true">
+				<particle value="true" path="particle_proj.xml"/>
+				<sound enabled="true">
+					<sound-file path="$COMMONDATAPATH/sounds/catapult_hit1.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/catapult_hit2.wav"/>
+				</sound>
+			</projectile>
+			<splash value="true">
+				<radius value="3"/>
+				<damage-all value="true"/>
+				<particle value="true" path="particle_splash.xml"/>
+			</splash>
+		</skill>
+
+		<skill>
+			<type value="attack"/>
+			<name value="hell_fire_skill"/>
+			<ep-cost value="2000"/>
+			<speed value="40"/>
+			<anim-speed value="40"/>
+			<animation path="models/catapult_attacking.g3d"/>
+			<sound enabled="true" start-time="0.1">
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack2.wav"/>
+			</sound>
+			<attack-strenght value="1800"/>
+			<attack-var value="400"/>
+			<attack-range value="14"/>
+			<attack-type value="survivor"/>
+			<attack-start-time value="0.65"/>
+			<attack-fields>
+				<field value="land"/>
+				<field value="air"/>
+			</attack-fields>
+			<projectile value="true">
+				<particle value="true" path="particle_proj2.xml"/>
+				<sound enabled="true">
+					<sound-file path="$COMMONDATAPATH/sounds/catapult_hit1.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/catapult_hit2.wav"/>
+				</sound>
+			</projectile>
+			<splash value="true">
+				<radius value="4"/>
+				<damage-all value="true"/>
+				<particle value="true" path="particle_splash2.xml"/>
+			</splash>
+		</skill>
+
+
+		<skill>
+			<type value="die"/>
+			<name value="die_skill"/>
+			<ep-cost value="0"/>
+			<speed value="120"/>
+			<anim-speed value="120"/>
+			<animation path="models/catapult_dying.g3d"/>
+			<sound enabled="true" start-time="0.1">
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_die1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_die2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_die3.wav"/>
+			</sound>
+			<fade value="false"/>
+		</skill>
+
+		<skill>
+			<type value="stop"/>
+			<name value="stop_skill"/>
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="40"/>
+			<animation path="models/catapult_standing.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+	</skills>
+
+	<commands>
+
+		<command>
+			<type value="stop"/>
+			<name value="stop"/>
+			<image path="images/tech_stop.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+		</command>
+
+		<command>
+			<type value="move"/>
+			<name value="move"/>
+			<image path="images/tech_move.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+		</command>
+
+		<command>
+			<type value="harvest"/>
+			<name value="mine"/>
+			<image path="images/technician_mine.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<harvest-skill value="harvest_skill"/>
+			<stop-loaded-skill value="stop_skill"/>
+			<move-loaded-skill value="move_skill"/>
+			<harvested-resources>
+				<resource name="gold"/>
+			</harvested-resources>
+			<max-load value="40"/>
+			<hits-per-unit value="1"/>
+		</command>
+
+                <command>
+			<type value="attack_stopped"/>
+			<name value="hold_position"/>
+			<image path="images/tech_hold.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+		<command>
+			<type value="attack"/>
+			<name value="fire_ball"/>
+			<image path="images/catapult_attack.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+		<command>
+			<type value="attack"/>
+			<name value="hell_fire_ball"/>
+			<image path="images/hell_fire_ball.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="hell_fire_skill"/>
+		</command>
+
+		<command>
+			<type value="upgrade"/>
+			<name value="research_blade_weapons_3"/>
+			<image path="../../upgrades/blade_weapons_3/images/blade.bmp"/>
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="blade_weapons_3"/>
+		</command>
+
+		<command>
+			<type value="upgrade"/>
+			<name value="research_shield_level_3"/>
+			<image path="../../upgrades/shield_level_3/images/shield2.bmp"/>
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="shield_level_3"/>
+		</command>
+
+		<command>
+			<type value="upgrade"/>
+			<name value="research_advanced_arsenal"/>
+			<image path="../../upgrades/advanced_arsenal/images/robotics.bmp"/>
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="advanced_arsenal"/>
+		</command>
+	</commands>
+</unit>

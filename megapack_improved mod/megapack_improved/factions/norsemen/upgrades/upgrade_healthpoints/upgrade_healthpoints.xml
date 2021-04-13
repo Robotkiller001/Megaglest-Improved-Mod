@@ -16,18 +16,15 @@
 		<unit name="battleaxe_berserk"/>
 		<unit name="crossbow"/>
 		<unit name="cudgel_lady"/>
-		<unit name="falconer"/>
 		<unit name="flying_valkyrie"/>
 		<unit name="spearman"/>
 		<unit name="spearman_berserk"/>
 		<unit name="swordman"/>
 		<unit name="swordman_berserk"/>
-		<unit name="thor"/>
-		<unit name="thunderstruck_thor"/>
 		<unit name="valkyrie"/>
 		<unit name="wild_sow"/>
 	</effects>
-	<max-hp value="100"/>
+	<max-hp value="125"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strenght value="0"/>

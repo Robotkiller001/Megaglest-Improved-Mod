@@ -3,11 +3,11 @@
 <upgrade>
 	<image path="images/cornandwicker.bmp"/>
 	<image-cancel path="images/tech_upgrade_cancel.bmp"/>
-	<time value="400"/>
-		<unit-requirements>
-			<unit name="house"/>
-			<!-- slow enought to give a time to AI for production of some animals first -->
-		</unit-requirements>
+	<time value="350"/>
+	<unit-requirements>
+		<unit name="house"/>
+		<!-- slow enought to give a time to AI for production of some animals first -->
+	</unit-requirements>
 	<upgrade-requirements>
 	</upgrade-requirements>
 	<resource-requirements>

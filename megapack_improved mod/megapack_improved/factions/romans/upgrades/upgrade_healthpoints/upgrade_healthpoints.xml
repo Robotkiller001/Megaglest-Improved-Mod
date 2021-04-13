@@ -16,17 +16,16 @@
 		<unit name="catapult"/>
 		<unit name="cavalry"/>
 		<unit name="fire_archer"/>
-		<unit name="general"/>
 		<unit name="gladiator"/>
 		<unit name="guard"/>
 		<unit name="spearman"/>
 		<unit name="swordsman"/>
-		<unit name="thunderstruck_general"/>
 		<unit name="tribune"/>
 		<unit name="turtle_formation"/>
 		<unit name="wartime_mechanic"/>
+		<unit name="ballista"/>
 	</effects>
-	<max-hp value="100"/>
+	<max-hp value="125"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strenght value="0"/>

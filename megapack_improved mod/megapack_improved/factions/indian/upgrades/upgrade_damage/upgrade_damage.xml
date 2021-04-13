@@ -17,15 +17,14 @@
 		<unit name="fire_archer"/>
 		<unit name="fire_golem"/>
 		<unit name="horseman"/>
-		<unit name="shaman"/>
+		<unit name="infernal_soul"/>
 		<unit name="spearman"/>
 		<unit name="stickfighter"/>
 		<unit name="thunderbird"/>
-		<unit name="thunderstruck_shaman"/>
 	</effects>
 	<max-hp value="0"/>
 	<max-ep value="0"/>
-	<sight value="0"/>
+	<sight value="1"/>
 	<attack-strenght value="25"/>
 	<attack-range value="0"/>
 	<armor value="0"/>

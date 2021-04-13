@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/fireball_eerie.png"/>
 	<image-cancel path="../ancient_summoning/images/magic_upgrade_cancel.bmp"/>
-	<time value="350"/>
+	<time value="400"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
@@ -15,6 +15,7 @@
 		<unit name="battlemage"/>
 		<unit name="summoner"/>
 		<unit name="dragon_rider"/>
+		<unit name="ghost_armor_swordmaster"/>
 		<unit name="archmage"/>
 	</effects>
 	<max-hp value="0"/>

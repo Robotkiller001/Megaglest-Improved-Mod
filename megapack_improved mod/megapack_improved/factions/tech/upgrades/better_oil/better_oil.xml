@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/petroleum.bmp"/>
 	<image-cancel path="../archer/images/tech_upgrade_cancel.bmp"/>
-	<time value="250"/>
+	<time value="300"/>
 	<unit-requirements>
 		<unit name="technodrome"/>
 	</unit-requirements>

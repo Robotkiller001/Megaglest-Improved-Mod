@@ -12,16 +12,16 @@
 	<effects>
 		<unit name="airship"/>
 		<unit name="archer"/>
-		<unit name="battle_machine"/>
 		<unit name="catapult"/>
+		<unit name="fire_archer"/>
 		<unit name="guard"/>
 		<unit name="horseman"/>
 		<unit name="ornithopter"/>
 		<unit name="swordman"/>
 		<unit name="technician"/>
-		<unit name="thunderstruck_battle_machine"/>
+		<unit name="ballista"/>
 	</effects>
-	<max-hp value="100"/>
+	<max-hp value="125"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strenght value="0"/>

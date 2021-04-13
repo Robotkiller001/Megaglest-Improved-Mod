@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<projectile-particle-system>
+    	<texture value="true" luminance="true" path="images/particle.bmp"/>
+    	<model value="true" path="models/honey_ball.g3d"/>
+	<primitive value="quad"/>
+	<offset x="0.0" y="0" z="0.25"/>
+	<color red="1.0" green="0.4" blue="0.0" alpha="0.3" />
+	<color-no-energy red="0.0" green="0.0" blue="0.0" alpha="0.00" />
+    	<size value="0.5" />
+    	<size-no-energy value="4" />
+    	<speed value="15" />
+	<gravity value="0"/>
+    	<emission-rate value="20" />
+    	<energy-max value="20" />
+    	<energy-var value="20" />
+
+	<trajectory type="parabolic">
+		<speed value="10.0"/>
+		<scale value="2.5"/>
+	</trajectory>
+</projectile-particle-system>

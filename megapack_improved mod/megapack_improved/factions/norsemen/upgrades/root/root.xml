@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/root.bmp"/>
 	<image-cancel path="../advanced_iron/images/tech_upgrade_cancel.bmp"/>
-	<time value="250"/>
+	<time value="300"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
@@ -14,8 +14,9 @@
 		<unit name="battleaxe"/>
 		<unit name="spearman"/>
 		<unit name="swordman"/>
+		<unit name="wild_sow"/>
 	</effects>
-	<max-hp value="25"/>
+	<max-hp value="50"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strenght value="0"/>

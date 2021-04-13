@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/blade.bmp"/>
 	<image-cancel path="../advanced_architecture/images/tech_upgrade_cancel.bmp"/>
-	<time value="500"/>
+	<time value="400"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
@@ -13,6 +13,7 @@
 	<effects>
 		<unit name="swordsman"/>
 		<unit name="general"/>
+		<unit name="thunderstruck_general"/>
 		<unit name="tribune"/>
 	</effects>
 	<max-hp value="0"/>

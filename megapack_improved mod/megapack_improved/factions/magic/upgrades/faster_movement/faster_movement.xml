@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/haste_fire.png"/>
 	<image-cancel path="../ancient_summoning/images/magic_upgrade_cancel.bmp"/>
-	<time value="150"/>
+	<time value="200"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
@@ -12,15 +12,19 @@
 	<effects>
 		<unit name="initiate"/>
 		<unit name="battlemage"/>
-		<unit name="negromante"/>
+		<unit name="necromante"/>
 		<unit name="daemon"/>
+		<unit name="skeleton"/>
 		<unit name="ghost_armor"/>
+		<unit name="ghost_armor_swordmaster"/>
 		<unit name="dragon"/>
 		<unit name="evil_dragon"/>
 		<unit name="behemoth"/>
+		<unit name="thunderstruck_behemoth"/>
 		<unit name="summoner"/>
 		<unit name="dragon_rider"/>
 		<unit name="archmage"/>
+		<unit name="tower_of_souls_moving"/>
 	</effects>
 	<max-hp value="0"/>
 	<max-ep value="0"/>

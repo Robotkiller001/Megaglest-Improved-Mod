@@ -3,11 +3,11 @@
 <upgrade>
 	<image path="images/shield1.bmp"/>
 	<image-cancel path="../corn_and_wicker/images/tech_upgrade_cancel.bmp"/>
-	<time value="400"/>
+	<time value="350"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
-		<resource name="gold" amount="100"/>
+		<resource name="gold" amount="150"/>
 		<resource name="wood" amount="150"/>
 	</resource-requirements>
 	<effects>
@@ -15,7 +15,7 @@
 		<unit name="swordman"/>
 		<unit name="flying_carpet"/>
 	</effects>
-	<max-hp value="25"/>
+	<max-hp value="75"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strenght value="0"/>

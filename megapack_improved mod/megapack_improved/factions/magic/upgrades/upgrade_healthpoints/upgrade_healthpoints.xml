@@ -11,22 +11,21 @@
 	</resource-requirements>
 	<effects>
 		<unit name="archmage"/>
-		<unit name="bad_daemon"/>
-		<unit name="bad_ghost_armor"/>
+		<unit name="skeleton"/>
 		<unit name="battlemage"/>
-		<unit name="behemoth"/>
 		<unit name="daemon"/>
 		<unit name="dragon"/>
 		<unit name="dragon_rider"/>
 		<unit name="evil_dragon"/>
 		<unit name="ghost_armor"/>
+		<unit name="ghost_armor_swordmaster"/>
 		<unit name="golem"/>
 		<unit name="initiate"/>
+		<unit name="necromante"/>
 		<unit name="power_golem"/>
 		<unit name="summoner"/>
-		<unit name="thunderstruck_behemoth"/>
 	</effects>
-	<max-hp value="100"/>
+	<max-hp value="125"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strenght value="0"/>

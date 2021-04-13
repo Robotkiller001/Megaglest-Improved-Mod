@@ -2,19 +2,40 @@
 
 <faction>
 	<starting-resources>
-		<resource name="gold" amount="300"/>
-		<resource name="wood" amount="300"/>
-		<resource name="stone" amount="300"/>
+		<resource name="gold" amount="400"/>
+		<resource name="wood" amount="400"/>
+		<resource name="stone" amount="500"/>
 		<resource name="energy" amount="18"/>
+		<resource name="1-up" amount="1"/>
 	</starting-resources>
 	<starting-units>
 		<unit name="mage_tower" amount="1"/>
 		<unit name="initiate" amount="4"/>
 		<unit name="tower_of_souls" amount="1"/>
-		<unit name="battlemage" amount="0"/>
-		<unit name="summoner" amount="0"/>
-		<unit name="negromante" amount="1"/>
+		<unit name="thunderstruck_behemoth" amount="0"/>
+		<unit name="necromante" amount="0"/>
 	</starting-units>
 	<music value="true" path="music/music_magic.ogg"/>
 	<flat-particle-positions value="true"/>
+	<ai-behavior>
+		<upgrades>
+			<upgrade name="ancient_summoning"/>
+			<upgrade name="energy_sharpening"/>
+			<upgrade name="big_rock"/>
+			<upgrade name="dragon_call"/>
+			<upgrade name="energy_compression"/>
+			<upgrade name="faster_movement"/>
+			<upgrade name="golem_power"/>
+			<upgrade name="hell_gate"/>
+		</upgrades>
+		<warrior-units>
+			<unit name="initiate" minimum="6"/>
+			<unit name="summoner" minimum="2"/>
+			<unit name="daemon" minimum="2"/>
+			<unit name="battlemage" minimum="2"/>
+			<unit name="ghost_armor" minimum="5"/>
+			<unit name="ghost_armor_swordmaster" minimum="5"/>
+			<unit name="necromante" minimum="2"/>
+		</warrior-units>
+	</ai-behavior>	
 </faction>

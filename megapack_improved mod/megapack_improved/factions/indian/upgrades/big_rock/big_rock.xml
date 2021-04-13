@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/rock_plain.bmp"/>
 	<image-cancel path="../ancient_summoning/images/magic_upgrade_cancel.bmp"/>
-	<time value="300"/>
+	<time value="350"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
@@ -13,7 +13,6 @@
 	</resource-requirements>
 	<effects>
 		<unit name="fire_golem"/>
-
 	</effects>
 	<max-hp value="500"/>
 	<max-ep value="0"/>

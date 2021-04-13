@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/evil_eye_red.png"/>
 	<image-cancel path="../ancient_summoning/images/magic_upgrade_cancel.bmp"/>
-	<time value="300"/>
+	<time value="350"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
@@ -16,8 +16,9 @@
 		<unit name="ghost_armor"/>
 		<unit name="dragon"/>
 		<unit name="evil_dragon"/>
+		<unit name="ghost_armor_swordmaster"/>
 	</effects>
-	<max-hp value="200"/>
+	<max-hp value="100"/>
 	<max-ep value="0"/>
 	<sight value="1"/>
 	<attack-strenght value="40"/>

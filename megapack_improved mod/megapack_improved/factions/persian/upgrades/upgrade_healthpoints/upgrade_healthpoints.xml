@@ -10,7 +10,6 @@
 		<resource name="1-up" amount="1"/>
 	</resource-requirements>
 	<effects>
-		<unit name="elephant"/>
 		<unit name="fakir"/>
 		<unit name="flying_carpet"/>
 		<unit name="genie"/>
@@ -18,9 +17,9 @@
 		<unit name="princess"/>
 		<unit name="stickfighter"/>
 		<unit name="swordman"/>
-		<unit name="thunderstruck_elephant"/>
+		<unit name="worker"/>
 	</effects>
-	<max-hp value="100"/>
+	<max-hp value="125"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strenght value="0"/>
