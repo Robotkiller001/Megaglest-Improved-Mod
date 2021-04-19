@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="no"?>
+
+<faction>
+	<starting-resources>
+		<resource name="gold" amount="400"/>
+		<resource name="wood" amount="450"/>
+		<resource name="stone" amount="450"/>
+		<resource name="food" amount="40"/>
+		<resource name="1-up" amount="1"/>
+	</starting-resources>
+	<starting-units>
+		<unit name="pyramid" amount="1"/>
+		<unit name="sphinx" amount="1"/>
+		<unit name="slave" amount="4"/>
+		<unit name="chicken" amount="1"/>
+		<unit name="stone_snake" amount="0"/>
+		<unit name="thunderstruck_scarab" amount="0"/>
+	</starting-units>
+	<music value="true" path="music/asak-jadeflange.ogg"/>
+	<flat-particle-positions value="true"/>
+	<ai-behavior>
+		<warrior-units>
+			<unit name="slave" minimum="6"/>
+		</warrior-units>
+		<building-units>
+			<unit name="desert_camp" minimum="2"/>
+			<unit name="temple" minimum="1"/>
+			<unit name="obelisk" minimum="3"/>
+		</building-units>
+		<upgrades>
+			<upgrade name="spear_weapons"/>
+			<upgrade name="speedup_priest_production"/>
+			<upgrade name="summon_scarab"/>
+			<upgrade name="power_of_ra"/>
+			<upgrade name="summon_ibis"/>
+		</upgrades>
+	</ai-behavior>
+</faction>

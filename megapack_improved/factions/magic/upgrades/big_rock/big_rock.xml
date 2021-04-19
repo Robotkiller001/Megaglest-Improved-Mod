@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="no"?>
+
+<upgrade>
+	<image path="images/rock_plain.bmp"/>
+	<image-cancel path="../ancient_summoning/images/magic_upgrade_cancel.bmp"/>
+	<time value="350"/>
+	<unit-requirements/>
+	<upgrade-requirements/>
+	<resource-requirements>
+		<resource name="gold" amount="125"/>
+		<resource name="stone" amount="175"/>
+	</resource-requirements>
+	<effects>
+		<unit name="golem"/>
+		<unit name="power_golem"/>
+	</effects>
+	<max-hp value="500"/>
+	<max-ep value="0"/>
+	<sight value="0"/>
+	<attack-strenght value="75"/>
+	<attack-range value="0"/>
+	<armor value="25"/>
+	<move-speed value="0"/>
+	<production-speed value="0"/>
+</upgrade>

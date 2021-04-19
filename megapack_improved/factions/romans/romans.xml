@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="no"?>
+
+<faction>
+	<starting-resources>
+		<resource name="gold" amount="400"/>
+		<resource name="wood" amount="450"/>
+		<resource name="stone" amount="450"/>
+		<resource name="food" amount="40"/>
+		<resource name="1-up" amount="1"/>
+	</starting-resources>
+	<starting-units>
+		<unit name="forum" amount="1"/>
+		<unit name="guard_tower" amount="1"/>
+		<unit name="slave" amount="4"/>
+		<unit name="general" amount="0"/>
+		<unit name="archer" amount="0"/>
+	</starting-units>
+	<music value="true" path="music/romans.ogg"/>
+	<flat-particle-positions value="true"/>
+	<ai-behavior>
+		<warrior-units>
+			<unit name="slave" minimum="6"/>
+		</warrior-units>
+		<upgrades>
+			<upgrade name="training_field"/>
+			<upgrade name="advanced_architecture"/>
+			<upgrade name="jupiter"/>
+			<upgrade name="bless_of_minerva"/>
+			<upgrade name="enlarge_shields"/>
+			<upgrade name="reinforce_armor"/>
+			<upgrade name="sharpen_points"/>
+			<upgrade name="sign_of_mars"/>
+			<upgrade name="strengthen_swords"/>
+			<upgrade name="formations"/>
+		</upgrades>
+	</ai-behavior>
+</faction>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="no"?>
+
+<faction>
+	<starting-resources>
+		<resource name="gold" amount="400"/>
+		<resource name="wood" amount="450"/>
+		<resource name="stone" amount="450"/>
+		<resource name="food" amount="40"/>
+		<resource name="1-up" amount="1"/>
+	</starting-resources>
+	<starting-units>
+		<unit name="castle" amount="1"/>
+		<unit name="cow" amount="1"/>
+		<unit name="thrall" amount="4"/>
+		<unit name="valkyrie" amount="0"/>
+		<unit name="thunderstruck_thor" amount="0"/>
+	</starting-units>
+	<music value="true" path="music/manolo_camp-medieval.ogg"/>
+	<flat-particle-positions value="true"/>
+	<ai-behavior>
+		<upgrades>
+			<upgrade name="mead"/>
+			<upgrade name="root"/>
+			<upgrade name="arrow"/>
+			<upgrade name="iron"/>
+			<upgrade name="advanced_iron"/>
+			<upgrade name="holy_valkyrie"/>
+		</upgrades>
+		<warrior-units>
+			<unit name="thrall" minimum="6"/>
+		</warrior-units>
+	</ai-behavior>
+</faction>

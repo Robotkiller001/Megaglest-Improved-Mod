@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="no"?>
+
+<faction>
+	<starting-resources>
+		<resource name="gold" amount="400"/>
+		<resource name="wood" amount="500"/>
+		<resource name="stone" amount="400"/>
+		<resource name="food" amount="40"/>
+		<resource name="1-up" amount="1"/>
+	</starting-resources>
+	<starting-units>
+		<unit name="palace" amount="1"/>
+		<unit name="snake_basket" amount="1"/>
+		<unit name="worker" amount="4"/>
+		<unit name="sheep" amount="1"/>
+		<unit name="thunderstruck_elephant" amount="0"/>
+		<unit name="magician" amount="0"/>
+	</starting-units>
+	<music value="true" path="music/aminos-together_together.ogg"/>
+	<flat-particle-positions value="true"/>
+	<ai-behavior>
+		<warrior-units>
+			<unit name="worker" minimum="6"/>
+		</warrior-units>
+		<upgrades>
+			<upgrade name="nails"/>
+			<upgrade name="corn_and_wicker"/>
+			<upgrade name="shield"/>
+			<upgrade name="weapons"/>
+			<upgrade name="magic_level_1"/>
+			<upgrade name="magic_level_2"/>
+		</upgrades>
+	</ai-behavior>
+</faction>

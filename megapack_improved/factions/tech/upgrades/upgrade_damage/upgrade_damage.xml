@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="no"?>
+
+<upgrade>
+	<image path="images/upgrade_damage.png"/>
+	<image-cancel path="../images/tech_upgrade_cancel.bmp"/>
+	<time value="20"/>
+	<unit-requirements/>
+	<upgrade-requirements/>
+	<resource-requirements>
+		<resource name="1-up" amount="1"/>
+	</resource-requirements>
+	<effects>
+		<unit name="airship"/>
+		<unit name="archer"/>
+		<unit name="archer_horseback"/>
+		<unit name="catapult"/>
+		<unit name="fire_archer"/>
+		<unit name="guard"/>
+		<unit name="horseman"/>
+		<unit name="ornithopter"/>
+		<unit name="swordman"/>
+		<unit name="technician"/>
+		<unit name="survived_archer_horseback"/>
+		<unit name="survived_technician"/>
+		<unit name="survived_horseman"/>
+		<unit name="ballista"/>
+	</effects>
+	<max-hp value="0"/>
+	<max-ep value="0"/>
+	<sight value="1"/>
+	<attack-strenght value="25"/>
+	<attack-range value="0"/>
+	<armor value="0"/>
+	<move-speed value="0"/>
+	<production-speed value="0"/>
+</upgrade>
