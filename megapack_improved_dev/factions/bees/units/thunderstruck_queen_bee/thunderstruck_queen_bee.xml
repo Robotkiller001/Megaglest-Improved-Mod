@@ -115,7 +115,7 @@
 				<sound-file path="../beehive/sounds/bee3.wav"/>
 				<sound-file path="../beehive/sounds/bee4.wav"/>
 			</sound>
-			<attack-strenght value="290"/>
+			<attack-strenght value="280"/>
 			<attack-var value="80"/>
 			<attack-range value="8"/>
 			<attack-type value="hero"/>

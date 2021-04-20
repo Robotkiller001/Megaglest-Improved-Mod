@@ -168,7 +168,7 @@
 				<sound-file path="sounds/eleattack3.wav"/>
 				<sound-file path="sounds/eleattack3.wav"/>
 			</sound>
-			<attack-strenght value="300"/>
+			<attack-strenght value="290"/>
 			<attack-var value="80"/>
 			<attack-range value="2"/>
 			<attack-type value="hero"/>

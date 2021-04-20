@@ -120,7 +120,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack15.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack16.wav"/>
 			</sound>
-			<attack-strenght value="270"/>
+			<attack-strenght value="260"/>
 			<attack-var value="80"/>
 			<attack-range value="10"/>
 			<attack-type value="energy"/>
@@ -172,7 +172,7 @@
 				<sound-file path="sounds/ground_attack3.wav"/>
 				<sound-file path="sounds/ground_attack4.wav"/>
 			</sound>
-			<attack-strenght value="1150"/>
+			<attack-strenght value="1100"/>
 			<attack-var value="200"/>
 			<attack-range value="10"/>
 			<attack-type value="energy"/>

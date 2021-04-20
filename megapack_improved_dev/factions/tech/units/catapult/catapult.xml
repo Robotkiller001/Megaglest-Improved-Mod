@@ -112,7 +112,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack2.wav"/>
 			</sound>
-			<attack-strenght value="285"/>
+			<attack-strenght value="275"/>
 			<attack-var value="75"/>
 			<attack-range value="12"/>
 			<attack-type value="impact"/>

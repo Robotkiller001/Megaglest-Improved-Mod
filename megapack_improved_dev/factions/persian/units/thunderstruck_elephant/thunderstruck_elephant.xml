@@ -199,7 +199,7 @@
 					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="300"/>
+			<attack-strenght value="290"/>
 			<attack-var value="80"/>
 			<attack-range value="9"/>
 			<attack-type value="hero"/>
@@ -251,7 +251,7 @@
 					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="400"/>
+			<attack-strenght value="380"/>
 			<attack-var value="100"/>
 			<attack-range value="2"/>
 			<attack-type value="hero"/>

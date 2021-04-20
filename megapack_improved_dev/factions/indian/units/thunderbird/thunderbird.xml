@@ -132,7 +132,7 @@
 				<sound-file path="sounds/ground_attack3.wav"/>
 				<sound-file path="sounds/ground_attack4.wav"/>
 			</sound>
-			<attack-strenght value="240"/>
+			<attack-strenght value="230"/>
 			<attack-var value="50"/>
 			<attack-range value="7"/>
 			<attack-type value="energy"/>
@@ -161,7 +161,7 @@
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/eagle_attack1.wav"/>
 			</sound>
-			<attack-strenght value="360"/>
+			<attack-strenght value="340"/>
 			<attack-var value="100"/>
 			<attack-range value="1"/>
 			<attack-type value="energy"/>
