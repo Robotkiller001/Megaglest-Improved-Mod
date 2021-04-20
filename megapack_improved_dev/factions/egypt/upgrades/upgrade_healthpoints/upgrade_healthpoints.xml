@@ -19,8 +19,10 @@
 		<unit name="stone_snake"/>
 		<unit name="spearman"/>
 		<unit name="spearthrower"/>
+		<unit name="scarab"/>
+		<unit name="thunderstruck_scarab"/>
 	</effects>
-	<max-hp value="125"/>
+	<max-hp value="15" value-percent-multiplier="true"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strenght value="0"/>

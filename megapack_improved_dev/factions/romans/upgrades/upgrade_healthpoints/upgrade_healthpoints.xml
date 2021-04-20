@@ -27,8 +27,10 @@
 		<unit name="turtle_formation"/>
 		<unit name="wartime_mechanic"/>
 		<unit name="ballista"/>
+		<unit name="general"/>
+		<unit name="thunderstruck_general"/>
 	</effects>
-	<max-hp value="125"/>
+	<max-hp value="15" value-percent-multiplier="true"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strenght value="0"/>

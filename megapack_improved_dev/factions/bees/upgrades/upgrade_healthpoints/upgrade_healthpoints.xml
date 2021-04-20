@@ -15,8 +15,10 @@
 		<unit name="bee_crossbow"/>
 		<unit name="swarm_of_bees"/>
 		<unit name="magic_bee"/>
+		<unit name="queen_bee"/>
+		<unit name="thunderstruck_queen_bee"/>
 	</effects>
-	<max-hp value="125"/>
+	<max-hp value="15" value-percent-multiplier="true"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strenght value="0"/>

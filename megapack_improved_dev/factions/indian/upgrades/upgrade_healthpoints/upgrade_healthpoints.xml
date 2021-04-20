@@ -19,12 +19,14 @@
 		<unit name="horseman"/>
 		<unit name="infernal_soul"/>
 		<unit name="spearman"/>
-		<unit name="survived_horseman"/>
 		<unit name="stickfighter"/>
-		<unit name="stone_sentinel"/>
 		<unit name="thunderbird"/>
+		<unit name="shaman"/>
+		<unit name="stone_sentinel"/>
+		<unit name="survived_horseman"/>
+		<unit name="thunderstruck_shaman"/>
 	</effects>
-	<max-hp value="125"/>
+	<max-hp value="15" value-percent-multiplier="true"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strenght value="0"/>

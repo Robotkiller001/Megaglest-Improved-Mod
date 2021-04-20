@@ -13,9 +13,9 @@
 		<unit name="desert_camp"/>
 		<unit name="farm"/>
 		<unit name="obelisk"/>
-		<unit name="snake"/>
 		<unit name="priest"/>
 		<unit name="pyramid"/>
+		<unit name="snake"/>
 		<unit name="temple"/>
 	</effects>
 	<max-hp value="0"/>

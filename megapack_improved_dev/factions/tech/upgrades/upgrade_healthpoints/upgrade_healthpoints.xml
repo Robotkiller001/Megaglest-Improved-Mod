@@ -24,8 +24,10 @@
 		<unit name="survived_technician"/>
 		<unit name="survived_horseman"/>
 		<unit name="ballista"/>
+		<unit name="battle_machine"/>
+		<unit name="thunderstruck_battle_machine"/>
 	</effects>
-	<max-hp value="125"/>
+	<max-hp value="15" value-percent-multiplier="true"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strenght value="0"/>

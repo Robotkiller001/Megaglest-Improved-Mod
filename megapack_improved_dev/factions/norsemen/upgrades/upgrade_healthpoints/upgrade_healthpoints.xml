@@ -23,8 +23,10 @@
 		<unit name="swordman_berserk"/>
 		<unit name="valkyrie"/>
 		<unit name="wild_sow"/>
+		<unit name="thor"/>
+		<unit name="thunderstruck_thor"/>
 	</effects>
-	<max-hp value="125"/>
+	<max-hp value="15" value-percent-multiplier="true"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strenght value="0"/>

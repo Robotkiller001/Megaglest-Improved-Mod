@@ -26,8 +26,10 @@
 		<unit name="stone_sentinel"/>
 		<unit name="summoner"/>
 		<unit name="survived_dragon_rider"/>
+		<unit name="behemoth"/>
+		<unit name="thunderstruck_behemoth"/>
 	</effects>
-	<max-hp value="125"/>
+	<max-hp value="15" value-percent-multiplier="true"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strenght value="0"/>
