@@ -8,7 +8,7 @@
 	<parameters>
 		<size value="2"/>
 		<height value="3"/>
-		<max-hp value="5000" regeneration="8"/>
+		<max-hp value="4500" regeneration="8"/>
 		<max-ep value="300" regeneration="15" start-percentage="35"/>
 		<armor value="40"/>
 		<armor-type value="hero"/>

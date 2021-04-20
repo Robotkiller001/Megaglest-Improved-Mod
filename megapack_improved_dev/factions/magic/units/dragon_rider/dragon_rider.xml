@@ -6,7 +6,7 @@
 		<size value="2"/>
 		<height value="3"/>
 		<ai-build-size value="3"/>
-		<max-hp value="1600" regeneration="4" start-percentage="100"/>
+		<max-hp value="1500" regeneration="4" start-percentage="100"/>
 		<max-ep value="500" regeneration="10"/>
 		<armor value="40"/>
 		<armor-type value="organic"/>
