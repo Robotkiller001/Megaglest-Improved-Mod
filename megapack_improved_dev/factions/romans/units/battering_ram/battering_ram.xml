@@ -8,7 +8,7 @@
 		<size value="3"/>
 		<height value="3"/>
 		<ai-build-size value="5"/>
-		<max-hp value="3100" regeneration="8"/>
+		<max-hp value="3100" regeneration="8" start-percentage="100"/>
 		<max-ep value="0"/>
 		<armor value="50"/>
 		<armor-type value="leather"/>

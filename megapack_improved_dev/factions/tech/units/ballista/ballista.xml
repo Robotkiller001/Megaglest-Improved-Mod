@@ -4,7 +4,7 @@
 		<size value="2"/>
 		<height value="2"/>
 		<ai-build-size value="3"/>
-		<max-hp value="3000" regeneration="6"/>
+		<max-hp value="3000" regeneration="6" start-percentage="100"/>
 		<max-ep value="0"/>
 		<armor value="35"/>
 		<armor-type value="wood"/>
