@@ -10,6 +10,8 @@
 		<resource name="1-up" amount="1"/>
 	</resource-requirements>
 	<effects>
+		<unit name="behemoth"/>
+		<unit name="ghost_armor"/>
 		<unit name="library"/>
 		<unit name="mage_tower"/>
 		<unit name="summoner"/>
@@ -18,6 +20,9 @@
 		<unit name="battlemage"/>
 		<unit name="dragon"/>
 		<unit name="golem"/>
+		<unit name="tower_of_souls"/>
+		<unit name="tower_of_souls_moving"/>
+		<unit name="wicker_behemoth"/>
 	</effects>
 	<max-hp value="0"/>
 	<max-ep value="0"/>

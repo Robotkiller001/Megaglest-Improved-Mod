@@ -15,6 +15,7 @@
 		<unit name="farm"/>
 		<unit name="technodrome"/>
 		<unit name="barracks"/>
+		<unit name="blacksmith"/>
 		<unit name="archery_barracks"/>
 		<unit name="technician"/>
 		<unit name="swordman"/>

@@ -13,10 +13,11 @@
 		<unit name="desert_camp"/>
 		<unit name="farm"/>
 		<unit name="obelisk"/>
+		<unit name="snake"/>
 		<unit name="priest"/>
 		<unit name="pyramid"/>
-		<unit name="snake"/>
 		<unit name="temple"/>
+		<unit name="scarab"/>
 	</effects>
 	<max-hp value="0"/>
 	<max-ep value="0"/>

@@ -12,6 +12,7 @@
 	<effects>
 		<unit name="beehive_barrack"/>
 		<unit name="beehive"/>
+		<unit name="apiary"/>
 	</effects>
 	<max-hp value="0"/>
 	<max-ep value="0"/>
