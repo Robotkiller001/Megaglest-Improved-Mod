@@ -9,7 +9,7 @@
 		<armor value="30"/>
 		<armor-type value="leather"/>
 		<sight value="12"/>
-		<time value="140"/>
+		<time value="160"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
@@ -29,8 +29,8 @@
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="gold" amount="150"/>
-			<resource name="wood" amount="50"/>
+			<resource name="gold" amount="175"/>
+			<resource name="wood" amount="100"/>
 			<resource name="energy" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -101,8 +101,8 @@
 			<type value="attack"/>
 			<name value="fire_ball_skill"/>
 			<ep-cost value="300"/>
-			<speed value="50"/>
-			<anim-speed value="60"/>
+			<speed value="55"/>
+			<anim-speed value="65"/>
 			<animation path="models/archmage_attacking.g3d"/>
 			<particles value="true">
 				<particle-file path="glow_particles.xml"/>
@@ -120,7 +120,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack15.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack16.wav"/>
 			</sound>
-			<attack-strenght value="260"/>
+			<attack-strenght value="280"/>
 			<attack-var value="80"/>
 			<attack-range value="10"/>
 			<attack-type value="energy"/>
