@@ -26,7 +26,7 @@
 		<unit name="thor"/>
 		<unit name="thunderstruck_thor"/>
 	</effects>
-	<max-hp value="15" value-percent-multiplier="true"/>
+	<max-hp value="14" value-percent-multiplier="true"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strenght value="0"/>
