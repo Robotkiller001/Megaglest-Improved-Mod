@@ -7,9 +7,9 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="1300" regeneration="6" start-percentage="100"/>
+		<max-hp value="1500" regeneration="6" start-percentage="100"/>
 		<max-ep value="0"/>
-		<armor value="50"/>
+		<armor value="40"/>
 		<armor-type value="leather"/>
 		<sight value="10"/>
 		<time value="40"/>
@@ -110,8 +110,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="210"/>
-			<anim-speed value="180"/>
+			<speed value="200"/>
+			<anim-speed value="200"/>
 			<animation path="models/axeman_attacking.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/daemon_attack1.wav"/>
@@ -133,7 +133,7 @@
                         	<target value="faction" include-self="true">
 					<unit-type name="battleaxe_berserk" />
 				</target>
-				<max-hp value="0" regeneration="30"/>
+				<max-hp value="0" regeneration="40"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
 				<attack-strenght value="0" value-percent-multiplier="true"/>

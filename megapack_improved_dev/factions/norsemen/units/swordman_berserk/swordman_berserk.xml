@@ -7,9 +7,9 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="1300" regeneration="6" start-percentage="100"/>
+		<max-hp value="1500" regeneration="6" start-percentage="100"/>
 		<max-ep value="0"/>
-		<armor value="60"/>
+		<armor value="50"/>
 		<armor-type value="leather"/>
 		<sight value="10"/>
 		<time value="40"/>
@@ -139,7 +139,7 @@
                         	<target value="faction" include-self="true">
 					<unit-type name="swordman_berserk" />
 				</target>
-				<max-hp value="0" regeneration="30"/>
+				<max-hp value="0" regeneration="40"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
 				<attack-strenght value="0" value-percent-multiplier="true"/>
