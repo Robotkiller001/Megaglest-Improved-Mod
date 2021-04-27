@@ -7,7 +7,7 @@
 		<height value="2"/>
 		<max-hp value="1700" regeneration="8" start-percentage="100"/>
 		<max-ep value="1000" regeneration="20" start-percentage="40"/>
-		<armor value="15"/>
+		<armor value="10"/>
 		<armor-type value="hero"/>
 		<sight value="12"/>
 		<time value="260"/>

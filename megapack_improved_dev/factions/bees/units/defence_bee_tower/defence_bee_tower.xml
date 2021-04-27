@@ -10,7 +10,7 @@
 		<armor value="35" />
 		<armor-type value="wood"/>				
 		<sight value="16" />
-		<time value="120" />
+		<time value="140" />
 		<multi-selection value="true" />
 		<uniform-selection value="true"/>
 		<cellmap value="true">
@@ -71,8 +71,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="75"/>
-			<anim-speed value="200"/>
+			<speed value="180"/>
+			<anim-speed value="180"/>
 			<animation path="models/defence_bee_tower.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/bee1.wav"/>
