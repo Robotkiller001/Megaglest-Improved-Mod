@@ -5,7 +5,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="800" regeneration="6" start-percentage="100"/>
+		<max-hp value="700" regeneration="6" start-percentage="100"/>
 		<max-ep value="1000" regeneration="30" start-percentage="50"/>
 		<armor value="25"/>
 		<armor-type value="leather"/>
@@ -26,8 +26,8 @@
 			<upgrade name="ancient_summoning"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="200"/>
-			<resource name="wood" amount="100"/>
+			<resource name="gold" amount="225"/>
+			<resource name="wood" amount="125"/>
 			<resource name="energy" amount="3"/>
 		</resource-requirements>
 		<resources-stored/>
