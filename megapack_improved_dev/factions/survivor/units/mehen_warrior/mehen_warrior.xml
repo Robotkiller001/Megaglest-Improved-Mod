@@ -116,7 +116,7 @@
 			<type value="harvest"/>
 			<name value="harvest_skill"/>
 			<ep-cost value="0"/>
-			<speed value="300"/>
+			<speed value="350"/>
 			<anim-speed value="100"/>
 			<animation path="models/mehen_warrior_attack.g3d"/>
 			<sound enabled="true" start-time="0">

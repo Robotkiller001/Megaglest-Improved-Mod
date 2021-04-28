@@ -150,7 +150,7 @@
 			<type value="harvest"/>
 			<name value="mine_skill"/>
 			<ep-cost value="0"/>
-			<speed value="200"/>
+			<speed value="250"/>
 			<anim-speed value="90"/>
 			<animation path="models/snake_attacking.g3d"/>
 			<sound enabled="true" start-time="0.5">

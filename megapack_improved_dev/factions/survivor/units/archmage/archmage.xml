@@ -13,15 +13,15 @@
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="basic" kills="14"/>
-			<level name="advanced" kills="36"/>
-			<level name="expert" kills="52"/>
-			<level name="master" kills="74"/>
-			<level name="grandmaster" kills="88"/>
-			<level name="deamon" kills="108"/>
-			<level name="god" kills="150"/>
-			<level name="skygod" kills="200"/>
-			<level name="adpocalypse" kills="300"/>
+			<level name="basic" kills="18"/>
+			<level name="advanced" kills="42"/>
+			<level name="expert" kills="60"/>
+			<level name="master" kills="84"/>
+			<level name="grandmaster" kills="100"/>
+			<level name="deamon" kills="125"/>
+			<level name="god" kills="175"/>
+			<level name="skygod" kills="250"/>
+			<level name="adpocalypse" kills="400"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -127,7 +127,7 @@
 			<type value="harvest"/>
 			<name value="harvest_skill"/>
 			<ep-cost value="0"/>
-			<speed value="500"/>
+			<speed value="600"/>
 			<anim-speed value="110"/>
 			<animation path="models/archmage_mining.g3d"/>
 			<particles value="true">

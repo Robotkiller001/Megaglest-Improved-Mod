@@ -92,7 +92,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="260"/>
+			<speed value="300"/>
 			<anim-speed value="150"/>
 			<animation path="models/chest.g3d"/>
 			<sound enabled="false"/>
