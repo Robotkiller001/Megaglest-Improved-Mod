@@ -62,14 +62,26 @@
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
 				<radius value="12"/>
-                        	<target value="faction"></target>
+                        	<target value="faction" include-self="false">
+					<unit-type name="anubis_warrior"/>
+					<unit-type name="horus_scout"/>
+					<unit-type name="ibis"/>
+					<unit-type name="mummy"/>
+					<unit-type name="priest"/>
+					<unit-type name="snake"/>
+					<unit-type name="stone_snake"/>
+					<unit-type name="spearman"/>
+					<unit-type name="spearthrower"/>
+					<unit-type name="scarab"/>
+					<unit-type name="thunderstruck_scarab"/>
+				</target>
 				<max-hp value="0"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
-				<attack-strenght value="35" value-percent-multiplier="true"/>
+				<attack-strenght value="40" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
-				<armor value="5"/>
-				<move-speed value="20"/>
+				<armor value="10"/>
+				<move-speed value="0"/>
 				<production-speed value="0"/>
 				<particles value="true">
 				<!--originator-particle-file path="glow_particles.xml"/-->
@@ -106,14 +118,26 @@
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
 				<radius value="12"/>
-                        	<target value="faction"></target>
+                        	<target value="faction" include-self="false">
+					<unit-type name="anubis_warrior"/>
+					<unit-type name="horus_scout"/>
+					<unit-type name="ibis"/>
+					<unit-type name="mummy"/>
+					<unit-type name="priest"/>
+					<unit-type name="snake"/>
+					<unit-type name="stone_snake"/>
+					<unit-type name="spearman"/>
+					<unit-type name="spearthrower"/>
+					<unit-type name="scarab"/>
+					<unit-type name="thunderstruck_scarab"/>
+				</target>
 				<max-hp value="0"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
-				<attack-strenght value="35" value-percent-multiplier="true"/>
+				<attack-strenght value="40" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
-				<armor value="5"/>
-				<move-speed value="20"/>
+				<armor value="10"/>
+				<move-speed value="0"/>
 				<production-speed value="0"/>
 				<particles value="true">
 				<!--originator-particle-file path="glow_particles.xml"/-->
@@ -159,14 +183,26 @@
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
 				<radius value="12"/>
-                        	<target value="faction"></target>
+                        	<target value="faction" include-self="false">
+					<unit-type name="anubis_warrior"/>
+					<unit-type name="horus_scout"/>
+					<unit-type name="ibis"/>
+					<unit-type name="mummy"/>
+					<unit-type name="priest"/>
+					<unit-type name="snake"/>
+					<unit-type name="stone_snake"/>
+					<unit-type name="spearman"/>
+					<unit-type name="spearthrower"/>
+					<unit-type name="scarab"/>
+					<unit-type name="thunderstruck_scarab"/>
+				</target>
 				<max-hp value="0"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
-				<attack-strenght value="35" value-percent-multiplier="true"/>
+				<attack-strenght value="40" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
-				<armor value="5"/>
-				<move-speed value="20"/>
+				<armor value="10"/>
+				<move-speed value="0"/>
 				<production-speed value="0"/>
 				<particles value="true">
 				<!--originator-particle-file path="glow_particles.xml"/-->

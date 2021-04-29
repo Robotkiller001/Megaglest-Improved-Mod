@@ -62,14 +62,25 @@
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
 				<radius value="12"/>
-                        	<target value="faction"></target>
+                        	<target value="faction" include-self="false">
+					<unit-type name="fakir"/>
+					<unit-type name="flying_carpet"/>
+					<unit-type name="genie"/>
+					<unit-type name="magician"/>
+					<unit-type name="princess"/>
+					<unit-type name="stickfighter"/>
+					<unit-type name="swordman"/>
+					<unit-type name="worker"/>
+					<unit-type name="elephant"/>
+					<unit-type name="thunderstruck_elephant"/>
+				</target>
 				<max-hp value="0"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
-				<attack-strenght value="35" value-percent-multiplier="true"/>
+				<attack-strenght value="40" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
-				<armor value="5"/>
-				<move-speed value="20"/>
+				<armor value="10"/>
+				<move-speed value="0"/>
 				<production-speed value="0"/>
 				<particles value="true">
 				<!--originator-particle-file path="glow_particles.xml"/-->
@@ -106,14 +117,25 @@
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
 				<radius value="12"/>
-                        	<target value="faction"></target>
+                        	<target value="faction" include-self="false">
+					<unit-type name="fakir"/>
+					<unit-type name="flying_carpet"/>
+					<unit-type name="genie"/>
+					<unit-type name="magician"/>
+					<unit-type name="princess"/>
+					<unit-type name="stickfighter"/>
+					<unit-type name="swordman"/>
+					<unit-type name="worker"/>
+					<unit-type name="elephant"/>
+					<unit-type name="thunderstruck_elephant"/>
+				</target>
 				<max-hp value="0"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
-				<attack-strenght value="35" value-percent-multiplier="true"/>
+				<attack-strenght value="40" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
-				<armor value="5"/>
-				<move-speed value="20"/>
+				<armor value="10"/>
+				<move-speed value="0"/>
 				<production-speed value="0"/>
 				<particles value="true">
 				<!--originator-particle-file path="glow_particles.xml"/-->
@@ -150,17 +172,29 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="models/temple.g3d" />                        <attack-boost>
+			<animation path="models/temple.g3d" />
+                        <attack-boost>
 				<allow-multiple-boosts value="false" />
 				<radius value="12"/>
-                        	<target value="faction"></target>
+                        	<target value="faction" include-self="false">
+					<unit-type name="fakir"/>
+					<unit-type name="flying_carpet"/>
+					<unit-type name="genie"/>
+					<unit-type name="magician"/>
+					<unit-type name="princess"/>
+					<unit-type name="stickfighter"/>
+					<unit-type name="swordman"/>
+					<unit-type name="worker"/>
+					<unit-type name="elephant"/>
+					<unit-type name="thunderstruck_elephant"/>
+				</target>
 				<max-hp value="0"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
-				<attack-strenght value="35" value-percent-multiplier="true"/>
+				<attack-strenght value="40" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
-				<armor value="5"/>
-				<move-speed value="20"/>
+				<armor value="10"/>
+				<move-speed value="0"/>
 				<production-speed value="0"/>
 				<particles value="true">
 				<!--originator-particle-file path="glow_particles.xml"/-->
