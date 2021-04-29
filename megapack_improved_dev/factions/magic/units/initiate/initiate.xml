@@ -123,7 +123,7 @@
 			<type value="move"/>
 			<name value="move_loaded_skill"/>
 			<ep-cost value="0"/>
-			<speed value="150"/>
+			<speed value="160"/>
 			<anim-speed value="120"/>
 			<animation path="models/initiate_walking_loaded.g3d"/>
 			<sound enabled="false"/>
@@ -132,7 +132,7 @@
 			<type value="move"/>
 			<name value="move_loaded_wood_skill"/>
 			<ep-cost value="0"/>
-			<speed value="150"/>
+			<speed value="160"/>
 			<anim-speed value="120"/>
 			<animation path="models/initiate_walking_loaded_wood.g3d"/>
 			<sound enabled="false"/>
