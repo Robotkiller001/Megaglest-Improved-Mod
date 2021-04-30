@@ -16,9 +16,9 @@
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="expert" kills="30"/>
+			<level name="expert" kills="25"/>
 			<level name="master" kills="45"/>
-			<level name="legendary" kills="60"/>
+			<level name="legendary" kills="65"/>
 		</levels>
 		<fields>
 			<field value="land"/>
