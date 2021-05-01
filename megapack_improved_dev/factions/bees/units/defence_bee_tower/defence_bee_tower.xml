@@ -28,7 +28,9 @@
 		<unit-requirements>
 			<unit name="apiary" />
 		</unit-requirements>
-		<upgrade-requirements/>
+		<upgrade-requirements>
+			<upgrade name="piercing_stings"/>
+		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="pollen" amount="500" />
 		</resource-requirements>

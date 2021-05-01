@@ -13,11 +13,11 @@
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="basic" kills="14"/>
-			<level name="advanced" kills="38"/>
-			<level name="expert" kills="56"/>
-			<level name="master" kills="80"/>
-			<level name="grandmaster" kills="98"/>
+			<level name="basic" kills="18"/>
+			<level name="advanced" kills="40"/>
+			<level name="expert" kills="58"/>
+			<level name="master" kills="82"/>
+			<level name="grandmaster" kills="100"/>
 			<level name="mayor" kills="125"/>
 			<level name="imperator" kills="175"/>
 			<level name="god" kills="250"/>
