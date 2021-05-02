@@ -4,16 +4,16 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="700" regeneration="2" start-percentage="100"/>
-		<max-ep value="1000" regeneration="15" start-percentage="30"/>
-		<armor value="20"/>
+		<max-hp value="500" regeneration="4" start-percentage="100"/>
+		<max-ep value="2000" regeneration="15" start-percentage="30"/>
+		<armor value="15"/>
 		<armor-type value="leather"/>
 		<sight value="10"/>
 		<time value="80"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="elite" kills="4"/>
+			<level name="elite" kills="6"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -111,9 +111,9 @@
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>
-			<ep-cost value="100"/>
-			<speed value="200"/>
-			<anim-speed value="200"/>
+			<ep-cost value="150"/>
+			<speed value="250"/>
+			<anim-speed value="250"/>
 			<animation path="models/pharao_attacking.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack1.wav"/>
@@ -128,7 +128,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack15.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack16.wav"/>
 			</sound>
-			<attack-strenght value="110"/>
+			<attack-strenght value="140"/>
 			<attack-var value="40"/>
 			<attack-range value="8"/>
 			<attack-type value="energy"/>
@@ -136,7 +136,7 @@
 				<field value="land"/>
 				<field value="air"/>
 			</attack-fields>
-			<attack-start-time value="0.5"/>
+			<attack-start-time value="0.4"/>
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
 				<sound enabled="true">
