@@ -190,7 +190,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="hell_fire_skill"/>
-			<ep-cost value="2000"/>
+			<ep-cost value="1500"/>
 			<speed value="40"/>
 			<anim-speed value="40"/>
 			<animation path="models/catapult_attacking.g3d"/>
@@ -198,7 +198,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack2.wav"/>
 			</sound>
-			<attack-strenght value="1800"/>
+			<attack-strenght value="1600"/>
 			<attack-var value="400"/>
 			<attack-range value="14"/>
 			<attack-type value="survivor"/>

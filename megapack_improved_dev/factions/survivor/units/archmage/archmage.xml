@@ -189,7 +189,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="static_fire_skill"/>
-			<ep-cost value="2000"/>
+			<ep-cost value="1500"/>
 			<speed value="40"/>
 			<anim-speed value="40"/>
 			<animation path="models/archmage_attacking.g3d"/>
@@ -214,7 +214,7 @@
 				<sound-file path="sounds/ground_attack3.wav"/>
 				<sound-file path="sounds/ground_attack4.wav"/>
 			</sound>
-			<attack-strenght value="2200"/>
+			<attack-strenght value="2000"/>
 			<attack-var value="400"/>
 			<attack-range value="12"/>
 			<attack-type value="survivor"/>
