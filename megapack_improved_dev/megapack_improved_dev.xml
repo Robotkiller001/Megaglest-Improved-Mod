@@ -70,7 +70,7 @@
 		<damage-multiplier attack="impact" armor="hero" value="0.8"/>
 
 		<damage-multiplier attack="castle" armor="hero" value="4.0"/>
-		<damage-multiplier attack="castle" armor="survivor" value="5.0"/>
+		<damage-multiplier attack="castle" armor="survivor" value="8.0"/>
 
 		<damage-multiplier attack="hero" armor="hero" value="0.5"/>
 
