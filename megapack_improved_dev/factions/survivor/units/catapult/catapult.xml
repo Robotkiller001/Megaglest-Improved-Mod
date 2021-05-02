@@ -5,7 +5,7 @@
 		<size value="2"/>
 		<height value="2"/>
 		<ai-build-size value="3"/>
-		<max-hp value="2800" regeneration="40"/>
+		<max-hp value="2600" regeneration="40"/>
 		<max-ep value="1150" regeneration="100"/>
 		<armor value="20"/>
 		<armor-type value="survivor"/>
