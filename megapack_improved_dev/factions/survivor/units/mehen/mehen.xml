@@ -192,8 +192,8 @@
 			<type value="attack"/>
 			<name value="air_skill"/>
 			<ep-cost value="0"/>
-			<speed value="80"/>
-			<anim-speed value="80"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
 			<animation path="models/mehen_attack_air.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/eagle_attack1.wav"/>
