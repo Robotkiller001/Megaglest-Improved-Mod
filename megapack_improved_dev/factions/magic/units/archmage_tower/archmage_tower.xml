@@ -85,7 +85,7 @@
 			<attack-strenght value="260"/>
 			<attack-var value="80"/>
 			<attack-range value="16"/>
-			<attack-type value="energy"/>
+			<attack-type value="castle"/>
 			<attack-fields>
 				<field value="air"/>
 			</attack-fields>

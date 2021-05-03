@@ -86,11 +86,10 @@
 			<attack-strenght value="220"/>
 			<attack-var value="80"/>
 			<attack-range value="16"/>
-			<attack-type value="piercing"/>
+			<attack-type value="castle"/>
 			<attack-start-time value="0.25"/>
 			<attack-fields>
 				<field value="air"/>
-				<!--field value="land"/-->
 			</attack-fields>
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
