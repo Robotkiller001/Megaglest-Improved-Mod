@@ -120,8 +120,8 @@
 			<type value="attack"/>
 			<name value="dung_attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="120"/>
-			<anim-speed value="100"/>
+			<speed value="90"/>
+			<anim-speed value="90"/>
 			<animation path="models/scarab_attacking.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack1.wav"/>
