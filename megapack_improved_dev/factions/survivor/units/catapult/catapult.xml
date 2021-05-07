@@ -14,15 +14,15 @@
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="basic" kills="22"/>
-			<level name="advanced" kills="46"/>
-			<level name="expert" kills="64"/>
-			<level name="master" kills="86"/>
-			<level name="grandmaster" kills="100"/>
-			<level name="mayor" kills="125"/>
-			<level name="imperator" kills="175"/>
-			<level name="destructor" kills="250"/>
-			<level name="adpocalypse" kills="400"/>
+			<level name="basic" kills="28"/>
+			<level name="advanced" kills="52"/>
+			<level name="expert" kills="70"/>
+			<level name="master" kills="94"/>
+			<level name="grandmaster" kills="125"/>
+			<level name="mayor" kills="175"/>
+			<level name="imperator" kills="250"/>
+			<level name="destructor" kills="350"/>
+			<level name="adpocalypse" kills="500"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -143,7 +143,7 @@
 			<type value="harvest"/>
 			<name value="harvest_skill"/>
 			<ep-cost value="0"/>
-			<speed value="600"/>
+			<speed value="650"/>
 			<anim-speed value="210"/>
 			<animation path="models/catapult_mining.g3d"/>
 			<sound enabled="true" start-time="0">

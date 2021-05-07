@@ -165,24 +165,6 @@
 		</skill>
 
 		<skill>
-			<type value="repair"/>
-			<name value="repair_skill"/>
-			<ep-cost value="0"/>
-			<speed value="400"/>
-			<anim-speed value="210"/>
-			<animation path="models/technician_repairing.g3d"/>
-			<sound enabled="true" start-time="0">
-				<sound-file path="$COMMONDATAPATH/sounds/technician_build1.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/technician_build2.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/technician_build3.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/technician_build4.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/technician_build5.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/technician_build6.wav"/>
-			</sound>
-
-		</skill>
-
-		<skill>
 			<type value="attack"/>
 			<name value="molotov_skill"/>
 			<ep-cost value="0"/>
@@ -225,28 +207,12 @@
 			<sound enabled="false"/>
 		</skill>
 
-		<skill>
-			<type value="build"/>
-			<name value="build_skill"/>
-			<ep-cost value="0"/>
-			<speed value="250"/>
-			<anim-speed value="210"/>
-			<animation path="models/technician_repairing.g3d"/>
-			<sound enabled="true" start-time="0">
-				<sound-file path="$COMMONDATAPATH/sounds/technician_build1.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/technician_build2.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/technician_build3.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/technician_build4.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/technician_build5.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/technician_build6.wav"/>
-			</sound>
-		</skill>
 
 		<skill>
 			<type value="harvest"/>
 			<name value="mine_skill"/>
 			<ep-cost value="0"/>
-			<speed value="350"/>
+			<speed value="400"/>
 			<anim-speed value="210"/>
 			<animation path="models/technician_mining.g3d"/>
 			<sound enabled="true" start-time="0.5">
