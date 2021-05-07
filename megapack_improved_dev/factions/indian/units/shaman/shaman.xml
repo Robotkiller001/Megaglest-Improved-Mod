@@ -284,6 +284,16 @@
 		</command>
 
 		<command>
+			<type value="attack_stopped"/>
+			<name value="hold_position"/>
+			<image path="../archer/images/tech_hold.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+		<command>
 			<type value="produce"/>
 			<name value="produce_thunderbird"/>
 			<image path="../thunderbird/images/eagle.bmp"/>
