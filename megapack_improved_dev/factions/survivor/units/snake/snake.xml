@@ -177,7 +177,7 @@
 				<sound-file path="sounds/snake_attack4.wav"/>
 				<sound-file path="sounds/snake_attack5.wav"/>
 			</sound>
-			<attack-strenght value="120"/>
+			<attack-strenght value="140"/>
 			<attack-var value="40"/>
 			<attack-range value="1"/>
 			<attack-type value="survivor"/>

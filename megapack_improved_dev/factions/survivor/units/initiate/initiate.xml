@@ -203,7 +203,7 @@
 				<sound-file path="sounds/initiate_attack7.wav"/>
 				<sound-file path="sounds/initiate_attack8.wav"/>
 			</sound>
-			<attack-strenght value="110"/>
+			<attack-strenght value="130"/>
 			<attack-var value="40"/>
 			<attack-range value="6"/>
 			<attack-type value="survivor"/>
