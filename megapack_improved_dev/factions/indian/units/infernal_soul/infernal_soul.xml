@@ -7,7 +7,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="1500" regeneration="6" start-percentage="100"/>
+		<max-hp value="1700" regeneration="6" start-percentage="100"/>
 		<max-ep value="0"/>
 		<armor value="40"/>
 		<armor-type value="metal"/>
@@ -128,8 +128,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="70"/>
-			<anim-speed value="70"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
 			<animation path="models/infernal_soul_attack.g3d"/>
 			<sound enabled="true" start-time="0.03">
 				<sound-file path="sounds/behemoth_attack1a.wav"/>
