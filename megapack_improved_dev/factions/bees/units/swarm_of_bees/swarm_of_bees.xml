@@ -7,7 +7,7 @@
 		<height value="1"/>
 		<max-hp value="1400" regeneration="4" start-percentage="100"/>
 		<max-ep value="0" regeneration="0"/>
-		<armor value="45"/>
+		<armor value="40"/>
 		<armor-type value="skin"/>
 		<sight value="10"/>
 		<time value="100"/>
@@ -26,7 +26,7 @@
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="pollen" amount="250" />
+			<resource name="pollen" amount="225" />
 			<resource name="honey" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
