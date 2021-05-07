@@ -18,7 +18,7 @@
 			<level name="expert" kills="70"/>
 			<level name="master" kills="94"/>
 			<level name="grandmaster" kills="125"/>
-			<level name="deamon" kills="175"/>
+			<level name="daemon" kills="175"/>
 			<level name="god" kills="250"/>
 			<level name="skygod" kills="350"/>
 			<level name="adpocalypse" kills="500"/>
