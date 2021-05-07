@@ -19,6 +19,7 @@
 		<unit name="flying_valkyrie"/>
 		<unit name="spearman"/>
 		<unit name="spearman_berserk"/>
+		<unit name="survived_crossbow"/>
 		<unit name="swordman"/>
 		<unit name="swordman_berserk"/>
 		<unit name="valkyrie"/>
