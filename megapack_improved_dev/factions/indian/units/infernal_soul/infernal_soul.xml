@@ -12,11 +12,11 @@
 		<armor value="30"/>
 		<armor-type value="metal"/>
 		<sight value="10"/>
-		<time value="100"/>
+		<time value="120"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="elite" kills="8"/>
+			<level name="elite" kills="6"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -28,8 +28,8 @@
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="stone" amount="50"/>
-			<resource name="gold" amount="200"/>
+			<resource name="stone" amount="75"/>
+			<resource name="gold" amount="225"/>
 			<resource name="housing" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>
