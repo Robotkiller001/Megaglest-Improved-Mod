@@ -38,5 +38,9 @@
 			<unit name="necromante" minimum="4"/>
 			<unit name="golem" minimum="1"/>
 		</warrior-units>
+		<static-values>
+			<static type-name="MinMinWarriorsExpandCpuUltra" value="5"/>
+			<static type-name="MinMinWarriorsExpandCpuMega" value="12"/>
+		</static-values>
 	</ai-behavior>	
 </faction>

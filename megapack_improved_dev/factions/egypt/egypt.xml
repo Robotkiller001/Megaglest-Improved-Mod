@@ -34,5 +34,9 @@
 			<upgrade name="power_of_ra"/>
 			<upgrade name="summon_ibis"/>
 		</upgrades>
+		<static-values>
+			<static type-name="MinMinWarriorsExpandCpuUltra" value="5"/>
+			<static type-name="MinMinWarriorsExpandCpuMega" value="12"/>
+		</static-values>
 	</ai-behavior>
 </faction>

@@ -26,5 +26,9 @@
 			<upgrade name="magic_sharpening"/>
 			<upgrade name="piercing_stings"/>
 		</upgrades>
+		<static-values>
+			<static type-name="MinMinWarriorsExpandCpuUltra" value="5"/>
+			<static type-name="MinMinWarriorsExpandCpuMega" value="12"/>
+		</static-values>
 	</ai-behavior>	
 </faction>
