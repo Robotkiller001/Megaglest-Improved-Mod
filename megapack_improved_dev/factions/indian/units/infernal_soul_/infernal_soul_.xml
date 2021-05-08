@@ -168,7 +168,7 @@
 				<sound-file path="sounds/behemoth_die3.wav"/>
 				<sound-file path="sounds/behemoth_die4.wav"/>
 			</sound>
-			<fade value="false"/>
+			<fade value="true"/>
 			<spawn start-time="0.8">
 				<unit value="infernal_soul__"/>
 				<amount value="1"/>
