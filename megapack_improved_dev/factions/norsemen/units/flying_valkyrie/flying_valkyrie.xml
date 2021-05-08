@@ -33,6 +33,7 @@
 		<resource-requirements>
 			<resource name="wood" amount="150"/>
 			<resource name="gold" amount="250"/>
+			<resource name="stone" amount="50"/>
 			<resource name="food" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>

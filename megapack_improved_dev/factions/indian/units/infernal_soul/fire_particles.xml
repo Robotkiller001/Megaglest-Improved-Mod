@@ -3,11 +3,11 @@
     	<texture value="true" path="images/particle.bmp" luminance="false"/>
 	<mode value="normal"/>
 	<primitive value="quad"/>
-	<offset x="0" y="1.8" z="0.20"/>
+	<offset x="0" y="2.1" z="0.20"/>
 	<direction x="0" y="1" z="0"/>
 	<color red="0.9" green="0.7" blue="0.0" alpha="0.7" />
 	<color-no-energy red="0.8" green="0.0" blue="0.0" alpha="0.5" />
-    	<radius value="0.6" />
+    	<radius value="0.65" />
     	<size value="0.15" />
     	<size-no-energy value="0.25" />
     	<speed value="0.6" />

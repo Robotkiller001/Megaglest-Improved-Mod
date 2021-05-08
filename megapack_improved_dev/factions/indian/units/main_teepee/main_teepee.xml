@@ -71,6 +71,8 @@
 					<unit-type name="fire_golem"/>
 					<unit-type name="horseman"/>
 					<unit-type name="infernal_soul"/>
+					<unit-type name="infernal_soul_"/>
+					<unit-type name="infernal_soul__"/>
 					<unit-type name="spearman"/>
 					<unit-type name="stickfighter"/>
 					<unit-type name="survived_horseman"/>
@@ -134,6 +136,8 @@
 					<unit-type name="fire_golem"/>
 					<unit-type name="horseman"/>
 					<unit-type name="infernal_soul"/>
+					<unit-type name="infernal_soul_"/>
+					<unit-type name="infernal_soul__"/>
 					<unit-type name="spearman"/>
 					<unit-type name="stickfighter"/>
 					<unit-type name="survived_horseman"/>
@@ -179,6 +183,8 @@
 					<unit-type name="fire_golem"/>
 					<unit-type name="horseman"/>
 					<unit-type name="infernal_soul"/>
+					<unit-type name="infernal_soul_"/>
+					<unit-type name="infernal_soul__"/>
 					<unit-type name="spearman"/>
 					<unit-type name="stickfighter"/>
 					<unit-type name="survived_horseman"/>
