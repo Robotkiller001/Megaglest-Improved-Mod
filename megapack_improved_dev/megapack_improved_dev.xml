@@ -72,10 +72,10 @@
 		<damage-multiplier attack="castle" armor="hero" value="4.0"/>
 		<damage-multiplier attack="castle" armor="survivor" value="8.0"/>
 
+		<damage-multiplier attack="hero" armor="survivor" value="3.0"/>
 		<damage-multiplier attack="hero" armor="hero" value="0.5"/>
 
 		<damage-multiplier attack="survivor" armor="survivor" value="0.3"/>
-		<damage-multiplier attack="survivor" armor="hero" value="0.8"/>
 
 	</damage-multipliers>
 </tech-tree>
