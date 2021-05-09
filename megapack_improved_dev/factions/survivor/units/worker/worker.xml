@@ -153,7 +153,7 @@
 			<type value="harvest"/>
 			<name value="mine_skill"/>
 			<ep-cost value="0"/>
-			<speed value="250"/>
+			<speed value="200"/>
 			<anim-speed value="90"/>
 			<animation path="models/worker_mining.g3d"/>
 			<sound enabled="true" start-time="0.5">
