@@ -115,6 +115,21 @@
 		</skill>
 
 		<skill>
+			<type value="harvest"/>
+			<name value="mine_skill"/>
+			<ep-cost value="0"/>
+			<speed value="300"/>
+			<anim-speed value="210"/>
+			<animation path="models/technician_mining.g3d"/>
+			<sound enabled="true" start-time="0.5">
+				<sound-file path="sounds/technician_mine1.wav"/>
+				<sound-file path="sounds/technician_mine2.wav"/>
+				<sound-file path="sounds/technician_mine3.wav"/>
+				<sound-file path="sounds/technician_mine4.wav"/>
+			</sound>
+		</skill>
+
+		<skill>
 			<type value="stop"/>
 			<name value="stop_loaded_skill"/>
 			<ep-cost value="0"/>
@@ -205,22 +220,6 @@
 			<anim-speed value="210"/>
 			<animation path="models/technician_healing.g3d"/>
 			<sound enabled="false"/>
-		</skill>
-
-
-		<skill>
-			<type value="harvest"/>
-			<name value="mine_skill"/>
-			<ep-cost value="0"/>
-			<speed value="350"/>
-			<anim-speed value="210"/>
-			<animation path="models/technician_mining.g3d"/>
-			<sound enabled="true" start-time="0.5">
-				<sound-file path="sounds/technician_mine1.wav"/>
-				<sound-file path="sounds/technician_mine2.wav"/>
-				<sound-file path="sounds/technician_mine3.wav"/>
-				<sound-file path="sounds/technician_mine4.wav"/>
-			</sound>
 		</skill>
 
 		<skill>
