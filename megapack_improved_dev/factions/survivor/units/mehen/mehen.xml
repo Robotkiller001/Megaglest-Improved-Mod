@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="1"/>
-		<max-hp value="3100" regeneration="45" start-percentage="100"/>
+		<max-hp value="3400" regeneration="45" start-percentage="100"/>
 		<max-ep value="0" regeneration="0"/>
 		<armor value="20"/>
 		<armor-type value="survivor"/>
@@ -13,15 +13,15 @@
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="basic" kills="22"/>
-			<level name="advanced" kills="48"/>
-			<level name="expert" kills="66"/>
-			<level name="master" kills="92"/>
-			<level name="grandmaster" kills="125"/>
-			<level name="mayor" kills="175"/>
-			<level name="imperator" kills="250"/>
-			<level name="god" kills="350"/>
-			<level name="adpocalypse" kills="500"/>
+			<level name="basic" kills="35"/>
+			<level name="advanced" kills="55"/>
+			<level name="expert" kills="80"/>
+			<level name="master" kills="110"/>
+			<level name="grandmaster" kills="155"/>
+			<level name="mayor" kills="225"/>
+			<level name="imperator" kills="325"/>
+			<level name="god" kills="475"/>
+			<level name="adpocalypse" kills="700"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -35,10 +35,10 @@
 			<upgrade name="scales_2"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="400"/>
+			<resource name="gold" amount="300"/>
 		</resource-requirements>
 		<resources-stored>
-			<resource name= "gold" amount="800"/>
+			<resource name= "gold" amount="600"/>
 		</resources-stored>
 		<resources-stored/>
 		<image path="images/mehen.bmp"/>
@@ -116,7 +116,7 @@
 			<type value="harvest"/>
 			<name value="harvest_skill"/>
 			<ep-cost value="0"/>
-			<speed value="650"/>
+			<speed value="600"/>
 			<anim-speed value="90"/>
 			<animation path="models/mehen_attack.g3d"/>
 			<sound enabled="true" start-time="0">

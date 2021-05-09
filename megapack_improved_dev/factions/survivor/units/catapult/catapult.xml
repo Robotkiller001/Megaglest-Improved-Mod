@@ -5,7 +5,7 @@
 		<size value="2"/>
 		<height value="2"/>
 		<ai-build-size value="3"/>
-		<max-hp value="2600" regeneration="40"/>
+		<max-hp value="2800" regeneration="40"/>
 		<max-ep value="1150" regeneration="100"/>
 		<armor value="20"/>
 		<armor-type value="survivor"/>
@@ -14,15 +14,15 @@
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="basic" kills="28"/>
-			<level name="advanced" kills="52"/>
-			<level name="expert" kills="70"/>
-			<level name="master" kills="94"/>
-			<level name="grandmaster" kills="125"/>
-			<level name="mayor" kills="175"/>
-			<level name="imperator" kills="250"/>
-			<level name="destructor" kills="350"/>
-			<level name="adpocalypse" kills="500"/>
+			<level name="basic" kills="40"/>
+			<level name="advanced" kills="60"/>
+			<level name="expert" kills="85"/>
+			<level name="master" kills="115"/>
+			<level name="grandmaster" kills="160"/>
+			<level name="mayor" kills="225"/>
+			<level name="imperator" kills="325"/>
+			<level name="destructor" kills="475"/>
+			<level name="adpocalypse" kills="700"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -37,10 +37,10 @@
 			<upgrade name="shield_level_2"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="400"/>
+			<resource name="gold" amount="300"/>
 		</resource-requirements>
 		<resources-stored>
-			<resource name= "gold" amount="800"/>
+			<resource name= "gold" amount="600"/>
 		</resources-stored>
 		<image path="images/catapult.bmp"/>
 		<image-cancel path="/images/tech_cancel.bmp"/>
@@ -143,7 +143,7 @@
 			<type value="harvest"/>
 			<name value="harvest_skill"/>
 			<ep-cost value="0"/>
-			<speed value="650"/>
+			<speed value="600"/>
 			<anim-speed value="210"/>
 			<animation path="models/catapult_mining.g3d"/>
 			<sound enabled="true" start-time="0">
