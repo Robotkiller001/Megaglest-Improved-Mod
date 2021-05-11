@@ -6,14 +6,14 @@
 		<height value="1"/>
 		<max-hp value="1900" regeneration="5"/>
 		<max-ep value="1000" regeneration="200"/>
-		<armor value="45"/>
+		<armor value="40"/>
 		<armor-type value="organic"/>
 		<sight value="13"/>
 		<time value="300"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="expert" kills="10"/>
+			<level name="expert" kills="15"/>
 		</levels>
 		<fields>
 			<field value="air"/>
