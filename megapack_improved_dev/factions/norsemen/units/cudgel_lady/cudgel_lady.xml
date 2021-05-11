@@ -120,14 +120,6 @@
 				<sound-file path="sounds/cudgel_attack3.wav"/>
 				<sound-file path="sounds/cudgel_attack4.wav"/>
 				<sound-file path="sounds/cudgel_attack5.wav"/>
-				<sound-file path="sounds/silence1.wav"/>
-				<sound-file path="sounds/silence2.wav"/>
-				<sound-file path="sounds/silence3.wav"/>
-				<sound-file path="sounds/silence4.wav"/>
-				<sound-file path="sounds/silence5.wav"/>
-				<sound-file path="sounds/silence6.wav"/>
-				<sound-file path="sounds/silence7.wav"/>
-				<sound-file path="sounds/silence8.wav"/>
 			</sound>
 			<attack-strenght value="70"/>
 			<attack-var value="20"/>

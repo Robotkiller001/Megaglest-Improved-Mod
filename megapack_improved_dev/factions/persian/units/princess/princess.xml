@@ -105,9 +105,6 @@
 				<sound-file path="sounds/princess_attack3.wav"/>
 				<sound-file path="sounds/princess_attack4.wav"/>
 				<sound-file path="sounds/princess_attack5.wav"/>
-				<sound-file path="sounds/bee1.wav"/>
-				<sound-file path="sounds/bee2.wav"/>
-				<sound-file path="sounds/bee3.wav"/>
 			</sound>
 			<attack-strenght value="90"/>
 			<attack-var value="30"/>

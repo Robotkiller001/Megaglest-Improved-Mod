@@ -109,26 +109,10 @@
 			<anim-speed value="130"/>
 			<animation path="models/archer_walking.g3d"/>
 			<sound enabled="true" start-time="0.0">
-				<sound-file path="sounds/silence1.wav"/>
-				<sound-file path="sounds/silence2.wav"/>
-				<sound-file path="sounds/silence3.wav"/>
-				<sound-file path="sounds/silence4.wav"/>
-				<sound-file path="sounds/silence5.wav"/>
-				<sound-file path="sounds/silence6.wav"/>
-				<sound-file path="sounds/silence7.wav"/>
-				<sound-file path="sounds/silence8.wav"/>
 				<sound-file path="sounds/indiattack1.wav"/>
 				<sound-file path="sounds/indiattack2.wav"/>
 				<sound-file path="sounds/indiattack3.wav"/>
 				<sound-file path="sounds/indiattack4.wav"/>
-				<sound-file path="sounds/silence9.wav"/>
-				<sound-file path="sounds/silence10.wav"/>
-				<sound-file path="sounds/silence11.wav"/>
-				<sound-file path="sounds/silence12.wav"/>
-				<sound-file path="sounds/silence13.wav"/>
-				<sound-file path="sounds/silence14.wav"/>
-				<sound-file path="sounds/silence15.wav"/>
-				<sound-file path="sounds/silence16.wav"/>
   			</sound>
 		</skill>
 
