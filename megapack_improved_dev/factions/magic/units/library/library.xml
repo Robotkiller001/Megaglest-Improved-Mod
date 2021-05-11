@@ -44,7 +44,7 @@
 		<image-cancel path="../archmage/images/magic_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="../archmage_tower/sounds/magic_click.wav"/>
+			<sound path="sounds/library_select.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
 			<sound path="../archmage_tower/sounds/magic_click.wav"/>
