@@ -190,8 +190,8 @@
 			<type value="attack"/>
 			<name value="static_fire_skill"/>
 			<ep-cost value="1500"/>
-			<speed value="40"/>
-			<anim-speed value="40"/>
+			<speed value="50"/>
+			<anim-speed value="50"/>
 			<animation path="models/archmage_attacking.g3d"/>
 			<particles value="true">
 				<particle-file path="glow_particles.xml"/>
