@@ -31,6 +31,27 @@
 			<unit name="catapult" minimum="1"/>
 		</warrior-units>
 		<upgrades>
+			<upgrade name="blade_weapons_1"/>
+			<upgrade name="blade_weapons_2"/>
+			<upgrade name="blade_weapons_3"/>
+			<upgrade name="energy_compression_1"/>
+			<upgrade name="energy_compression_2"/>
+			<upgrade name="energy_compression_3"/>
+			<upgrade name="magic_armor_1"/>
+			<upgrade name="magic_armor_2"/>
+			<upgrade name="magic_armor_3"/>
+			<upgrade name="scales_1"/>
+			<upgrade name="scales_2"/>
+			<upgrade name="scales_3"/>
+			<upgrade name="shield_level_1"/>
+			<upgrade name="shield_level_2"/>
+			<upgrade name="shield_level_3"/>
+			<upgrade name="weapons_1"/>
+			<upgrade name="weapons_2"/>
+			<upgrade name="weapons_3"/>
+			<upgrade name="advanced_arsenal"/>
+			<upgrade name="magic_omniscience"/>
+			<upgrade name="power_of_ra"/>
 		</upgrades>
 	</ai-behavior>
 </faction>
