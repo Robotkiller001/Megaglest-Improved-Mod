@@ -94,7 +94,9 @@
 			<speed value="250"/>
 			<anim-speed value="200"/>
 			<animation path="models/worker_bee_harvest.g3d"/>
-			<sound enabled="false"/>
+			<sound enabled="true" start-time="0.05">
+				<sound-file path="sounds/bee6.wav"/>
+			</sound>
 		</skill>
 		<skill>
 
