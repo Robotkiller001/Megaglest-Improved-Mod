@@ -4,17 +4,17 @@
 		<size value="2"/>
 		<height value="2"/>
 		<ai-build-size value="3"/>
-		<max-hp value="3000" regeneration="6" start-percentage="100"/>
+		<max-hp value="9000" regeneration="6"/>
 		<max-ep value="0"/>
 		<armor value="35"/>
 		<armor-type value="wood"/>
-		<sight value="14"/>
+		<sight value="15"/>
 		<time value="140"/>
 		<multi-selection value="false"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="expert" kills="16"/>
-			<level name="elite" kills="32"/>
+			<level name="expert" kills="15"/>
+			<level name="elite" kills="30"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -29,7 +29,7 @@
 		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="wood" amount="250"/>
-			<resource name="gold" amount="175"/>
+			<resource name="gold" amount="250"/>
 			<resource name="food" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -91,20 +91,19 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="40"/>
-			<anim-speed value="40"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
 			<animation path="models/air_ballista_attacking.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/ab_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/ab_attack2.wav"/>
 			</sound>
-			<attack-strenght value="300"/>
-			<attack-var value="100"/>
-			<attack-range value="18"/>
-			<attack-type value="impact"/>
-			<attack-start-time value="0.4"/>
+			<attack-strenght value="280"/>
+			<attack-var value="80"/>
+			<attack-range value="16"/>
+			<attack-type value="castle"/>
+			<attack-start-time value="0.35"/>
 			<attack-fields>
-				<field value="land"/>
 				<field value="air"/>
 			</attack-fields>
 			<projectile value="true">

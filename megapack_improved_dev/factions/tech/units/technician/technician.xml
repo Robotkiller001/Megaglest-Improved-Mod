@@ -250,11 +250,11 @@
 
 		<skill>
 			<type value="morph"/>
-			<name value="build_ballista"/>
+			<name value="build_air_ballista"/>
 			<ep-cost value="0"/>
 			<speed value="500"/>
 			<anim-speed value="200"/>
-			<animation path="../ballista/models/air_ballista_morphing.g3d"/>
+			<animation path="../air_ballista/models/air_ballista_morphing.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/technician_build1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/technician_build2.wav"/>
@@ -332,7 +332,7 @@
 			<repaired-units>
 				<unit name="catapult"/>
 				<unit name="battle_machine"/>
-				<unit name="ballista"/>
+				<unit name="air_ballista"/>
 				<unit name="aerodrome"/>
 			</repaired-units>
 		</command>
@@ -410,12 +410,12 @@
 
 		<command>
 			<type value="morph"/>
-			<name value="build_ballista"/>
-			<image path="../ballista/images/air_ballista.bmp"/>
+			<name value="build_air_ballista"/>
+			<image path="../air_ballista/images/air_ballista.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
-			<morph-skill value="build_ballista"/>
-			<morph-unit name= "ballista"/>
+			<morph-skill value="build_air_ballista"/>
+			<morph-unit name= "air_ballista"/>
 			<discount value="20"/>
 		</command>
 

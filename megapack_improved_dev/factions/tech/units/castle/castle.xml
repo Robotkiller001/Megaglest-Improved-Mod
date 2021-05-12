@@ -76,7 +76,7 @@
 					<unit-type name="survived_archer_horseback"/>
 					<unit-type name="survived_technician"/>
 					<unit-type name="survived_horseman"/>
-					<unit-type name="ballista"/>
+					<unit-type name="air_ballista"/>
 					<unit-type name="battle_machine"/>
 					<unit-type name="thunderstruck_battle_machine"/>
 				</target>
@@ -137,7 +137,7 @@
 					<unit-type name="survived_archer_horseback"/>
 					<unit-type name="survived_technician"/>
 					<unit-type name="survived_horseman"/>
-					<unit-type name="ballista"/>
+					<unit-type name="air_ballista"/>
 					<unit-type name="battle_machine"/>
 					<unit-type name="thunderstruck_battle_machine"/>
 				</target>
@@ -204,7 +204,7 @@
 					<unit-type name="survived_archer_horseback"/>
 					<unit-type name="survived_technician"/>
 					<unit-type name="survived_horseman"/>
-					<unit-type name="ballista"/>
+					<unit-type name="air_ballista"/>
 					<unit-type name="battle_machine"/>
 					<unit-type name="thunderstruck_battle_machine"/>
 				</target>

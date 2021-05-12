@@ -18,4 +18,19 @@
 	</starting-units>
 	<music value="true" path="music/music_survivor.ogg"/>
 	<flat-particle-positions value="true"/>
+		<ai-behavior>
+		<warrior-units>
+			<unit name="initiate" minimum="1"/>
+			<unit name="worker" minimum="1"/>
+			<unit name="snake" minimum="1"/>
+			<unit name="battlemage" minimum="1"/>
+			<unit name="mehen_warrior" minimum="1"/>
+			<unit name="technician" minimum="1"/>
+			<unit name="archmage" minimum="1"/>
+			<unit name="mehen" minimum="1"/>
+			<unit name="catapult" minimum="1"/>
+		</warrior-units>
+		<upgrades>
+		</upgrades>
+	</ai-behavior>
 </faction>
