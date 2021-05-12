@@ -10,7 +10,7 @@
 		<max-hp value="7500" regeneration="18" start-percentage="100"/>
 		<max-ep value="0"/>
 		<armor value="50"/>
-		<armor-type value="hero"/>
+		<armor-type value="obsidian_aura"/>
 		<max-unit-count value="2"/>
 		<sight value="16"/>
 		<time value="70"/>
@@ -202,7 +202,7 @@
 			<attack-strenght value="290"/>
 			<attack-var value="80"/>
 			<attack-range value="9"/>
-			<attack-type value="hero"/>
+			<attack-type value="elephant"/>
 			<attack-fields>
 				<field value="air"/>
 			</attack-fields>
@@ -254,7 +254,7 @@
 			<attack-strenght value="380"/>
 			<attack-var value="100"/>
 			<attack-range value="2"/>
-			<attack-type value="hero"/>
+			<attack-type value="elephant"/>
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>
@@ -329,7 +329,8 @@
 			<attack-skill value="attack_skill"/>
 
 		</command>
-
+
+
 		<command>
 
 			<type value="attack"/>

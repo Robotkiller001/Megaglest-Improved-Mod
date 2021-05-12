@@ -115,7 +115,7 @@
 			<type value="upgrade" />
 			<name value="upgrade_skill"/>
 			<ep-cost value="0" />
-			<speed value="400" />
+			<speed value="500" />
 			<anim-speed value="80" />
 			<animation path="models/battlemage_morphing.g3d" />
 			<particles value="true">

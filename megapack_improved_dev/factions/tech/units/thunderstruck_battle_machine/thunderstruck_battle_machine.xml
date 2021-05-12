@@ -9,7 +9,7 @@
 		<max-hp value="7500" regeneration="18" start-percentage="100"/>
 		<max-ep value="0"/>
 		<armor value="50"/>
-		<armor-type value="hero"/>
+		<armor-type value="advanced_protection"/>
 		<max-unit-count value="2"/>
 		<sight value="14"/>
 		<time value="70"/>
@@ -159,7 +159,7 @@
 			<attack-strenght value="400"/>
 			<attack-var value="120"/>
 			<attack-range value="1"/>
-			<attack-type value="hero"/>
+			<attack-type value="battle_machine"/>
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>
@@ -203,7 +203,7 @@
 			<attack-strenght value="240"/>
 			<attack-var value="80"/>
 			<attack-range value="9"/>
-			<attack-type value="hero"/>
+			<attack-type value="battle_machine"/>
 			<attack-start-time value="0.5"/>
 			<attack-fields>
 				<field value="air"/>

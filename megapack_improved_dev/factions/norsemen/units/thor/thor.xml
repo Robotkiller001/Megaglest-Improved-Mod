@@ -11,7 +11,7 @@
 		<max-hp value="4500" regeneration="8"/>
 		<max-ep value="300" regeneration="15" start-percentage="35"/>
 		<armor value="40"/>
-		<armor-type value="hero"/>
+		<armor-type value="odin_shield"/>
 		<sight value="12"/>
 		<time value="80"/>
 		<multi-selection value="true"/>
@@ -141,7 +141,7 @@
 			<attack-strenght value="270"/>
 			<attack-var value="80"/>
 			<attack-range value="2"/>
-			<attack-type value="hero"/>
+			<attack-type value="thor"/>
 			<attack-start-time value="0.6"/>
 			<attack-fields>
 				<field value="land"/>
@@ -175,7 +175,7 @@
 			<attack-strenght value="180"/>
 			<attack-var value="60"/>
 			<attack-range value="9"/>
-			<attack-type value="hero"/>
+			<attack-type value="thor"/>
 			<attack-fields>
 				<field value="air"/>
 			</attack-fields>
@@ -191,8 +191,10 @@
 			</projectile>
 			<splash value="true">
 				<radius value="1"/>
-				<damage-all value="true"/>				<particle value="true" path="air_particle_splash.xml"/>
-			</splash>		</skill>
+				<damage-all value="true"/>
+				<particle value="true" path="air_particle_splash.xml"/>
+			</splash>
+		</skill>
 
 		<skill>
 			<type value="die"/>

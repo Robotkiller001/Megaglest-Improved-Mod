@@ -8,7 +8,7 @@
 		<max-hp value="1700" regeneration="8" start-percentage="100"/>
 		<max-ep value="1000" regeneration="20" start-percentage="40"/>
 		<armor value="15"/>
-		<armor-type value="hero"/>
+		<armor-type value="hardened_skin"/>
 		<max-unit-count value="10"/>
 		<sight value="12"/>
 		<time value="240"/>
@@ -118,7 +118,7 @@
 			<attack-strenght value="180"/>
 			<attack-var value="60"/>
 			<attack-range value="7"/>
-			<attack-type value="hero"/>
+			<attack-type value="queen_bee"/>
 			<attack-fields>
 				<field value="land"/>
 				<field value="air"/>

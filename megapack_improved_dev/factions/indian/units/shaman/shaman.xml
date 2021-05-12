@@ -10,7 +10,7 @@
 		<max-hp value="2100" regeneration="6"/>
 		<max-ep value="0"/>
 		<armor value="30"/>
-		<armor-type value="hero"/>
+		<armor-type value="ancient_recalls"/>
 		<sight value="12"/>
 		<time value="100"/>
 		<multi-selection value="true"/>
@@ -123,7 +123,7 @@
 			<attack-strenght value="210"/>
 			<attack-var value="60"/>
 			<attack-range value="7"/>
-			<attack-type value="hero"/>
+			<attack-type value="shaman"/>
 			<attack-start-time value="0.5"/>
 			<attack-fields>
 				<field value="land"/>

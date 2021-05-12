@@ -7,7 +7,7 @@
 		<max-hp value="5500" regeneration="8"/>
 		<max-ep value="0" regeneration="0"/>
 		<armor value="50"/>
-		<armor-type value="hero"/>
+		<armor-type value="valak_power"/>
 		<sight value="12"/>
 		<time value="60"/>
 		<multi-selection value="true"/>
@@ -125,7 +125,7 @@
 			<attack-strenght value="290"/>
 			<attack-var value="100"/>
 			<attack-range value="1"/>
-			<attack-type value="hero"/>
+			<attack-type value="behemoth"/>
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>
