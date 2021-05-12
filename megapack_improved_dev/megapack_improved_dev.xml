@@ -13,7 +13,14 @@
 		<attack-type name="slashing"/>
 		<attack-type name="magic"/>
 		<attack-type name="castle"/>
-		<attack-type name="hero"/>
+		<attack-type name="queen_bee"/>
+		<attack-type name="scarab"/>
+		<attack-type name="shaman"/>
+		<attack-type name="behemoth"/>
+		<attack-type name="thor"/>
+		<attack-type name="elephant"/>
+		<attack-type name="general"/>
+		<attack-type name="battle_machine"/>
 		<attack-type name="survivor"/>
 	</attack-types>
 	
@@ -24,7 +31,14 @@
 		<armor-type name="metal"/>
 		<armor-type name="stone"/>
 		<armor-type name="skin"/>
-		<armor-type name="hero"/>
+		<armor-type name="hardened_skin"/>
+		<armor-type name="osiris_protection"/>
+		<armor-type name="ancient_recalls"/>
+		<armor-type name="valak_power"/>
+		<armor-type name="odin_shield"/>
+		<armor-type name="obsidian_aura"/>
+		<armor-type name="blessed_armor"/>
+		<armor-type name="advanced_protection"/>
 		<armor-type name="survivor"/>
 	</armor-types>
 	
@@ -34,46 +48,110 @@
 		<damage-multiplier attack="arrow" armor="wood" value="0.8"/>
 		<damage-multiplier attack="arrow" armor="metal" value="0.75"/>
 		<damage-multiplier attack="arrow" armor="stone" value="0.55"/>
-		<damage-multiplier attack="arrow" armor="hero" value="0.8"/>
+		<damage-multiplier attack="arrow" armor="hardened_skin" value="0.8"/>
+		<damage-multiplier attack="arrow" armor="osiris_protection" value="0.8"/>
+		<damage-multiplier attack="arrow" armor="ancient_recalls" value="0.8"/>
+		<damage-multiplier attack="arrow" armor="valak_power" value="0.8"/>
+		<damage-multiplier attack="arrow" armor="odin_shield" value="0.8"/>
+		<damage-multiplier attack="arrow" armor="obsidian_aura" value="0.8"/>
+		<damage-multiplier attack="arrow" armor="blessed_armor" value="0.8"/>
+		<damage-multiplier attack="arrow" armor="advanced_protection" value="0.8"/>
 		
 		<damage-multiplier attack="sword" armor="organic" value="1.25"/>
 		<damage-multiplier attack="sword" armor="skin" value="1.25"/>
 		<damage-multiplier attack="sword" armor="wood" value="0.8"/>
 		<damage-multiplier attack="sword" armor="stone" value="0.55"/>
 		<damage-multiplier attack="sword" armor="metal" value="0.75"/>
-		<damage-multiplier attack="sword" armor="hero" value="0.8"/>
+		<damage-multiplier attack="sword" armor="hardened_skin" value="0.8"/>
+		<damage-multiplier attack="sword" armor="osiris_protection" value="0.8"/>
+		<damage-multiplier attack="sword" armor="ancient_recalls" value="0.8"/>
+		<damage-multiplier attack="sword" armor="valak_power" value="0.8"/>
+		<damage-multiplier attack="sword" armor="odin_shield" value="0.8"/>
+		<damage-multiplier attack="sword" armor="obsidian_aura" value="0.8"/>
+		<damage-multiplier attack="sword" armor="blessed_armor" value="0.8"/>
+		<damage-multiplier attack="sword" armor="advanced_protection" value="0.8"/>
 		
 		<damage-multiplier attack="beat" armor="organic" value="1.25"/>
 		<damage-multiplier attack="beat" armor="skin" value="1.5"/>
 		<damage-multiplier attack="beat" armor="wood" value="0.8"/>
 		<damage-multiplier attack="beat" armor="stone" value="0.55"/>
-		<damage-multiplier attack="beat" armor="hero" value="0.8"/>
+		<damage-multiplier attack="beat" armor="hardened_skin" value="0.8"/>
+		<damage-multiplier attack="beat" armor="osiris_protection" value="0.8"/>
+		<damage-multiplier attack="beat" armor="ancient_recalls" value="0.8"/>
+		<damage-multiplier attack="beat" armor="valak_power" value="0.8"/>
+		<damage-multiplier attack="beat" armor="odin_shield" value="0.8"/>
+		<damage-multiplier attack="beat" armor="obsidian_aura" value="0.8"/>
+		<damage-multiplier attack="beat" armor="blessed_armor" value="0.8"/>
+		<damage-multiplier attack="beat" armor="advanced_protection" value="0.8"/>
 		
 		<damage-multiplier attack="energy" armor="organic" value="1.25"/>
 		<damage-multiplier attack="energy" armor="skin" value="1.25"/>
 		<damage-multiplier attack="energy" armor="metal" value="0.75"/>
 		<damage-multiplier attack="energy" armor="stone" value="0.8"/>
-		<damage-multiplier attack="energy" armor="hero" value="0.8"/>
+		<damage-multiplier attack="energy" armor="hardened_skin" value="0.8"/>
+		<damage-multiplier attack="energy" armor="osiris_protection" value="0.8"/>
+		<damage-multiplier attack="energy" armor="ancient_recalls" value="0.8"/>
+		<damage-multiplier attack="energy" armor="valak_power" value="0.8"/>
+		<damage-multiplier attack="energy" armor="odin_shield" value="0.8"/>
+		<damage-multiplier attack="energy" armor="obsidian_aura" value="0.8"/>
+		<damage-multiplier attack="energy" armor="blessed_armor" value="0.8"/>
+		<damage-multiplier attack="energy" armor="advanced_protection" value="0.8"/>
 
 		<damage-multiplier attack="piercing" armor="organic" value="1.25"/>
 		<damage-multiplier attack="piercing" armor="skin" value="0.8"/>
 		<damage-multiplier attack="piercing" armor="wood" value="0.8"/>
 		<damage-multiplier attack="piercing" armor="metal" value="0.75"/>
 		<damage-multiplier attack="piercing" armor="stone" value="0.55"/>
-		<damage-multiplier attack="piercing" armor="hero" value="0.8"/>
+		<damage-multiplier attack="piercing" armor="hardened_skin" value="0.8"/>
+		<damage-multiplier attack="piercing" armor="osiris_protection" value="0.8"/>
+		<damage-multiplier attack="piercing" armor="ancient_recalls" value="0.8"/>
+		<damage-multiplier attack="piercing" armor="valak_power" value="0.8"/>
+		<damage-multiplier attack="piercing" armor="odin_shield" value="0.8"/>
+		<damage-multiplier attack="piercing" armor="obsidian_aura" value="0.8"/>
+		<damage-multiplier attack="piercing" armor="blessed_armor" value="0.8"/>
+		<damage-multiplier attack="piercing" armor="advanced_protection" value="0.8"/>
 		
 		<damage-multiplier attack="impact" armor="organic" value="0.75"/>
 		<damage-multiplier attack="impact" armor="leather" value="0.75"/>
 		<damage-multiplier attack="impact" armor="metal" value="1.25"/>
 		<damage-multiplier attack="impact" armor="wood" value="1.85"/>
 		<damage-multiplier attack="impact" armor="stone" value="1.6"/>
-		<damage-multiplier attack="impact" armor="hero" value="0.8"/>
+		<damage-multiplier attack="impact" armor="hardened_skin" value="0.8"/>
+		<damage-multiplier attack="impact" armor="osiris_protection" value="0.8"/>
+		<damage-multiplier attack="impact" armor="ancient_recalls" value="0.8"/>
+		<damage-multiplier attack="impact" armor="valak_power" value="0.8"/>
+		<damage-multiplier attack="impact" armor="odin_shield" value="0.8"/>
+		<damage-multiplier attack="impact" armor="obsidian_aura" value="0.8"/>
+		<damage-multiplier attack="impact" armor="blessed_armor" value="0.8"/>
+		<damage-multiplier attack="impact" armor="advanced_protection" value="0.8"/>
 
-		<damage-multiplier attack="castle" armor="hero" value="4.0"/>
+		<damage-multiplier attack="castle" armor="hardened_skin" value="4.0"/>
+		<damage-multiplier attack="castle" armor="osiris_protection" value="4.0"/>
+		<damage-multiplier attack="castle" armor="ancient_recalls" value="4.0"/>
+		<damage-multiplier attack="castle" armor="valak_power" value="4.0"/>
+		<damage-multiplier attack="castle" armor="odin_shield" value="4.0"/>
+		<damage-multiplier attack="castle" armor="obsidian_aura" value="4.0"/>
+		<damage-multiplier attack="castle" armor="blessed_armor" value="4.0"/>
+		<damage-multiplier attack="castle" armor="advanced_protection" value="4.0"/>
 		<damage-multiplier attack="castle" armor="survivor" value="8.0"/>
 
-		<damage-multiplier attack="hero" armor="survivor" value="3.0"/>
-		<damage-multiplier attack="hero" armor="hero" value="0.5"/>
+		<damage-multiplier attack="queen_bee" armor="hardened_skin" value="0.5"/>
+		<damage-multiplier attack="scarab" armor="osiris_protection" value="0.5"/>
+		<damage-multiplier attack="shaman" armor="ancient_recalls" value="0.5"/>
+		<damage-multiplier attack="behemoth" armor="valak_power" value="0.5"/>
+		<damage-multiplier attack="thor" armor="odin_shield" value="0.5"/>
+		<damage-multiplier attack="elephant" armor="obsidian_aura" value="0.5"/>
+		<damage-multiplier attack="general" armor="blessed_armor" value="0.5"/>
+		<damage-multiplier attack="battle_machine" armor="advanced_protection" value="0.5"/>
+
+		<damage-multiplier attack="queen_bee" armor="survivor" value="3.0"/>
+		<damage-multiplier attack="scarab" armor="survivor" value="3.0"/>
+		<damage-multiplier attack="shaman" armor="survivor" value="3.0"/>
+		<damage-multiplier attack="behemoth" armor="survivor" value="3.0"/>
+		<damage-multiplier attack="thor" armor="survivor" value="3.0"/>
+		<damage-multiplier attack="elephant" armor="survivor" value="3.0"/>
+		<damage-multiplier attack="general" armor="survivor" value="3.0"/>
+		<damage-multiplier attack="battle_machine" armor="survivor" value="3.0"/>
 
 		<damage-multiplier attack="survivor" armor="survivor" value="0.3"/>
 

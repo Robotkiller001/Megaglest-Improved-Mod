@@ -8,7 +8,7 @@
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="1300" regeneration="6" start-percentage="100"/>
-		<max-ep value="500" regeneration="10" start-percentage="35"/>
+		<max-ep value="500" regeneration="12" start-percentage="35"/>
 		<armor value="50"/>
 		<armor-type value="leather"/>
 		<sight value="11"/>
@@ -150,8 +150,8 @@
 			<type value="attack"/>
 			<name value="airattack_skill"/>
 			<ep-cost value="100"/>
-			<speed value="110"/>
-			<anim-speed value="50"/>
+			<speed value="70"/>
+			<anim-speed value="70"/>
 			<animation path="models/valkyrie_airattacking.g3d"/>
 			<sound enabled="true" start-time="0.0">
 				<sound-file path="$COMMONDATAPATH/sounds/summoner_attack1.wav"/>
@@ -278,7 +278,8 @@
 			<attack-skill value="attack_skill"/>
 
 		</command>
-
+
+
 
 		<command>
 
