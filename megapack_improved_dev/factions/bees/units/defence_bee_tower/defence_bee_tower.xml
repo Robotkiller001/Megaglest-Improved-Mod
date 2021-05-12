@@ -39,10 +39,10 @@
 		<image-cancel path="../archer_bee/images/bee_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="sounds/tech_click.wav" />
+			<sound path="sounds/bee5.wav" />
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="sounds/tech_click.wav" />
+			<sound path="sounds/bee5.wav" />
 		</command-sounds>
 	</parameters>
 	
@@ -100,9 +100,13 @@
 				</sound>
 			</projectile>
 			<splash value="true">
-				<radius value="0"/>
-				<damage-all value="true"/>
-				<particle value="true" path="particle_splash.xml"/>
+
+				<radius value="0"/>
+
+				<damage-all value="true"/>
+
+				<particle value="true" path="particle_splash.xml"/>
+
 			</splash>
 		</skill>	
 		

@@ -88,6 +88,8 @@
 				<sound-file path="sounds/bee1.wav"/>
 				<sound-file path="sounds/bee2.wav"/>
 				<sound-file path="sounds/bee3.wav"/>
+				<sound-file path="sounds/bee4.wav"/>
+				<sound-file path="sounds/bee5.wav"/>
 			</sound>
 			<attack-strenght value="120"/>
 			<attack-var value="40"/>
@@ -116,6 +118,8 @@
 				<sound-file path="sounds/bee1.wav"/>
 				<sound-file path="sounds/bee2.wav"/>
 				<sound-file path="sounds/bee3.wav"/>
+				<sound-file path="sounds/bee4.wav"/>
+				<sound-file path="sounds/bee5.wav"/>
 			</sound>			
 			<fade value="true"/>
 		</skill>

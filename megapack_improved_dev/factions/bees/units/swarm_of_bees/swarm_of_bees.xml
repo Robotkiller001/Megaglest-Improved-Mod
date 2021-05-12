@@ -91,13 +91,11 @@
 			<anim-speed value="80"/>
 			<animation path="models/bees.g3d"/>
 			<sound enabled="true" start-time="0.1">
-				<sound-file path="sounds/bee1.wav"/>	
+				<sound-file path="sounds/bee1.wav"/>
 				<sound-file path="sounds/bee2.wav"/>
 				<sound-file path="sounds/bee3.wav"/>
-				<sound-file path="sounds/bees1.wav"/>
-				<sound-file path="sounds/bees2.wav"/>
-				<sound-file path="sounds/bees3.wav"/>
-				<sound-file path="sounds/bees4.wav"/>
+				<sound-file path="sounds/bee4.wav"/>
+				<sound-file path="sounds/bee5.wav"/>
 			</sound>
 			<attack-strenght value="140"/>
 			<attack-var value="40"/>
@@ -125,6 +123,8 @@
 				<sound-file path="sounds/bee1.wav"/>
 				<sound-file path="sounds/bee2.wav"/>
 				<sound-file path="sounds/bee3.wav"/>
+				<sound-file path="sounds/bee4.wav"/>
+				<sound-file path="sounds/bee5.wav"/>
 			</sound>
 			<fade value="true"/>
 		</skill>

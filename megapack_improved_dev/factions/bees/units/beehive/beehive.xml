@@ -39,10 +39,10 @@
 		<image-cancel path="../archer_bee/images/bee_cancel.bmp"/>
 		<meeting-point value="true" image-path="images/meeting_point.bmp"/>
 		<selection-sounds enabled="true">
-			<sound path="sounds/tech_click.wav" />
+			<sound path="sounds/bee5.wav" />
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="sounds/tech_click.wav" />
+			<sound path="sounds/bee5.wav" />
 		</command-sounds>
 	</parameters>
 	
