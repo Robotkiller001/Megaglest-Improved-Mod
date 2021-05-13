@@ -7,12 +7,12 @@
 	<parameters>
 		<size value="1"/>
 		<height value="1"/>
-		<max-hp value="500" regeneration="2"/>
+		<max-hp value="400" regeneration="2"/>
 		<max-ep value="0"/>
 		<armor value="0"/>
 		<armor-type value="organic"/>
 		<sight value="4"/>
-		<time value="40"/>
+		<time value="20"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
 		<cellmap value="false"/>
@@ -25,23 +25,24 @@
 		<unit-requirements/>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="gold" amount="100"/>
-			<resource name="food" amount="-14"/>
+			<resource name="gold" amount="75"/>
+			<resource name="food" amount="-10"/>
 		</resource-requirements>
-		<resources-stored>
-		</resources-stored>
-		<image path="images/cow.bmp"/>
+		<resources-stored/>
+		<image path="images/pig.png"/>
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="$COMMONDATAPATH/sounds/cow_select1.wav"/>
-			<sound path="$COMMONDATAPATH/sounds/cow_select2.wav"/>
-			<sound path="$COMMONDATAPATH/sounds/cow_select3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/pig_select1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/pig_select2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/pig_select3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/pig_select4.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="$COMMONDATAPATH/sounds/cow_ack1.wav"/>
-			<sound path="$COMMONDATAPATH/sounds/cow_ack2.wav"/>
-			<sound path="$COMMONDATAPATH/sounds/cow_ack3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/pig_ack1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/pig_ack2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/pig_ack3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/pig_ack4.wav"/>
 		</command-sounds>
 
 	</parameters>
@@ -56,7 +57,7 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="55"/>
-			<animation path="models/cow_standing.g3d"/>
+			<animation path="models/pig_standing.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
@@ -64,9 +65,9 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="150"/>
-			<anim-speed value="150"/>
-			<animation path="models/cow_walking.g3d"/>
+			<speed value="110"/>
+			<anim-speed value="110"/>
+			<animation path="models/pig_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
@@ -76,11 +77,12 @@
 			<ep-cost value="0"/>
 			<speed value="90"/>
 			<anim-speed value="90"/>
-			<animation path="models/cow_dying.g3d"/>
+			<animation path="models/pig_dying.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="$COMMONDATAPATH/sounds/cow_die1.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/cow_die2.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/cow_die3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/pig_die1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/pig_die2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/pig_die3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/pig_die4.wav"/>
 			</sound>
 			<fade value="false"/>
 		</skill>
@@ -92,7 +94,7 @@
 	<commands>
 
 		<command>
-			<type value="stop"/>
+			<type value= "stop"/>
 			<name value="stop"/>
 			<image path="../archer/images/tech_stop.bmp"/>
 			<unit-requirements/>
@@ -101,7 +103,7 @@
 		</command>
 
 		<command>
-			<type value="move"/>
+			<type value= "move"/>
 			<name value="move"/>
 			<image path="../archer/images/tech_move.bmp"/>
 			<unit-requirements/>

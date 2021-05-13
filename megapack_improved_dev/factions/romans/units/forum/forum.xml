@@ -273,12 +273,12 @@
 		</command>
 		<command>
 			<type value="produce"/>
-			<name value="produce_cow" />
-			<image path="../cow/images/cow.bmp" />
+			<name value="produce_pig" />
+			<image path="../pig/images/pig.png" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
-			<produced-unit name="cow"/>
+			<produced-unit name="pig"/>
 		</command>
 		<command>
 			<type value="stop"/>

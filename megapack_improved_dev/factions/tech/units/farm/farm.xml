@@ -82,16 +82,6 @@
 			<sound enabled="false" />
 		</skill>
 		<skill>
-			<type value="produce" />
-			<name value="produce_fast_skill"/>
-			<ep-cost value="0" />
-			<speed value="400" />
-			<!-- faster production, because pig is giving less food -->
-			<anim-speed value="50" />
-			<animation path="models/farm.g3d" />
-			<sound enabled="false" />
-		</skill>
-		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
 			<ep-cost value="0" />
@@ -122,15 +112,6 @@
 	</skills>
 
 	<commands>
-		<command>
-			<type value="produce"/>
-			<name value="produce_pig" />
-			<image path="../pig/images/pig.bmp" />
-			<unit-requirements />
-			<upgrade-requirements />
-			<produce-skill value="produce_fast_skill"/>
-			<produced-unit name="pig"/>
-		</command>
 		<command>
 			<type value="produce"/>
 			<name value="produce_cow" />
