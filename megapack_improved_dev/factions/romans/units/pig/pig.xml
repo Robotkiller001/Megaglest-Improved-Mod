@@ -65,8 +65,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="110"/>
-			<anim-speed value="110"/>
+			<speed value="120"/>
+			<anim-speed value="115"/>
 			<animation path="models/pig_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>
