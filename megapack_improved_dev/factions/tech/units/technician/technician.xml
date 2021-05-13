@@ -353,7 +353,6 @@
 				<unit name="fire_archer"/>
 				<unit name="guard"/>
 				<unit name="horseman"/>
-				<unit name="pig"/>
 				<unit name="cow"/>
 			</repaired-units>
 		</command>
