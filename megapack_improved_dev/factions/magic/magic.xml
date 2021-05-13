@@ -35,8 +35,8 @@
 			<unit name="initiate" minimum="6"/>
 			<unit name="summoner" minimum="3"/>
 			<unit name="daemon" minimum="1"/>
-			<unit name="battlemage" minimum="2"/>
-			<unit name="ghost_armor" minimum="4"/>
+			<unit name="battlemage" minimum="3"/>
+			<unit name="ghost_armor" minimum="2"/>
 			<unit name="ghost_armor_swordmaster" minimum="4"/>
 			<unit name="necromante" minimum="4"/>
 			<unit name="golem" minimum="1"/>
