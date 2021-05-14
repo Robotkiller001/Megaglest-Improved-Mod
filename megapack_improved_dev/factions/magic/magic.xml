@@ -21,12 +21,12 @@
 		<upgrades>
 			<upgrade name="ancient_summoning"/>
 			<upgrade name="energy_sharpening"/>
-			<upgrade name="big_rock"/>
+			<upgrade name="hell_gate"/>
 			<upgrade name="dragon_call"/>
 			<upgrade name="energy_compression"/>
 			<upgrade name="faster_movement"/>
 			<upgrade name="golem_power"/>
-			<upgrade name="hell_gate"/>
+			<upgrade name="big_rock"/>
 		</upgrades>
 		<building-units>
 			<unit name="summoner_guild" minimum="2"/>
