@@ -107,7 +107,7 @@
 			<ep-cost value="250"/>
 			<speed value="40"/>
 			<anim-speed value="40"/>
-			<animation path="models/queen_bee.g3d"/>
+			<animation path="models/queen_bee_attack.g3d"/>
 			<sound enabled="true" start-time="0.0">
 				<sound-file path="sounds/bee1.wav"/>
 				<sound-file path="sounds/bee2.wav"/>
