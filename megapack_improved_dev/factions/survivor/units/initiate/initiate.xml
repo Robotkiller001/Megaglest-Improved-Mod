@@ -6,7 +6,7 @@
 		<height value="2"/>
 		<max-hp value="700" regeneration="20"/>
 		<max-ep value="50" regeneration="2" start-percentage="40"/>
-		<armor value="15"/>
+		<armor value="10"/>
 		<armor-type value="survivor"/>
 		<sight value="9"/>
 		<time value="35"/>
