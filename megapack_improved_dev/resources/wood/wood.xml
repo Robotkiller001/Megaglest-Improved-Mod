@@ -3,7 +3,7 @@
 <resource>
 	<image path="images/wood.bmp"/>
 	<type value="tileset">
-		<default-amount value="1000"/>
+		<default-amount value="800"/>
 		<tileset-object value="1"/>
 	</type>
 </resource>
