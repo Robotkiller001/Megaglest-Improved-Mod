@@ -104,7 +104,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>
-			<ep-cost value="55"/>
+			<ep-cost value="60"/>
 			<speed value="60"/>
 			<anim-speed value="60"/>
 			<animation path="models/battlemage_attacking.g3d"/>
