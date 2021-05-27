@@ -140,7 +140,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack11.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack12.wav"/>
 			</sound>
-			<attack-strenght value="200"/>
+			<attack-strenght value="190"/>
 			<attack-var value="60"/>
 			<attack-range value="8"/>
 			<attack-type value="elephant"/>
@@ -168,7 +168,7 @@
 				<sound-file path="sounds/eleattack3.wav"/>
 				<sound-file path="sounds/eleattack3.wav"/>
 			</sound>
-			<attack-strenght value="290"/>
+			<attack-strenght value="280"/>
 			<attack-var value="80"/>
 			<attack-range value="2"/>
 			<attack-type value="elephant"/>

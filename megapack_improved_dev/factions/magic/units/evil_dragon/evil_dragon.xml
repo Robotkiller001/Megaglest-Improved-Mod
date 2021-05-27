@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="2"/>
 		<height value="1"/>
-		<max-hp value="1700" regeneration="5"/>
+		<max-hp value="1600" regeneration="5"/>
 		<max-ep value="1000" regeneration="200"/>
 		<armor value="40"/>
 		<armor-type value="organic"/>
@@ -102,7 +102,7 @@
 				<sound-file path="sounds/evil_dragon_attack3.wav"/>
 				<sound-file path="sounds/evil_dragon_attack4.wav"/>
 			</sound>
-			<attack-strenght value="440"/>
+			<attack-strenght value="400"/>
 			<attack-var value="100"/>
 			<attack-range value="10"/>
 			<attack-type value="energy"/>

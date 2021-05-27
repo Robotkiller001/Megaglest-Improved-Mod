@@ -98,7 +98,7 @@
 				<sound-file path="sounds/bee4.wav"/>
 				<sound-file path="sounds/bee5.wav"/>
 			</sound>
-			<attack-strenght value="80"/>
+			<attack-strenght value="70"/>
 			<attack-var value="30"/>
 			<attack-range value="1"/>
 			<attack-type value="beat"/>

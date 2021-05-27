@@ -142,8 +142,8 @@
 				<sound-file path="sounds/stickfighter_attack6.wav"/>
 				<sound-file path="sounds/stickfighter_attack7.wav"/>
 			</sound>
-			<attack-strenght value="120"/>
-			<attack-var value="40"/>
+			<attack-strenght value="110"/>
+			<attack-var value="30"/>
 			<attack-range value="1"/>
 			<attack-type value="piercing"/>
 			<attack-fields>
@@ -153,7 +153,9 @@
 			<projectile value="false">
 			</projectile>
 			<splash value="true">
-				<radius value="0"/>				<damage-all value="true"/>				<particle value="true" path="particle_splash.xml"/>
+				<radius value="0"/>
+				<damage-all value="true"/>
+				<particle value="true" path="particle_splash.xml"/>
 			</splash>
 		</skill>
 

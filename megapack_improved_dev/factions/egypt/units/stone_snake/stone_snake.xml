@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="3"/>
 		<height value="3"/>
-		<max-hp value="1900" regeneration="6" start-percentage="100"/>
+		<max-hp value="1800" regeneration="6" start-percentage="100"/>
 		<max-ep value="0" regeneration="0"/>
 		<armor value="20"/>
 		<armor-type value="stone"/>
@@ -113,7 +113,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack15.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack16.wav"/>
 			</sound>
-			<attack-strenght value="270"/>
+			<attack-strenght value="260"/>
 			<attack-var value="60"/>
 			<attack-range value="18"/>
 			<attack-type value="impact"/>

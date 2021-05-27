@@ -134,7 +134,7 @@
 					<affected-particle-file path="slow_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="210"/>
+			<attack-strenght value="200"/>
 			<attack-var value="60"/>
 			<attack-range value="1"/>
 			<attack-type value="sword"/>
@@ -180,8 +180,8 @@
 					<affected-particle-file path="slow_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="190"/>
-			<attack-var value="60"/>
+			<attack-strenght value="180"/>
+			<attack-var value="50"/>
 			<attack-range value="8"/>
 			<attack-type value="energy"/>
 			<attack-fields>
