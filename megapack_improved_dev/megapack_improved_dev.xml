@@ -114,8 +114,8 @@
 		<damage-multiplier attack="impact" armor="organic" value="0.75"/>
 		<damage-multiplier attack="impact" armor="leather" value="0.75"/>
 		<damage-multiplier attack="impact" armor="metal" value="1.25"/>
-		<damage-multiplier attack="impact" armor="wood" value="1.85"/>
-		<damage-multiplier attack="impact" armor="stone" value="1.6"/>
+		<damage-multiplier attack="impact" armor="wood" value="2.0"/>
+		<damage-multiplier attack="impact" armor="stone" value="1.75"/>
 		<damage-multiplier attack="impact" armor="hardened_skin" value="0.8"/>
 		<damage-multiplier attack="impact" armor="osiris_protection" value="0.8"/>
 		<damage-multiplier attack="impact" armor="ancient_recalls" value="0.8"/>
