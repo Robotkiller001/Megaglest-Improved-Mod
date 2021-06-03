@@ -27,7 +27,7 @@
 		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="gold" amount="225"/>
-			<resource name="wood" amount="125"/>
+			<resource name="wood" amount="100"/>
 			<resource name="energy" amount="3"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -112,7 +112,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>
-			<ep-cost value="600"/>
+			<ep-cost value="800"/>
 			<speed value="30"/>
 			<anim-speed value="100"/>
 			<animation path="models/engineer_summon.g3d"/>

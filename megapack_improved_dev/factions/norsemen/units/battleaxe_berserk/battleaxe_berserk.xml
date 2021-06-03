@@ -13,7 +13,7 @@
 		<armor-type value="leather"/>
 		<max-unit-count value="10"/>
 		<sight value="10"/>
-		<time value="40"/>
+		<time value="30"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
