@@ -11,7 +11,7 @@
 		<armor-type value="hardened_skin"/>
 		<max-unit-count value="10"/>
 		<sight value="12"/>
-		<time value="240"/>
+		<time value="220"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
