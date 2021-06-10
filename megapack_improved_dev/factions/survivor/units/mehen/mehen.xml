@@ -8,7 +8,7 @@
 		<max-ep value="0" regeneration="0"/>
 		<armor value="25"/>
 		<armor-type value="survivor"/>
-		<sight value="10"/>
+		<sight value="15"/>
 		<time value="135"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
