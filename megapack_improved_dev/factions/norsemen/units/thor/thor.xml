@@ -147,11 +147,6 @@
 				<field value="land"/>
 			</attack-fields>
 			<projectile value="false"/>
-				<!--particle value="true" path="particle_proj.xml"/>
-				<sound enabled="true">
-					<sound-file path="/sounds/golem_hit1.wav"/>
-				</sound>
-			</projectile-->
 			<splash value="true">
 				<radius value="1"/>
 				<damage-all value="true"/>

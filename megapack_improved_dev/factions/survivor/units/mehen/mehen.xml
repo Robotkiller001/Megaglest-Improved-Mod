@@ -164,7 +164,7 @@
 				<radius value="7"/>
                         	<target value="foe" include-self="false">
 				</target>
-				<max-hp value="0" regeneration="-60"/>
+				<max-hp value="0" regeneration="-40"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
 				<attack-strenght value="0" value-percent-multiplier="true"/>
@@ -185,7 +185,12 @@
 			</attack-fields>
 			<attack-start-time value="0.3"/>
 			<projectile value="false"/>
-			<splash value="false"/>
+			<projectile value="false"/>
+			<splash value="true">
+				<radius value="1"/>
+				<damage-all value="true"/>
+				<particle value="false"/>
+			</splash>
 		</skill>
 
 		<skill>
