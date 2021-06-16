@@ -115,8 +115,8 @@
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack13.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack14.wav"/>
 			</sound>
-			<attack-strenght value="170"/>
-			<attack-var value="60"/>
+			<attack-strenght value="160"/>
+			<attack-var value="50"/>
 			<attack-range value="1"/>
 			<attack-type value="sword"/>
 			<attack-fields>
