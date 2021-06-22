@@ -9,7 +9,7 @@
 		<armor value="20"/>
 		<armor-type value="osiris_protection"/>
 		<sight value="12"/>
-		<time value="160"/>
+		<time value="170"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>

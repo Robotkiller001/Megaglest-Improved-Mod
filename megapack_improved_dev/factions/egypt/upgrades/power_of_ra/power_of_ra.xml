@@ -20,7 +20,7 @@
 		<unit name="anubis_warrior"/>
 		<unit name="thunderstruck_scarab"/>
 	</effects>
-	<max-hp value="75"/>
+	<max-hp value="100"/>
 	<max-ep value="0"/>
 	<sight value="1"/>
 	<attack-strenght value="40"/>
