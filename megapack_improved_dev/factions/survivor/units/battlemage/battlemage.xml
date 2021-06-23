@@ -128,8 +128,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="260"/>
-			<anim-speed value="110"/>
+			<speed value="280"/>
+			<anim-speed value="120"/>
 			<animation path="models/battlemage_walking.g3d"/>
 			<particles value="true">
 				<particle-file path="glow_particles.xml"/>

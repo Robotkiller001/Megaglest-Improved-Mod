@@ -126,8 +126,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="240"/>
-			<anim-speed value="170"/>
+			<speed value="260"/>
+			<anim-speed value="180"/>
 			<animation path="models/catapult_walking.g3d"/>
 			<sound enabled="true" start-time="0.1">
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_walk1.wav"/>

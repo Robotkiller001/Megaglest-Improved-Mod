@@ -93,8 +93,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="280"/>
-			<anim-speed value="90"/>
+			<speed value="300"/>
+			<anim-speed value="100"/>
 			<animation path="models/mehen_walk.g3d"/>
 			<sound enabled="true" start-time="0.0">
 				<sound-file path="sounds/behemoth_walk1.wav"/>
