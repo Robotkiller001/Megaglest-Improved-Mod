@@ -97,8 +97,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="170"/>
-			<anim-speed value="65"/>
+			<speed value="180"/>
+			<anim-speed value="75"/>
 			<animation path="models/behemoth_walking.g3d"/>
 			<sound enabled="true" start-time="0.4">
 				<sound-file path="sounds/behemoth_walk1.wav"/>

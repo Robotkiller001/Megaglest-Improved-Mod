@@ -94,8 +94,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="200"/>
-			<anim-speed value="55"/>
+			<speed value="210"/>
+			<anim-speed value="60"/>
 			<animation path="models/general_walk.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
@@ -223,8 +223,8 @@
 			<type value="move"/>
 			<name value="charge_skill"/>
 			<ep-cost value="0"/>
-			<speed value="220"/>
-			<anim-speed value="65"/>
+			<speed value="230"/>
+			<anim-speed value="70"/>
 			<animation path="models/general_walk.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />

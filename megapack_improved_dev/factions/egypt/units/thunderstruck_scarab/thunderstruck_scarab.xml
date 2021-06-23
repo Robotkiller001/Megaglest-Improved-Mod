@@ -90,8 +90,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="200"/>
-			<anim-speed value="160"/>
+			<speed value="220"/>
+			<anim-speed value="170"/>
 			<animation path="models/scarab_walking.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />

@@ -119,8 +119,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="155"/>
-			<anim-speed value="60"/>
+			<speed value="165"/>
+			<anim-speed value="70"/>
 			<animation path="models/thor_walking.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/golem_walk1.wav"/>

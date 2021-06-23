@@ -79,7 +79,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="280"/>
+			<speed value="290"/>
 			<anim-speed value="250"/>
 			<animation path="models/queen_bee.g3d"/>
 			<sound enabled="false"/>

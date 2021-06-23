@@ -94,8 +94,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="230"/>
-			<anim-speed value="100"/>
+			<speed value="250"/>
+			<anim-speed value="110"/>
 			<animation path="models/battle_machine_walking.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
@@ -254,8 +254,8 @@
 			<type value="move"/>
 			<name value="charge_skill"/>
 			<ep-cost value="0"/>
-			<speed value="280"/>
-			<anim-speed value="115"/>
+			<speed value="300"/>
+			<anim-speed value="125"/>
 			<animation path="models/battle_machine_charging.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
