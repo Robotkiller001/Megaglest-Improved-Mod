@@ -13,8 +13,8 @@
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="expert" kills="8"/>
-			<level name="master" kills="16"/>
+			<level name="expert" kills="6"/>
+			<level name="master" kills="12"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -64,7 +64,7 @@
 				<allow-multiple-boosts value="false" />
 				<radius value="0"/>
                         	<target value="faction" include-self="true">
-					<unit-type name="ghost_armor" />
+					<unit-type name="ghost_armor_swordmaster" />
 				</target>
 				<max-hp value="0" regeneration="4"/>
 				<max-ep value="0"/>
