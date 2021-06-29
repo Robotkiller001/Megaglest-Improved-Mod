@@ -105,9 +105,9 @@
 
 			<ep-cost value="0"/>
 
-			<speed value="500"/>
+			<speed value="450"/>
 
-			<anim-speed value="90"/>
+			<anim-speed value="85"/>
 
 			<animation path="models/dragon_walking.g3d"/>
 
@@ -157,16 +157,33 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="50"/>
+			<speed value="60"/>
 			<anim-speed value="100"/>
 			<animation path="models/dragon_attacking.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/eagle_attack1.wav"/>
 			</sound>
-			<attack-strenght value="360"/>
+			<attack-strenght value="340"/>
 			<attack-var value="100"/>
 			<attack-range value="1"/>
 			<attack-type value="energy"/>
+                        <attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="0"/>
+                        	<target value="faction" include-self="true">
+					<unit-type name="thunderbird" />
+				</target>
+				<max-hp value="0"/>
+				<max-ep value="0"/>
+				<sight value="0"/>
+				<attack-strenght value="0" value-percent-multiplier="false"/>
+				<attack-range value="0"/>
+				<armor value="15"/>
+				<move-speed value="0"/>
+				<production-speed value="0"/>
+			<particles value="false">
+			</particles>
+                        </attack-boost>
 			<attack-fields>
 				<field value="air"/>
 			</attack-fields>
