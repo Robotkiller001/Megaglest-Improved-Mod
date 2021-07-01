@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/better_bees_stings.bmp"/>
 	<image-cancel path="images/bee_cancel.bmp"/>
-	<time value="350"/>
+	<time value="300"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
@@ -16,7 +16,7 @@
 	<max-hp value="0"/>
 	<max-ep value="0" regeneration="0"/>
 	<sight value="0"/>
-	<attack-strenght value="40"/>
+	<attack-strenght value="30"/>
 	<attack-range value="0"/>
 	<armor value="0"/>
 	<move-speed value="0"/>

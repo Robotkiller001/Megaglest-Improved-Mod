@@ -10,7 +10,7 @@
 		<armor value="20"/>
 		<armor-type value="skin"/>
 		<sight value="10"/>
-		<time value="55"/>
+		<time value="45"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
@@ -24,7 +24,7 @@
 		<unit-requirements/>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="pollen" amount="100" />
+			<resource name="pollen" amount="75" />
 			<resource name="honey" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -91,7 +91,7 @@
 				<sound-file path="sounds/bee4.wav"/>
 				<sound-file path="sounds/bee5.wav"/>
 			</sound>
-			<attack-strenght value="120"/>
+			<attack-strenght value="110"/>
 			<attack-var value="40"/>
 			<attack-range value="5"/>
 			<attack-type value="piercing"/>

@@ -5,12 +5,12 @@
 	<parameters>
 		<size value="1"/>
 		<height value="1"/>
-		<max-hp value="1400" regeneration="4" start-percentage="100"/>
+		<max-hp value="1300" regeneration="4" start-percentage="100"/>
 		<max-ep value="0" regeneration="0"/>
-		<armor value="40"/>
+		<armor value="35"/>
 		<armor-type value="skin"/>
 		<sight value="10"/>
-		<time value="100"/>
+		<time value="80"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
@@ -26,7 +26,7 @@
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="pollen" amount="225" />
+			<resource name="pollen" amount="175" />
 			<resource name="honey" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -97,8 +97,8 @@
 				<sound-file path="sounds/bee4.wav"/>
 				<sound-file path="sounds/bee5.wav"/>
 			</sound>
-			<attack-strenght value="130"/>
-			<attack-var value="40"/>
+			<attack-strenght value="120"/>
+			<attack-var value="30"/>
 			<attack-range value="1"/>
 			<attack-type value="beat"/>
 			<attack-fields>
