@@ -14,7 +14,7 @@
 		<cellmap value="false"/>
 		<levels>
 			<level name="expert" kills="6"/>
-			<level name="master" kills="12"/>
+			<level name="master" kills="14"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -109,9 +109,9 @@
 				<sound-file path="sounds/ghost_armor_attack9.wav"/>
 				<sound-file path="sounds/ghost_armor_attack10.wav"/>
 			</sound>
-			<attack-strenght value="190"/>
+			<attack-strenght value="180"/>
 			<attack-var value="40"/>
-			<attack-range value="7"/>
+			<attack-range value="8"/>
 			<attack-type value="sword"/>
 			<attack-start-time value="0"/>
 			<attack-fields>
