@@ -7,12 +7,12 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="1000" regeneration="4" start-percentage="100"/>
+		<max-hp value="900" regeneration="4" start-percentage="100"/>
 		<max-ep value="0"/>
 		<armor value="30"/>
 		<armor-type value="metal"/>
 		<sight value="10"/>
-		<time value="120"/>
+		<time value="100"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
@@ -29,7 +29,7 @@
 		<upgrade-requirements/>
 		<resource-requirements>
 			<resource name="stone" amount="75"/>
-			<resource name="gold" amount="225"/>
+			<resource name="gold" amount="200"/>
 			<resource name="housing" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>
