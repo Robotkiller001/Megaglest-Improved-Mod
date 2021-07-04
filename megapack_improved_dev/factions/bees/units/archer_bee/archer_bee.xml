@@ -24,7 +24,7 @@
 		<unit-requirements/>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="pollen" amount="75" />
+			<resource name="pollen" amount="100" />
 			<resource name="honey" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
