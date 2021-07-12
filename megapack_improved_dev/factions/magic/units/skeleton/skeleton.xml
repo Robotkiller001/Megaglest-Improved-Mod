@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="800" regeneration="-25" start-percentage="100"/>
+		<max-hp value="850" regeneration="-25" start-percentage="100"/>
 		<max-ep value="0"/>
 		<armor value="25"/>
 		<armor-type value="organic"/>
