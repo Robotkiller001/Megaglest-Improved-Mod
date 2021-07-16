@@ -95,8 +95,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="80"/>
-			<anim-speed value="80"/>
+			<speed value="90"/>
+			<anim-speed value="90"/>
 			<animation path="models/worker_attacking.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/axe_thrower_attack1.wav"/>

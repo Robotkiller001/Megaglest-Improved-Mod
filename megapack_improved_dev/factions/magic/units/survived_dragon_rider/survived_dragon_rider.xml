@@ -84,8 +84,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="100"/>
-			<speed value="60"/>
-			<anim-speed value="60"/>
+			<speed value="70"/>
+			<anim-speed value="70"/>
 			<animation path="models/summoner_attacking.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="$COMMONDATAPATH/sounds/summoner_attack1.wav"/>

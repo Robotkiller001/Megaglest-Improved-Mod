@@ -87,8 +87,8 @@
 			<type value="attack"/>
 			<name value="molotov_skill"/>
 			<ep-cost value="0"/>
-			<speed value="35"/>
-			<anim-speed value="35"/>
+			<speed value="45"/>
+			<anim-speed value="45"/>
 			<animation path="models/technician_attacking.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/technician_attack.wav"/>

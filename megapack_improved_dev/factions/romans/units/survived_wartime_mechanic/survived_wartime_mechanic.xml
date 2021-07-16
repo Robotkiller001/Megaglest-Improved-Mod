@@ -70,8 +70,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="120"/>
-			<anim-speed value="120"/>
+			<speed value="130"/>
+			<anim-speed value="130"/>
 			<animation path="models/wartime_mechanic_attack.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack1.wav"/>

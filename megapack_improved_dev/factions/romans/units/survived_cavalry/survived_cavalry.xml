@@ -84,8 +84,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="40"/>
-			<anim-speed value="80"/>
+			<speed value="90"/>
+			<anim-speed value="90"/>
 			<animation path="models/spear_man_attack.g3d"/>
 			<sound enabled="true" start-time="0.47">
 				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack1.wav"/>
