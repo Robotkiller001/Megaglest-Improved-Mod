@@ -3,14 +3,14 @@
 <upgrade>
 	<image path="images/magic_sharpening.bmp"/>
 	<image-cancel path="../better_bees_stings/images/bee_cancel.bmp"/>
-	<time value="400"/>
+	<time value="500"/>
 	<unit-requirements/>
 	<upgrade-requirements>
 		<upgrade name="thick_skin"/>
 		<upgrade name="piercing_stings"/>
 	</upgrade-requirements>
 	<resource-requirements>
-		<resource name="pollen" amount="375"/>
+		<resource name="pollen" amount="400"/>
 	</resource-requirements>
 	<effects>
 		<unit name="magic_bee"/>
@@ -20,7 +20,7 @@
 	<max-hp value="100"/>
 	<max-ep value="500" regeneration="5"/>
 	<sight value="0"/>
-	<attack-strenght value="60"/>
+	<attack-strenght value="70"/>
 	<attack-range value="1"/>
 	<armor value="10"/>
 	<move-speed value="0"/>

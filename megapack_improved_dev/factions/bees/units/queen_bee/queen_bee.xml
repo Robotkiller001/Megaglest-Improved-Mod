@@ -116,7 +116,7 @@
 				<sound-file path="sounds/bee5.wav"/>
 			</sound>
 			<attack-strenght value="180"/>
-			<attack-var value="60"/>
+			<attack-var value="50"/>
 			<attack-range value="7"/>
 			<attack-type value="queen_bee"/>
 			<attack-fields>

@@ -10,7 +10,7 @@
 		<armor value="20"/>
 		<armor-type value="skin"/>
 		<sight value="10"/>
-		<time value="45"/>
+		<time value="50"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
@@ -24,7 +24,7 @@
 		<unit-requirements/>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="pollen" amount="100" />
+			<resource name="pollen" amount="125" />
 			<resource name="honey" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>

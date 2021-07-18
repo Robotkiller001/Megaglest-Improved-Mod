@@ -7,14 +7,14 @@
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
-		<resource name="pollen" amount="375"/>
+		<resource name="pollen" amount="400"/>
 	</resource-requirements>
 	<effects>
 		<unit name="warrior_bee"/>
 		<unit name="archer_bee"/>
 		<unit name="swarm_of_bees"/>
 	</effects>
-	<max-hp value="100"/>
+	<max-hp value="200"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strenght value="0"/>

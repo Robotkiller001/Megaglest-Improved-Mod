@@ -3,12 +3,12 @@
 <upgrade>
 	<image path="images/piercing_stings.bmp"/>
 	<image-cancel path="../better_bees_stings/images/bee_cancel.bmp"/>
-	<time value="350"/>
+	<time value="450"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
-		<resource name="pollen" amount="300"/>
+		<resource name="pollen" amount="350"/>
 	</resource-requirements>
 	<effects>
 		<unit name="archer_bee"/>
@@ -16,7 +16,7 @@
 	<max-hp value="0"/>
 	<max-ep value="0"/>
 	<sight value="1"/>
-	<attack-strenght value="40"/>
+	<attack-strenght value="50"/>
 	<attack-range value="1"/>
 	<armor value="0"/>
 	<move-speed value="0"/>

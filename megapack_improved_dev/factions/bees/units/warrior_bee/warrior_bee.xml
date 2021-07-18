@@ -9,7 +9,7 @@
 		<height value="1"/>
 		<max-hp value="700" regeneration="2" start-percentage="100"/>
 		<max-ep value="0" regeneration="0"/>
-		<armor value="15"/>
+		<armor value="10"/>
 		<armor-type value="skin"/>
 		<sight value="8"/>
 		<time value="24"/>
