@@ -5,7 +5,7 @@
 	<parameters>
 		<size value="2"/>
 		<height value="2"/>
-		<max-hp value="4000" regeneration="16" start-percentage="100"/>
+		<max-hp value="3900" regeneration="16" start-percentage="100"/>
 		<max-ep value="2000" regeneration="40" start-percentage="40"/>
 		<armor value="40"/>
 		<armor-type value="hardened_skin"/>

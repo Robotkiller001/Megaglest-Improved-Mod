@@ -17,7 +17,7 @@
 		<unit name="queen_bee"/>
 		<unit name="thunderstruck_queen_bee"/>
 	</effects>
-	<max-hp value="100"/>
+	<max-hp value="200"/>
 	<max-ep value="500" regeneration="5"/>
 	<sight value="0"/>
 	<attack-strenght value="70"/>
