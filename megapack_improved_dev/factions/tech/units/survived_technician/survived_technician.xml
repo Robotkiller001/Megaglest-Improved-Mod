@@ -71,6 +71,9 @@
 			<anim-speed value="55"/>
 			<animation path="models/technician_standing.g3d"/>
 			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="blood_particles.xml"/>
+			</particles>
 		</skill>
 
 		<skill>
@@ -81,6 +84,9 @@
 			<anim-speed value="210"/>
 			<animation path="models/technician_walking.g3d"/>
 			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="blood_particles.xml"/>
+			</particles>
 		</skill>
 
 		<skill>
@@ -90,6 +96,9 @@
 			<speed value="45"/>
 			<anim-speed value="45"/>
 			<animation path="models/technician_attacking.g3d"/>
+			<particles value="true">
+				<particle-file path="blood_particles.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/technician_attack.wav"/>
 			</sound>

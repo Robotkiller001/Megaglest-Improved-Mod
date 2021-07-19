@@ -57,6 +57,9 @@
 				<animation path="models/general_idle1.g3d"/>
 				<animation path="models/general_idle2.g3d"/>
 			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="blood_particles.xml"/>
+			</particles>
 		</skill>
 
 		<skill>
@@ -67,6 +70,9 @@
 			<anim-speed value="55"/>
 			<animation path="models/general_walk.g3d"/>
 			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="blood_particles.xml"/>
+			</particles>
 		</skill>
 
 		<skill>
@@ -76,6 +82,9 @@
 			<speed value="90"/>
 			<anim-speed value="90"/>
 			<animation path="models/general_attack.g3d"/>
+			<particles value="true">
+				<particle-file path="blood_particles.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack2.wav"/>
@@ -128,6 +137,9 @@
 			<anim-speed value="65"/>
 			<animation path="models/general_walk.g3d"/>
 			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="blood_particles.xml"/>
+			</particles>
 		</skill>
 
 	</skills>

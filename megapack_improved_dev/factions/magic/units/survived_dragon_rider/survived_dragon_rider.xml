@@ -68,6 +68,9 @@
 			<anim-speed value="40"/>
 			<animation path="models/summoner_standing.g3d"/>
 			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="blood_particles.xml"/>
+			</particles>
 		</skill>
 
 		<skill>
@@ -78,6 +81,9 @@
 			<anim-speed value="120"/>
 			<animation path="models/summoner_walking.g3d"/>
 			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="blood_particles.xml"/>
+			</particles>
 		</skill>
 
 		<skill>
@@ -87,6 +93,9 @@
 			<speed value="70"/>
 			<anim-speed value="70"/>
 			<animation path="models/summoner_attacking.g3d"/>
+			<particles value="true">
+				<particle-file path="blood_particles.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="$COMMONDATAPATH/sounds/summoner_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/summoner_attack2.wav"/>

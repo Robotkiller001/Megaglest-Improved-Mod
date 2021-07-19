@@ -61,24 +61,10 @@
 			<speed value="1000"/>
 			<anim-speed value="40"/>
 			<animation path="models/worker_standing.g3d"/>
-                        <attack-boost>
-				<allow-multiple-boosts value="false" />
-				<radius value="0"/>
-                        	<target value="faction" include-self="true">
-					<unit-type name="axe_thrower" />
-				</target>
-				<max-hp value="0" regeneration="4"/>
-				<max-ep value="0"/>
-				<sight value="0"/>
-				<attack-strenght value="0" value-percent-multiplier="true"/>
-				<attack-range value="0"/>
-				<armor value="0"/>
-				<move-speed value="0"/>
-				<production-speed value="0"/>
-			<particles value="false">
-			</particles>
-                        </attack-boost>
 			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="blood_particles.xml"/>
+			</particles>
 		</skill>
 
 		<skill>
@@ -89,6 +75,9 @@
 			<anim-speed value="150"/>
 			<animation path="models/worker_walking.g3d"/>
 			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="blood_particles.xml"/>
+			</particles>
 		</skill>
 
 		<skill>
@@ -98,6 +87,9 @@
 			<speed value="90"/>
 			<anim-speed value="90"/>
 			<animation path="models/worker_attacking.g3d"/>
+			<particles value="true">
+				<particle-file path="blood_particles.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/axe_thrower_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/axe_thrower_attack2.wav"/>
@@ -120,7 +112,6 @@
 				<sound enabled="false">
 				</sound>
 			</projectile>
-
 			<splash value="false"/>
 		</skill>
 

@@ -58,6 +58,9 @@
 				<animation path="models/spear_man_idle1.g3d"/>
 				<animation path="models/spear_man_idle2.g3d"/>
 			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="blood_particles.xml"/>
+			</particles>
 		</skill>
 
 		<skill>
@@ -68,6 +71,9 @@
 			<anim-speed value="90"/>
 				<animation path="models/spear_man_walk.g3d"/>
 			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="blood_particles.xml"/>
+			</particles>
 		</skill>
 
 		<skill>
@@ -78,6 +84,9 @@
 			<anim-speed value="125"/>
 				<animation path="models/spear_man_walk.g3d"/>
 			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="blood_particles.xml"/>
+			</particles>
 		</skill>
 
 		<skill>
@@ -87,6 +96,9 @@
 			<speed value="90"/>
 			<anim-speed value="90"/>
 			<animation path="models/spear_man_attack.g3d"/>
+			<particles value="true">
+				<particle-file path="blood_particles.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0.47">
 				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack2.wav"/>
