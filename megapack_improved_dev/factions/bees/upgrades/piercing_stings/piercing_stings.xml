@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/piercing_stings.bmp"/>
 	<image-cancel path="../better_bees_stings/images/bee_cancel.bmp"/>
-	<time value="450"/>
+	<time value="400"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<upgrade-requirements/>
@@ -13,7 +13,7 @@
 	<effects>
 		<unit name="archer_bee"/>
 	</effects>
-	<max-hp value="100"/>
+	<max-hp value="0"/>
 	<max-ep value="0"/>
 	<sight value="1"/>
 	<attack-strenght value="50"/>

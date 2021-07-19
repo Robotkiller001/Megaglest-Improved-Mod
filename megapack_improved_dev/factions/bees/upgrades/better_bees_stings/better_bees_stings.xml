@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/better_bees_stings.bmp"/>
 	<image-cancel path="images/bee_cancel.bmp"/>
-	<time value="450"/>
+	<time value="400"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
@@ -13,7 +13,7 @@
 		<unit name="warrior_bee"/>
 		<unit name="swarm_of_bees"/>
 	</effects>
-	<max-hp value="100"/>
+	<max-hp value="0"/>
 	<max-ep value="0" regeneration="0"/>
 	<sight value="0"/>
 	<attack-strenght value="40"/>
