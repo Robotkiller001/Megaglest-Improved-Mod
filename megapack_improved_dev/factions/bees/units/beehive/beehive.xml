@@ -29,7 +29,7 @@
 		<unit-requirements/>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="pollen" amount="500" />
+			<resource name="pollen" amount="600" />
 		</resource-requirements>
 		<resources-stored>
 			<resource name="pollen" amount="2500"/>
