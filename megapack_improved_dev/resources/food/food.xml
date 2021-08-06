@@ -3,6 +3,6 @@
 <resource>
 	<image path="images/food.bmp"/>
 	<type value="consumable">
-		<interval value="30"/>
+		<interval value="15"/>
 	</type>
 </resource>
