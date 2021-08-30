@@ -16,12 +16,12 @@
 			<level name="basic" kills="32"/>
 			<level name="advanced" kills="50"/>
 			<level name="expert" kills="75"/>
-			<level name="master" kills="105"/>
-			<level name="grandmaster" kills="150"/>
-			<level name="mayor" kills="215"/>
-			<level name="imperator" kills="305"/>
-			<level name="god" kills="450"/>
-			<level name="adpocalypse" kills="650"/>
+			<level name="master" kills="110"/>
+			<level name="grandmaster" kills="155"/>
+			<level name="mayor" kills="225"/>
+			<level name="imperator" kills="325"/>
+			<level name="god" kills="475"/>
+			<level name="adpocalypse" kills="700"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -116,7 +116,7 @@
 			<type value="harvest"/>
 			<name value="harvest_skill"/>
 			<ep-cost value="0"/>
-			<speed value="500"/>
+			<speed value="550"/>
 			<anim-speed value="90"/>
 			<animation path="models/mehen_attack.g3d"/>
 			<sound enabled="true" start-time="0">

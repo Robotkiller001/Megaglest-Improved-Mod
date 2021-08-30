@@ -15,11 +15,11 @@
 		<levels>
 			<level name="basic" kills="4"/>
 			<level name="advanced" kills="8"/>
-			<level name="expert" kills="14"/>
-			<level name="master" kills="20"/>
-			<level name="grandmaster" kills="30"/>
-			<level name="god" kills="38"/>
-			<level name="skygod" kills="56"/>
+			<level name="expert" kills="16"/>
+			<level name="master" kills="22"/>
+			<level name="grandmaster" kills="34"/>
+			<level name="god" kills="42"/>
+			<level name="skygod" kills="62"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -140,7 +140,7 @@
 			<type value="harvest"/>
 			<name value="harvest_skill"/>
 			<ep-cost value="0"/>
-			<speed value="300"/>
+			<speed value="350"/>
 			<anim-speed value="100"/>
 			<animation path="models/battlemage_mining.g3d"/>
 			<particles value="true">

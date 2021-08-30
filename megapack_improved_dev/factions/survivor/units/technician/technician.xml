@@ -16,11 +16,11 @@
 		<levels>
 			<level name="basic" kills="4"/>
 			<level name="advanced" kills="8"/>
-			<level name="expert" kills="14"/>
-			<level name="master" kills="20"/>
-			<level name="grandmaster" kills="30"/>
-			<level name="mayor" kills="38"/>
-			<level name="imperator" kills="56"/>
+			<level name="expert" kills="16"/>
+			<level name="master" kills="22"/>
+			<level name="grandmaster" kills="34"/>
+			<level name="mayor" kills="42"/>
+			<level name="imperator" kills="62"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -118,7 +118,7 @@
 			<type value="harvest"/>
 			<name value="mine_skill"/>
 			<ep-cost value="0"/>
-			<speed value="300"/>
+			<speed value="350"/>
 			<anim-speed value="210"/>
 			<animation path="models/technician_mining.g3d"/>
 			<sound enabled="true" start-time="0.5">

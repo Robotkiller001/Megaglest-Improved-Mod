@@ -16,12 +16,12 @@
 			<level name="basic" kills="40"/>
 			<level name="advanced" kills="60"/>
 			<level name="expert" kills="85"/>
-			<level name="master" kills="115"/>
-			<level name="grandmaster" kills="160"/>
-			<level name="daemon" kills="225"/>
-			<level name="god" kills="325"/>
-			<level name="skygod" kills="475"/>
-			<level name="adpocalypse" kills="700"/>
+			<level name="master" kills="120"/>
+			<level name="grandmaster" kills="170"/>
+			<level name="daemon" kills="240"/>
+			<level name="god" kills="345"/>
+			<level name="skygod" kills="525"/>
+			<level name="adpocalypse" kills="750"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -127,7 +127,7 @@
 			<type value="harvest"/>
 			<name value="harvest_skill"/>
 			<ep-cost value="0"/>
-			<speed value="500"/>
+			<speed value="550"/>
 			<anim-speed value="110"/>
 			<animation path="models/archmage_mining.g3d"/>
 			<particles value="true">
