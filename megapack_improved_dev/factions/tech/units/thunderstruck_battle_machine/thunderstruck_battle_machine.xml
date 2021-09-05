@@ -17,8 +17,8 @@
 		<cellmap value="false"/>
 		<levels>
 			<level name="expert" kills="25"/>
-			<level name="master" kills="45"/>
-			<level name="legendary" kills="65"/>
+			<level name="master" kills="50"/>
+			<level name="legendary" kills="75"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -200,7 +200,7 @@
 					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="240"/>
+			<attack-strenght value="250"/>
 			<attack-var value="80"/>
 			<attack-range value="9"/>
 			<attack-type value="battle_machine"/>

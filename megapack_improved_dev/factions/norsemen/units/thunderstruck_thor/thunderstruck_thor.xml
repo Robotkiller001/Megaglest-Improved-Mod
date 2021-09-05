@@ -19,8 +19,8 @@
 		<cellmap value="false"/>
 		<levels>
 			<level name="expert" kills="20"/>
-			<level name="master" kills="45"/>
-			<level name="legendary" kills="65"/>
+			<level name="master" kills="50"/>
+			<level name="legendary" kills="75"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -165,7 +165,7 @@
 					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="360"/>
+			<attack-strenght value="380"/>
 			<attack-var value="100"/>
 			<attack-range value="2"/>
 			<attack-type value="thor"/>
@@ -219,7 +219,7 @@
 					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="270"/>
+			<attack-strenght value="280"/>
 			<attack-var value="80"/>
 			<attack-range value="10"/>
 			<attack-type value="thor"/>
