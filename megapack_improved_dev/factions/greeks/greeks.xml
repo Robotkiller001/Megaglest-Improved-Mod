@@ -10,7 +10,7 @@
 	</starting-resources>
 	<starting-units>
 		<unit name="civic_center" amount="1"/>
-		<unit name="chicken" amount="3"/>
+		<unit name="chicken" amount="1"/>
 		<unit name="slave" amount="4"/>
 		<unit name="hoplite" amount="0"/>
 		<unit name="archer" amount="0"/>
