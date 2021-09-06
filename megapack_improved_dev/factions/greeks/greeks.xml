@@ -31,6 +31,12 @@
 		<upgrades>
 			<upgrade name="training_field"/>
 			<upgrade name="advanced_architecture"/>
+			<upgrade name="barley_bales"/>
+			<upgrade name="helmets"/>
+			<upgrade name="pandoras_box"/>
+			<upgrade name="royal_blessing"/>
+			<upgrade name="shields"/>
+			<upgrade name="weapons"/>
 		</upgrades>
 	</ai-behavior>
 	<music value="true" path="music/music_greek.ogg"/>
