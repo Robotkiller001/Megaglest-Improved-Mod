@@ -13,6 +13,7 @@
 		<resource name="stone" amount="50"/>
 	</resource-requirements>
 	<effects>
+		<unit name="psiloi"/>
 		<unit name="chariot"/>
 		<unit name="dragon"/>
 		<unit name="atlas"/>
