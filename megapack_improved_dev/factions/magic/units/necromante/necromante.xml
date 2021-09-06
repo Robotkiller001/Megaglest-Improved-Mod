@@ -78,7 +78,7 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="55"/>
-			<animation path="models/engineer_idle.g3d"/>
+			<animation path="models/necromante_stop.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
 				<radius value="0"/>
@@ -105,7 +105,7 @@
 			<ep-cost value="0"/>
 			<speed value="180"/>
 			<anim-speed value="120"/>
-			<animation path="models/engineer_walk.g3d"/>
+			<animation path="models/necromante_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
@@ -115,7 +115,7 @@
 			<ep-cost value="800"/>
 			<speed value="30"/>
 			<anim-speed value="100"/>
-			<animation path="models/engineer_summon.g3d"/>
+			<animation path="models/necromante_summon.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="$COMMONDATAPATH/sounds/summoner_summon1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/summoner_summon2.wav"/>
@@ -144,7 +144,7 @@
 			<ep-cost value="0"/>
 			<speed value="90"/>
 			<anim-speed value="50"/>
-			<animation path="models/engineer_die.g3d"/>
+			<animation path="models/necromante_die.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/technician_die1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/technician_die2.wav"/>
