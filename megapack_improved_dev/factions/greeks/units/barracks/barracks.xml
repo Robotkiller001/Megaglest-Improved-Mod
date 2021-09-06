@@ -77,7 +77,7 @@
 			<animation path="models/barracks.g3d" />
 			<sound enabled="false" />
 			<particles value="true">
-				<particle-file path="../../particles/upgrade_particles.xml" />
+				<particle-file path="upgrade_particles.xml" />
 			</particles>
 		</skill>
 

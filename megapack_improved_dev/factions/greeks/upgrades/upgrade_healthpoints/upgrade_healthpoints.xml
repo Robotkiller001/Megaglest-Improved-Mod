@@ -18,9 +18,9 @@
 		<unit name="chariot"/>
 		<unit name="dragon"/>
 		<unit name="hoplite"/>
-		<unit name="oanger"/>
+		<unit name="onager"/>
 		<unit name="peltast"/>
-		<unit name="pliloi"/>
+		<unit name="psiloi"/>
 		<unit name="wild_sow"/>
 		<unit name="thunderstruck_alexander"/>
 	</effects>

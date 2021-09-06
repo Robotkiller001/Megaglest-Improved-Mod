@@ -108,7 +108,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/anvil4.wav"/>
 			</sound>
 			<particles value="true">
-				<particle-file path="../../particles/upgrade_particles.xml" />
+				<particle-file path="upgrade_particles.xml" />
 			</particles>
 		</skill>
 

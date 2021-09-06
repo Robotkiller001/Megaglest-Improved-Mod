@@ -80,9 +80,9 @@
 					<unit-type name="chariot"/>
 					<unit-type name="dragon"/>
 					<unit-type name="hoplite"/>
-					<unit-type name="oanger"/>
+					<unit-type name="onager"/>
 					<unit-type name="peltast"/>
-					<unit-type name="pliloi"/>
+					<unit-type name="psiloi"/>
 					<unit-type name="wild_sow"/>
 					<unit-type name="thunderstruck_alexander"/>
 				</target>
@@ -131,9 +131,9 @@
 					<unit-type name="chariot"/>
 					<unit-type name="dragon"/>
 					<unit-type name="hoplite"/>
-					<unit-type name="oanger"/>
+					<unit-type name="onager"/>
 					<unit-type name="peltast"/>
-					<unit-type name="pliloi"/>
+					<unit-type name="psiloi"/>
 					<unit-type name="wild_sow"/>
 					<unit-type name="thunderstruck_alexander"/>
 				</target>
@@ -172,9 +172,9 @@
 					<unit-type name="chariot"/>
 					<unit-type name="dragon"/>
 					<unit-type name="hoplite"/>
-					<unit-type name="oanger"/>
+					<unit-type name="onager"/>
 					<unit-type name="peltast"/>
-					<unit-type name="pliloi"/>
+					<unit-type name="psiloi"/>
 					<unit-type name="wild_sow"/>
 					<unit-type name="thunderstruck_alexander"/>
 				</target>
@@ -192,6 +192,9 @@
 				</particles>
                         </attack-boost>
 			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="upgrade_particles.xml" />
+			</particles>
 		</skill>
 
 		<skill>
