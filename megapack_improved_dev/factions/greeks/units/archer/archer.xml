@@ -1,0 +1,211 @@
+<?xml version="1.0" standalone="no"?>
+
+<unit>
+	<parameters>
+		<size value="1"/>
+		<height value="2"/>
+		<max-hp value="600" regeneration="1" start-percentage="100"/>
+		<max-ep value="0"/>
+		<armor value="20"/>
+		<armor-type value="leather"/>
+		<sight value="13"/>
+		<time value="60"/>
+		<multi-selection value="true"/>
+		<uniform-selection value="false"/>
+		<cellmap value="false"/>
+		<levels>
+			<level name="elite" kills="6"/>
+		</levels>
+		<fields>
+			<field value="land"/>
+			<field value="air"/>
+		</fields>
+		<properties/>
+		<light enabled="false"/>
+		<unit-requirements/>
+		<upgrade-requirements/>
+		<resource-requirements>
+			<resource name="wood" amount="50"/>
+			<resource name="gold" amount="100"/>
+			<resource name="food" amount="1"/>
+		</resource-requirements>
+		<resources-stored/>
+		<image path="images/archer.bmp"/>
+		<image-cancel path="images/tech_cancel.bmp"/>
+		<meeting-point value="false"/>
+		<selection-sounds enabled="true">
+			<sound path="sounds/archer_select1.ogg"/>
+			<sound path="sounds/archer_select2.ogg"/>
+			<sound path="sounds/archer_select3.ogg"/>
+			<sound path="sounds/archer_select4.ogg"/>
+			<sound path="sounds/archer_select5.ogg"/>
+			<sound path="sounds/archer_select6.ogg"/>
+			<sound path="sounds/archer_select7.ogg"/>
+			<sound path="sounds/archer_select8.ogg"/>
+			<sound path="sounds/archer_select9.ogg"/>
+			<sound path="sounds/archer_select10.ogg"/>
+			<sound path="sounds/archer_select11.ogg"/>
+
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="sounds/archer_ack1.ogg"/>
+			<sound path="sounds/archer_ack2.ogg"/>
+			<sound path="sounds/archer_ack3.ogg"/>
+			<sound path="sounds/archer_ack4.ogg"/>
+			<sound path="sounds/archer_ack5.ogg"/>
+			<sound path="sounds/archer_ack6.ogg"/>
+			<sound path="sounds/archer_ack7.ogg"/>
+			<sound path="sounds/archer_ack8.ogg"/>
+			<sound path="sounds/archer_ack9.ogg"/>
+			<sound path="sounds/archer_ack10.ogg"/>
+			<sound path="sounds/archer_ack11.ogg"/>
+			<sound path="sounds/archer_ack12.ogg"/>
+			<sound path="sounds/archer_ack13.ogg"/>
+			<sound path="sounds/archer_ack14.ogg"/>
+			<sound path="sounds/archer_ack15.ogg"/>
+		</command-sounds>
+	</parameters>
+
+	<skills>
+
+		<skill>
+			<type value="stop"/>
+			<name value="stop_skill"/>
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="45"/>
+			<animation path="models/archer_idle.g3d"/>
+                        <attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="0"/>
+                        	<target value="faction" include-self="true">
+					<unit-type name="archer" />
+				</target>
+				<max-hp value="0" regeneration="4"/>
+				<max-ep value="0"/>
+				<sight value="0"/>
+				<attack-strenght value="0" value-percent-multiplier="true"/>
+				<attack-range value="0"/>
+				<armor value="0"/>
+				<move-speed value="0"/>
+				<production-speed value="0"/>
+			<particles value="false">
+			</particles>
+                        </attack-boost>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="move"/>
+			<name value="move_skill"/>
+			<ep-cost value="0"/>
+			<speed value="220"/>
+			<anim-speed value="125"/>
+			<animation path="models/archer_walk.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="attack"/>
+			<name value="attack_skill"/>
+			<ep-cost value="0"/>
+			<speed value="55"/>
+			<anim-speed value="55"/>
+			<animation path="models/archer_attack.g3d"/>
+			<sound enabled="true" start-time="0.2">
+				<sound-file path="/sounds/archer_attack1.ogg"/>
+				<sound-file path="/sounds/archer_attack2.ogg"/>
+				<sound-file path="/sounds/archer_attack3.ogg"/>
+				<sound-file path="/sounds/archer_attack4.ogg"/>
+			</sound>
+			<attack-strength value="110"/>
+			<attack-var value="40"/>
+			<attack-range value="10"/>
+			<attack-type value="arrow"/>
+			<attack-start-time value="0.2"/>
+			<attack-fields>
+				<field value="land"/>
+				<field value="air"/>
+			</attack-fields>
+			<projectile value="true">
+				<particle value="true" path="particle_proj.xml"/>
+				<sound enabled="true">
+					<sound-file path="/sounds/arrow_hit1.ogg"/>
+					<sound-file path="/sounds/arrow_hit2.ogg"/>
+					<sound-file path="/sounds/arrow_hit3.ogg"/>
+					<sound-file path="/sounds/arrow_hit4.ogg"/>
+					<sound-file path="/sounds/arrow_hit5.ogg"/>
+				</sound>
+			</projectile>
+			<splash value="true">
+				<radius value="0"/>
+				<damage-all value="false"/>
+				<particle value="true" path="../../particles/archer_hit_splash.xml"/>
+			</splash>
+		</skill>
+
+		<skill>
+			<type value="die"/>
+			<name value="die_skill"/>
+			<ep-cost value="0"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
+			<animation path="models/archer_die.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/archer_die1.ogg"/>
+				<sound-file path="sounds/archer_die2.ogg"/>
+				<sound-file path="sounds/archer_die3.ogg"/>
+				<sound-file path="sounds/archer_die4.ogg"/>
+			</sound>
+			<fade value="false"/>
+		</skill>
+
+
+	</skills>
+
+	<!-- *** commands *** -->
+
+	<commands>
+
+		<command>
+			<type value= "stop"/>
+			<name value="stop"/>
+			<image path="images/tech_stop.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+		</command>
+
+		<command>
+			<type value="move"/>
+			<name value="move"/>
+			<image path="images/tech_move.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+		</command>
+
+		<command>
+			<type value="attack"/>
+			<name value="attack"/>
+			<image path="images/archer_attack.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+		<command>
+			<type value="attack_stopped"/>
+			<name value="hold_position"/>
+			<image path="images/tech_hold.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements>
+				<upgrade name="training_field"/>
+			</upgrade-requirements>
+			<stop-skill value="stop_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+	</commands>
+</unit>
