@@ -17,6 +17,7 @@
 		<unit name="peltast"/>
 		<unit name="cavalry"/>
 		<unit name="dragon"/>
+		<unit name="wild_sow"/>
 	</effects>
 	<max-hp value="50"/>
 	<max-ep value="0"/>
