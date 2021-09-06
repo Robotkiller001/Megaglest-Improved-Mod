@@ -12,7 +12,7 @@
 		<max-ep value="0"/>
 		<armor value="50"/>
 		<armor-type value="leather"/>
-		<sight value="13"/>
+		<sight value="12"/>
 		<time value="120"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
@@ -120,7 +120,7 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="120"/>
+			<speed value="50"/>
 			<anim-speed value="50"/>
 			<animation path="models/battering_ram_attack.g3d"/>
 			<sound enabled="true" start-time="0.3">
