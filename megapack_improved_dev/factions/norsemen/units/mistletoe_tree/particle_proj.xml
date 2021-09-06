@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <projectile-particle-system>
-    	<texture value="true" path="images/initiate_particle.bmp" luminance="true"/>
+    	<texture value="true" path="images/particle.bmp" luminance="true"/>
     	<model value="true" path="models/mistleball.g3d"/>
         <primitive value="quad"/>
 	<offset x="0" y="3" z="0"/>

@@ -2,7 +2,7 @@
 <unit>
 	<parameters>
 		<size value="2" />
-		<height value="5" />
+		<height value="4" />
 		<ai-build-size value="3"/>
 		<max-hp value="9000" regeneration="6"/>
 		<max-ep value="0" />
@@ -50,7 +50,7 @@
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="300"/>
-			<animation path="models/mistletree_construction.g3d"/>
+			<animation path="models/mistletoe_tree_build.g3d"/>
 			<sound enabled="false"/>
 			<type value="be_built"/>
 		</skill>
@@ -59,8 +59,8 @@
 			<name value="stop_skill"/>
 			<ep-cost value="0"/>
 			<speed value="100"/>
-			<anim-speed value="20"/>
-			<animation path="models/mistletree.g3d"/>
+			<anim-speed value="50"/>
+			<animation path="models/mistletoe_tree.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 		<skill>
@@ -68,8 +68,8 @@
 			<name value="produce_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
-			<anim-speed value="30"/>
-			<animation path="models/mistletree.g3d"/>
+			<anim-speed value="80"/>
+			<animation path="models/mistletoe_tree.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 		<skill>
@@ -78,7 +78,7 @@
 			<ep-cost value="0"/>
 			<speed value="80"/>
 			<anim-speed value="80"/>
-			<animation path="models/mistletree_attacking.g3d"/>
+			<animation path="models/mistletoe_tree.g3d"/>
 			<sound enabled="false" start-time="0">
 				<sound-file path="/sounds/tower_attack1.wav"/>
 				<sound-file path="/sounds/tower_attack2.wav"/>
@@ -114,8 +114,8 @@
 			<name value="upgrade_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
-			<anim-speed value="30"/>
-			<animation path="models/mistletree.g3d"/>
+			<anim-speed value="80"/>
+			<animation path="models/mistletoe_tree.g3d"/>
 			<sound enabled="false"/>
 			<particles value="true">
 				<particle-file path="upgrade_particles.xml"/>
@@ -126,8 +126,12 @@
 			<name value="die_skill"/>
 			<ep-cost value="0" />
 			<speed value="300"/>
-			<anim-speed value="100" />
-			<animation path="models/mistletree_destroyed.g3d"/>
+			<anim-speed value="40" />
+			<animation path="models/mistletoe_tree_dead.g3d"/>
+			<particles value="true">
+				<particle-file path="smoke_particles.xml"/>
+				<particle-file path="glow_particles.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall5.wav"/>
 			</sound>

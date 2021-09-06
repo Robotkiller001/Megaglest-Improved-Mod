@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <splash-particle-system>
-    	<texture value="true" path="images/initiate_particle.bmp" luminance="true"/>
+    	<texture value="true" path="images/particle.bmp" luminance="true"/>
     	<model value="false"/>
 	<primitive value="quad"/>
 	<offset x="0" y="0" z="0"/>
