@@ -65,7 +65,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>
-			<ep-cost value="500"/>
+			<ep-cost value="650"/>
 			<speed value="20"/>
 			<anim-speed value="20"/>
 			<animation path="models/tower_of_souls_standing.g3d"/>
