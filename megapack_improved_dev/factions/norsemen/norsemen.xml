@@ -13,6 +13,7 @@
 		<unit name="cow" amount="1"/>
 		<unit name="thrall" amount="4"/>
 		<unit name="valkyrie" amount="0"/>
+		<unit name="mistletoe_tree" amount="0"/>
 		<unit name="thunderstruck_thor" amount="0"/>
 	</starting-units>
 	<music value="true" path="music/manolo_camp-medieval.ogg"/>

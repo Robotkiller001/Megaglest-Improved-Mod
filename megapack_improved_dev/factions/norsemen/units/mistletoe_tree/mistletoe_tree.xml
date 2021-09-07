@@ -71,6 +71,9 @@
 			<anim-speed value="80"/>
 			<animation path="models/mistletoe_tree.g3d"/>
 			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="produce_particles.xml"/>
+			</particles>
 		</skill>
 		<skill>
 			<type value="attack"/>
@@ -118,7 +121,7 @@
 			<animation path="models/mistletoe_tree.g3d"/>
 			<sound enabled="false"/>
 			<particles value="true">
-				<particle-file path="upgrade_particles.xml"/>
+				<particle-file path="produce_particles.xml"/>
 			</particles>
 		</skill>
 		<skill>
