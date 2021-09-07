@@ -29,16 +29,18 @@
 			<upgrade name="big_rock"/>
 		</upgrades>
 		<building-units>
-			<unit name="summoner_guild" minimum="2"/>
+			<unit name="summoner_guild" minimum="1"/>
+			<unit name="wicker_behemoth" minimum="1"/>
 		</building-units>
 		<warrior-units>
 			<unit name="initiate" minimum="8"/>
-			<unit name="summoner" minimum="3"/>
+			<unit name="summoner" minimum="2"/>
 			<unit name="daemon" minimum="1"/>
 			<unit name="battlemage" minimum="3"/>
-			<unit name="ghost_armor" minimum="2"/>
-			<unit name="ghost_armor_swordmaster" minimum="4"/>
-			<unit name="necromante" minimum="4"/>
+			<unit name="ghost_armor" minimum="3"/>
+			<unit name="ghost_armor_swordmaster" minimum="3"/>
+			<unit name="necromante" minimum="3"/>
+			<unit name="archmage" minimum="2"/>
 			<unit name="golem" minimum="1"/>
 			<unit name="behemoth" minimum="1"/>
 			<unit name="thunderstruck_behemoth" minimum="1"/>
