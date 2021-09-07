@@ -107,6 +107,9 @@
 			<anim-speed value="120"/>
 			<animation path="models/necromante_walk.g3d"/>
 			<sound enabled="false"/>
+			<particles value="true">
+				<particle-file path="walk_particles.xml"/>
+			</particles>
 		</skill>
 
 		<skill>
@@ -146,10 +149,12 @@
 			<anim-speed value="50"/>
 			<animation path="models/necromante_die.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="$COMMONDATAPATH/sounds/technician_die1.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/technician_die2.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/technician_die3.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/technician_die4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack6.wav"/>
 			</sound>
 			<fade value="false"/>
 		</skill>

@@ -26,8 +26,8 @@
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="wood" amount="75"/>
-			<resource name="gold" amount="150"/>
+			<resource name="wood" amount="100"/>
+			<resource name="gold" amount="125"/>
 			<resource name="food" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -94,8 +94,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="100"/>
-			<anim-speed value="100"/>
+			<speed value="80"/>
+			<anim-speed value="80"/>
 			<animation path="models/hoplite_attack.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/guard_attack1.ogg"/>
@@ -116,7 +116,7 @@
 			<attack-strength value="100"/>
 			<attack-var value="30"/>
 			<attack-range value="2"/>
-			<attack-type value="slashing"/>
+			<attack-type value="piercing"/>
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>

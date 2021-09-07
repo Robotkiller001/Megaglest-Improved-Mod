@@ -17,12 +17,11 @@
 		<unit name="peltast"/>
 		<unit name="cavalry"/>
 		<unit name="chariot"/>
-		<unit name="psiloi"/>
 	</effects>
 	<max-hp value="0"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
-	<attack-strength value="20"/>
+	<attack-strength value="30"/>
 	<attack-range value="0"/>
 	<armor value="0"/>
 	<move-speed value="0"/>

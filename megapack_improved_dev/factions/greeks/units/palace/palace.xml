@@ -28,13 +28,14 @@
 		</properties>
 		<light enabled="false"/>
 		<rotationAllowed value="true"/>
-		<unit-requirements/>
+		<unit-requirements>
+			<unit name="temple"/>
+		</unit-requirements>
 		<upgrade-requirements>
-			<upgrade name="advanced_architecture"/>
 		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="gold" amount="200" />
-			<resource name="stone" amount="200" />
+			<resource name="stone" amount="250" />
 			<resource name="wood" amount="100" />
 		</resource-requirements>
 		<resources-stored>
@@ -128,7 +129,7 @@
 		<command>
 			<type value="upgrade"/>
 			<name value="receive_royal_blessing"/>
-			<image path="../../upgrades/royal_blessing/images/training_field.bmp" />
+			<image path="../../upgrades/royal_blessing/images/royal_blessing.bmp" />
 			<unit-requirements />
 			<upgrade-requirements/>
 			<upgrade-skill value="upgrade_skill"/>

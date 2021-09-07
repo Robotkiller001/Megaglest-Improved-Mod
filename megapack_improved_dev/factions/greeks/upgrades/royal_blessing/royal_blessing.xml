@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no"?>
 
 <upgrade>
-	<image path="images/training_field.bmp"/>
+	<image path="images/royal_blessing.bmp"/>
 	<image-cancel path="../shields/images/tech_upgrade_cancel.bmp"/>
 	<time value="400"/>
 	<unit-requirements>

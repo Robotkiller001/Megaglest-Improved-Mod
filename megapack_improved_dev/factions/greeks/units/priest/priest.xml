@@ -10,7 +10,7 @@
 		<armor value="20"/>
 		<armor-type value="leather"/>
 		<sight value="10"/>
-		<time value="120"/>
+		<time value="110"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="false"/>
 		<cellmap value="false"/>

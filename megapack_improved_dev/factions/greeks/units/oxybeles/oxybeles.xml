@@ -26,7 +26,9 @@
 		<properties/>
 		<light enabled="false"/>
 		<unit-requirements/>
-		<upgrade-requirements/>
+		<upgrade-requirements>
+			<upgrade name="advanced_architecture"/>
+		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="stone" amount="150"/>
 			<resource name="wood" amount="50"/>
@@ -124,7 +126,7 @@
 			<splash value="true">
 				<radius value="1"/>
 				<damage-all value="false"/>
-				<particle value="false"/>
+				<particle value="true" path="particle_splash.xml"/>
 			</splash>
 		</skill>
 

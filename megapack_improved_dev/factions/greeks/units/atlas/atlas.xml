@@ -7,7 +7,7 @@
 	<parameters>
 		<size value="2"/>
 		<height value="2"/>
-		<max-hp value="2000" regeneration="3"/>
+		<max-hp value="2500" regeneration="4"/>
 		<max-ep value="0"/>
 		<armor value="45"/>
 		<armor-type value="stone"/>
@@ -29,7 +29,7 @@
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="stone" amount="300"/>
+			<resource name="stone" amount="200"/>
 			<resource name="gold" amount="250"/>
 			<resource name="food" amount="2"/>
 		</resource-requirements>
@@ -92,8 +92,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="125"/>
-			<anim-speed value="55"/>
+			<speed value="150"/>
+			<anim-speed value="65"/>
 			<animation path="models/atlas_walk.g3d"/>
 			<sound enabled="false"/>
 
@@ -119,7 +119,7 @@
 				<field value="land"/>
 			</attack-fields>
 			<projectile value="false"/>
-			<splash value="true" start-time=".1">
+			<splash value="true" start-time="0.1">
 				<radius value="1"/>
 				<damage-all value="false"/>
 				<particle value="true" path="particle_splash.xml"/>
