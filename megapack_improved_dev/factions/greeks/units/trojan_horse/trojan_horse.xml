@@ -6,12 +6,12 @@
 		<height value="2" />
 		<ai-build-size value="4"/>
 		<max-hp value="8000" regeneration="6"/>
-		<max-ep value="1500" regeneration="5" start-percentage="100"/>
+		<max-ep value="1000" regeneration="15" start-percentage="20"/>
 		<max-unit-count value="1"/>
-		<armor value="45" />
+		<armor value="60" />
 		<armor-type value="wood"/>
-		<sight value="11" />
-		<time value="200" />
+		<sight value="12" />
+		<time value="220" />
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
 		<cellmap value="false"/>
@@ -102,6 +102,48 @@
 		</skill>
 
 		<skill>
+			<type value="attack"/>
+			<name value="attack_skill"/>
+			<ep-cost value="1000"/>
+			<speed value="100"/>
+			<anim-speed value="100"/>
+			<animation path="models/trojan_horse.g3d"/>
+			<sound enabled="false"/>
+			<attack-strength value="0"/>
+			<attack-var value="0"/>
+			<attack-range value="12"/>
+			<attack-type value="energy"/>
+				<unit value="hoplite" amount="1"/>
+			<attack-start-time value="0.5"/>
+			<attack-fields>
+				<field value="land"/>
+			</attack-fields>
+			<projectile value="false"/>
+			<splash value="false"/>
+		</skill>
+
+		<skill>
+			<type value="attack"/>
+			<name value="air_attack_skill"/>
+			<ep-cost value="1000"/>
+			<speed value="100"/>
+			<anim-speed value="100"/>
+			<animation path="models/trojan_horse.g3d"/>
+			<sound enabled="false"/>
+			<attack-strength value="0"/>
+			<attack-var value="0"/>
+			<attack-range value="12"/>
+			<attack-type value="energy"/>
+				<unit value="peltast" amount="1"/>
+			<attack-start-time value="0.5"/>
+			<attack-fields>
+				<field value="air"/>
+			</attack-fields>
+			<projectile value="false"/>
+			<splash value="false"/>
+		</skill>
+
+		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
 			<ep-cost value="0" />
@@ -117,16 +159,12 @@
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall5.wav"/>
 			</sound>
 			<fade value="false"/>
-		</skill>
-
-		<skill>
-			<type value="produce"/>
-			<name value="produce_skill"/>
-			<ep-cost value="1"/>
-			<speed value="4000"/>
-			<anim-speed value="300"/>
-			<animation path="models/trojan_horse.g3d"/>
-			<sound enabled="false"/>
+			<spawn start-time="0.8">
+				<unit value="hoplite"/>
+				<amount value="3"/>
+				<health-percent min="70" max="90"/>
+				<probability value="100"/>
+			</spawn>
 		</skill>
 
 	</skills>
@@ -144,13 +182,33 @@
 		</command>
 
 		<command>
-			<type value="produce"/>
-			<name value="produce_hoplite" />
-			<image path="../hoplite/images/guard.bmp" />
-			<unit-requirements />
-			<upgrade-requirements />
-			<produce-skill value="produce_skill"/>
-			<produced-unit name="hoplite"/>
+			<type value= "attack"/>
+			<name value="hoplite"/>
+			<image path="../hoplite/images/guard.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+		<command>
+			<type value= "attack"/>
+			<name value="peltast"/>
+			<image path="../peltast/images/archer.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="air_attack_skill"/>
+		</command>
+
+                <command>
+			<type value="attack_stopped"/>
+			<name value="hold_position"/>
+			<image path="../archer/images/tech_hold.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+			<attack-skill value="attack_skill"/>
 		</command>
 
 	</commands>
