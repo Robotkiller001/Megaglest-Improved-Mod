@@ -92,8 +92,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="150"/>
-			<anim-speed value="65"/>
+			<speed value="170"/>
+			<anim-speed value="70"/>
 			<animation path="models/atlas_walk.g3d"/>
 			<sound enabled="false"/>
 
