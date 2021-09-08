@@ -139,5 +139,15 @@
 			<produced-unit name="priest"/>
 		</command>
 
+		<command>
+			<type value="produce"/>
+			<name value="calling_god" />
+			<image path="../hera/images/hera.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="hera"/>
+		</command>
+
 	</commands>
 </unit>
