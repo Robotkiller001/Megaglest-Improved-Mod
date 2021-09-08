@@ -9,7 +9,7 @@
 		<height value="2"/>
 		<max-hp value="600" regeneration="1"/>
 		<max-ep value="0"/>
-		<armor value="10"/>
+		<armor value="5"/>
 		<armor-type value="organic"/>
 		<sight value="8"/>
 		<time value="30"/>

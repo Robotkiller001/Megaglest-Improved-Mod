@@ -115,8 +115,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="160"/>
-			<anim-speed value="40"/>
+			<speed value="180"/>
+			<anim-speed value="50"/>
 			<animation path="models/prince_walk.g3d"/>
 			<sound enabled="false"/>
                         <attack-boost>
