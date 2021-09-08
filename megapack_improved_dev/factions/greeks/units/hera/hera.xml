@@ -5,9 +5,9 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="1800" regeneration="6"/>
+		<max-hp value="1600" regeneration="6"/>
 		<max-ep value="0" regeneration="0"/>
-		<armor value="80"/>
+		<armor value="70"/>
 		<armor-type value="leather"/>
 		<max-unit-count value="1"/>
 		<sight value="14"/>
@@ -103,8 +103,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="90"/>
-			<anim-speed value="90"/>
+			<speed value="100"/>
+			<anim-speed value="100"/>
 			<animation path="models/artamis_attack.g3d"/>
 			<particles value="true">
 				<particle-file path="glow_particles.xml"/>

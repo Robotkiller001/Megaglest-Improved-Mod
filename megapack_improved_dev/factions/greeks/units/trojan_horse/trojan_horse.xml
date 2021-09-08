@@ -6,7 +6,7 @@
 		<height value="2" />
 		<ai-build-size value="4"/>
 		<max-hp value="8000" regeneration="6"/>
-		<max-ep value="1000" regeneration="15" start-percentage="20"/>
+		<max-ep value="1000" regeneration="25" start-percentage="25"/>
 		<max-unit-count value="1"/>
 		<armor value="60" />
 		<armor-type value="wood"/>
@@ -78,7 +78,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="150"/>
+			<speed value="170"/>
 			<anim-speed value="150"/>
 			<animation path="models/trojan_horse_move.g3d"/>
 			<sound enabled="true" start-time="0.1">
@@ -111,7 +111,7 @@
 			<sound enabled="false"/>
 			<attack-strength value="0"/>
 			<attack-var value="0"/>
-			<attack-range value="12"/>
+			<attack-range value="13"/>
 			<attack-type value="energy"/>
 				<unit value="hoplite" amount="1"/>
 			<attack-start-time value="0.5"/>
@@ -132,7 +132,7 @@
 			<sound enabled="false"/>
 			<attack-strength value="0"/>
 			<attack-var value="0"/>
-			<attack-range value="12"/>
+			<attack-range value="13"/>
 			<attack-type value="energy"/>
 				<unit value="peltast" amount="1"/>
 			<attack-start-time value="0.5"/>
