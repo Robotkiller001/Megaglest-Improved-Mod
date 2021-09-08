@@ -17,7 +17,7 @@
 		<uniform-selection value="false"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="mythical" kills="6"/>
+			<level name="mythical" kills="4"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -106,8 +106,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="280"/>
-			<anim-speed value="80"/>
+			<speed value="290"/>
+			<anim-speed value="85"/>
 			<animation path="models/psiloi_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -116,8 +116,8 @@
 			<type value="move"/>
 			<name value="charge_skill"/>
 			<ep-cost value="0"/>
-			<speed value="310"/>
-			<anim-speed value="90"/>
+			<speed value="320"/>
+			<anim-speed value="95"/>
 			<animation path="models/psiloi_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -126,14 +126,14 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="75"/>
-			<anim-speed value="75"/>
+			<speed value="80"/>
+			<anim-speed value="80"/>
 			<animation path="models/psiloi_attack.g3d"/>
 			<sound enabled="true" start-time="0.07">
 				<sound-file path="sounds/swish.ogg"/>
 			</sound>
-			<attack-strength value="80"/>
-			<attack-var value="30"/>
+			<attack-strength value="70"/>
+			<attack-var value="20"/>
 			<attack-range value="6"/>
 			<attack-type value="slashing"/>
 			<attack-start-time value="0.5"/>
