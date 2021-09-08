@@ -66,7 +66,7 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="40"/>
-			<animation path="models/summoner_standing.g3d"/>
+			<animation path="models/survived_drake_rider_stand.g3d"/>
 			<sound enabled="false"/>
 			<particles value="true">
 				<particle-file path="blood_particles.xml"/>
@@ -79,7 +79,7 @@
 			<ep-cost value="0"/>
 			<speed value="160"/>
 			<anim-speed value="120"/>
-			<animation path="models/summoner_walking.g3d"/>
+			<animation path="models/survived_drake_rider_walk.g3d"/>
 			<sound enabled="false"/>
 			<particles value="true">
 				<particle-file path="blood_particles.xml"/>
@@ -92,7 +92,7 @@
 			<ep-cost value="100"/>
 			<speed value="70"/>
 			<anim-speed value="70"/>
-			<animation path="models/summoner_attacking.g3d"/>
+			<animation path="models/survived_drake_rider_attack.g3d"/>
 			<particles value="true">
 				<particle-file path="blood_particles.xml"/>
 			</particles>
@@ -137,7 +137,7 @@
 			<ep-cost value="0"/>
 			<speed value="80"/>
 			<anim-speed value="80"/>
-			<animation path="models/summoner_dying.g3d"/>
+			<animation path="models/survived_drake_rider_die.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/summoner_die1.wav"/>
 				<sound-file path="sounds/summoner_die2.wav"/>
