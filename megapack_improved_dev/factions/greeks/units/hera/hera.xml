@@ -16,8 +16,8 @@
 		<uniform-selection value="false"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="angry" kills="12"/>
-			<level name="ireful" kills="28"/>
+			<level name="angry" kills="14"/>
+			<level name="ireful" kills="30"/>
 		</levels>
 		<fields>
 			<field value="land"/>

@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="1"/>
-		<max-hp value="4500" regeneration="14" start-percentage="100"/>
+		<max-hp value="4000" regeneration="12" start-percentage="100"/>
 		<max-ep value="0" regeneration="0"/>
 		<armor value="40"/>
 		<armor-type value="artemis_bless"/>
@@ -25,7 +25,9 @@
 		<properties/>
 		<light enabled="false"/>
 		<unit-requirements/>
-		<upgrade-requirements/>
+		<upgrade-requirements>
+			<upgrade name="pandoras_box"/>
+		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="gold" amount="300"/>
 			<resource name="food" amount="4"/>
@@ -87,7 +89,7 @@
 				<sight value="1"/>
 				<attack-strenght value="20" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
-				<armor value="10"/>
+				<armor value="5"/>
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 			<particles value="true">
@@ -114,7 +116,7 @@
 				<sight value="1"/>
 				<attack-strenght value="20" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
-				<armor value="10"/>
+				<armor value="5"/>
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 			<particles value="true">
@@ -170,7 +172,7 @@
 				<sight value="1"/>
 				<attack-strenght value="20" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
-				<armor value="10"/>
+				<armor value="5"/>
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 			<particles value="true">
