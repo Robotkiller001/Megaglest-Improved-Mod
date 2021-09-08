@@ -246,7 +246,7 @@
 				<unit value="survived_technician"/>
 				<amount value="1"/>
 				<health-percent min="80" max="100"/>
-				<probability value="80"/>
+				<probability value="100"/>
 			</spawn>
 		</skill>
 
