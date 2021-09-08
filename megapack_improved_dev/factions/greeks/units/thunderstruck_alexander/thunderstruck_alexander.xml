@@ -7,9 +7,9 @@
 		<max-hp value="4500" regeneration="14" start-percentage="100"/>
 		<max-ep value="0" regeneration="0"/>
 		<armor value="40"/>
-		<armor-type value="leather"/>
-		<max-unit-count value="2"/>
-		<sight value="14"/>
+		<armor-type value="artemis_bless"/>
+		<max-unit-count value="1"/>
+		<sight value="16"/>
 		<time value="70"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="false"/>

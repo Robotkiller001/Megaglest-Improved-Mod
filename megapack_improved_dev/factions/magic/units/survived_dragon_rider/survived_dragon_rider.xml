@@ -6,8 +6,8 @@
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="900" regeneration="2"/>
-		<max-ep value="750" regeneration="10" start-percentage="25"/>
-		<armor value="30"/>
+		<max-ep value="1000" regeneration="15" start-percentage="35"/>
+		<armor value="25"/>
 		<armor-type value="leather"/>
 		<sight value="8"/>
 		<time value="0"/>
@@ -77,8 +77,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="160"/>
-			<anim-speed value="120"/>
+			<speed value="210"/>
+			<anim-speed value="100"/>
 			<animation path="models/survived_drake_rider_walk.g3d"/>
 			<sound enabled="false"/>
 			<particles value="true">

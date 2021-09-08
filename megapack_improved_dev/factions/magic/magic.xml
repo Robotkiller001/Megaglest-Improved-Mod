@@ -34,17 +34,15 @@
 		</building-units>
 		<warrior-units>
 			<unit name="initiate" minimum="8"/>
-			<unit name="summoner" minimum="3"/>
+			<unit name="summoner" minimum="4"/>
 			<unit name="daemon" minimum="1"/>
 			<unit name="battlemage" minimum="2"/>
 			<unit name="ghost_armor" minimum="3"/>
-			<unit name="ghost_armor_swordmaster" minimum="4"/>
+			<unit name="ghost_armor_swordmaster" minimum="3"/>
 			<unit name="necromante" minimum="2"/>
-			<unit name="dragon_rider" minimum="3"/>
+			<unit name="dragon_rider" minimum="5"/>
 			<unit name="archmage" minimum="1"/>
 			<unit name="golem" minimum="1"/>
-			<unit name="behemoth" minimum="1"/>
-			<unit name="thunderstruck_behemoth" minimum="1"/>
 		</warrior-units>
 		<static-values>
 			<static type-name="MinMinWarriorsExpandCpuUltra" value="5"/>
