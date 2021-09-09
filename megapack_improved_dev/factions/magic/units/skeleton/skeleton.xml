@@ -73,7 +73,7 @@
 			<speed value="100"/>
 			<anim-speed value="100"/>
 			<animation path="models/skeleton_attack.g3d"/>
-			<sound enabled="true" start-time="0.5">
+			<sound enabled="true" start-time="0.3">
 				<sound-file path="sounds/sattack1.wav"/>
 				<sound-file path="sounds/sattack2.wav"/>
 				<sound-file path="sounds/sattack3.wav"/>
