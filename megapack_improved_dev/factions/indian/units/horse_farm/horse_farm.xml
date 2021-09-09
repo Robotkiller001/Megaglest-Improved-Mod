@@ -20,13 +20,13 @@
 		<properties>
 			<property value="burnable"/>
 		</properties>
-		<light enabled="false" />
-		<rotationAllowed value="true" />
+		<light enabled="false"/>
+		<rotationAllowed value="true"/>
 		<unit-requirements>
-			<unit name="round_tent" />
-			<unit name="main_teepee" />
+			<unit name="round_tent"/>
+			<unit name="main_teepee"/>
 		</unit-requirements>
-		<upgrade-requirements />
+		<upgrade-requirements/>
 		<resource-requirements>
 			<resource name="gold" amount="250"/>
 			<resource name="wood" amount="200"/>
