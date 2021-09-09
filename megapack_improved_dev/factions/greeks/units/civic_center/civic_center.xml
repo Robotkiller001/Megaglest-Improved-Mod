@@ -284,6 +284,23 @@
 			<produced-unit name="slave"/>
 		</command>
 		<command>
+			<type value="stop"/>
+			<name value="attack_off"/>
+			<image path="../tower/images/defense_tower_attack_off.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+		</command>
+		<command>
+			<type value="attack_stopped"/>
+			<name value="attack_on"/>
+			<image path="../tower/images/defense_tower_attack_on.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<attack-skill value="attack_skill"/>
+                        <stop-skill value="stop_skill"/>
+		</command>
+		<command>
 			<type value="upgrade"/>
 			<name value="upgrade_damage" />
 			<image path="../../upgrades/upgrade_damage/images/upgrade_damage.png" />
