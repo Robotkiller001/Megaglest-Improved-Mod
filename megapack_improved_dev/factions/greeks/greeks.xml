@@ -19,18 +19,7 @@
 	<ai-behavior>
 		<warrior-units>
 			<unit name="slave" minimum="6"/>
-			<unit name="peltast" minimum="3"/>
-			<unit name="archer" minimum="3"/>
-			<unit name="cavalry" minimum="2"/>
-			<unit name="priest" minimum="1"/>
-			<unit name="chariot" minimum="1"/>
-			<unit name="wild_sow" minimum="1"/>
-			<unit name="alexander" minimum="1"/>
-			<unit name="hera" minimum="1"/>
-			<unit name="engineer" minimum="1"/>
-			<unit name="onager" minimum="1"/>
 		</warrior-units>
-		<warrior-units/>
 		<building-units>
 			<unit name="barracks" minimum="2"/>
 			<unit name="blacksmith" minimum="1"/>
