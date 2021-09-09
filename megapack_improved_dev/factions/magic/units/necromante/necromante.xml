@@ -142,6 +142,35 @@
 		</skill>
 
 		<skill>
+			<type value="attack"/>
+			<name value="air_attack_skill"/>
+			<ep-cost value="1200"/>
+			<speed value="30"/>
+			<anim-speed value="100"/>
+			<animation path="models/necromante_summon.g3d"/>
+			<sound enabled="true" start-time="0.5">
+				<sound-file path="$COMMONDATAPATH/sounds/summoner_summon1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/summoner_summon2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/summoner_summon3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/summoner_summon4.wav"/>
+			</sound>
+			<particles value="true">
+				<particle-file path="produce_particles.xml"/>
+			</particles>
+			<attack-strength value="0"/>
+			<attack-var value="0"/>
+			<attack-range value="12"/>
+			<attack-type value="energy"/>
+				<unit value="ranged_skeleton" amount="1"/>
+			<attack-start-time value="0.5"/>
+			<attack-fields>
+				<field value="air"/>
+			</attack-fields>
+			<projectile value="false"/>
+			<splash value="false"/>
+		</skill>
+
+		<skill>
 			<type value="die"/>
 			<name value="die_skill"/>
 			<ep-cost value="0"/>
@@ -190,6 +219,16 @@
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
 			<attack-skill value="attack_skill"/>
+		</command>
+
+		<command>
+			<type value= "attack"/>
+			<name value="summon"/>
+			<image path="images/energy_sharpening.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="air_attack_skill"/>
 		</command>
 
                 <command>
