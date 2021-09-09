@@ -64,7 +64,6 @@
 				<radius value="12"/>
                         	<target value="faction" include-self="false">
 					<unit-type name="archmage"/>
-					<unit-type name="skeleton"/>
 					<unit-type name="battlemage"/>
 					<unit-type name="daemon"/>
 					<unit-type name="dragon"/>
@@ -75,6 +74,8 @@
 					<unit-type name="golem"/>
 					<unit-type name="initiate"/>
 					<unit-type name="power_golem"/>
+					<unit-type name="skeleton"/>
+					<unit-type name="ranged_skeleton"/>
 					<unit-type name="stone_sentinel"/>
 					<unit-type name="summoner"/>
 					<unit-type name="survived_dragon_rider"/>
@@ -126,7 +127,6 @@
 				<radius value="12"/>
                         	<target value="faction" include-self="false">
 					<unit-type name="archmage"/>
-					<unit-type name="skeleton"/>
 					<unit-type name="battlemage"/>
 					<unit-type name="daemon"/>
 					<unit-type name="dragon"/>
@@ -137,6 +137,8 @@
 					<unit-type name="golem"/>
 					<unit-type name="initiate"/>
 					<unit-type name="power_golem"/>
+					<unit-type name="skeleton"/>
+					<unit-type name="ranged_skeleton"/>
 					<unit-type name="stone_sentinel"/>
 					<unit-type name="summoner"/>
 					<unit-type name="survived_dragon_rider"/>
@@ -199,7 +201,6 @@
 				<radius value="12"/>
                         	<target value="faction" include-self="false">
 					<unit-type name="archmage"/>
-					<unit-type name="skeleton"/>
 					<unit-type name="battlemage"/>
 					<unit-type name="daemon"/>
 					<unit-type name="dragon"/>
@@ -210,6 +211,8 @@
 					<unit-type name="golem"/>
 					<unit-type name="initiate"/>
 					<unit-type name="power_golem"/>
+					<unit-type name="skeleton"/>
+					<unit-type name="ranged_skeleton"/>
 					<unit-type name="stone_sentinel"/>
 					<unit-type name="summoner"/>
 					<unit-type name="survived_dragon_rider"/>
