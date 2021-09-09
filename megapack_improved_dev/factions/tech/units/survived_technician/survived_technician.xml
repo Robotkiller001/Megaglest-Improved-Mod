@@ -5,9 +5,9 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="900" regeneration="2"/>
+		<max-hp value="900" regeneration="3"/>
 		<max-ep value="0"/>
-		<armor value="25"/>
+		<armor value="30"/>
 		<armor-type value="leather"/>
 		<sight value="8"/>
 		<time value="0"/>
@@ -102,7 +102,7 @@
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/technician_attack.wav"/>
 			</sound>
-			<attack-strenght value="240"/>
+			<attack-strenght value="250"/>
 			<attack-var value="90"/>
 			<attack-range value="7"/>
 			<attack-type value="energy"/>

@@ -4,9 +4,9 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="900" regeneration="2"/>
+		<max-hp value="900" regeneration="3"/>
 		<max-ep value="0"/>
-		<armor value="20"/>
+		<armor value="25"/>
 		<armor-type value="metal"/>
 		<sight value="8"/>
 		<time value="0"/>
@@ -113,7 +113,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack11.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack12.wav"/>
 			</sound>
-			<attack-strenght value="120"/>
+			<attack-strenght value="130"/>
 			<attack-var value="40"/>
 			<attack-range value="2"/>
 			<attack-type value="piercing"/>
