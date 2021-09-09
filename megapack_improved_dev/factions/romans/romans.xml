@@ -19,7 +19,7 @@
 	<flat-particle-positions value="true"/>
 	<ai-behavior>
 		<warrior-units>
-			<unit name="slave" minimum="6"/>
+			<unit name="slave" minimum="10"/>
 		</warrior-units>
 		<upgrades>
 			<upgrade name="training_field"/>

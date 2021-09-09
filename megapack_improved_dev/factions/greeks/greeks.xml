@@ -17,10 +17,19 @@
 		<unit name="archer" amount="0"/>
 	</starting-units>
 	<ai-behavior>
-		<worker-units>
-			<unit name="slave" minimum="8"/>
-		</worker-units>
-		<warrior-units/>
+		<warrior-units>
+			<unit name="slave" minimum="10"/>
+			<unit name="hoplite" minimum="1"/>
+			<unit name="peltast" minimum="2"/>
+			<unit name="archer" minimum="2"/>
+			<unit name="cavalry" minimum="2"/>
+			<unit name="priest" minimum="1"/>
+			<unit name="chariot" minimum="1"/>
+			<unit name="alexander" minimum="1"/>
+			<unit name="hera" minimum="1"/>
+			<unit name="engineer" minimum="1"/>
+			<unit name="onager" minimum="1"/>
+		</warrior-units>
 		<building-units>
 			<unit name="barracks" minimum="2"/>
 			<unit name="blacksmith" minimum="1"/>
