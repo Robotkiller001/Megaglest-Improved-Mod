@@ -38,8 +38,8 @@
 			<unit name="daemon" minimum="1"/>
 			<unit name="battlemage" minimum="2"/>
 			<unit name="ghost_armor" minimum="3"/>
-			<unit name="ghost_armor_swordmaster" minimum="3"/>
-			<unit name="necromante" minimum="2"/>
+			<unit name="ghost_armor_swordmaster" minimum="2"/>
+			<unit name="necromante" minimum="3"/>
 			<unit name="dragon_rider" minimum="5"/>
 			<unit name="archmage" minimum="1"/>
 			<unit name="golem" minimum="1"/>
