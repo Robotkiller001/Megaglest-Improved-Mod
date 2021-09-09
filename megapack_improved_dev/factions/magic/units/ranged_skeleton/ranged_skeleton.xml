@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="700" regeneration="-25"/>
+		<max-hp value="800" regeneration="-25"/>
 		<max-ep value="0"/>
 		<armor value="20"/>
 		<armor-type value="organic"/>
@@ -84,6 +84,7 @@
 			<attack-type value="arrow"/>
 			<attack-fields>
 				<field value="land"/>
+				<field value="air"/>
 			</attack-fields>
 			<attack-start-time value="0.15"/>
 			<projectile value="true">
