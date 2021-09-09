@@ -17,9 +17,18 @@
 		<unit name="archer" amount="0"/>
 	</starting-units>
 	<ai-behavior>
-		<worker-units>
-			<unit name="slave" minimum="8"/>
-		</worker-units>
+		<warrior-units>
+			<unit name="slave" minimum="6"/>
+			<unit name="peltast" minimum="3"/>
+			<unit name="archer" minimum="3"/>
+			<unit name="cavalry" minimum="2"/>
+			<unit name="priest" minimum="1"/>
+			<unit name="chariot" minimum="1"/>
+			<unit name="alexander" minimum="1"/>
+			<unit name="hera" minimum="1"/>
+			<unit name="engineer" minimum="1"/>
+			<unit name="onager" minimum="1"/>
+		</warrior-units>
 		<warrior-units/>
 		<building-units>
 			<unit name="barracks" minimum="2"/>
@@ -38,6 +47,10 @@
 			<upgrade name="shields"/>
 			<upgrade name="weapons"/>
 		</upgrades>
+		<static-values>
+			<static type-name="MinMinWarriorsExpandCpuUltra" value="5"/>
+			<static type-name="MinMinWarriorsExpandCpuMega" value="12"/>
+		</static-values>
 	</ai-behavior>
 	<music value="true" path="music/music_greek.ogg"/>
 </faction>
