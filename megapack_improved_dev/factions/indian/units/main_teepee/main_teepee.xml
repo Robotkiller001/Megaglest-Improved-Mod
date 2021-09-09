@@ -80,6 +80,7 @@
 					<unit-type name="shaman"/>
 					<unit-type name="stone_sentinel"/>
 					<unit-type name="thunderstruck_shaman"/>
+					<unit-type name="worker"/>
 				</target>
 				<max-hp value="0"/>
 				<max-ep value="0"/>
@@ -145,6 +146,7 @@
 					<unit-type name="shaman"/>
 					<unit-type name="stone_sentinel"/>
 					<unit-type name="thunderstruck_shaman"/>
+					<unit-type name="worker"/>
 				</target>
 				<max-hp value="0"/>
 				<max-ep value="0"/>
@@ -192,6 +194,7 @@
 					<unit-type name="shaman"/>
 					<unit-type name="stone_sentinel"/>
 					<unit-type name="thunderstruck_shaman"/>
+					<unit-type name="worker"/>
 				</target>
 				<max-hp value="0"/>
 				<max-ep value="0"/>

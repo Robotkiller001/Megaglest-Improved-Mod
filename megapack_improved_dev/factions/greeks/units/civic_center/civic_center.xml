@@ -82,7 +82,12 @@
 					<unit-type name="hoplite"/>
 					<unit-type name="onager"/>
 					<unit-type name="peltast"/>
+					<unit-type name="peltast_"/>
 					<unit-type name="psiloi"/>
+					<unit-type name="slave"/>
+					<unit-type name="survived_cavalry"/>
+					<unit-type name="survived_chariot"/>
+					<unit-type name="swordman"/>
 					<unit-type name="wild_sow"/>
 					<unit-type name="thunderstruck_alexander"/>
 				</target>
@@ -133,7 +138,12 @@
 					<unit-type name="hoplite"/>
 					<unit-type name="onager"/>
 					<unit-type name="peltast"/>
+					<unit-type name="peltast_"/>
 					<unit-type name="psiloi"/>
+					<unit-type name="slave"/>
+					<unit-type name="survived_cavalry"/>
+					<unit-type name="survived_chariot"/>
+					<unit-type name="swordman"/>
 					<unit-type name="wild_sow"/>
 					<unit-type name="thunderstruck_alexander"/>
 				</target>
@@ -184,7 +194,12 @@
 					<unit-type name="hoplite"/>
 					<unit-type name="onager"/>
 					<unit-type name="peltast"/>
+					<unit-type name="peltast_"/>
 					<unit-type name="psiloi"/>
+					<unit-type name="slave"/>
+					<unit-type name="survived_cavalry"/>
+					<unit-type name="survived_chariot"/>
+					<unit-type name="swordman"/>
 					<unit-type name="wild_sow"/>
 					<unit-type name="thunderstruck_alexander"/>
 				</target>
@@ -246,6 +261,11 @@
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall4.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall5.wav"/>
 			</sound>
+			<shake enabled="true" intensity="1000" duration="120" start-time="0.0">
+				<self enabled="true" visible="false" in-camera-view="false" camera-distance-affected="false"/>
+				<team enabled="true" visible="false" in-camera-view="false" camera-distance-affected="false"/>
+				<enemy enabled="true" visible="true" in-camera-view="false" camera-distance-affected="true"/>
+			</shake>
 			<fade value="false"/>
 		</skill>
 

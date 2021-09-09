@@ -79,6 +79,7 @@
 					<unit-type name="air_ballista"/>
 					<unit-type name="battle_machine"/>
 					<unit-type name="thunderstruck_battle_machine"/>
+					<unit-type name="worker"/>
 				</target>
 				<max-hp value="0"/>
 				<max-ep value="0"/>
@@ -140,6 +141,7 @@
 					<unit-type name="air_ballista"/>
 					<unit-type name="battle_machine"/>
 					<unit-type name="thunderstruck_battle_machine"/>
+					<unit-type name="worker"/>
 				</target>
 				<max-hp value="0"/>
 				<max-ep value="0"/>
@@ -207,6 +209,7 @@
 					<unit-type name="air_ballista"/>
 					<unit-type name="battle_machine"/>
 					<unit-type name="thunderstruck_battle_machine"/>
+					<unit-type name="worker"/>
 				</target>
 				<max-hp value="0"/>
 				<max-ep value="0"/>

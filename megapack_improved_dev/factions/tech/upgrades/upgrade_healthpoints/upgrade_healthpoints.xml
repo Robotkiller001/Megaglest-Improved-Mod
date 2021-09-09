@@ -25,6 +25,7 @@
 		<unit name="survived_horseman"/>
 		<unit name="battle_machine"/>
 		<unit name="thunderstruck_battle_machine"/>
+		<unit name="worker"/>
 	</effects>
 	<max-hp value="14" value-percent-multiplier="true"/>
 	<max-ep value="0"/>

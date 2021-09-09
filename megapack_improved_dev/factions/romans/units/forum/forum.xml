@@ -79,6 +79,7 @@
 					<unit-type name="fire_archer"/>
 					<unit-type name="gladiator"/>
 					<unit-type name="guard"/>
+					<unit-type name="slave"/>
 					<unit-type name="spearman"/>
 					<unit-type name="swordsman"/>
 					<unit-type name="tribune"/>
@@ -134,6 +135,7 @@
 					<unit-type name="fire_archer"/>
 					<unit-type name="gladiator"/>
 					<unit-type name="guard"/>
+					<unit-type name="slave"/>
 					<unit-type name="spearman"/>
 					<unit-type name="swordsman"/>
 					<unit-type name="tribune"/>
@@ -216,6 +218,7 @@
 					<unit-type name="fire_archer"/>
 					<unit-type name="gladiator"/>
 					<unit-type name="guard"/>
+					<unit-type name="slave"/>
 					<unit-type name="spearman"/>
 					<unit-type name="swordsman"/>
 					<unit-type name="tribune"/>

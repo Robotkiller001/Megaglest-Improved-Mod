@@ -22,6 +22,7 @@
 		<unit name="onager"/>
 		<unit name="peltast"/>
 		<unit name="psiloi"/>
+		<unit name="slave"/>
 		<unit name="survived_cavalry"/>
 		<unit name="survived_chariot"/>
 		<unit name="wild_sow"/>

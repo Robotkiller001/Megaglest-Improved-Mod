@@ -27,6 +27,7 @@
 		<unit name="shaman"/>
 		<unit name="stone_sentinel"/>
 		<unit name="thunderstruck_shaman"/>
+		<unit name="worker"/>
 	</effects>
 	<max-hp value="0"/>
 	<max-ep value="0"/>

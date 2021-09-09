@@ -27,6 +27,7 @@
 		<unit name="stone_sentinel"/>
 		<unit name="survived_horseman"/>
 		<unit name="thunderstruck_shaman"/>
+		<unit name="worker"/>
 	</effects>
 	<max-hp value="14" value-percent-multiplier="true"/>
 	<max-ep value="0"/>
