@@ -15,7 +15,7 @@
     	<energy-var value="3" />
 
 	<trajectory type="parabolic">
-		<speed value="26"/>
+		<speed value="22"/>
 		<scale value="0.9"/>
 	</trajectory>
 </projectile-particle-system>

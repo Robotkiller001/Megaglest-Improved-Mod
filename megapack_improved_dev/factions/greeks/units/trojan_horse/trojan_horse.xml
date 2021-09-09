@@ -104,7 +104,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>
-			<ep-cost value="1000"/>
+			<ep-cost value="800"/>
 			<speed value="100"/>
 			<anim-speed value="100"/>
 			<animation path="models/trojan_horse.g3d"/>
