@@ -123,13 +123,13 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="50"/>
-			<anim-speed value="50"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
 			<animation path="models/worker_attack.g3d"/>
 			<sound enabled="true" start-time="0.45">
 				<sound-file path="sounds/attack1.wav"/>
 			</sound>
-			<attack-strenght value="80"/>
+			<attack-strenght value="70"/>
 			<attack-var value="20"/>
 			<attack-range value="1"/>
 			<attack-type value="beat"/>
