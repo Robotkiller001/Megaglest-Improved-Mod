@@ -14,7 +14,7 @@
 		<unit name="chicken" amount="1"/>
 		<unit name="slave" amount="4"/>
 		<unit name="hoplite" amount="0"/>
-		<unit name="archer" amount="0"/>
+		<unit name="wild_sow" amount="0"/>
 	</starting-units>
 	<ai-behavior>
 		<warrior-units>
