@@ -111,6 +111,9 @@
 				<damage-all value="true"/>
 				<particle value="true" path="particle_splash.xml"/>
 			</splash>
+			<particles value="true">
+				<particle-file path="produce_particles.xml"/>
+			</particles>
 		</skill>
 		<skill>
 			<type value="upgrade"/>
