@@ -183,8 +183,8 @@
 
 		<command>
 			<type value= "attack"/>
-			<name value="hoplite"/>
-			<image path="../swordman/images/horseman.bmp"/>
+			<name value="swordman"/>
+			<image path="../swordman/images/swordman.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
