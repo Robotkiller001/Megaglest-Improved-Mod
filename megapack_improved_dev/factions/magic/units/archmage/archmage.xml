@@ -8,7 +8,7 @@
 		<max-ep value="4000" regeneration="50"/>
 		<armor value="30"/>
 		<armor-type value="leather"/>
-		<sight value="12"/>
+		<sight value="13"/>
 		<time value="160"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
