@@ -6,7 +6,7 @@
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="600" regeneration="6" start-percentage="100"/>
-		<max-ep value="1000" regeneration="30" start-percentage="50"/>
+		<max-ep value="1000" regeneration="40" start-percentage="50"/>
 		<armor value="25"/>
 		<armor-type value="leather"/>
 		<sight value="12"/>
@@ -115,7 +115,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>
-			<ep-cost value="800"/>
+			<ep-cost value="1000"/>
 			<speed value="30"/>
 			<anim-speed value="100"/>
 			<animation path="models/necromante_summon.g3d"/>

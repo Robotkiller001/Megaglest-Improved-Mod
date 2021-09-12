@@ -72,12 +72,13 @@
 					<unit-type name="initiate"/>
 					<unit-type name="battlemage"/>
 					<unit-type name="summoner"/>
+					<unit-type name="necromante"/>
 					<unit-type name="archmage"/>
 					<unit-type name="dragon_rider"/>
 					<unit-type name="survived_dragon_rider"/>
 				</target>
 				<max-hp value="0" regeneration="1"/>
-				<max-ep value="0"  regeneration="1"/>
+				<max-ep value="0"  regeneration="2"/>
 				<sight value="0"/>
 				<attack-strenght value="5" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
@@ -107,12 +108,13 @@
 					<unit-type name="initiate"/>
 					<unit-type name="battlemage"/>
 					<unit-type name="summoner"/>
+					<unit-type name="necromante"/>
 					<unit-type name="archmage"/>
 					<unit-type name="dragon_rider"/>
 					<unit-type name="survived_dragon_rider"/>
 				</target>
 				<max-hp value="0" regeneration="1"/>
-				<max-ep value="0"  regeneration="1"/>
+				<max-ep value="0"  regeneration="2"/>
 				<sight value="0"/>
 				<attack-strenght value="5" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
@@ -156,12 +158,13 @@
 					<unit-type name="initiate"/>
 					<unit-type name="battlemage"/>
 					<unit-type name="summoner"/>
+					<unit-type name="necromante"/>
 					<unit-type name="archmage"/>
 					<unit-type name="dragon_rider"/>
 					<unit-type name="survived_dragon_rider"/>
 				</target>
 				<max-hp value="0" regeneration="1"/>
-				<max-ep value="0"  regeneration="1"/>
+				<max-ep value="0"  regeneration="2"/>
 				<sight value="0"/>
 				<attack-strenght value="5" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
@@ -231,12 +234,13 @@
 					<unit-type name="initiate"/>
 					<unit-type name="battlemage"/>
 					<unit-type name="summoner"/>
+					<unit-type name="necromante"/>
 					<unit-type name="archmage"/>
 					<unit-type name="dragon_rider"/>
 					<unit-type name="survived_dragon_rider"/>
 				</target>
 				<max-hp value="0" regeneration="1"/>
-				<max-ep value="0"  regeneration="1"/>
+				<max-ep value="0"  regeneration="2"/>
 				<sight value="0"/>
 				<attack-strenght value="5" value-percent-multiplier="false"/>
 				<attack-range value="0"/>

@@ -18,7 +18,7 @@
 		<unit name="evil_dragon"/>
 	</effects>
 	<max-hp value="0" regeneration="0"/>
-	<max-ep value="500" regeneration="5"/>
+	<max-ep value="750" regeneration="0"/>
 	<sight value="0"/>
 	<attack-strenght value="0"/>
 	<attack-range value="0"/>
