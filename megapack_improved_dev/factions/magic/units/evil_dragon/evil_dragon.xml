@@ -5,7 +5,7 @@
 		<size value="2"/>
 		<height value="1"/>
 		<max-hp value="1600" regeneration="5"/>
-		<max-ep value="1000" regeneration="200"/>
+		<max-ep value="1500" regeneration="300"/>
 		<armor value="45"/>
 		<armor-type value="organic"/>
 		<sight value="13"/>
@@ -89,7 +89,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>
-			<ep-cost value="1000"/>
+			<ep-cost value="1500"/>
 			<speed value="40"/>
 			<anim-speed value="40"/>
 			<animation path="models/dragon_attacking.g3d"/>
