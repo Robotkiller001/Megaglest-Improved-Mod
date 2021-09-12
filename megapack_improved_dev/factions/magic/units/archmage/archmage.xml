@@ -4,9 +4,9 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="500" regeneration="6"/>
+		<max-hp value="700" regeneration="6"/>
 		<max-ep value="4000" regeneration="45"/>
-		<armor value="30"/>
+		<armor value="25"/>
 		<armor-type value="leather"/>
 		<sight value="13"/>
 		<time value="180"/>
