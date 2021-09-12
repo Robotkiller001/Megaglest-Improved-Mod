@@ -12,7 +12,7 @@
 		<unit name="mage_tower" amount="1"/>
 		<unit name="initiate" amount="4"/>
 		<unit name="tower_of_souls" amount="1"/>
-		<unit name="necromante" amount="0"/>
+		<unit name="archmage" amount="2"/>
 		<unit name="golem" amount="0"/>
 	</starting-units>
 	<music value="true" path="music/music_magic.ogg"/>
