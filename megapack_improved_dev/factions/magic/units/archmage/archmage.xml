@@ -30,7 +30,7 @@
 		<upgrade-requirements/>
 		<resource-requirements>
 			<resource name="gold" amount="175"/>
-			<resource name="wood" amount="100"/>
+			<resource name="wood" amount="125"/>
 			<resource name="energy" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -67,7 +67,7 @@
 			</particles>
                         <attack-boost>
 				<allow-multiple-boosts value="true" />
-				<radius value="7"/>
+				<radius value="8"/>
                         	<target value="faction" include-self="false">
 					<unit-type name="initiate"/>
 					<unit-type name="battlemage"/>
@@ -103,7 +103,7 @@
 			</particles>
                         <attack-boost>
 				<allow-multiple-boosts value="true" />
-				<radius value="7"/>
+				<radius value="8"/>
                         	<target value="faction" include-self="false">
 					<unit-type name="initiate"/>
 					<unit-type name="battlemage"/>
@@ -153,7 +153,7 @@
 			</sound>
                         <attack-boost>
 				<allow-multiple-boosts value="true" />
-				<radius value="7"/>
+				<radius value="8"/>
                         	<target value="faction" include-self="false">
 					<unit-type name="initiate"/>
 					<unit-type name="battlemage"/>
@@ -175,8 +175,8 @@
 					<affected-particle-file path="effect_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="280"/>
-			<attack-var value="80"/>
+			<attack-strenght value="260"/>
+			<attack-var value="70"/>
 			<attack-range value="10"/>
 			<attack-type value="energy"/>
 			<attack-fields>
@@ -229,7 +229,7 @@
 			</sound>
                         <attack-boost>
 				<allow-multiple-boosts value="true" />
-				<radius value="7"/>
+				<radius value="8"/>
                         	<target value="faction" include-self="false">
 					<unit-type name="initiate"/>
 					<unit-type name="battlemage"/>
