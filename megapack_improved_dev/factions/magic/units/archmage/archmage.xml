@@ -82,7 +82,7 @@
 				<sight value="0"/>
 				<attack-strenght value="5" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
-				<armor value="2"/>
+				<armor value="1"/>
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 			<particles value="true">
@@ -118,7 +118,7 @@
 				<sight value="0"/>
 				<attack-strenght value="5" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
-				<armor value="2"/>
+				<armor value="1"/>
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 			<particles value="true">
@@ -168,7 +168,7 @@
 				<sight value="0"/>
 				<attack-strenght value="5" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
-				<armor value="2"/>
+				<armor value="1"/>
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 			<particles value="true">
@@ -244,7 +244,7 @@
 				<sight value="0"/>
 				<attack-strenght value="5" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
-				<armor value="2"/>
+				<armor value="1"/>
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 			<particles value="true">
