@@ -74,6 +74,15 @@
 		</skill>
 		<skill>
 			<type value="produce"/>
+			<name value="produce_corrupted_soul_skill"/>
+			<ep-cost value="0"/>
+			<speed value="300"/>
+			<anim-speed value="150"/>
+			<animation path="models/tent2_produce.g3d"/>
+  			<sound enabled="false" />
+		</skill>
+		<skill>
+			<type value="produce"/>
 			<name value="produce_flying_carpet_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
@@ -165,13 +174,13 @@
 		</command>
 		<command>
 			<type value="produce"/>
-			<name value="produce_flying_carpet"/>
-			<image path="images/flying_carpet.bmp"/>
+			<name value="produce_corrupted_soul"/>
+			<image path="images/corrupted_soul.bmp"/>
 			<unit-requirements>
 			</unit-requirements>
 			<upgrade-requirements />
-			<produce-skill value="produce_flying_carpet_skill"/>
-			<produced-unit name="flying_carpet"/>
+			<produce-skill value="produce_corrupted_soul_skill"/>
+			<produced-unit name="corrupted_soul"/>
 		</command>
 		<command>
 			<type value="produce"/>
@@ -182,6 +191,16 @@
 			<upgrade-requirements />
 			<produce-skill value="produce_magician_skill"/>
 			<produced-unit name="magician"/>
+		</command>
+		<command>
+			<type value="produce"/>
+			<name value="produce_flying_carpet"/>
+			<image path="images/flying_carpet.bmp"/>
+			<unit-requirements>
+			</unit-requirements>
+			<upgrade-requirements />
+			<produce-skill value="produce_flying_carpet_skill"/>
+			<produced-unit name="flying_carpet"/>
 		</command>
 		<command>
 			<type value="upgrade"/>
