@@ -200,7 +200,7 @@
 		<command>
 			<type value= "attack"/>
 			<name value="attack"/>
-			<image path="images/attack.bmp"/>
+			<image path="images/corrupted_soul_attack.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
