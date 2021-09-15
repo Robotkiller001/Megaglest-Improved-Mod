@@ -80,6 +80,9 @@
 			<anim-speed value="150"/>
 			<animation path="models/tent2_produce.g3d"/>
   			<sound enabled="false" />
+			<particles value="true">
+				<particle-file path="black_particles.xml"/>
+			</particles>
 		</skill>
 		<skill>
 			<type value="produce"/>

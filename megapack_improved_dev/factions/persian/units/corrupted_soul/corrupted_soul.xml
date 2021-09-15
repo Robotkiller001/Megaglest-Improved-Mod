@@ -5,15 +5,19 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="1000" regeneration="8" start-percentage="100"/>
-		<max-ep value="3000" regeneration="40" start-percentage="30"/>
+		<max-hp value="1000" regeneration="6" start-percentage="100"/>
+		<max-ep value="3000" regeneration="35" start-percentage="30"/>
 		<armor value="25"/>
 		<armor-type value="leather"/>					
 		<sight value="13"/>
 		<time value="140"/>	
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
-		<levels/>
+		<levels>
+			<level name="angry" kills="8"/>
+			<level name="killer" kills="16"/>
+			<level name="demonic" kills="30"/>
+		</levels>
 		<fields>
 			<field value="land"/>
 		</fields>	
@@ -56,6 +60,21 @@
 			<speed value="1000"/>
 			<anim-speed value="40"/>
 			<animation path="models/corrupted_soul_stand.g3d"/>
+                        <attack-boost>
+				<allow-multiple-boosts value="true" />
+				<radius value="8"/>
+                        	<target value="faction" include-self="false">
+					<unit-type name="corrupted_soul"/>
+				</target>
+				<max-hp value="0" regeneration="1"/>
+				<max-ep value="0"  regeneration="1"/>
+				<sight value="0"/>
+				<attack-strenght value="0" value-percent-multiplier="false"/>
+				<attack-range value="0"/>
+				<armor value="0"/>
+				<move-speed value="0"/>
+				<production-speed value="0"/>
+                        </attack-boost>
 			<particles value="true">
 				<particle-file path="black_particles.xml"/>
 			</particles>
@@ -69,6 +88,21 @@
 			<speed value="180"/>
 			<anim-speed value="70"/>
 			<animation path="models/corrupted_soul_walk.g3d"/>
+                        <attack-boost>
+				<allow-multiple-boosts value="true" />
+				<radius value="8"/>
+                        	<target value="faction" include-self="false">
+					<unit-type name="corrupted_soul"/>
+				</target>
+				<max-hp value="0" regeneration="1"/>
+				<max-ep value="0"  regeneration="1"/>
+				<sight value="0"/>
+				<attack-strenght value="0" value-percent-multiplier="false"/>
+				<attack-range value="0"/>
+				<armor value="0"/>
+				<move-speed value="0"/>
+				<production-speed value="0"/>
+                        </attack-boost>
 			<particles value="true">
 				<particle-file path="black_particles.xml"/>
 			</particles>
@@ -99,6 +133,21 @@
 				<field value="air"/>
 			</attack-fields>
 			<attack-start-time value="0.2"/>
+                        <attack-boost>
+				<allow-multiple-boosts value="true" />
+				<radius value="8"/>
+                        	<target value="faction" include-self="false">
+					<unit-type name="corrupted_soul"/>
+				</target>
+				<max-hp value="0" regeneration="1"/>
+				<max-ep value="0"  regeneration="1"/>
+				<sight value="0"/>
+				<attack-strenght value="0" value-percent-multiplier="false"/>
+				<attack-range value="0"/>
+				<armor value="0"/>
+				<move-speed value="0"/>
+				<production-speed value="0"/>
+                        </attack-boost>
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
 				<sound enabled="true">
