@@ -72,7 +72,7 @@
 				<attack-strenght value="0" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
-				<move-speed value="0"/>
+				<move-speed value="5"/>
 				<production-speed value="0"/>
                         </attack-boost>
 			<particles value="true">
@@ -100,7 +100,7 @@
 				<attack-strenght value="0" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
-				<move-speed value="0"/>
+				<move-speed value="5"/>
 				<production-speed value="0"/>
                         </attack-boost>
 			<particles value="true">
@@ -145,7 +145,7 @@
 				<attack-strenght value="0" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
-				<move-speed value="0"/>
+				<move-speed value="5"/>
 				<production-speed value="0"/>
                         </attack-boost>
 			<projectile value="true">
