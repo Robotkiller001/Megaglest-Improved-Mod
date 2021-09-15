@@ -149,7 +149,7 @@
 		<command>
 			<type value="upgrade"/>
 			<name value="research_big_rock"/>
-			<image path="../../upgrades/big_rock/images/rock_plain.png"/>
+			<image path="../../upgrades/big_rock/images/rock_plain.bmp"/>
 			<unit-requirements />
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>

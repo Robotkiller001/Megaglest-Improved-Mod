@@ -55,7 +55,7 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="40"/>
-			<animation path="models/standing.g3d"/>
+			<animation path="models/corrupted_soul_stand.g3d"/>
 			<particles value="true">
 				<particle-file path="black_particles.xml"/>
 			</particles>
@@ -68,7 +68,7 @@
 			<ep-cost value="0"/>
 			<speed value="180"/>
 			<anim-speed value="70"/>
-			<animation path="models/walking.g3d"/>
+			<animation path="models/corrupted_soul_walk.g3d"/>
 			<particles value="true">
 				<particle-file path="black_particles.xml"/>
 			</particles>
@@ -81,7 +81,7 @@
 			<ep-cost value="300"/>
 			<speed value="60"/>
 			<anim-speed value="60"/>
-			<animation path="models/attacking.g3d"/>
+			<animation path="models/corrupted_soul_attack.g3d"/>
 			<particles value="true">
 				<particle-file path="black_particles.xml"/>
 			</particles>
@@ -117,7 +117,7 @@
 			<ep-cost value="0"/>
 			<speed value="80"/>
 			<anim-speed value="25"/>
-			<animation path="models/dying.g3d"/>
+			<animation path="models/corrupted_soul_die.g3d"/>
 			<sound enabled="true" start-time="0.3">
 				<sound-file path="sounds/shade7.wav"/>
 				<sound-file path="sounds/shade8.wav"/>
@@ -125,19 +125,6 @@
 				<sound-file path="sounds/shade12.wav"/>
 			</sound>			
 			<fade value="false"/>
-		</skill>
-
-		<skill>
-			<type value="stop"/>
-			<name value="stop_skill"/>		
-			<ep-cost value="0"/>
-			<speed value="1000"/>
-			<anim-speed value="40"/>
-			<animation path="models/standing.g3d"/>
-			<sound enabled="false"/>
-			<particles value="true">
-				<particle-file path="black_particles.xml"/>
-			</particles>			
 		</skill>
 	</skills>
 	
