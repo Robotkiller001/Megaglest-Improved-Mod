@@ -10,7 +10,7 @@
 		<armor value="25"/>
 		<armor-type value="leather"/>					
 		<sight value="13"/>
-		<time value="160"/>	
+		<time value="140"/>	
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
 		<levels/>
@@ -78,7 +78,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>		
-			<ep-cost value="250"/>
+			<ep-cost value="300"/>
 			<speed value="60"/>
 			<anim-speed value="60"/>
 			<animation path="models/attacking.g3d"/>
@@ -93,7 +93,7 @@
 			<attack-strenght value="500"/>
 			<attack-var value="100"/>
 			<attack-range value="10"/>
-			<attack-type value="magic"/>
+			<attack-type value="energy"/>
 			<attack-fields>
 				<field value="land"/>
 				<field value="air"/>
