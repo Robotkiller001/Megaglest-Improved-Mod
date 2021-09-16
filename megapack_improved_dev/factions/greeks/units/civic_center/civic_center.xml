@@ -47,7 +47,7 @@
 			<resource name= "1-up" amount="1"/>
 			<resource name= "food" amount="120"/>
 		</resources-stored>
-		<image path="images/civic_center.png" />
+		<image path="images/civic_center.bmp" />
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="true" image-path="../barracks/images/meeting_point.bmp"/>
 		<selection-sounds enabled="true">
