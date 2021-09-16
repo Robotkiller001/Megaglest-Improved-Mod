@@ -177,16 +177,6 @@
 		</command>
 		<command>
 			<type value="produce"/>
-			<name value="produce_corrupted_soul"/>
-			<image path="images/corrupted_soul.bmp"/>
-			<unit-requirements>
-			</unit-requirements>
-			<upgrade-requirements />
-			<produce-skill value="produce_corrupted_soul_skill"/>
-			<produced-unit name="corrupted_soul"/>
-		</command>
-		<command>
-			<type value="produce"/>
 			<name value="produce_magician"/>
 			<image path="images/magician.bmp"/>
 			<unit-requirements>
@@ -194,6 +184,16 @@
 			<upgrade-requirements />
 			<produce-skill value="produce_magician_skill"/>
 			<produced-unit name="magician"/>
+		</command>
+		<command>
+			<type value="produce"/>
+			<name value="produce_corrupted_soul"/>
+			<image path="images/corrupted_soul.bmp"/>
+			<unit-requirements>
+			</unit-requirements>
+			<upgrade-requirements />
+			<produce-skill value="produce_corrupted_soul_skill"/>
+			<produced-unit name="corrupted_soul"/>
 		</command>
 		<command>
 			<type value="produce"/>

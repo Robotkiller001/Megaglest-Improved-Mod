@@ -16,6 +16,7 @@
 		<unit name="genie"/>
 		<unit name="magician"/>
 		<unit name="princess"/>
+		<unit name="survived_elephant"/>
 		<unit name="stickfighter"/>
 		<unit name="swordman"/>
 		<unit name="worker"/>
