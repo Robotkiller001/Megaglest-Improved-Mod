@@ -140,7 +140,7 @@
 		<command>
 			<type value="produce"/>
 			<name value="produce_engineer" />
-			<image path="../engineer/images/technician.bmp"/>
+			<image path="../engineer/images/engineer.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>

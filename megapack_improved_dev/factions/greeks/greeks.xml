@@ -13,7 +13,7 @@
 		<unit name="tower" amount="1"/>
 		<unit name="chicken" amount="1"/>
 		<unit name="slave" amount="4"/>
-		<unit name="hoplite" amount="0"/>
+		<unit name="engineer" amount="0"/>
 		<unit name="swordman" amount="0"/>
 	</starting-units>
 	<ai-behavior>
