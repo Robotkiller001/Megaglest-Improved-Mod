@@ -6,7 +6,7 @@
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="1000" regeneration="6" start-percentage="100"/>
-		<max-ep value="3000" regeneration="35" start-percentage="30"/>
+		<max-ep value="2500" regeneration="40" start-percentage="40"/>
 		<armor value="25"/>
 		<armor-type value="leather"/>					
 		<sight value="13"/>
@@ -124,7 +124,7 @@
 				<sound-file path="sounds/shade15.wav"/>
 				<sound-file path="sounds/shade4.wav"/>
 			</sound>
-			<attack-strenght value="500"/>
+			<attack-strenght value="450"/>
 			<attack-var value="100"/>
 			<attack-range value="10"/>
 			<attack-type value="energy"/>
