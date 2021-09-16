@@ -75,9 +75,6 @@
 				<move-speed value="5"/>
 				<production-speed value="0"/>
                         </attack-boost>
-			<particles value="true">
-				<particle-file path="black_particles.xml"/>
-			</particles>
 			<sound enabled="false"/>
 		</skill>
 		
@@ -103,9 +100,6 @@
 				<move-speed value="5"/>
 				<production-speed value="0"/>
                         </attack-boost>
-			<particles value="true">
-				<particle-file path="black_particles.xml"/>
-			</particles>
 			<sound enabled="false"/>
 		</skill>
 
@@ -116,9 +110,6 @@
 			<speed value="60"/>
 			<anim-speed value="60"/>
 			<animation path="models/corrupted_soul_attack.g3d"/>
-			<particles value="true">
-				<particle-file path="black_particles.xml"/>
-			</particles>
 			<sound enabled="true" start-time="0.4">
 				<sound-file path="sounds/shade14.wav"/>
 				<sound-file path="sounds/shade15.wav"/>
