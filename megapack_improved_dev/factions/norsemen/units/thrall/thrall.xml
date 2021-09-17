@@ -120,6 +120,28 @@
 		</skill>
 
 		<skill>
+			<type value="attack"/>
+			<name value="attack_skill"/>
+			<ep-cost value="0"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
+			<animation path="models/worker_attack.g3d"/>
+			<sound enabled="true" start-time="0.45">
+				<sound-file path="sounds/attack1.wav"/>
+			</sound>
+			<attack-strenght value="70"/>
+			<attack-var value="20"/>
+			<attack-range value="1"/>
+			<attack-type value="beat"/>
+			<attack-start-time value="0.45"/>
+			<attack-fields>
+				<field value="land"/>
+			</attack-fields>
+			<projectile value="false"/>
+			<splash value="false"/>
+		</skill>
+
+		<skill>
 			<type value="move"/>
 			<name value="move_gold_skill"/>
 			<ep-cost value="0"/>
