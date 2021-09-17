@@ -69,7 +69,7 @@
 				<max-hp value="0" regeneration="1"/>
 				<max-ep value="0"  regeneration="1"/>
 				<sight value="0"/>
-				<attack-strenght value="5" value-percent-multiplier="false"/>
+				<attack-strenght value="0" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
 				<move-speed value="5"/>
@@ -82,8 +82,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="180"/>
-			<anim-speed value="70"/>
+			<speed value="200"/>
+			<anim-speed value="80"/>
 			<animation path="models/corrupted_soul_walk.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="true" />
@@ -94,7 +94,7 @@
 				<max-hp value="0" regeneration="1"/>
 				<max-ep value="0"  regeneration="1"/>
 				<sight value="0"/>
-				<attack-strenght value="5" value-percent-multiplier="false"/>
+				<attack-strenght value="0" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
 				<move-speed value="5"/>
@@ -133,7 +133,7 @@
 				<max-hp value="0" regeneration="1"/>
 				<max-ep value="0"  regeneration="1"/>
 				<sight value="0"/>
-				<attack-strenght value="5" value-percent-multiplier="false"/>
+				<attack-strenght value="0" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
 				<move-speed value="5"/>
