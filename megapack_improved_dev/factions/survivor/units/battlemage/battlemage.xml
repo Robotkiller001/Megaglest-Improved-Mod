@@ -37,6 +37,11 @@
 		<resources-stored>
 			<resource name= "gold" amount="300"/>
 		</resources-stored>
+		<resources-death>
+			<resource name="gold" amount-value="2500" loss-value="300" allow-negative="true" />
+			<resource name="wood" amount-value="1000" loss-value="0" allow-negative="true" />
+			<resource name="stone" amount-value="1000" loss-value="0" allow-negative="true" />
+		</resources-death>
 		<image path="images/battlemage.bmp"/>
 		<image-cancel path="../archmage/images/magic_cancel.bmp"/>
 		<meeting-point value="false"/>

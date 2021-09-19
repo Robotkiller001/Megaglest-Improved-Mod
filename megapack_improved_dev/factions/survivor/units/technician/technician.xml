@@ -38,6 +38,11 @@
 		<resources-stored>
 			<resource name= "gold" amount="300"/>
 		</resources-stored>
+		<resources-death>
+			<resource name="gold" amount-value="2500" loss-value="300" allow-negative="true" />
+			<resource name="wood" amount-value="1000" loss-value="0" allow-negative="true" />
+			<resource name="stone" amount-value="1000" loss-value="0" allow-negative="true" />
+		</resources-death>
 		<image path="images/technician.bmp"/>
 		<image-cancel path="images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
