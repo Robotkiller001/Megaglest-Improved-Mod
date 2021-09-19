@@ -131,7 +131,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="fire_ball_skill"/>
-			<ep-cost value="450"/>
+			<ep-cost value="400"/>
 			<speed value="55"/>
 			<anim-speed value="65"/>
 			<animation path="models/archmage_attacking.g3d"/>
@@ -175,8 +175,8 @@
 					<affected-particle-file path="effect_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="260"/>
-			<attack-var value="70"/>
+			<attack-strenght value="250"/>
+			<attack-var value="60"/>
 			<attack-range value="10"/>
 			<attack-type value="energy"/>
 			<attack-fields>
