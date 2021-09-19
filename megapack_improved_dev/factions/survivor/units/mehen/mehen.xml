@@ -195,7 +195,7 @@
 			<projectile value="false"/>
 			<splash value="true">
 				<radius value="1"/>
-				<damage-all value="true"/>
+				<damage-all value="false"/>
 				<particle value="false"/>
 			</splash>
 		</skill>

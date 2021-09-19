@@ -82,7 +82,7 @@
 				<sight value="0"/>
 				<attack-strenght value="5" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
-				<armor value="1"/>
+				<armor value="0"/>
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 			<particles value="true">
@@ -118,7 +118,7 @@
 				<sight value="0"/>
 				<attack-strenght value="5" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
-				<armor value="1"/>
+				<armor value="0"/>
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 			<particles value="true">
@@ -131,7 +131,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="fire_ball_skill"/>
-			<ep-cost value="300"/>
+			<ep-cost value="450"/>
 			<speed value="55"/>
 			<anim-speed value="65"/>
 			<animation path="models/archmage_attacking.g3d"/>
@@ -168,7 +168,7 @@
 				<sight value="0"/>
 				<attack-strenght value="5" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
-				<armor value="1"/>
+				<armor value="0"/>
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 			<particles value="true">
@@ -194,7 +194,7 @@
 			</projectile>
 			<splash value="true">
 				<radius value="4"/>
-				<damage-all value="true"/>
+				<damage-all value="false"/>
 				<particle value="true" path="particle_splash.xml"/>
 			</splash>
 		</skill>
@@ -244,14 +244,14 @@
 				<sight value="0"/>
 				<attack-strenght value="5" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
-				<armor value="1"/>
+				<armor value="0"/>
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 			<particles value="true">
 					<affected-particle-file path="effect_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="1100"/>
+			<attack-strenght value="1000"/>
 			<attack-var value="200"/>
 			<attack-range value="10"/>
 			<attack-type value="energy"/>
@@ -295,7 +295,7 @@
 			</projectiles>
 			<splash value="true">
 				<radius value="5"/>
-				<damage-all value="true"/>
+				<damage-all value="false"/>
 				<particle value="true" path="fire_splash.xml"/>
 			</splash>
 		</skill>
