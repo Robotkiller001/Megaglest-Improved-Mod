@@ -177,7 +177,7 @@
 				<sound enabled="true">
 					<sound-file path="/sounds/golem_hit1.wav"/>
 				</sound>
-			</projectile-->
+			</projectile>
 			<splash value="true">
 				<radius value="1"/>
 				<damage-all value="false"/>
@@ -237,7 +237,7 @@
 			</projectile>
 			<splash value="true">
 				<radius value="1"/>
-				<damage-all value="true"/>
+				<damage-all value="false"/>
 				<particle value="true" path="air_particle_splash.xml"/>
 			</splash>
 			<particles value="true">
