@@ -175,8 +175,8 @@
 					<affected-particle-file path="effect_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="250"/>
-			<attack-var value="60"/>
+			<attack-strenght value="260"/>
+			<attack-var value="70"/>
 			<attack-range value="10"/>
 			<attack-type value="energy"/>
 			<attack-fields>
