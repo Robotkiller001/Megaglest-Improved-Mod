@@ -63,7 +63,7 @@
 			<name value="stop_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
-			<anim-speed value="100" />
+			<anim-speed value="70" />
 			<animation path="models/castle.g3d" />
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
@@ -105,7 +105,7 @@
 			<name value="upgrade_skill"/>		
 			<ep-cost value="0" />
 			<speed value="300" />
-			<anim-speed value="175" />
+			<anim-speed value="130" />
 			<animation path="models/castle.g3d" />
 			<sound enabled="false"/>
 		</skill>
@@ -189,7 +189,7 @@
 			<name value="produce_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
-			<anim-speed value="100" />
+			<anim-speed value="130" />
 			<animation path="models/castle.g3d" />
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
