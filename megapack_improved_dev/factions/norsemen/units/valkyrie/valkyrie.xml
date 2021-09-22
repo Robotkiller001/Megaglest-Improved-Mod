@@ -180,8 +180,8 @@
 					<affected-particle-file path="slow_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="180"/>
-			<attack-var value="50"/>
+			<attack-strenght value="170"/>
+			<attack-var value="40"/>
 			<attack-range value="8"/>
 			<attack-type value="energy"/>
 			<attack-fields>
