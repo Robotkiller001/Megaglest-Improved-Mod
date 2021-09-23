@@ -19,6 +19,14 @@
 	<music value="true" path="music/manolo_camp-medieval.ogg"/>
 	<flat-particle-positions value="true"/>
 	<ai-behavior>
+		<warrior-units>
+			<unit name="thrall" minimum="6"/>
+		</warrior-units>
+		<building-units>
+			<unit name="farm" minimum="1"/>
+			<unit name="house" minimum="1"/>
+			<unit name="bone_tent" minimum="1"/>
+		</building-units>
 		<upgrades>
 			<upgrade name="mead"/>
 			<upgrade name="root"/>
@@ -27,9 +35,6 @@
 			<upgrade name="advanced_iron"/>
 			<upgrade name="holy_valkyrie"/>
 		</upgrades>
-		<warrior-units>
-			<unit name="thrall" minimum="6"/>
-		</warrior-units>
 		<static-values>
 			<static type-name="MinMinWarriorsExpandCpuUltra" value="5"/>
 			<static type-name="MinMinWarriorsExpandCpuMega" value="12"/>

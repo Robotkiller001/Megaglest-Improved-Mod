@@ -20,6 +20,12 @@
 		<warrior-units>
 			<unit name="worker" minimum="6"/>
 		</warrior-units>
+		<building-units>
+			<unit name="tent" minimum="1"/>
+			<unit name="big_tent" minimum="1"/>
+			<unit name="reed" minimum="1"/>
+			<unit name="round_tent" minimum="1"/>
+		</building-units>
 		<upgrades>
 			<upgrade name="training_field"/>
 			<upgrade name="iron"/>
