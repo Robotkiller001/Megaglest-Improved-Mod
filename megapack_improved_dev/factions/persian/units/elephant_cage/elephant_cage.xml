@@ -97,7 +97,7 @@
 		<command>
 			<type value="produce"/>
 			<name value="produce_elephant" />
-			<image path="images/elephant.bmp" />
+			<image path="images/elephant.png" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
