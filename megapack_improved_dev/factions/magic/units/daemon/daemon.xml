@@ -92,8 +92,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="100"/>
-			<anim-speed value="100"/>
+			<speed value="80"/>
+			<anim-speed value="80"/>
 			<animation path="models/daemon_attacking.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="$COMMONDATAPATH/sounds/daemon_attack1.wav"/>

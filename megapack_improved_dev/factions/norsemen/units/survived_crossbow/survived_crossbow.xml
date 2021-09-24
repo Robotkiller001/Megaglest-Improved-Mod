@@ -84,8 +84,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="90"/>
-			<anim-speed value="90"/>
+			<speed value="100"/>
+			<anim-speed value="100"/>
 			<animation path="models/worker_attacking.g3d"/>
 			<particles value="true">
 				<particle-file path="blood_particles.xml"/>
@@ -98,7 +98,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/axe_thrower_attack5.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/axe_thrower_attack6.wav"/>
 			</sound>
-			<attack-strenght value="130"/>
+			<attack-strenght value="140"/>
 			<attack-var value="40"/>
 			<attack-range value="8"/>
 			<attack-type value="piercing"/>

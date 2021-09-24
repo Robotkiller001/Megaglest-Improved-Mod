@@ -94,8 +94,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="100"/>
-			<anim-speed value="100"/>
+			<speed value="80"/>
+			<anim-speed value="80"/>
 			<animation path="models/ghost_armor_attacking.g3d"/>
 			<sound enabled="true" start-time="0.4">
 				<sound-file path="sounds/ghost_armor_attack1.wav"/>
