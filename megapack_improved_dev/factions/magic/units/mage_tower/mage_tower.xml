@@ -78,6 +78,7 @@
 					<unit-type name="ghost_armor_swordmaster"/>
 					<unit-type name="golem"/>
 					<unit-type name="initiate"/>
+					<unit-type name="necromante"/>
 					<unit-type name="power_golem"/>
 					<unit-type name="skeleton"/>
 					<unit-type name="ranged_skeleton"/>
@@ -141,6 +142,7 @@
 					<unit-type name="ghost_armor_swordmaster"/>
 					<unit-type name="golem"/>
 					<unit-type name="initiate"/>
+					<unit-type name="necromante"/>
 					<unit-type name="power_golem"/>
 					<unit-type name="skeleton"/>
 					<unit-type name="ranged_skeleton"/>
@@ -215,6 +217,7 @@
 					<unit-type name="ghost_armor_swordmaster"/>
 					<unit-type name="golem"/>
 					<unit-type name="initiate"/>
+					<unit-type name="necromante"/>
 					<unit-type name="power_golem"/>
 					<unit-type name="skeleton"/>
 					<unit-type name="ranged_skeleton"/>
