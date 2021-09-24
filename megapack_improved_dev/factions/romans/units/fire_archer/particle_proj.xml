@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="yes"?>
 <projectile-particle-system>
     	<texture value="true" luminance="true" path="images/archer_particle.bmp"/>
-    	<model value="true" path="models/archer_arrow.g3d"/>
+    	<model value="true" path="models/fire_archer_arrow.g3d"/>
 	<primitive value="quad"/>
 	<offset x="0" y="1" z="0"/>
 	<color red="1.0" green="0.2" blue="0.0" alpha="0.5" />
