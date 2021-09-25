@@ -109,7 +109,7 @@
 			<name value="produce_rifleman"/>	
 			<ep-cost value="0" />
 			<speed value="300" />
-			<anim-speed value="80" />
+			<anim-speed value="40" />
 			<animation path="models/archery_barracks_producing2.g3d" />
 			<sound enabled="false" />
 		</skill>
