@@ -13,7 +13,6 @@
 	<effects>
 		<unit name="archer"/>
 		<unit name="archer_horseback"/>
-		<unit name="fire_archer"/>
 		<unit name="swordman"/>
 		<unit name="guard"/>
 		<unit name="horseman"/>

@@ -73,7 +73,7 @@
 					<unit-type name="archer"/>
 					<unit-type name="archer_horseback"/>
 					<unit-type name="catapult"/>
-					<unit-type name="fire_archer"/>
+					<unit-type name="rifleman"/>
 					<unit-type name="guard"/>
 					<unit-type name="horseman"/>
 					<unit-type name="ornithopter"/>
@@ -135,7 +135,7 @@
 					<unit-type name="archer"/>
 					<unit-type name="archer_horseback"/>
 					<unit-type name="catapult"/>
-					<unit-type name="fire_archer"/>
+					<unit-type name="rifleman"/>
 					<unit-type name="guard"/>
 					<unit-type name="horseman"/>
 					<unit-type name="ornithopter"/>
@@ -203,7 +203,7 @@
 					<unit-type name="archer"/>
 					<unit-type name="archer_horseback"/>
 					<unit-type name="catapult"/>
-					<unit-type name="fire_archer"/>
+					<unit-type name="rifleman"/>
 					<unit-type name="guard"/>
 					<unit-type name="horseman"/>
 					<unit-type name="ornithopter"/>

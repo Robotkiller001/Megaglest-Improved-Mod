@@ -14,7 +14,7 @@
 		<unit name="archer"/>
 		<unit name="archer_horseback"/>
 		<unit name="catapult"/>
-		<unit name="fire_archer"/>
+		<unit name="rifleman"/>
 		<unit name="guard"/>
 		<unit name="horseman"/>
 		<unit name="ornithopter"/>

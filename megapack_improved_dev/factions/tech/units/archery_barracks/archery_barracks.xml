@@ -96,21 +96,21 @@
 
 		<skill>
 			<type value="produce"/>
-			<name value="produce_fire_archer"/>	
-			<ep-cost value="0" />
-			<speed value="300" />
-			<anim-speed value="80" />
-			<animation path="models/archery_barracks_producing2.g3d" />
-			<sound enabled="false" />
-		</skill>
-
-		<skill>
-			<type value="produce"/>
 			<name value="produce_archer_horseback"/>	
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="80" />
 			<animation path="models/archery_barracks_producing3.g3d" />
+			<sound enabled="false" />
+		</skill>
+
+		<skill>
+			<type value="produce"/>
+			<name value="produce_rifleman"/>	
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="80" />
+			<animation path="models/archery_barracks_producing2.g3d" />
 			<sound enabled="false" />
 		</skill>
 		
@@ -147,22 +147,22 @@
 
 		<command>
 			<type value="produce"/>
-			<name value="produce_fire_archer" />
-			<image path="../fire_archer/images/archer.bmp" />
-			<unit-requirements />
-			<upgrade-requirements />
-			<produce-skill value="produce_fire_archer"/>
-			<produced-unit name="fire_archer"/>
-		</command>
-
-		<command>
-			<type value="produce"/>
 			<name value="produce_archer_horseback" />
 			<image path="../archer_horseback/images/archer_horseback.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_archer_horseback"/>
 			<produced-unit name="archer_horseback"/>
+		</command>
+
+		<command>
+			<type value="produce"/>
+			<name value="produce_rifleman" />
+			<image path="../rifleman/images/rifleman.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_rifleman"/>
+			<produced-unit name="rifleman"/>
 		</command>
 
 		<command>

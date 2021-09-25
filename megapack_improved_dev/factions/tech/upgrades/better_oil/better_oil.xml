@@ -13,7 +13,6 @@
 		<resource name="stone" amount="100"/>
 	</resource-requirements>
 	<effects>
-		<unit name="fire_archer"/>
 		<unit name="technician"/>
 		<unit name="ornithopter"/>
 	</effects>

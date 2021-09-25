@@ -353,9 +353,10 @@
 				<unit name="technician"/>
 				<unit name="swordman"/>
 				<unit name="archer"/>
-				<unit name="fire_archer"/>
+				<unit name="rifleman"/>
 				<unit name="guard"/>
 				<unit name="horseman"/>
+				<unit name="archer_horseback"/>
 				<unit name="cow"/>
 			</repaired-units>
 		</command>
