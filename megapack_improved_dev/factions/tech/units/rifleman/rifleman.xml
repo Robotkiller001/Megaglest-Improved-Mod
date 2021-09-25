@@ -8,7 +8,7 @@
 		<max-ep value="0"/>
 		<armor value="35"/>
 		<armor-type value="leather"/>
-		<sight value="13"/>
+		<sight value="14"/>
 		<time value="140"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
@@ -128,9 +128,9 @@
 				<sound-file path="sounds/matchlock_musket_06.wav"/>
 				<sound-file path="sounds/matchlock_musket_07.wav"/>
 			</sound>
-			<attack-strenght value="290"/>
+			<attack-strenght value="280"/>
 			<attack-var value="60"/>
-			<attack-range value="10"/>
+			<attack-range value="11"/>
 			<attack-type value="energy"/>
 			<attack-start-time value="0.35"/>
 			<attack-fields>
