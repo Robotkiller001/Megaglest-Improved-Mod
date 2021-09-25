@@ -6,7 +6,7 @@
 		<height value="2"/>
 		<max-hp value="800" regeneration="3" start-percentage="100"/>
 		<max-ep value="0"/>
-		<armor value="30"/>
+		<armor value="35"/>
 		<armor-type value="leather"/>
 		<sight value="13"/>
 		<time value="140"/>
@@ -29,7 +29,7 @@
 			<upgrade name="better_oil"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="wood" amount="100"/>
+			<resource name="wood" amount="125"/>
 			<resource name="gold" amount="250"/>
 			<resource name="food" amount="2"/>
 		</resource-requirements>
@@ -112,8 +112,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="30"/>
-			<anim-speed value="30"/>
+			<speed value="40"/>
+			<anim-speed value="40"/>
 			<animation path="models/rifleman_fire.g3d"/>
 			<particles value="true" start-time="0.35" end-time="0.4">
 				<particle-file path="muzzlefire_particles.xml"/>
