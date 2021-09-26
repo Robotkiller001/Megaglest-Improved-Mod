@@ -85,6 +85,7 @@
 				<particle-file path="smoke_particles.xml"/>
 				<particle-file path="fire_particles1.xml"/>
 				<particle-file path="fire_particles2.xml"/>
+				<particle-file path="upgrade_particles.xml"/>
 			</particles>
 			<sound enabled="true" start-time="0.3">
 				<sound-file path="$COMMONDATAPATH/sounds/anvil1.wav"/>
