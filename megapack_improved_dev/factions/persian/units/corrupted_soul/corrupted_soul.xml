@@ -82,8 +82,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="200"/>
-			<anim-speed value="80"/>
+			<speed value="190"/>
+			<anim-speed value="75"/>
 			<animation path="models/corrupted_soul_walk.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="true" />

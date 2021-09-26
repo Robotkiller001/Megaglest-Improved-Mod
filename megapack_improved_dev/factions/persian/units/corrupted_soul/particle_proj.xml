@@ -6,15 +6,15 @@
 	<offset x="0" y="2.1" z="0"/>
 	<color red="0.0" green="0.0" blue="0.0" alpha="1.0" />
 	<color-no-energy red="0.0" green="0.0" blue="0.0" alpha="0.2" />
-    	<size value="1.05" />
-    	<size-no-energy value="0.4" />
-    	<speed value="10.0" />
+    	<size value="1.1" />
+    	<size-no-energy value="0.45" />
+    	<speed value="12.0" />
 	<gravity value="0.01"/>
     	<emission-rate value="16" />
-    	<energy-max value="70" />
-    	<energy-var value="24" />
+    	<energy-max value="26" />
+    	<energy-var value="30" />
 	
 	<trajectory type="linear">
-		<speed value="8.0"/>
+		<speed value="9.0"/>
 	</trajectory>
 </projectile-particle-system>
