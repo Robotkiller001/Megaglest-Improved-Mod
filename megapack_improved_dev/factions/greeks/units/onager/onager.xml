@@ -5,7 +5,7 @@
 		<size value="2"/>
 		<height value="3"/>
 		<ai-build-size value="3"/>
-		<max-hp value="1700" regeneration="3"/>
+		<max-hp value="1600" regeneration="3"/>
 		<max-ep value="0"/>
 		<armor value="20"/>
 		<armor-type value="wood"/>
@@ -106,14 +106,14 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="40"/>
-			<anim-speed value="40"/>
+			<speed value="45"/>
+			<anim-speed value="45"/>
 			<animation path="models/ornager_attack.g3d"/>
 			<sound enabled="true" start-time="0.1">
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack2.wav"/>
 			</sound>
-			<attack-strength value="285"/>
+			<attack-strength value="275"/>
 			<attack-var value="75"/>
 			<attack-range value="12"/>
 			<attack-type value="impact"/>

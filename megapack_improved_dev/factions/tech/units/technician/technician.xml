@@ -144,8 +144,8 @@
 			<type value="attack"/>
 			<name value="molotov_skill"/>
 			<ep-cost value="0"/>
-			<speed value="35"/>
-			<anim-speed value="35"/>
+			<speed value="40"/>
+			<anim-speed value="40"/>
 			<animation path="models/technician_attacking.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/technician_attack.wav"/>
@@ -203,7 +203,7 @@
 			<type value="harvest"/>
 			<name value="mine_skill"/>
 			<ep-cost value="0"/>
-			<speed value="85"/>
+			<speed value="100"/>
 			<anim-speed value="210"/>
 			<animation path="models/technician_mining.g3d"/>
 			<sound enabled="true" start-time="0.5">
