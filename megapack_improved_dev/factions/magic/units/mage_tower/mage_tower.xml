@@ -42,9 +42,9 @@
 			<resource name= "1-up" amount="1"/>
 		</resources-stored>
 		<resources-death>
-			<resource name="gold" amount-value="400" loss-value="400" allow-negative="true" />
-			<resource name="wood" amount-value="200" loss-value="200" allow-negative="true" />
-			<resource name="stone" amount-value="200" loss-value="200" allow-negative="true" />
+			<resource name="gold" amount-value="600" loss-value="200" allow-negative="false" />
+			<resource name="wood" amount-value="300" loss-value="100" allow-negative="false" />
+			<resource name="stone" amount-value="300" loss-value="100" allow-negative="false" />
 		</resources-death>
 		<image path="images/mage_tower.bmp" />
 		<image-cancel path="../archmage/images/magic_cancel.bmp"/>

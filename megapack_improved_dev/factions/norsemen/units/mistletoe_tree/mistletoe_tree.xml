@@ -35,7 +35,7 @@
 			<resource name="wood" amount="400" />
 		</resources-stored>
 		<resources-death>
-			<resource name="wood" amount-value="100" loss-value="100" allow-negative="true" />
+			<resource name="wood" amount-value="150" loss-value="50" allow-negative="false" />
 		</resources-death>
 		<image path="images/mistletree.bmp"/>
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
