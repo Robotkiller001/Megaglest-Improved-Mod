@@ -9,7 +9,7 @@
 		<max-ep value="0"/>
 		<armor value="30"/>
 		<armor-type value="leather"/>
-		<sight value="8"/>
+		<sight value="10"/>
 		<time value="0"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
