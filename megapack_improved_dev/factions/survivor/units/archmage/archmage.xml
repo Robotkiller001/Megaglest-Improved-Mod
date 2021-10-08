@@ -34,10 +34,10 @@
 			<upgrade name="magic_armor_2"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="300"/>
+			<resource name="gold" amount="600"/>
 		</resource-requirements>
 		<resources-stored>
-			<resource name= "gold" amount="600"/>
+			<resource name= "gold" amount="1400"/>
 		</resources-stored>
 		<resources-death>
 			<resource name="gold" amount-value="5000" loss-value="300" allow-negative="true" />

@@ -33,7 +33,7 @@
 		<upgrade-requirements/>
 		<resource-requirements/>
 		<resources-stored>
-			<resource name= "gold" amount="200"/>
+			<resource name= "gold" amount="400"/>
 		</resources-stored>
 		<resources-death>
 			<resource name="gold" amount-value="1000" loss-value="200" allow-negative="true" />
