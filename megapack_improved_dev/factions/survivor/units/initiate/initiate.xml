@@ -30,7 +30,7 @@
 		<upgrade-requirements/>
 		<resource-requirements/>
 		<resources-stored>
-			<resource name= "gold" amount="400"/>
+			<resource name= "gold" amount="800"/>
 		</resources-stored>
 		<resources-death>
 			<resource name="gold" amount-value="1000" loss-value="200" allow-negative="true" />
@@ -163,7 +163,7 @@
 			<type value="harvest"/>
 			<name value="harvest_skill"/>
 			<ep-cost value="0"/>
-			<speed value="450"/>
+			<speed value="900"/>
 			<anim-speed value="80"/>
 			<animation path="models/initiate_harvesting.g3d"/>
 			<particles value="true">
@@ -282,7 +282,7 @@
 			<harvested-resources>
 				<resource name="gold"/>
 			</harvested-resources>
-			<max-load value="50"/>
+			<max-load value="100"/>
 			<hits-per-unit value="1"/>
 		</command>
 		<command>

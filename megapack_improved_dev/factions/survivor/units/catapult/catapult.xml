@@ -37,10 +37,10 @@
 			<upgrade name="shield_level_2"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="600"/>
+			<resource name="gold" amount="1200"/>
 		</resource-requirements>
 		<resources-stored>
-			<resource name= "gold" amount="1400"/>
+			<resource name= "gold" amount="3000"/>
 		</resources-stored>
 		<resources-death>
 			<resource name="gold" amount-value="5000" loss-value="300" allow-negative="true" />
@@ -148,7 +148,7 @@
 			<type value="harvest"/>
 			<name value="harvest_skill"/>
 			<ep-cost value="0"/>
-			<speed value="1100"/>
+			<speed value="2200"/>
 			<anim-speed value="210"/>
 			<animation path="models/catapult_mining.g3d"/>
 			<sound enabled="true" start-time="0">
@@ -290,7 +290,7 @@
 			<harvested-resources>
 				<resource name="gold"/>
 			</harvested-resources>
-			<max-load value="80"/>
+			<max-load value="160"/>
 			<hits-per-unit value="1"/>
 		</command>
 

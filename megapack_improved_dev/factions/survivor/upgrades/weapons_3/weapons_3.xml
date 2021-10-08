@@ -8,7 +8,7 @@
 	<upgrade-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
-		<resource name="gold" amount="600"/>
+		<resource name="gold" amount="1200"/>
 	</resource-requirements>
 	<effects>
 		<unit name="mehen"/>
