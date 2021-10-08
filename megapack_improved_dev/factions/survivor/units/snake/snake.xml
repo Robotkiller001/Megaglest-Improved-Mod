@@ -155,7 +155,7 @@
 			<type value="harvest"/>
 			<name value="mine_skill"/>
 			<ep-cost value="0"/>
-			<speed value="225"/>
+			<speed value="450"/>
 			<anim-speed value="90"/>
 			<animation path="models/snake_attacking.g3d"/>
 			<sound enabled="true" start-time="0.5">
@@ -258,7 +258,7 @@
 			<harvested-resources>
 				<resource name="gold"/>
 			</harvested-resources>
-			<max-load value="25"/>
+			<max-load value="50"/>
 			<hits-per-unit value="1"/>
 		</command>
 

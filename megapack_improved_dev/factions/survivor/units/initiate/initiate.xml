@@ -163,7 +163,7 @@
 			<type value="harvest"/>
 			<name value="harvest_skill"/>
 			<ep-cost value="0"/>
-			<speed value="225"/>
+			<speed value="450"/>
 			<anim-speed value="80"/>
 			<animation path="models/initiate_harvesting.g3d"/>
 			<particles value="true">
@@ -282,7 +282,7 @@
 			<harvested-resources>
 				<resource name="gold"/>
 			</harvested-resources>
-			<max-load value="25"/>
+			<max-load value="50"/>
 			<hits-per-unit value="1"/>
 		</command>
 		<command>

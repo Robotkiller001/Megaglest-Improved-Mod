@@ -148,7 +148,7 @@
 			<type value="harvest"/>
 			<name value="harvest_skill"/>
 			<ep-cost value="0"/>
-			<speed value="550"/>
+			<speed value="1100"/>
 			<anim-speed value="210"/>
 			<animation path="models/catapult_mining.g3d"/>
 			<sound enabled="true" start-time="0">
@@ -290,7 +290,7 @@
 			<harvested-resources>
 				<resource name="gold"/>
 			</harvested-resources>
-			<max-load value="40"/>
+			<max-load value="80"/>
 			<hits-per-unit value="1"/>
 		</command>
 

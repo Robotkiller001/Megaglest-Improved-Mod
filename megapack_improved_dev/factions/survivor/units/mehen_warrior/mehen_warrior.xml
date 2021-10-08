@@ -120,7 +120,7 @@
 			<type value="harvest"/>
 			<name value="harvest_skill"/>
 			<ep-cost value="0"/>
-			<speed value="350"/>
+			<speed value="700"/>
 			<anim-speed value="100"/>
 			<animation path="models/mehen_warrior_attack.g3d"/>
 			<sound enabled="true" start-time="0">
@@ -240,7 +240,7 @@
 			<harvested-resources>
 				<resource name="gold"/>
 			</harvested-resources>
-			<max-load value="30"/>
+			<max-load value="60"/>
 			<hits-per-unit value="1"/>
 		</command>
 
