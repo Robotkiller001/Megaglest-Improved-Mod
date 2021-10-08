@@ -2,7 +2,7 @@
 
 <faction>
 	<starting-resources>
-		<resource name="gold" amount="25"/>
+		<resource name="gold" amount="50"/>
 	</starting-resources>
 	<starting-units>
 		<unit name="survivor" amount="1"/>
