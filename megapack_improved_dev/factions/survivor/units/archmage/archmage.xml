@@ -5,7 +5,7 @@
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="2800" regeneration="40"/>
-		<max-ep value="1160" regeneration="80"/>
+		<max-ep value="1250" regeneration="80"/>
 		<armor value="20"/>
 		<armor-type value="survivor"/>
 		<sight value="15"/>
@@ -194,10 +194,10 @@
 		<skill>
 			<type value="attack"/>
 			<name value="static_fire_skill"/>
-			<ep-cost value="1500"/>
+			<ep-cost value="1750"/>
 			<speed value="50"/>
 			<anim-speed value="50"/>
-			<animation path="models/archmage_attacking.g3d"/>
+			<animation path="models/archmage_attacking2.g3d"/>
 			<particles value="true">
 				<particle-file path="glow_particles.xml"/>
 			</particles>
@@ -219,7 +219,7 @@
 				<sound-file path="sounds/ground_attack3.wav"/>
 				<sound-file path="sounds/ground_attack4.wav"/>
 			</sound>
-			<attack-strenght value="2000"/>
+			<attack-strenght value="1800"/>
 			<attack-var value="400"/>
 			<attack-range value="12"/>
 			<attack-type value="survivor"/>

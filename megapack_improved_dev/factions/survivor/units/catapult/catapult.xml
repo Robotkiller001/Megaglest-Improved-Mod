@@ -6,7 +6,7 @@
 		<height value="2"/>
 		<ai-build-size value="3"/>
 		<max-hp value="2800" regeneration="40"/>
-		<max-ep value="1150" regeneration="100"/>
+		<max-ep value="1250" regeneration="100"/>
 		<armor value="20"/>
 		<armor-type value="survivor"/>
 		<sight value="15"/>
@@ -198,17 +198,20 @@
 		<skill>
 			<type value="attack"/>
 			<name value="hell_fire_skill"/>
-			<ep-cost value="1500"/>
+			<ep-cost value="1750"/>
 			<speed value="50"/>
 			<anim-speed value="50"/>
-			<animation path="models/catapult_attacking.g3d"/>
+			<animation path="models/catapult_attacking2.g3d"/>
+			<particles value="true">
+				<particle-file path="attack2_particles.xml" />
+			</particles>
 			<sound enabled="true" start-time="0.1">
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack2.wav"/>
 			</sound>
-			<attack-strenght value="1600"/>
-			<attack-var value="400"/>
-			<attack-range value="14"/>
+			<attack-strenght value="1500"/>
+			<attack-var value="300"/>
+			<attack-range value="13"/>
 			<attack-type value="survivor"/>
 			<attack-start-time value="0.65"/>
 			<attack-fields>
