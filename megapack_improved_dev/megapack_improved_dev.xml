@@ -26,7 +26,9 @@
 	
 	<armor-types>
 		<armor-type name="organic"/>
+		<armor-type name="organic2x"/>
 		<armor-type name="leather"/>
+		<armor-type name="leather2x"/>
 		<armor-type name="wood"/>
 		<armor-type name="metal"/>
 		<armor-type name="stone"/>
@@ -44,7 +46,9 @@
 	
 	<damage-multipliers>
 		<damage-multiplier attack="arrow" armor="organic" value="1.25"/>
+		<damage-multiplier attack="arrow" armor="organic2x" value="1.25"/>
 		<damage-multiplier attack="arrow" armor="leather" value="1.25"/>
+		<damage-multiplier attack="arrow" armor="leather2x" value="1.25"/>
 		<damage-multiplier attack="arrow" armor="wood" value="0.8"/>
 		<damage-multiplier attack="arrow" armor="metal" value="0.75"/>
 		<damage-multiplier attack="arrow" armor="stone" value="0.55"/>
@@ -58,6 +62,7 @@
 		<damage-multiplier attack="arrow" armor="artemis_bless" value="0.8"/>
 		
 		<damage-multiplier attack="sword" armor="organic" value="1.25"/>
+		<damage-multiplier attack="sword" armor="organic2x" value="1.25"/>
 		<damage-multiplier attack="sword" armor="skin" value="1.25"/>
 		<damage-multiplier attack="sword" armor="wood" value="0.8"/>
 		<damage-multiplier attack="sword" armor="stone" value="0.55"/>
@@ -72,6 +77,7 @@
 		<damage-multiplier attack="sword" armor="artemis_bless" value="0.8"/>
 		
 		<damage-multiplier attack="beat" armor="organic" value="1.25"/>
+		<damage-multiplier attack="beat" armor="organic2x" value="1.25"/>
 		<damage-multiplier attack="beat" armor="skin" value="1.5"/>
 		<damage-multiplier attack="beat" armor="wood" value="0.8"/>
 		<damage-multiplier attack="beat" armor="stone" value="0.55"/>
@@ -85,6 +91,8 @@
 		<damage-multiplier attack="beat" armor="artemis_bless" value="0.8"/>
 		
 		<damage-multiplier attack="energy" armor="organic" value="1.25"/>
+		<damage-multiplier attack="energy" armor="organic2x" value="0.85"/>
+		<damage-multiplier attack="energy" armor="leather2x" value="0.75"/>
 		<damage-multiplier attack="energy" armor="skin" value="1.25"/>
 		<damage-multiplier attack="energy" armor="metal" value="0.75"/>
 		<damage-multiplier attack="energy" armor="stone" value="0.8"/>
@@ -98,6 +106,7 @@
 		<damage-multiplier attack="energy" armor="artemis_bless" value="0.8"/>
 
 		<damage-multiplier attack="piercing" armor="organic" value="1.25"/>
+		<damage-multiplier attack="piercing" armor="organic2x" value="1.25"/>
 		<damage-multiplier attack="piercing" armor="skin" value="0.8"/>
 		<damage-multiplier attack="piercing" armor="wood" value="0.8"/>
 		<damage-multiplier attack="piercing" armor="metal" value="0.75"/>
@@ -112,7 +121,9 @@
 		<damage-multiplier attack="piercing" armor="artemis_bless" value="0.8"/>
 		
 		<damage-multiplier attack="impact" armor="organic" value="0.75"/>
+		<damage-multiplier attack="impact" armor="organic2x" value="0.75"/>
 		<damage-multiplier attack="impact" armor="leather" value="0.75"/>
+		<damage-multiplier attack="impact" armor="leather2x" value="0.75"/>
 		<damage-multiplier attack="impact" armor="metal" value="1.25"/>
 		<damage-multiplier attack="impact" armor="wood" value="2.0"/>
 		<damage-multiplier attack="impact" armor="stone" value="1.75"/>
