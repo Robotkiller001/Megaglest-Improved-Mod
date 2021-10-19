@@ -30,8 +30,8 @@
 		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="gold" amount="250"/>
-			<resource name="wood" amount="250"/>
-			<resource name="stone" amount="50"/>
+			<resource name="wood" amount="300"/>
+			<resource name="stone" amount="100"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/defense_tower.bmp"/>
@@ -76,7 +76,7 @@
 				<sound-file path="sounds/bee3.wav"/>
 				<sound-file path="sounds/bee4.wav"/>
 			</sound>
-			<attack-strenght value="180"/>
+			<attack-strenght value="200"/>
 			<attack-var value="50"/>
 			<attack-range value="12"/>
 			<attack-type value="castle"/>

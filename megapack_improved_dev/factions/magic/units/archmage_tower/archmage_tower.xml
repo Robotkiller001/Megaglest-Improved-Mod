@@ -30,7 +30,7 @@
 		<resource-requirements>
 			<resource name="gold" amount="250" />
 			<resource name="stone" amount="300" />
-			<resource name="wood" amount="150" />
+			<resource name="wood" amount="200" />
 		</resource-requirements>
 		<resources-stored />
 		<image path="images/archmage_tower.bmp"/>
@@ -82,7 +82,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack15.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack16.wav"/>
 			</sound>
-			<attack-strenght value="280"/>
+			<attack-strenght value="300"/>
 			<attack-var value="80"/>
 			<attack-range value="16"/>
 			<attack-type value="castle"/>

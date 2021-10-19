@@ -31,7 +31,7 @@
 		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="gold" amount="250"/>
-			<resource name="wood" amount="150"/>
+			<resource name="wood" amount="250"/>
 			<resource name="stone" amount="200" />
 		</resource-requirements>
 		<resources-stored/>
@@ -79,7 +79,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/defense_tower_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/defense_tower_attack2.wav"/>
 			</sound>
-			<attack-strength value="180"/>
+			<attack-strength value="220"/>
 			<attack-var value="50"/>
 			<attack-range value="12"/>
 			<attack-type value="castle"/>

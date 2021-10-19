@@ -30,6 +30,7 @@
 		<resource-requirements>
 			<resource name="gold" amount="200" />
 			<resource name="wood" amount="350" />
+			<resource name="stone" amount="100" />
 		</resource-requirements>
 		<resources-stored>
 			<resource name="wood" amount="400" />
@@ -93,7 +94,7 @@
 				<sound-file path="/sounds/tower_attack5.wav"/>
 				<sound-file path="/sounds/tower_attack6.wav"/>
 			</sound>
-			<attack-strenght value="260"/>
+			<attack-strenght value="280"/>
 			<attack-var value="80"/>
 			<attack-range value="16"/>
 			<attack-type value="castle"/>
