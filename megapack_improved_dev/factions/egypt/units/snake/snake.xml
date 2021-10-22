@@ -8,13 +8,13 @@
 		<max-ep value="0" regeneration="0"/>
 		<armor value="0"/>
 		<armor-type value="organic"/>
-		<sight value="10"/>
+		<sight value="12"/>
 		<time value="100"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="expert" kills="6"/>
-			<level name="master" kills="16"/>
+			<level name="expert" kills="8"/>
+			<level name="master" kills="20"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -95,8 +95,8 @@
 			<type value="attack"/>
 			<name value="poison_shot_skill"/>
 			<ep-cost value="0"/>
-			<speed value="65"/>
-			<anim-speed value="65"/>
+			<speed value="55"/>
+			<anim-speed value="55"/>
 			<animation path="models/snake_attacking.g3d"/>
 			<sound enabled="true" start-time="0.4">
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack1.wav"/>
