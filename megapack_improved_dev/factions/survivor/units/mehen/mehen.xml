@@ -192,7 +192,6 @@
 			</attack-fields>
 			<attack-start-time value="0.3"/>
 			<projectile value="false"/>
-			<projectile value="false"/>
 			<splash value="true">
 				<radius value="1"/>
 				<damage-all value="false"/>
