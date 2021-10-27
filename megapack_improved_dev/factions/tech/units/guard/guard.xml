@@ -94,8 +94,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="120"/>
-			<anim-speed value="120"/>
+			<speed value="110"/>
+			<anim-speed value="110"/>
 			<animation path="models/guard_attacking.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack1.wav"/>
