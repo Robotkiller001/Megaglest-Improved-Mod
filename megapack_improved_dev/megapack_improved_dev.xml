@@ -49,9 +49,9 @@
 		<damage-multiplier attack="arrow" armor="organic2x" value="1.25"/>
 		<damage-multiplier attack="arrow" armor="leather" value="1.25"/>
 		<damage-multiplier attack="arrow" armor="leather2x" value="1.25"/>
-		<damage-multiplier attack="arrow" armor="wood" value="0.8"/>
+		<damage-multiplier attack="arrow" armor="wood" value="0.85"/>
 		<damage-multiplier attack="arrow" armor="metal" value="0.75"/>
-		<damage-multiplier attack="arrow" armor="stone" value="0.55"/>
+		<damage-multiplier attack="arrow" armor="stone" value="0.6"/>
 		<damage-multiplier attack="arrow" armor="osiris_protection" value="0.8"/>
 		<damage-multiplier attack="arrow" armor="ancient_recalls" value="0.8"/>
 		<damage-multiplier attack="arrow" armor="valak_power" value="0.8"/>
@@ -108,9 +108,9 @@
 		<damage-multiplier attack="piercing" armor="organic" value="1.25"/>
 		<damage-multiplier attack="piercing" armor="organic2x" value="1.25"/>
 		<damage-multiplier attack="piercing" armor="skin" value="0.8"/>
-		<damage-multiplier attack="piercing" armor="wood" value="0.8"/>
+		<damage-multiplier attack="piercing" armor="wood" value="0.85"/>
 		<damage-multiplier attack="piercing" armor="metal" value="0.75"/>
-		<damage-multiplier attack="piercing" armor="stone" value="0.55"/>
+		<damage-multiplier attack="piercing" armor="stone" value="0.6"/>
 		<damage-multiplier attack="piercing" armor="osiris_protection" value="0.8"/>
 		<damage-multiplier attack="piercing" armor="ancient_recalls" value="0.8"/>
 		<damage-multiplier attack="piercing" armor="valak_power" value="0.8"/>
