@@ -172,14 +172,10 @@
 			<anim-speed value="50"/>
 			<animation path="models/behemoth_attacking2.g3d"/>
 			<sound enabled="true" start-time="0.15">
-				<sound-file path="sounds/behemoth_attack1a.wav"/>
-				<sound-file path="sounds/behemoth_attack1b.wav"/>
-				<sound-file path="sounds/behemoth_attack1c.wav"/>
-				<sound-file path="sounds/behemoth_attack1d.wav"/>
-				<sound-file path="sounds/behemoth_attack1e.wav"/>
-				<sound-file path="sounds/behemoth_attack1f.wav"/>
-				<sound-file path="sounds/behemoth_attack1g.wav"/>
-				<sound-file path="sounds/behemoth_attack1h.wav"/>
+				<sound-file path="sounds/behemoth1.wav"/>
+				<sound-file path="sounds/behemoth2.wav"/>
+				<sound-file path="sounds/behemoth3.wav"/>
+				<sound-file path="sounds/behemoth4.wav"/>
 			</sound>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
@@ -262,7 +258,7 @@
                 <command>
 			<type value="attack"/>
 			<name value="attack"/>
-			<image path="images/behemoth_attack2.bmp"/>
+			<image path="images/behemoth_attack2.png"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
