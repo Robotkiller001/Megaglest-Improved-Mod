@@ -9,7 +9,7 @@
 		<armor value="40"/>
 		<armor-type value="artemis_bless"/>
 		<max-unit-count value="1"/>
-		<sight value="16"/>
+		<sight value="14"/>
 		<time value="70"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="false"/>

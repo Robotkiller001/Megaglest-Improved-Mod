@@ -6,7 +6,7 @@
 		<size value="2"/>
 		<height value="4"/>
 		<ai-build-size value="3"/>
-		<max-hp value="7500" regeneration="18" start-percentage="100"/>
+		<max-hp value="8000" regeneration="18" start-percentage="100"/>
 		<max-ep value="0"/>
 		<armor value="50"/>
 		<armor-type value="advanced_protection"/>
@@ -16,7 +16,7 @@
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="expert" kills="25"/>
+			<level name="expert" kills="20"/>
 			<level name="master" kills="50"/>
 			<level name="legendary" kills="75"/>
 		</levels>
@@ -176,7 +176,7 @@
 			<name value="attack_arrow_skill"/>
 			<ep-cost value="0"/>
 			<speed value="65"/>
-			<anim-speed value="75"/>
+			<anim-speed value="65"/>
 			<animation path="models/battle_machine_attacking2.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/machine_attack2.wav"/>
@@ -200,14 +200,13 @@
 					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="250"/>
+			<attack-strenght value="260"/>
 			<attack-var value="80"/>
-			<attack-range value="9"/>
+			<attack-range value="10"/>
 			<attack-type value="battle_machine"/>
 			<attack-start-time value="0.5"/>
 			<attack-fields>
 				<field value="air"/>
-				<field value="land"/>
 			</attack-fields>
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>

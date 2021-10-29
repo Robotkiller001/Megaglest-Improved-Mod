@@ -12,7 +12,7 @@
 		<armor value="50"/>
 		<armor-type value="obsidian_aura"/>
 		<max-unit-count value="2"/>
-		<sight value="16"/>
+		<sight value="14"/>
 		<time value="70"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>

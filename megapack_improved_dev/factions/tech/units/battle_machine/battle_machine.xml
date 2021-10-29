@@ -155,14 +155,13 @@
 				<sound-file path="sounds/machine_attack2b.wav"/>
 				<sound-file path="sounds/machine_attack2c.wav"/>
 			</sound>
-			<attack-strenght value="150"/>
+			<attack-strenght value="170"/>
 			<attack-var value="50"/>
 			<attack-range value="8"/>
 			<attack-type value="battle_machine"/>
 			<attack-start-time value="0.5"/>
 			<attack-fields>
 				<field value="air"/>
-				<field value="land"/>
 			</attack-fields>
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
