@@ -9,7 +9,7 @@
 		<size value="2"/>
 		<height value="4"/>
 		<max-hp value="8500" regeneration="18" start-percentage="100"/>
-		<max-ep value="500" regeneration="20" start-percentage="45"/>
+		<max-ep value="1000" regeneration="50" start-percentage="100"/>
 		<armor value="50"/>
 		<armor-type value="odin_shield"/>
 		<max-unit-count value="2"/>
@@ -187,9 +187,9 @@
               	<skill>
 			<type value="attack"/>
 			<name value="attack_air_skill"/>
-			<ep-cost value="65"/>
-			<speed value="90"/>
-			<anim-speed value="90"/>
+			<ep-cost value="150"/>
+			<speed value="140"/>
+			<anim-speed value="140"/>
 			<animation path="models/thor_airattacking.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/air_attack1.wav"/>
@@ -214,7 +214,7 @@
 					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="280"/>
+			<attack-strenght value="260"/>
 			<attack-var value="80"/>
 			<attack-range value="10"/>
 			<attack-type value="thor"/>

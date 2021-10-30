@@ -4,8 +4,8 @@
 	<parameters>
 		<size value="2"/>
 		<height value="4"/>
-		<max-hp value="9000" regeneration="20" start-percentage="100"/>
-		<max-ep value="1000" regeneration="75" start-percentage="100"/>
+		<max-hp value="9000" regeneration="18" start-percentage="100"/>
+		<max-ep value="1000" regeneration="50" start-percentage="100"/>
 		<armor value="70"/>
 		<armor-type value="valak_power"/>
 		<max-unit-count value="2"/>
@@ -150,7 +150,7 @@
 					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="380"/>
+			<attack-strenght value="370"/>
 			<attack-var value="100"/>
 			<attack-range value="2"/>
 			<attack-type value="behemoth"/>
@@ -194,7 +194,7 @@
 					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="700"/>
+			<attack-strenght value="750"/>
 			<attack-var value="150"/>
 			<attack-range value="4"/>
 			<attack-type value="behemoth"/>
