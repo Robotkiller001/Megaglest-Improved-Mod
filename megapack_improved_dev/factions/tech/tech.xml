@@ -13,8 +13,8 @@
 		<unit name="defense_tower" amount="1"/>
 		<unit name="worker" amount="4"/>
 		<unit name="cow" amount="1"/>
-		<unit name="rifleman" amount="0"/>
-		<unit name="catapult" amount="0"/>
+		<unit name="thunderstruck_battle_machine" amount="0"/>
+		<unit name="airship" amount="0"/>
 	</starting-units>
 	<music value="true" path="music/music_tech.ogg"/>
 	<flat-particle-positions value="true"/>

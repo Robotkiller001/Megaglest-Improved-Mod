@@ -7,7 +7,7 @@
 		<height value="4"/>
 		<ai-build-size value="3"/>
 		<max-hp value="8000" regeneration="18" start-percentage="100"/>
-		<max-ep value="0"/>
+		<max-ep value="1000" regeneration="50" start-percentage="100"/>
 		<armor value="50"/>
 		<armor-type value="advanced_protection"/>
 		<max-unit-count value="2"/>
@@ -173,15 +173,13 @@
 
 		<skill>
 			<type value="attack"/>
-			<name value="attack_arrow_skill"/>
-			<ep-cost value="0"/>
-			<speed value="65"/>
-			<anim-speed value="65"/>
+			<name value="attack_missile_skill"/>
+			<ep-cost value="250"/>
+			<speed value="75"/>
+			<anim-speed value="75"/>
 			<animation path="models/battle_machine_attacking2.g3d"/>
-			<sound enabled="true" start-time="0.5">
+			<sound enabled="true" start-time="0.4">
 				<sound-file path="sounds/machine_attack2.wav"/>
-				<sound-file path="sounds/machine_attack2b.wav"/>
-				<sound-file path="sounds/machine_attack2c.wav"/>
 			</sound>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
@@ -200,26 +198,33 @@
 					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="260"/>
+			<attack-strenght value="300"/>
 			<attack-var value="80"/>
 			<attack-range value="10"/>
 			<attack-type value="battle_machine"/>
-			<attack-start-time value="0.5"/>
+			<attack-start-time value="0.0"/>
 			<attack-fields>
 				<field value="air"/>
 			</attack-fields>
-			<projectile value="true">
-				<particle value="true" path="particle_proj.xml"/>
-				<sound enabled="true">
-					<sound-file path="../ornithopter/sounds/orni_hit1.wav"/>
-					<sound-file path="../ornithopter/sounds/orni_hit2.wav"/>
-					<sound-file path="../ornithopter/sounds/orni_hit3.wav"/>
-					<sound-file path="../ornithopter/sounds/orni_hit4.wav"/>
-					<sound-file path="../ornithopter/sounds/orni_hit5.wav"/>
-				</sound>
+			<projectiles>
+			  
+			<projectile attack-start-time="0.4" damage-percentage="50">	
+				<particle value="true" path="particle_proj1.xml"/>
+				<hitsound enabled="true">
+					<sound-file path="sounds/machine_attack_hit.wav"/>
+				</hitsound>
 			</projectile>
+			
+			<projectile attack-start-time="0.4" damage-percentage="50">	
+				<particle value="true" path="particle_proj2.xml"/>
+				<hitsound enabled="true">
+					<sound-file path="sounds/machine_attack_hit.wav"/>
+				</hitsound>
+			</projectile>
+
+			</projectiles>
 			<splash value="true">
-				<radius value="1"/>
+				<radius value="0"/>
 				<damage-all value="false"/>
 				<particle value="true" path="particle_splash.xml"/>
 			</splash>
@@ -321,12 +326,12 @@
 
 		<command>
 			<type value="attack"/>
-			<name value="attack_arrow"/>
-			<image path="images/battle_machine_attack_arrow.bmp"/>
+			<name value="attack_missile"/>
+			<image path="images/battle_machine_attack_missile.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="charge_skill"/>
-			<attack-skill value="attack_arrow_skill"/>
+			<attack-skill value="attack_missile_skill"/>
 		</command>
 
                    <command>
