@@ -218,6 +218,11 @@
 				<damage-all value="false"/>
 				<particle value="false"/>
 			</splash>
+			<shake enabled="true" intensity="1000" duration="120" start-time="0.7">
+				<self enabled="true" visible="false" in-camera-view="true" camera-distance-affected="false"/>
+				<team enabled="true" visible="false" in-camera-view="true" camera-distance-affected="false"/>
+				<enemy enabled="true" visible="true" in-camera-view="true" camera-distance-affected="true"/>
+			</shake>
 			<particles value="true">
 				<particle-file path="glow_particles2.xml"/>
 			</particles>
