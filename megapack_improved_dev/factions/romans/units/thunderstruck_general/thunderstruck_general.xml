@@ -5,7 +5,7 @@
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="7500"  regeneration="20" start-percentage="100"/>
-		<max-ep value="0"/>
+		<max-ep value="1000" regeneration="50" start-percentage="100"/>
 		<armor value="50"/>
 		<armor-type value="blessed_armor"/>
 		<max-unit-count value="1"/>
@@ -177,6 +177,53 @@
 		</skill>
 
 		<skill>
+			<type value="attack"/>
+			<name value="attack_skill2"/>
+			<ep-cost value="1000"/>
+			<speed value="30"/>
+			<anim-speed value="30"/>
+			<animation path="models/general_attack2.g3d"/>
+			<sound enabled="true" start-time="0.7">
+				<sound-file path="sounds/thunderstruck_general_sword.wav"/>
+			</sound>
+                        <attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="10"/>
+                        	<target value="faction" include-self="false">
+				</target>
+				<max-hp value="0" regeneration="10"/>
+				<max-ep value="0"/>
+				<sight value="1"/>
+				<attack-strenght value="40" value-percent-multiplier="true"/>
+				<attack-range value="0"/>
+				<armor value="15"/>
+				<move-speed value="20"/>
+				<production-speed value="0"/>
+			<particles value="true">
+					<affected-particle-file path="boost_particles.xml"/>
+			</particles>
+                        </attack-boost>
+			<attack-strenght value="1000"/>
+			<attack-var value="200"/>
+			<attack-range value="3"/>
+			<attack-type value="general"/>
+			<attack-fields>
+				<field value="land"/>
+				<field value="air"/>
+			</attack-fields>
+			<attack-start-time value="0.7"/>
+			<projectile value="false"/>
+			<splash value="true">
+				<radius value="2"/>
+				<damage-all value="false"/>
+				<particle value="false"/>
+			</splash>
+			<particles value="true">
+				<particle-file path="glow_particles2.xml"/>
+			</particles>
+		</skill>
+
+		<skill>
 			<type value="die"/>
 			<name value="die_skill"/>
 			<ep-cost value="0"/>
@@ -251,6 +298,16 @@
 			<upgrade-requirements/>
 			<move-skill value="charge_skill"/>
 			<attack-skill value="attack_skill"/>
+		</command>
+
+		<command>
+			<type value="attack"/>
+			<name value="god_help"/>
+			<image path="images/guard_attack2.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="charge_skill"/>
+			<attack-skill value="attack_skill2"/>
 		</command>
 
 		<command>
