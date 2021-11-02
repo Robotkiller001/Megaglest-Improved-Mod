@@ -471,7 +471,7 @@
 		<command>
 			<type value="attack"/>
 			<name value="mastery_of_shadows"/>
-			<image path="images/molotov.bmp"/>
+			<image path="images/shadow_molotov.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
