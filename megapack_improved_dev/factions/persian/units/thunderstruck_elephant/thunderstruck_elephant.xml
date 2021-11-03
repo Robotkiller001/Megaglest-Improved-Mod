@@ -131,7 +131,7 @@
 			<type value="move"/>
 			<name value="charge_skill"/>
 			<ep-cost value="0"/>
-			<speed value="320"/>
+			<speed value="310"/>
 			<anim-speed value="110"/>
 			<animation path="models/elephant_walk.g3d"/>
 			<particles value="true">
@@ -165,8 +165,8 @@
 			<type value="attack"/>
 			<name value="attack_arrow_skill"/>
 			<ep-cost value="0"/>
-			<speed value="100"/>
-			<anim-speed value="50"/>
+			<speed value="70"/>
+			<anim-speed value="70"/>
 			<animation path="models/elephant_attack_arrow.g3d"/>
 			<sound enabled="true" start-time="0.82">
 				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack1.wav"/>
@@ -226,8 +226,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="100"/>
-			<anim-speed value="75"/>
+			<speed value="80"/>
+			<anim-speed value="80"/>
 			<animation path="models/elephant_attack.g3d"/>
 			<sound enabled="true" start-time="0.47">
 				<sound-file path="sounds/eleattack2.wav"/>

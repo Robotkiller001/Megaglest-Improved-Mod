@@ -203,7 +203,7 @@
 					<affected-particle-file path="boost_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="1100"/>
+			<attack-strenght value="1300"/>
 			<attack-var value="200"/>
 			<attack-range value="3"/>
 			<attack-type value="general"/>

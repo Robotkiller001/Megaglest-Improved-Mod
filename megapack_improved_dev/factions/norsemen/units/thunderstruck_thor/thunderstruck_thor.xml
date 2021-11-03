@@ -142,8 +142,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="60"/>
-			<anim-speed value="60"/>
+			<speed value="50"/>
+			<anim-speed value="50"/>
 			<animation path="models/thor_attacking.g3d"/>
 			<sound enabled="true" start-time="0.3">
 				<sound-file path="$COMMONDATAPATH/sounds/golem_attack1.wav"/>
@@ -165,7 +165,7 @@
 					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="380"/>
+			<attack-strenght value="440"/>
 			<attack-var value="100"/>
 			<attack-range value="2"/>
 			<attack-type value="thor"/>
@@ -188,10 +188,10 @@
 			<type value="attack"/>
 			<name value="attack_air_skill"/>
 			<ep-cost value="150"/>
-			<speed value="140"/>
-			<anim-speed value="140"/>
+			<speed value="150"/>
+			<anim-speed value="150"/>
 			<animation path="models/thor_airattacking.g3d"/>
-			<sound enabled="true" start-time="0">
+			<sound enabled="true" start-time="0.3">
 				<sound-file path="$COMMONDATAPATH/sounds/air_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/air_attack2.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/air_attack3.wav"/>
@@ -221,7 +221,7 @@
 			<attack-fields>
 				<field value="air"/>
 			</attack-fields>
-			<attack-start-time value="0.02"/>
+			<attack-start-time value="0.3"/>
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
 				<sound enabled="true">
