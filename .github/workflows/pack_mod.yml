@@ -23,7 +23,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Install 7zip
-        run: apt install p7zip-full
+        run: sudo apt install p7zip-full
 
       # Runs a set of commands using the runners shell
       - name: Create mod archive
