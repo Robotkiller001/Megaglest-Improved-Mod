@@ -33,10 +33,6 @@ jobs:
           mv megapack_improved_dev/ "$modname/"
           7z a -t7z "$modname.7z" "$modname/"
 
-      - uses: actions/upload-artifact@v2
-        with:
-          path: "*.7z"
-
       - name: Upload To Github Release
         # You may pin to the exact commit or the version.
         # uses: xresloader/upload-to-github-release@98857380fc282f8075a62c6af230fe92bd93aff8
