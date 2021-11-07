@@ -20,6 +20,7 @@
 		<unit name="spearman"/>
 		<unit name="spearthrower"/>
 		<unit name="scarab"/>
+		<unit name="small_scarab"/>
 		<unit name="thunderstruck_scarab"/>
 	</effects>
 	<max-hp value="15" value-percent-multiplier="true"/>

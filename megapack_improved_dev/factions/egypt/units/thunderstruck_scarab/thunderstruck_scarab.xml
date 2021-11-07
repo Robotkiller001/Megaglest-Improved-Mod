@@ -5,7 +5,7 @@
 		<size value="1"/>
 		<height value="1"/>
 		<max-hp value="4500" regeneration="16" start-percentage="100"/>
-		<max-ep value="0" regeneration="0"/>
+		<max-ep value="1000" regeneration="50" start-percentage="100"/>
 		<armor value="30"/>
 		<armor-type value="osiris_protection"/>
 		<max-unit-count value="2"/>
@@ -182,6 +182,52 @@
 		</skill>
 
 		<skill>
+			<type value="attack"/>
+			<name value="spawn_skill"/>
+			<ep-cost value="1000"/>
+			<speed value="50"/>
+			<anim-speed value="50"/>
+			<animation path="models/scarab_attacking.g3d"/>
+			<sound enabled="true" start-time="0.5">
+				<sound-file path="$COMMONDATAPATH/sounds/summoner_summon1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/summoner_summon2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/summoner_summon3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/summoner_summon4.wav"/>
+			</sound>
+                        <attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="7"/>
+                        	<target value="faction" include-self="false">
+				</target>
+				<max-hp value="0" regeneration="10"/>
+				<max-ep value="0"/>
+				<sight value="0"/>
+				<attack-strenght value="5" value-percent-multiplier="true"/>
+				<attack-range value="0"/>
+				<armor value="0"/>
+				<move-speed value="0"/>
+				<production-speed value="0"/>
+			<particles value="true">
+					<affected-particle-file path="healing_particles.xml"/>
+			</particles>
+                        </attack-boost>
+			<particles value="true">
+				<particle-file path="produce_particles.xml"/>
+			</particles>
+			<attack-strength value="-100"/>
+			<attack-var value="0"/>
+			<attack-range value="12"/>
+			<attack-type value="energy"/>
+				<unit value="small_scarab" amount="6"/>
+			<attack-start-time value="0.5"/>
+			<attack-fields>
+				<field value="land"/>
+			</attack-fields>
+			<projectile value="false"/>
+			<splash value="false"/>
+		</skill>
+
+		<skill>
 			<type value="die"/>
 			<name value="die_skill"/>
 			<ep-cost value="0"/>
@@ -227,6 +273,16 @@
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
 			<attack-skill value="dung_attack_skill"/>
+		</command>
+
+		<command>
+			<type value="attack"/>
+			<name value="spawn_attack"/>
+			<image path="images/spawn_attack.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="spawn_skill"/>
 		</command>
 
 		<command>

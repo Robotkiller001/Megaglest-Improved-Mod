@@ -79,6 +79,7 @@
 					<unit-type name="spearman"/>
 					<unit-type name="spearthrower"/>
 					<unit-type name="scarab"/>
+					<unit-type name="small_scarab"/>
 					<unit-type name="thunderstruck_scarab"/>
 				</target>
 				<max-hp value="0"/>
@@ -135,6 +136,7 @@
 					<unit-type name="spearman"/>
 					<unit-type name="spearthrower"/>
 					<unit-type name="scarab"/>
+					<unit-type name="small_scarab"/>
 					<unit-type name="thunderstruck_scarab"/>
 				</target>
 				<max-hp value="0"/>
@@ -200,6 +202,7 @@
 					<unit-type name="spearman"/>
 					<unit-type name="spearthrower"/>
 					<unit-type name="scarab"/>
+					<unit-type name="small_scarab"/>
 					<unit-type name="thunderstruck_scarab"/>
 				</target>
 				<max-hp value="0"/>
