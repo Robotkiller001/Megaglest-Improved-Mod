@@ -5,7 +5,7 @@
 		<size value="1"/>
 		<height value="1"/>
 		<max-hp value="4500" regeneration="16" start-percentage="100"/>
-		<max-ep value="1000" regeneration="50" start-percentage="100"/>
+		<max-ep value="1000" regeneration="35" start-percentage="100"/>
 		<armor value="30"/>
 		<armor-type value="osiris_protection"/>
 		<max-unit-count value="2"/>
