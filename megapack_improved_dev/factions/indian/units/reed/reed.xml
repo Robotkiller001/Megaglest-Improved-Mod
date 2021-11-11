@@ -27,6 +27,7 @@
 		<light enabled="false" />
 		<unit-requirements>
 			<unit name="main_teepee"/>
+			<unit name="big_tent" />
 		</unit-requirements>
 		<upgrade-requirements />
 		<resource-requirements>

@@ -5,7 +5,7 @@
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="600" regeneration="8"/>
-		<max-ep value="4000" regeneration="45"/>
+		<max-ep value="4000" regeneration="50"/>
 		<armor value="20"/>
 		<armor-type value="leather"/>
 		<sight value="13"/>
@@ -103,7 +103,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack15.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack16.wav"/>
 			</sound>
-			<attack-strenght value="260"/>
+			<attack-strenght value="270"/>
 			<attack-var value="70"/>
 			<attack-range value="10"/>
 			<attack-type value="energy"/>
@@ -121,7 +121,7 @@
 				</sound>
 			</projectile>
 			<splash value="true">
-				<radius value="4"/>
+				<radius value="3"/>
 				<damage-all value="false"/>
 				<particle value="true" path="particle_splash.xml"/>
 			</splash>
@@ -198,7 +198,7 @@
 
 			</projectiles>
 			<splash value="true">
-				<radius value="5"/>
+				<radius value="4"/>
 				<damage-all value="false"/>
 				<particle value="true" path="fire_splash.xml"/>
 			</splash>
