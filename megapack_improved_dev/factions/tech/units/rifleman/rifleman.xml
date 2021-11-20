@@ -131,7 +131,7 @@
 			<attack-strenght value="280"/>
 			<attack-var value="60"/>
 			<attack-range value="11"/>
-			<attack-type value="energy"/>
+			<attack-type value="rifle"/>
 			<attack-start-time value="0.35"/>
 			<attack-fields>
 				<field value="land"/>

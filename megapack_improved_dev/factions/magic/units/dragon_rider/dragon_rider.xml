@@ -133,7 +133,7 @@
 			<attack-strenght value="170"/>
 			<attack-var value="50"/>
 			<attack-range value="4"/>
-			<attack-type value="energy"/>
+			<attack-type value="magic"/>
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>
