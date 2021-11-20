@@ -131,7 +131,7 @@
 				<sound-file path="sounds/machine_attack1b.wav"/>
 				<sound-file path="sounds/machine_attack1c.wav"/>
 			</sound>
-			<attack-strenght value="260"/>
+			<attack-strenght value="270"/>
 			<attack-var value="80"/>
 			<attack-range value="1"/>
 			<attack-type value="battle_machine"/>
@@ -155,7 +155,7 @@
 				<sound-file path="sounds/machine_attack2b.wav"/>
 				<sound-file path="sounds/machine_attack2c.wav"/>
 			</sound>
-			<attack-strenght value="170"/>
+			<attack-strenght value="190"/>
 			<attack-var value="50"/>
 			<attack-range value="8"/>
 			<attack-type value="battle_machine"/>

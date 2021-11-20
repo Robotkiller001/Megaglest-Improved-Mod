@@ -83,9 +83,9 @@
 		<skill>
 			<type value="attack"/>
 			<name value="fire_ball_skill"/>
-			<ep-cost value="400"/>
-			<speed value="55"/>
-			<anim-speed value="65"/>
+			<ep-cost value="350"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
 			<animation path="models/archmage_attacking.g3d"/>
 			<particles value="true">
 				<particle-file path="glow_particles.xml"/>

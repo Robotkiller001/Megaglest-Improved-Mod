@@ -7,7 +7,7 @@
 		<height value="2"/>
 		<max-hp value="1000" regeneration="6" start-percentage="100"/>
 		<max-ep value="3000" regeneration="40" start-percentage="40"/>
-		<armor value="25"/>
+		<armor value="30"/>
 		<armor-type value="leather"/>					
 		<sight value="13"/>
 		<time value="140"/>	
