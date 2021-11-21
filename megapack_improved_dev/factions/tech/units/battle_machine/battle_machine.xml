@@ -126,7 +126,7 @@
 			<speed value="80"/>
 			<anim-speed value="80"/>
 			<animation path="models/battle_machine_attacking.g3d"/>
-			<sound enabled="true" start-time="0">
+			<sound enabled="true" start-time="0.1">
 				<sound-file path="sounds/machine_attack1.wav"/>
 				<sound-file path="sounds/machine_attack1b.wav"/>
 				<sound-file path="sounds/machine_attack1c.wav"/>
