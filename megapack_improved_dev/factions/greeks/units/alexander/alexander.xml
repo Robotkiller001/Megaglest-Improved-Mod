@@ -153,7 +153,7 @@
 			</sound>
 			<attack-strength value="200"/>
 			<attack-var value="60"/>
-			<attack-range value="12"/>
+			<attack-range value="11"/>
 			<attack-type value="arrow"/>
 			<attack-start-time value="0.31"/>
 			<attack-fields>
