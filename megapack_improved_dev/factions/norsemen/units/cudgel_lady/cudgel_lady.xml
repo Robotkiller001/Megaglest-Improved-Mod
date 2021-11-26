@@ -15,7 +15,9 @@
 		<time value="18"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
-		<levels/>
+		<levels>
+			<level name="mad" kills="4"/>
+		</levels>
 		<fields>
 			<field value="land"/>
 		</fields>

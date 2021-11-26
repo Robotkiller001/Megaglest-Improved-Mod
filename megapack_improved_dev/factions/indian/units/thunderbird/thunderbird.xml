@@ -14,7 +14,7 @@
 		<cellmap value="false"/>
 		<levels>
 			<level name="ancient" kills="10"/>
-			<level name="expert" kills="20"/>
+			<level name="baleful" kills="25"/>
 		</levels>
 		<fields>
 			<field value="air"/>

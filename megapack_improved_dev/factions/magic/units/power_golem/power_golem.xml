@@ -14,6 +14,7 @@
 		<cellmap value="false"/>
 		<levels>
 			<level name="ancient" kills="10"/>
+			<level name="baleful" kills="25"/>
 		</levels>
 		<fields>
 			<field value="land"/>

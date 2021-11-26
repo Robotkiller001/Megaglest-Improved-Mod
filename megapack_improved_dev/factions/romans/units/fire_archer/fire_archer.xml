@@ -13,8 +13,8 @@
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="accurate" kills="10"/>
-			<level name="elite" kills="22"/>
+			<level name="accurate" kills="8"/>
+			<level name="elite" kills="20"/>
 		</levels>
 		<fields>
 			<field value="land"/>

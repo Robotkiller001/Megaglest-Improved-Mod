@@ -12,7 +12,9 @@
 		<time value="22"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
-		<levels/>
+		<levels>
+			<level name="cursed" kills="4"/>
+		</levels>
 		<fields>
 			<field value="land"/>
 		</fields>

@@ -17,7 +17,8 @@
 		<uniform-selection value="false"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="legendary" kills="10"/>
+			<level name="expert" kills="8"/>
+			<level name="legendary" kills="20"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -113,7 +114,7 @@
 			<attack-strength value="350"/>
 			<attack-var value="50"/>
 			<attack-range value="2"/>
-			<attack-type value="magic"/>
+			<attack-type value="energy"/>
 			<attack-start-time value="0.45"/>
 			<attack-fields>
 				<field value="land"/>

@@ -156,8 +156,8 @@
 					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="420"/>
-			<attack-var value="120"/>
+			<attack-strenght value="400"/>
+			<attack-var value="100"/>
 			<attack-range value="1"/>
 			<attack-type value="battle_machine"/>
 			<attack-fields>
@@ -198,7 +198,7 @@
 					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="360"/>
+			<attack-strenght value="340"/>
 			<attack-var value="100"/>
 			<attack-range value="10"/>
 			<attack-type value="battle_machine"/>

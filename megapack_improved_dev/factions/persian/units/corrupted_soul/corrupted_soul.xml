@@ -15,8 +15,8 @@
 		<cellmap value="false"/>
 		<levels>
 			<level name="angry" kills="8"/>
-			<level name="killer" kills="16"/>
-			<level name="demonic" kills="30"/>
+			<level name="killer" kills="18"/>
+			<level name="demonic" kills="40"/>
 		</levels>
 		<fields>
 			<field value="land"/>
