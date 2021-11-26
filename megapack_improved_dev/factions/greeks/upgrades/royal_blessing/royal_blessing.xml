@@ -14,6 +14,7 @@
 	</resource-requirements>
 	<effects>
 		<unit name="psiloi"/>
+		<unit name="hoplite"/>
 		<unit name="chariot"/>
 		<unit name="dragon"/>
 		<unit name="atlas"/>
