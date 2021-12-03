@@ -8,7 +8,6 @@
 		<max-ep value="0" regeneration="0"/>
 		<armor value="30"/>
 		<armor-type value="artemis_bless"/>
-		<max-unit-count value="4"/>
 		<sight value="12"/>
 		<time value="170"/>
 		<multi-selection value="true"/>
@@ -81,19 +80,19 @@
 			<sound enabled="false"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="10"/>
-                        	<target value="faction" include-self="false">
+				<radius value="0"/>
+                        	<target value="faction" include-self="true">
+					<unit-type name="alexander" />
 				</target>
-				<max-hp value="0" regeneration="2"/>
+				<max-hp value="0" regeneration="4"/>
 				<max-ep value="0"/>
-				<sight value="1"/>
-				<attack-strenght value="10" value-percent-multiplier="true"/>
+				<sight value="0"/>
+				<attack-strenght value="0" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
 				<move-speed value="0"/>
 				<production-speed value="0"/>
-			<particles value="true">
-					<affected-particle-file path="boost_particles.xml"/>
+			<particles value="false">
 			</particles>
                         </attack-boost>
 		</skill>
@@ -115,27 +114,10 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="180"/>
-			<anim-speed value="50"/>
+			<speed value="190"/>
+			<anim-speed value="55"/>
 			<animation path="models/prince_walk.g3d"/>
 			<sound enabled="false"/>
-                        <attack-boost>
-				<allow-multiple-boosts value="false" />
-				<radius value="10"/>
-                        	<target value="faction" include-self="false">
-				</target>
-				<max-hp value="0" regeneration="2"/>
-				<max-ep value="0"/>
-				<sight value="1"/>
-				<attack-strenght value="10" value-percent-multiplier="true"/>
-				<attack-range value="0"/>
-				<armor value="0"/>
-				<move-speed value="0"/>
-				<production-speed value="0"/>
-			<particles value="true">
-					<affected-particle-file path="boost_particles.xml"/>
-			</particles>
-                        </attack-boost>
 		</skill>
 
 		<skill>
@@ -175,23 +157,6 @@
 				<damage-all value="false"/>
 				<particle value="true" path="particle_splash.xml"/>
 			</splash>
-                        <attack-boost>
-				<allow-multiple-boosts value="false" />
-				<radius value="10"/>
-                        	<target value="faction" include-self="false">
-				</target>
-				<max-hp value="0" regeneration="2"/>
-				<max-ep value="0"/>
-				<sight value="1"/>
-				<attack-strenght value="10" value-percent-multiplier="true"/>
-				<attack-range value="0"/>
-				<armor value="0"/>
-				<move-speed value="0"/>
-				<production-speed value="0"/>
-			<particles value="true">
-					<affected-particle-file path="boost_particles.xml"/>
-			</particles>
-                        </attack-boost>
 		</skill>
 
 		<skill>

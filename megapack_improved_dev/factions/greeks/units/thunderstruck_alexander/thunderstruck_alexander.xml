@@ -8,7 +8,7 @@
 		<max-ep value="1000" regeneration="35"/>
 		<armor value="40"/>
 		<armor-type value="artemis_bless"/>
-		<max-unit-count value="1"/>
+		<max-unit-count value="2"/>
 		<sight value="14"/>
 		<time value="70"/>
 		<multi-selection value="true"/>
@@ -81,19 +81,19 @@
 			<sound enabled="false"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="10"/>
+				<radius value="7"/>
                         	<target value="faction" include-self="false">
 				</target>
 				<max-hp value="0" regeneration="4"/>
 				<max-ep value="0"/>
-				<sight value="1"/>
-				<attack-strenght value="20" value-percent-multiplier="true"/>
+				<sight value="0"/>
+				<attack-strenght value="0" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
-				<armor value="5"/>
+				<armor value="0"/>
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 			<particles value="true">
-					<affected-particle-file path="boost_particles.xml"/>
+					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
 		</skill>
@@ -102,25 +102,25 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="230"/>
-			<anim-speed value="65"/>
+			<speed value="240"/>
+			<anim-speed value="70"/>
 			<animation path="models/prince_walk.g3d"/>
 			<sound enabled="false"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="10"/>
+				<radius value="7"/>
                         	<target value="faction" include-self="false">
 				</target>
 				<max-hp value="0" regeneration="4"/>
 				<max-ep value="0"/>
-				<sight value="1"/>
-				<attack-strenght value="20" value-percent-multiplier="true"/>
+				<sight value="0"/>
+				<attack-strenght value="0" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
-				<armor value="5"/>
+				<armor value="0"/>
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 			<particles value="true">
-					<affected-particle-file path="boost_particles.xml"/>
+					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
 		</skill>
@@ -164,19 +164,19 @@
 			</splash>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="10"/>
+				<radius value="7"/>
                         	<target value="faction" include-self="false">
 				</target>
-				<max-hp value="0" regeneration="4"/>
+				<max-hp value="0" regeneration="10"/>
 				<max-ep value="0"/>
-				<sight value="1"/>
-				<attack-strenght value="20" value-percent-multiplier="true"/>
+				<sight value="0"/>
+				<attack-strenght value="5" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
-				<armor value="5"/>
+				<armor value="0"/>
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 			<particles value="true">
-					<affected-particle-file path="boost_particles.xml"/>
+					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
 		</skill>
@@ -218,9 +218,9 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack3.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack4.wav"/>
 			</sound>
-			<attack-strength value="1200"/>
+			<attack-strength value="1100"/>
 			<attack-var value="200"/>
-			<attack-range value="14"/>
+			<attack-range value="13"/>
 			<attack-type value="alexander"/>
 			<attack-start-time value="0.0"/>
 			<attack-fields>
@@ -293,19 +293,19 @@
 			</splash>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="10"/>
+				<radius value="7"/>
                         	<target value="faction" include-self="false">
 				</target>
-				<max-hp value="0" regeneration="4"/>
+				<max-hp value="0" regeneration="10"/>
 				<max-ep value="0"/>
-				<sight value="1"/>
-				<attack-strenght value="20" value-percent-multiplier="true"/>
+				<sight value="0"/>
+				<attack-strenght value="5" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
-				<armor value="5"/>
+				<armor value="0"/>
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 			<particles value="true">
-					<affected-particle-file path="boost_particles.xml"/>
+					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
 		</skill>
