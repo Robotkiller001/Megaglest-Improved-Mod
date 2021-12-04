@@ -15,9 +15,9 @@
 		<uniform-selection value="false"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="expert" kills="25"/>
+			<level name="expert" kills="20"/>
 			<level name="master" kills="50"/>
-			<level name="legendary" kills="75"/>
+			<level name="legendary" kills="90"/>
 		</levels>
 		<fields>
 			<field value="land"/>

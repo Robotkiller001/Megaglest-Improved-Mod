@@ -17,9 +17,9 @@
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="expert" kills="25"/>
+			<level name="expert" kills="20"/>
 			<level name="master" kills="50"/>
-			<level name="legendary" kills="75"/>
+			<level name="legendary" kills="90"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -118,7 +118,7 @@
 			<type value="repair"/>
 			<name value="repair_skill"/>
 			<ep-cost value="0"/>
-			<speed value="300"/>
+			<speed value="350"/>
 			<anim-speed value="210"/>
 			<animation path="models/shaman_repairing.g3d"/>
                         <attack-boost>
@@ -285,7 +285,7 @@
 			<type value="repair"/>
 			<name value="heal"/>
 			<ep-cost value="0"/>
-			<speed value="300"/>
+			<speed value="350"/>
 			<anim-speed value="210"/>
 			<animation path="models/shaman_healing.g3d"/>
                         <attack-boost>
@@ -317,7 +317,7 @@
 			<type value="build"/>
 			<name value="build_skill"/>
 			<ep-cost value="0"/>
-			<speed value="300"/>
+			<speed value="350"/>
 			<anim-speed value="210"/>
 			<animation path="models/shaman_repairing.g3d"/>
                         <attack-boost>
@@ -354,7 +354,7 @@
 			<type value="produce" />
 			<name value="produce_skill"/>
 			<ep-cost value="0" />
-			<speed value="450" />
+			<speed value="500" />
 			<anim-speed value="50" />
 			<animation path="models/shaman_healing.g3d" />
                         <attack-boost>
