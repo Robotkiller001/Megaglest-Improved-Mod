@@ -126,10 +126,6 @@
 			<anim-speed value="50"/>
 			<animation path="models/peltast_die.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/archer_die1.ogg"/>
-				<sound-file path="sounds/archer_die2.ogg"/>
-				<sound-file path="sounds/archer_die3.ogg"/>
-				<sound-file path="sounds/archer_die4.ogg"/>
 			</sound>
 			<fade value="false"/>
 		</skill>

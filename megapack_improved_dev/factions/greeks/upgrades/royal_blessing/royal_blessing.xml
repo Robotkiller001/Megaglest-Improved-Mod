@@ -14,10 +14,10 @@
 	</resource-requirements>
 	<effects>
 		<unit name="psiloi"/>
-		<unit name="hoplite"/>
 		<unit name="chariot"/>
 		<unit name="dragon"/>
 		<unit name="atlas"/>
+		<unit name="hera"/>
 		<unit name="alexander"/>
 		<unit name="thunderstruck_alexander"/>
 	</effects>
