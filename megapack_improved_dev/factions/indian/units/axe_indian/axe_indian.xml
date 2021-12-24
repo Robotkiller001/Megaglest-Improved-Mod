@@ -145,10 +145,10 @@
 			<anim-speed value="80"/>
 			<animation path="models/axe_indian_dying.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/daemon_die1.wav"/>
-				<sound-file path="sounds/daemon_die2.wav"/>
-				<sound-file path="sounds/daemon_die3.wav"/>
-				<sound-file path="sounds/daemon_die4.wav"/>
+				<sound-file path="sounds/axe_indian_die1.wav"/>
+				<sound-file path="sounds/axe_indian_die2.wav"/>
+				<sound-file path="sounds/axe_indian_die3.wav"/>
+				<sound-file path="sounds/axe_indian_die4.wav"/>
 			</sound>
 			<fade value="false"/>
 		</skill>

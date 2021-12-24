@@ -163,11 +163,11 @@
 				<particle value="true" path="particle_splash.xml"/>
 			</splash>
                         <attack-boost>
-				<allow-multiple-boosts value="false" />
+				<allow-multiple-boosts value="true" />
 				<radius value="7"/>
                         	<target value="faction" include-self="false">
 				</target>
-				<max-hp value="0" regeneration="10"/>
+				<max-hp value="0" regeneration="6"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
 				<attack-strenght value="5" value-percent-multiplier="true"/>
@@ -292,11 +292,11 @@
 				<particle value="true" path="particle_splash.xml"/>
 			</splash>
                         <attack-boost>
-				<allow-multiple-boosts value="false" />
+				<allow-multiple-boosts value="true" />
 				<radius value="7"/>
                         	<target value="faction" include-self="false">
 				</target>
-				<max-hp value="0" regeneration="10"/>
+				<max-hp value="0" regeneration="6"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
 				<attack-strenght value="5" value-percent-multiplier="true"/>

@@ -183,11 +183,11 @@
 				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack12.wav"/>
 			</sound>
                         <attack-boost>
-				<allow-multiple-boosts value="false" />
+				<allow-multiple-boosts value="true" />
 				<radius value="7"/>
                         	<target value="faction" include-self="false">
 				</target>
-				<max-hp value="0" regeneration="10"/>
+				<max-hp value="0" regeneration="6"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
 				<attack-strenght value="5" value-percent-multiplier="true"/>
@@ -235,11 +235,11 @@
 				<sound-file path="sounds/eleattack3.wav"/>
 			</sound>
                         <attack-boost>
-				<allow-multiple-boosts value="false" />
+				<allow-multiple-boosts value="true" />
 				<radius value="7"/>
                         	<target value="faction" include-self="false">
 				</target>
-				<max-hp value="0" regeneration="10"/>
+				<max-hp value="0" regeneration="6"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
 				<attack-strenght value="5" value-percent-multiplier="true"/>
