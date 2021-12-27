@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/bullfood.bmp"/>
 	<image-cancel path="../stables/images/tech_upgrade_cancel.bmp"/>
-	<time value="350"/>
+	<time value="300"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>

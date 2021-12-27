@@ -95,8 +95,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="500"/>
-			<speed value="80"/>
-			<anim-speed value="225"/>
+			<speed value="100"/>
+			<anim-speed value="100"/>
 			<animation path="models/bull_walking.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/bull_attack1.wav"/>
@@ -107,7 +107,7 @@
 			<attack-strenght value="160"/>
 			<attack-var value="40"/>
 			<attack-range value="1"/>
-			<attack-type value="energy"/>
+			<attack-type value="beat"/>
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>

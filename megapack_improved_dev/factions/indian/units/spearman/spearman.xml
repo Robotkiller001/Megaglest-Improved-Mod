@@ -38,43 +38,25 @@
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
 			<sound path="sounds/stickfighter_select1.wav"/>
-
 			<sound path="sounds/stickfighter_select2.wav"/>
-
 			<sound path="sounds/stickfighter_select3.wav"/>
-
 			<sound path="sounds/stickfighter_select4.wav"/>
-
 			<sound path="sounds/stickfighter_select5.wav"/>
-
 			<sound path="sounds/stickfighter_select6.wav"/>
-
 			<sound path="sounds/stickfighter_select7.wav"/>
-
 		</selection-sounds>
-
 		<command-sounds enabled="true">
 			<sound path="sounds/stickfighter_ack1.wav"/>
-
 			<sound path="sounds/stickfighter_ack2.wav"/>
-
 			<sound path="sounds/stickfighter_ack3.wav"/>
-
 			<sound path="sounds/stickfighter_ack4.wav"/>
-
 			<sound path="sounds/stickfighter_ack5.wav"/>
-
 			<sound path="sounds/stickfighter_ack6.wav"/>
-
 		</command-sounds>
-
 
 	</parameters>
 
-
-
 	<!-- *** skills *** -->
-
 
 	<skills>
 
@@ -105,24 +87,14 @@
 			<sound enabled="false"/>
 		</skill>
 
-
-
 		<skill>
-
 			<type value="move"/>
-
 			<name value="move_skill"/>
-
 			<ep-cost value="0"/>
-
 			<speed value="220"/>
-
 			<anim-speed value="105"/>
-
 			<animation path="models/spearman_walking.g3d"/>
-
 			<sound enabled="false"/>
-
 		</skill>
 
 		<skill>
@@ -159,128 +131,63 @@
 		</skill>
 
 		<skill>
-
-			<type value="morph"/>
-
-			<name value="morph_skill"/>
-
-			<ep-cost value="0"/>
-
-			<speed value="100"/>
-
-			<anim-speed value="300"/>
-
-			<animation path="models/spearman_walking.g3d"/>
-
-			<sound enabled="false"/>
-
-		</skill>
-
-
-
-		<skill>
-
 			<type value="die"/>
-
 			<name value="die_skill"/>
-
 			<ep-cost value="0"/>
-
 			<speed value="120"/>
-
 			<anim-speed value="50"/>
-
 			<animation path="models/spearman_dying.g3d"/>
-
 			<sound enabled="true" start-time="0">
-
 				<sound-file path="sounds/stickfighter_die1.wav"/>
-
 				<sound-file path="sounds/stickfighter_die2.wav"/>
-
 				<sound-file path="sounds/stickfighter_die3.wav"/>
-
 				<sound-file path="sounds/stickfighter_die4.wav"/>
-
 			</sound>
-
 			<fade value="false"/>
-
 		</skill>
-
 
 	</skills>
 
-
-
 	<!-- *** commands *** -->
-
-
 
 	<commands>
 
-
 		<command>
-
 			<type value="stop"/>
-
 			<name value="stop"/>
-
 			<image path="../archer/images/tech_stop.bmp"/>
-
 			<unit-requirements/>
-
 			<upgrade-requirements/>
-
 			<stop-skill value="stop_skill"/>
-
 		</command>
 
-
-
 		<command>
-
 			<type value="move"/>
-
 			<name value="move"/>
-
 			<image path="../archer/images/tech_move.bmp"/>
-
 			<unit-requirements/>
-
 			<upgrade-requirements/>
-
 			<move-skill value="move_skill"/>
-
 		</command>
-
-
 
 		<command>
-
 			<type value="attack"/>
-
 			<name value="attack"/>
-
 			<image path="images/spearman_attack.bmp"/>
-
 			<unit-requirements/>
-
 			<upgrade-requirements/>
-
 			<move-skill value="move_skill"/>
-
 			<attack-skill value="attack_skill"/>
-
 		</command>
-
 
 		<command>
 			<type value="attack_stopped"/>
 			<name value="hold_position"/>
-			<image path="images/tech_hold.bmp"/>
+			<image path="../archer/images/tech_hold.bmp"/>
 			<unit-requirements/>
-			<upgrade-requirements/>
+			<upgrade-requirements>
+				<upgrade name="training_field"/>
+			</upgrade-requirements>
 			<stop-skill value="stop_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
