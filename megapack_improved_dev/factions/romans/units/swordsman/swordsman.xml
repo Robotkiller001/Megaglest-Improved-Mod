@@ -94,8 +94,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="100"/>
-			<anim-speed value="120"/>
+			<speed value="90"/>
+			<anim-speed value="90"/>
 			<animation path="models/swordsman_attack.g3d"/>
 			<sound enabled="true" start-time="0.1">
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack1.wav"/>
@@ -145,8 +145,8 @@
 			<type value="move"/>
 			<name value="charge_skill"/>
 			<ep-cost value="0"/>
-			<speed value="170"/>
-			<anim-speed value="120"/>
+			<speed value="190"/>
+			<anim-speed value="130"/>
 			<animation path="models/swordsman_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>
