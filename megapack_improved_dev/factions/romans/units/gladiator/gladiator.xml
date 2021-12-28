@@ -8,7 +8,7 @@
 		<max-ep value="0"/>
 		<armor value="25"/>
 		<armor-type value="metal"/>
-		<sight value="10"/>
+		<sight value="11"/>
 		<time value="80"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
@@ -26,8 +26,8 @@
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="wood" amount="75"/>
-			<resource name="gold" amount="175"/>
+			<resource name="wood" amount="150"/>
+			<resource name="gold" amount="100"/>
 			<resource name="food" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -84,8 +84,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="170"/>
-			<anim-speed value="100"/>
+			<speed value="190"/>
+			<anim-speed value="110"/>
 			<animation path="models/g_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -94,10 +94,10 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="80"/>
-			<anim-speed value="80"/>
+			<speed value="90"/>
+			<anim-speed value="90"/>
 			<animation path="models/g_attack.g3d"/>
-			<sound enabled="true" start-time="0">
+			<sound enabled="true" start-time="0.15">
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack2.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack3.wav"/>
@@ -113,14 +113,14 @@
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack13.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack14.wav"/>
 			</sound>
-			<attack-strenght value="110"/>
-			<attack-var value="30"/>
+			<attack-strenght value="130"/>
+			<attack-var value="40"/>
 			<attack-range value="2"/>
 			<attack-type value="piercing"/>
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>
-			<attack-start-time value="0"/>
+			<attack-start-time value="0.4"/>
 			<projectile value="false"/>
 			<splash value="false"/>
 		</skill>
@@ -129,8 +129,8 @@
 			<type value="attack"/>
 			<name value="attack_air_skill"/>
 			<ep-cost value="0"/>
-			<speed value="50"/>
-			<anim-speed value="50"/>
+			<speed value="40"/>
+			<anim-speed value="40"/>
 			<animation path="models/g_attack_air.g3d"/>
 			<sound enabled="true" start-time="0.2">
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack1.wav"/>
@@ -145,7 +145,7 @@
 			<attack-fields>
 				<field value="air"/>
 			</attack-fields>
-			<attack-start-time value="0.2"/>
+			<attack-start-time value="0.25"/>
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
 				<sound enabled="true">
@@ -157,7 +157,7 @@
 				</sound>
 			</projectile>
 			<splash value="false">
-				<radius value="1"/>
+				<radius value="0"/>
 				<damage-all value="true"/>
 				<particle value="true" path="particle_splash.xml"/>
 			</splash>
@@ -213,7 +213,7 @@
 		<command>
 			<type value="attack"/>
 			<name value="attack_land"/>
-			<image path="images/guard_attack.bmp"/>
+			<image path="images/gladiator_attack.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="charge_skill"/>
@@ -223,7 +223,7 @@
 		<command>
 			<type value="attack"/>
 			<name value="attack_air"/>
-			<image path="images/guard_attack.bmp"/>
+			<image path="images/gladiator_air_attack.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="charge_skill"/>

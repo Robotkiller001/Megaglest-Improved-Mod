@@ -12,8 +12,9 @@
 		<unit name="forum" amount="1"/>
 		<unit name="guard_tower" amount="1"/>
 		<unit name="slave" amount="4"/>
-		<unit name="thunderstruck_general" amount="0"/>
-		<unit name="archer" amount="0"/>
+		<unit name="axe_man" amount="1"/>
+		<unit name="guard" amount="1"/>
+		<unit name="gladiator" amount="1"/>
 	</starting-units>
 	<music value="true" path="music/romans.ogg"/>
 	<flat-particle-positions value="true"/>

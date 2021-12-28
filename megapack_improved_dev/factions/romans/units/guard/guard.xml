@@ -101,7 +101,7 @@
 			<speed value="100"/>
 			<anim-speed value="100"/>
 			<animation path="models/guard_attack.g3d"/>
-			<sound enabled="true" start-time="0">
+			<sound enabled="true" start-time="0.1">
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack2.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack3.wav"/>
@@ -119,12 +119,12 @@
 			</sound>
 			<attack-strenght value="160"/>
 			<attack-var value="50"/>
-			<attack-range value="2"/>
+			<attack-range value="3"/>
 			<attack-type value="sword"/>
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>
-			<attack-start-time value="0"/>
+			<attack-start-time value="0.35"/>
 			<projectile value="false"/>
 			<splash value="false"/>
 		</skill>
