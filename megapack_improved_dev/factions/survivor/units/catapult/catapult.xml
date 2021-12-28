@@ -14,15 +14,15 @@
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="basic" kills="55"/>
-			<level name="advanced" kills="75"/>
-			<level name="expert" kills="100"/>
-			<level name="master" kills="135"/>
-			<level name="grandmaster" kills="180"/>
-			<level name="mayor" kills="245"/>
-			<level name="imperator" kills="345"/>
-			<level name="destructor" kills="525"/>
-			<level name="adpocalypse" kills="750"/>
+			<level name="basic" kills="35"/>
+			<level name="advanced" kills="70"/>
+			<level name="expert" kills="110"/>
+			<level name="master" kills="160"/>
+			<level name="grandmaster" kills="220"/>
+			<level name="mayor" kills="300"/>
+			<level name="imperator" kills="425"/>
+			<level name="destructor" kills="600"/>
+			<level name="adpocalypse" kills="800"/>
 		</levels>
 		<fields>
 			<field value="land"/>

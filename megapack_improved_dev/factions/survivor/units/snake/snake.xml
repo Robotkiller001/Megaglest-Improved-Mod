@@ -18,8 +18,6 @@
 			<level name="expert" kills="3"/>
 			<level name="master" kills="5"/>
 			<level name="grandmaster" kills="8"/>
-			<level name="mayor" kills="12"/>
-			<level name="imperator" kills="15"/>
 		</levels>
 		<fields>
 			<field value="land"/>

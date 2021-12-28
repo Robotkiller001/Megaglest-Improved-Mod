@@ -18,8 +18,6 @@
 			<level name="expert" kills="3"/>
 			<level name="master" kills="5"/>
 			<level name="grandmaster" kills="8"/>
-			<level name="god" kills="12"/>
-			<level name="skygod" kills="15"/>
 		</levels>
 		<fields>
 			<field value="land"/>

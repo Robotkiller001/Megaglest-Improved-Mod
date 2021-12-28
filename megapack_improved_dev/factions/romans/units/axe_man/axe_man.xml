@@ -4,12 +4,12 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="1300"  regeneration="2" start-percentage="100"/>
+		<max-hp value="1400"  regeneration="3" start-percentage="100"/>
 		<max-ep value="0"/>
-		<armor value="40"/>
+		<armor value="50"/>
 		<armor-type value="metal"/>
 		<sight value="10"/>
-		<time value="80"/>
+		<time value="90"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
@@ -27,8 +27,8 @@
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="wood" amount="75"/>
-			<resource name="gold" amount="175"/>
+			<resource name="wood" amount="100"/>
+			<resource name="gold" amount="150"/>
 			<resource name="food" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -87,8 +87,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="240"/>
-			<anim-speed value="120"/>
+			<speed value="220"/>
+			<anim-speed value="110"/>
 			<animation path="models/axe_man_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -97,8 +97,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="60"/>
-			<anim-speed value="100"/>
+			<speed value="70"/>
+			<anim-speed value="70"/>
 			<animation path="models/axe_man_attack.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack1.wav"/>
@@ -116,8 +116,8 @@
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack13.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack14.wav"/>
 			</sound>
-			<attack-strenght value="160"/>
-			<attack-var value="50"/>
+			<attack-strenght value="130"/>
+			<attack-var value="40"/>
 			<attack-range value="1"/>
 			<attack-type value="sword"/>
 			<attack-fields>
@@ -148,8 +148,8 @@
 			<type value="move"/>
 			<name value="charge_skill"/>
 			<ep-cost value="0"/>
-			<speed value="240"/>
-			<anim-speed value="120"/>
+			<speed value="250"/>
+			<anim-speed value="125"/>
 			<animation path="models/axe_man_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>

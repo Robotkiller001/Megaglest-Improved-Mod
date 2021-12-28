@@ -15,11 +15,11 @@
 		<levels>
 			<level name="basic" kills="3"/>
 			<level name="advanced" kills="6"/>
-			<level name="expert" kills="12"/>
-			<level name="master" kills="22"/>
-			<level name="grandmaster" kills="32"/>
-			<level name="mayor" kills="42"/>
-			<level name="imperator" kills="60"/>
+			<level name="expert" kills="14"/>
+			<level name="master" kills="28"/>
+			<level name="grandmaster" kills="46"/>
+			<level name="mayor" kills="72"/>
+			<level name="imperator" kills="100"/>
 		</levels>
 		<fields>
 			<field value="land"/>

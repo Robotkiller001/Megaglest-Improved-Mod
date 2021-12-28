@@ -13,13 +13,13 @@
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="basic" kills="4"/>
-			<level name="advanced" kills="8"/>
+			<level name="basic" kills="3"/>
+			<level name="advanced" kills="7"/>
 			<level name="expert" kills="16"/>
-			<level name="master" kills="22"/>
-			<level name="grandmaster" kills="34"/>
-			<level name="god" kills="42"/>
-			<level name="skygod" kills="62"/>
+			<level name="master" kills="30"/>
+			<level name="grandmaster" kills="48"/>
+			<level name="god" kills="72"/>
+			<level name="skygod" kills="100"/>
 		</levels>
 		<fields>
 			<field value="land"/>
