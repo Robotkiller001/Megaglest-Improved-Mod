@@ -83,7 +83,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="fire_ball_skill"/>
-			<ep-cost value="350"/>
+			<ep-cost value="300"/>
 			<speed value="60"/>
 			<anim-speed value="60"/>
 			<animation path="models/archmage_attacking.g3d"/>
@@ -130,7 +130,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="static_fire_skill"/>
-			<ep-cost value="2000"/>
+			<ep-cost value="1500"/>
 			<speed value="40"/>
 			<anim-speed value="40"/>
 			<animation path="models/archmage_attacking.g3d"/>
@@ -155,8 +155,8 @@
 				<sound-file path="sounds/ground_attack3.wav"/>
 				<sound-file path="sounds/ground_attack4.wav"/>
 			</sound>
-			<attack-strenght value="1000"/>
-			<attack-var value="200"/>
+			<attack-strenght value="800"/>
+			<attack-var value="150"/>
 			<attack-range value="10"/>
 			<attack-type value="energy"/>
 			<attack-fields>

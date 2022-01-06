@@ -120,8 +120,8 @@
 			<type value="attack"/>
 			<name value="dung_attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="90"/>
-			<anim-speed value="90"/>
+			<speed value="70"/>
+			<anim-speed value="70"/>
 			<animation path="models/scarab_attacking.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack1.wav"/>
@@ -153,7 +153,7 @@
 					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="280"/>
+			<attack-strenght value="290"/>
 			<attack-var value="80"/>
 			<attack-range value="8"/>
 			<attack-type value="scarab"/>
