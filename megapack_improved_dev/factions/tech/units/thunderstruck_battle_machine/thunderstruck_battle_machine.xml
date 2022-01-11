@@ -174,9 +174,9 @@
 		<skill>
 			<type value="attack"/>
 			<name value="attack_missile_skill"/>
-			<ep-cost value="250"/>
-			<speed value="75"/>
-			<anim-speed value="75"/>
+			<ep-cost value="200"/>
+			<speed value="80"/>
+			<anim-speed value="80"/>
 			<animation path="models/battle_machine_attacking2.g3d"/>
 			<sound enabled="true" start-time="0.4">
 				<sound-file path="sounds/machine_attack2.wav"/>
@@ -224,7 +224,7 @@
 
 			</projectiles>
 			<splash value="true">
-				<radius value="0"/>
+				<radius value="1"/>
 				<damage-all value="false"/>
 				<particle value="true" path="particle_splash.xml"/>
 			</splash>
