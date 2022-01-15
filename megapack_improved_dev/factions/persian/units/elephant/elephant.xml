@@ -140,8 +140,8 @@
 				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack11.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack12.wav"/>
 			</sound>
-			<attack-strenght value="190"/>
-			<attack-var value="60"/>
+			<attack-strenght value="170"/>
+			<attack-var value="50"/>
 			<attack-range value="8"/>
 			<attack-type value="elephant"/>
 			<attack-fields>
@@ -229,79 +229,44 @@
 			<stop-skill value="stop_skill"/>
 		</command>
 
-
 		<command>
-
 			<type value="move"/>
-
 			<name value="move"/>
-
 			<image path="../genie/images/tech_move.bmp"/>
-
 			<unit-requirements/>
-
 			<upgrade-requirements/>
-
 			<move-skill value="move_skill"/>
-
 		</command>
 
-
 		<command>
-
 			<type value="attack"/>
-
 			<name value="attack"/>
-
-			<image path="images/elephant_attack.bmp"/>
-
+			<image path="images/elephant_attack.png"/>
 			<unit-requirements/>
-
 			<upgrade-requirements/>
-
 			<move-skill value="charge_skill"/>
-
 			<attack-skill value="attack_skill"/>
-
 		</command>
 
-
 		<command>
-
 			<type value="attack"/>
-
 			<name value="attack_arrow"/>
-
 			<image path="images/archer_attack.bmp"/>
-
 			<unit-requirements/>
-
 			<upgrade-requirements/>
-
 			<move-skill value="move_skill"/>
-
 			<attack-skill value="attack_arrow_skill"/>
-
 		</command>
 
 		<command>
-
 			<type value="attack_stopped"/>
-
 			<name value="hold_position"/>
-
 			<image path="../genie/images/tech_hold.bmp"/>
-
 			<unit-requirements/>
-
 			<upgrade-requirements>
-
 			</upgrade-requirements>
-
 			<stop-skill value="stop_skill"/>
-
 			<attack-skill value="attack_skill"/>
-
 		</command>
 
 		<command>

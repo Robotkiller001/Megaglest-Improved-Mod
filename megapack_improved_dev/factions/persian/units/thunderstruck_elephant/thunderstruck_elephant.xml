@@ -8,7 +8,7 @@
 		<size value="2"/>
 		<height value="2"/>
 		<max-hp value="7500" regeneration="18" start-percentage="100"/>
-		<max-ep value="0"/>
+		<max-ep value="1000" regeneration="50" start-percentage="100"/>
 		<armor value="50"/>
 		<armor-type value="obsidian_aura"/>
 		<max-unit-count value="2"/>
@@ -95,8 +95,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="260"/>
-			<anim-speed value="90"/>
+			<speed value="250"/>
+			<anim-speed value="85"/>
 			<animation path="models/elephant_walk.g3d"/>
 			<particles value="true">
 				<particle-file path="dust_front_particles.xml"/>
@@ -130,9 +130,9 @@
 		<skill>
 			<type value="move"/>
 			<name value="charge_skill"/>
-			<ep-cost value="0"/>
-			<speed value="310"/>
-			<anim-speed value="110"/>
+			<ep-cost value="40"/>
+			<speed value="370"/>
+			<anim-speed value="140"/>
 			<animation path="models/elephant_walk.g3d"/>
 			<particles value="true">
 				<particle-file path="dust_front_particles.xml"/>
@@ -155,7 +155,101 @@
 					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<sound enabled="false"/>
+                        <sound enabled="true" start-time="0">
+				<sound-file path="sounds/elewalk2.wav"/>
+			</sound>
+			<particles value="true">
+				<particle-file path="glow_particles.xml"/>
+			</particles>
+		</skill>
+
+		<skill>
+			<type value="attack"/>
+			<name value="attack_skill"/>
+			<ep-cost value="0"/>
+			<speed value="80"/>
+			<anim-speed value="80"/>
+			<animation path="models/elephant_attack.g3d"/>
+			<sound enabled="true" start-time="0.47">
+				<sound-file path="sounds/eleattack2.wav"/>
+				<sound-file path="sounds/eleattack3.wav"/>
+				<sound-file path="sounds/eleattack3.wav"/>
+			</sound>
+                        <attack-boost>
+				<allow-multiple-boosts value="true" />
+				<radius value="7"/>
+                        	<target value="faction" include-self="false">
+				</target>
+				<max-hp value="0" regeneration="6"/>
+				<max-ep value="0"/>
+				<sight value="0"/>
+				<attack-strenght value="5" value-percent-multiplier="true"/>
+				<attack-range value="0"/>
+				<armor value="0"/>
+				<move-speed value="0"/>
+				<production-speed value="0"/>
+			<particles value="true">
+					<affected-particle-file path="healing_particles.xml"/>
+			</particles>
+                        </attack-boost>
+			<attack-strenght value="340"/>
+			<attack-var value="80"/>
+			<attack-range value="2"/>
+			<attack-type value="elephant"/>
+			<attack-fields>
+				<field value="land"/>
+			</attack-fields>
+			<attack-start-time value="0.44"/>
+			<projectile value="false"/>
+			<splash value="false"/>
+			<particles value="true">
+				<particle-file path="glow_particles.xml"/>
+			</particles>
+		</skill>
+
+		<skill>
+			<type value="attack"/>
+			<name value="charged_attack_skill"/>
+			<ep-cost value="500"/>
+			<speed value="90"/>
+			<anim-speed value="90"/>
+			<animation path="models/elephant_charged_attack.g3d"/>
+			<sound enabled="true" start-time="0.47">
+				<sound-file path="sounds/eleattack2.wav"/>
+				<sound-file path="sounds/eleattack3.wav"/>
+				<sound-file path="sounds/eleattack3.wav"/>
+			</sound>
+                        <attack-boost>
+				<allow-multiple-boosts value="true" />
+				<radius value="7"/>
+                        	<target value="faction" include-self="false">
+				</target>
+				<max-hp value="0" regeneration="6"/>
+				<max-ep value="0"/>
+				<sight value="0"/>
+				<attack-strenght value="5" value-percent-multiplier="true"/>
+				<attack-range value="0"/>
+				<armor value="0"/>
+				<move-speed value="0"/>
+				<production-speed value="0"/>
+			<particles value="true">
+					<affected-particle-file path="healing_particles.xml"/>
+			</particles>
+                        </attack-boost>
+			<attack-strenght value="600"/>
+			<attack-var value="100"/>
+			<attack-range value="2"/>
+			<attack-type value="elephant"/>
+			<attack-fields>
+				<field value="land"/>
+			</attack-fields>
+			<attack-start-time value="0.44"/>
+			<projectile value="false"/>
+			<splash value="true">
+				<radius value="1"/>
+				<damage-all value="false"/>
+				<particle value="false"/>
+			</splash>
 			<particles value="true">
 				<particle-file path="glow_particles.xml"/>
 			</particles>
@@ -199,8 +293,8 @@
 					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="290"/>
-			<attack-var value="80"/>
+			<attack-strenght value="250"/>
+			<attack-var value="70"/>
 			<attack-range value="9"/>
 			<attack-type value="elephant"/>
 			<attack-fields>
@@ -217,50 +311,6 @@
 				<damage-all value="false"/>
 				<particle value="true" path="particle_splash.xml"/>
 			</splash>
-			<particles value="true">
-				<particle-file path="glow_particles.xml"/>
-			</particles>
-		</skill>
-
-		<skill>
-			<type value="attack"/>
-			<name value="attack_skill"/>
-			<ep-cost value="0"/>
-			<speed value="80"/>
-			<anim-speed value="80"/>
-			<animation path="models/elephant_attack.g3d"/>
-			<sound enabled="true" start-time="0.47">
-				<sound-file path="sounds/eleattack2.wav"/>
-				<sound-file path="sounds/eleattack3.wav"/>
-				<sound-file path="sounds/eleattack3.wav"/>
-			</sound>
-                        <attack-boost>
-				<allow-multiple-boosts value="true" />
-				<radius value="7"/>
-                        	<target value="faction" include-self="false">
-				</target>
-				<max-hp value="0" regeneration="6"/>
-				<max-ep value="0"/>
-				<sight value="0"/>
-				<attack-strenght value="5" value-percent-multiplier="true"/>
-				<attack-range value="0"/>
-				<armor value="0"/>
-				<move-speed value="0"/>
-				<production-speed value="0"/>
-			<particles value="true">
-					<affected-particle-file path="healing_particles.xml"/>
-			</particles>
-                        </attack-boost>
-			<attack-strenght value="380"/>
-			<attack-var value="100"/>
-			<attack-range value="2"/>
-			<attack-type value="elephant"/>
-			<attack-fields>
-				<field value="land"/>
-			</attack-fields>
-			<attack-start-time value="0.44"/>
-			<projectile value="false"/>
-			<splash value="false"/>
 			<particles value="true">
 				<particle-file path="glow_particles.xml"/>
 			</particles>
@@ -302,79 +352,54 @@
 
 
 		<command>
-
 			<type value="move"/>
-
 			<name value="move"/>
-
 			<image path="../genie/images/tech_move.bmp"/>
-
 			<unit-requirements/>
-
 			<upgrade-requirements/>
-
 			<move-skill value="move_skill"/>
-
 		</command>
 
-
 		<command>
-
 			<type value="attack"/>
-
 			<name value="attack"/>
-
-			<image path="images/elephant_attack.bmp"/>
-
+			<image path="images/elephant_attack.png"/>
 			<unit-requirements/>
-
 			<upgrade-requirements/>
-
 			<move-skill value="move_skill"/>
-
 			<attack-skill value="attack_skill"/>
-
 		</command>
 
-
 		<command>
-
 			<type value="attack"/>
-
-			<name value="attack_arrow"/>
-
-			<image path="images/archer_attack.bmp"/>
-
+			<name value="attack"/>
+			<image path="images/elephant_charged_attack.png"/>
 			<unit-requirements/>
-
 			<upgrade-requirements/>
-
-			<move-skill value="move_skill"/>
-
-			<attack-skill value="attack_arrow_skill"/>
-
+			<move-skill value="charge_skill"/>
+			<attack-skill value="charged_attack_skill"/>
 		</command>
 
 		<command>
-
-			<type value="attack_stopped"/>
-
-			<name value="hold_position"/>
-
-			<image path="../genie/images/tech_hold.bmp"/>
-
+			<type value="attack"/>
+			<name value="attack_arrow"/>
+			<image path="images/archer_attack.bmp"/>
 			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="attack_arrow_skill"/>
+		</command>
 
+		<command>
+			<type value="attack_stopped"/>
+			<name value="hold_position"/>
+			<image path="../genie/images/tech_hold.bmp"/>
+			<unit-requirements/>
 			<upgrade-requirements>
-
 			</upgrade-requirements>
-
 			<stop-skill value="stop_skill"/>
-
 			<attack-skill value="attack_skill"/>
-
 		</command>
 
 	</commands>
-
 </unit>
