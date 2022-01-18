@@ -64,43 +64,6 @@
 			<speed value="500" />
 			<anim-speed value="100" />
 			<animation path="models/mage_tower.g3d"/>
-                        <attack-boost>
-				<allow-multiple-boosts value="false" />
-				<radius value="12"/>
-                        	<target value="faction" include-self="false">
-					<unit-type name="archmage"/>
-					<unit-type name="battlemage"/>
-					<unit-type name="daemon"/>
-					<unit-type name="dragon"/>
-					<unit-type name="dragon_rider"/>
-					<unit-type name="evil_dragon"/>
-					<unit-type name="ghost_armor"/>
-					<unit-type name="ghost_armor_swordmaster"/>
-					<unit-type name="golem"/>
-					<unit-type name="initiate"/>
-					<unit-type name="necromante"/>
-					<unit-type name="power_golem"/>
-					<unit-type name="skeleton"/>
-					<unit-type name="ranged_skeleton"/>
-					<unit-type name="stone_sentinel"/>
-					<unit-type name="summoner"/>
-					<unit-type name="survived_dragon_rider"/>
-					<unit-type name="behemoth"/>
-					<unit-type name="thunderstruck_behemoth"/>
-				</target>
-				<max-hp value="0"/>
-				<max-ep value="0" regeneration="20" value-percent-multiplier="true"/>
-				<sight value="0"/>
-				<attack-strenght value="40" value-percent-multiplier="true"/>
-				<attack-range value="0"/>
-				<armor value="10"/>
-				<move-speed value="0"/>
-				<production-speed value="0"/>
-				<particles value="true">
-				<!--originator-particle-file path="glow_particles.xml"/-->
-					<affected-particle-file path="glow_particles.xml"/>
-				</particles>
-                        </attack-boost>
 			<sound enabled="false" />
 		</skill>
 		<skill>
@@ -130,7 +93,7 @@
 			<animation path="models/mage_tower.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="12"/>
+				<radius value="14"/>
                         	<target value="faction" include-self="false">
 					<unit-type name="archmage"/>
 					<unit-type name="battlemage"/>
@@ -152,8 +115,8 @@
 					<unit-type name="behemoth"/>
 					<unit-type name="thunderstruck_behemoth"/>
 				</target>
-				<max-hp value="0"/>
-				<max-ep value="0" regeneration="20" value-percent-multiplier="true"/>
+				<max-hp value="0" regeneration="2"/>
+				<max-ep value="0" regeneration="30" value-percent-multiplier="true"/>
 				<sight value="0"/>
 				<attack-strenght value="40" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
@@ -161,7 +124,6 @@
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 				<particles value="true">
-				<!--originator-particle-file path="glow_particles.xml"/-->
 					<affected-particle-file path="glow_particles.xml"/>
 				</particles>
                         </attack-boost>
@@ -173,7 +135,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/tower_attack5.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/tower_attack6.wav"/>
 			</sound>
-			<attack-strenght value="140"/>
+			<attack-strenght value="160"/>
 			<attack-var value="40"/>
 			<attack-range value="14"/>
 			<attack-type value="castle"/>
@@ -203,43 +165,6 @@
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/mage_tower.g3d" />
-                        <attack-boost>
-				<allow-multiple-boosts value="false" />
-				<radius value="12"/>
-                        	<target value="faction" include-self="false">
-					<unit-type name="archmage"/>
-					<unit-type name="battlemage"/>
-					<unit-type name="daemon"/>
-					<unit-type name="dragon"/>
-					<unit-type name="dragon_rider"/>
-					<unit-type name="evil_dragon"/>
-					<unit-type name="ghost_armor"/>
-					<unit-type name="ghost_armor_swordmaster"/>
-					<unit-type name="golem"/>
-					<unit-type name="initiate"/>
-					<unit-type name="necromante"/>
-					<unit-type name="power_golem"/>
-					<unit-type name="skeleton"/>
-					<unit-type name="ranged_skeleton"/>
-					<unit-type name="stone_sentinel"/>
-					<unit-type name="summoner"/>
-					<unit-type name="survived_dragon_rider"/>
-					<unit-type name="behemoth"/>
-					<unit-type name="thunderstruck_behemoth"/>
-				</target>
-				<max-hp value="0"/>
-				<max-ep value="0" regeneration="20" value-percent-multiplier="true"/>
-				<sight value="0"/>
-				<attack-strenght value="40" value-percent-multiplier="true"/>
-				<attack-range value="0"/>
-				<armor value="10"/>
-				<move-speed value="0"/>
-				<production-speed value="0"/>
-				<particles value="true">
-				<!--originator-particle-file path="glow_particles.xml"/-->
-					<affected-particle-file path="glow_particles.xml"/>
-				</particles>
-                        </attack-boost>
 			<sound enabled="false" />
 		</skill>
 		<skill>
@@ -275,7 +200,9 @@
 			<type value= "stop"/>
 			<name value="attack_off"/>
 			<image path="images/tower_of_souls_attack_off.bmp"/>
-			<unit-requirements/>
+			<unit-requirements>
+				<unit name="library"/>
+			</unit-requirements>
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
 		</command>
@@ -283,7 +210,9 @@
 			<type value= "attack_stopped"/>
 			<name value="attack_on"/>
 			<image path="images/tower_of_souls_attack_on.bmp"/>
-			<unit-requirements/>
+			<unit-requirements>
+				<unit name="library"/>
+			</unit-requirements>
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
 			<attack-skill value="attack_skill"/>

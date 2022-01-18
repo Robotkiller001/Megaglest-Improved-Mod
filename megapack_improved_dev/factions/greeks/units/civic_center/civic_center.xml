@@ -74,42 +74,6 @@
 			<speed value="300" />
 			<anim-speed value="100" />
 			<animation path="models/civic_center.g3d" />
-                        <attack-boost>
-				<allow-multiple-boosts value="false" />
-				<radius value="12"/>
-                        	<target value="faction" include-self="false">
-					<unit-type name="alexander"/>
-					<unit-type name="archer"/>
-					<unit-type name="atlas"/>
-					<unit-type name="battering_ram"/>
-					<unit-type name="cavalry"/>
-					<unit-type name="chariot"/>
-					<unit-type name="dragon"/>
-					<unit-type name="hoplite"/>
-					<unit-type name="onager"/>
-					<unit-type name="peltast"/>
-					<unit-type name="peltast_"/>
-					<unit-type name="psiloi"/>
-					<unit-type name="slave"/>
-					<unit-type name="survived_cavalry"/>
-					<unit-type name="survived_chariot"/>
-					<unit-type name="swordman"/>
-					<unit-type name="wild_sow"/>
-					<unit-type name="thunderstruck_alexander"/>
-				</target>
-				<max-hp value="0"/>
-				<max-ep value="0"/>
-				<sight value="0"/>
-				<attack-strenght value="40" value-percent-multiplier="true"/>
-				<attack-range value="0"/>
-				<armor value="10"/>
-				<move-speed value="0"/>
-				<production-speed value="0"/>
-				<particles value="true">
-				<!--originator-particle-file path="glow_particles2.xml"/-->
-					<affected-particle-file path="glow_particles2.xml"/>
-				</particles>
-                        </attack-boost>
 			<sound enabled="false" />
 		</skill>
 
@@ -130,42 +94,6 @@
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/civic_center.g3d" />
-                        <attack-boost>
-				<allow-multiple-boosts value="false" />
-				<radius value="12"/>
-                        	<target value="faction" include-self="false">
-					<unit-type name="alexander"/>
-					<unit-type name="archer"/>
-					<unit-type name="atlas"/>
-					<unit-type name="battering_ram"/>
-					<unit-type name="cavalry"/>
-					<unit-type name="chariot"/>
-					<unit-type name="dragon"/>
-					<unit-type name="hoplite"/>
-					<unit-type name="onager"/>
-					<unit-type name="peltast"/>
-					<unit-type name="peltast_"/>
-					<unit-type name="psiloi"/>
-					<unit-type name="slave"/>
-					<unit-type name="survived_cavalry"/>
-					<unit-type name="survived_chariot"/>
-					<unit-type name="swordman"/>
-					<unit-type name="wild_sow"/>
-					<unit-type name="thunderstruck_alexander"/>
-				</target>
-				<max-hp value="0"/>
-				<max-ep value="0"/>
-				<sight value="0"/>
-				<attack-strenght value="40" value-percent-multiplier="true"/>
-				<attack-range value="0"/>
-				<armor value="10"/>
-				<move-speed value="0"/>
-				<production-speed value="0"/>
-				<particles value="true">
-				<!--originator-particle-file path="glow_particles2.xml"/-->
-					<affected-particle-file path="glow_particles2.xml"/>
-				</particles>
-                        </attack-boost>
 			<sound enabled="false" />
 		</skill>
 
@@ -188,7 +116,7 @@
 			<animation path="models/civic_center.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="12"/>
+				<radius value="14"/>
                         	<target value="faction" include-self="false">
 					<unit-type name="alexander"/>
 					<unit-type name="archer"/>
@@ -209,7 +137,7 @@
 					<unit-type name="wild_sow"/>
 					<unit-type name="thunderstruck_alexander"/>
 				</target>
-				<max-hp value="0"/>
+				<max-hp value="0" regeneration="2"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
 				<attack-strenght value="40" value-percent-multiplier="true"/>
@@ -218,7 +146,6 @@
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 				<particles value="true">
-				<!--originator-particle-file path="glow_particles2.xml"/-->
 					<affected-particle-file path="glow_particles2.xml"/>
 				</particles>
                         </attack-boost>
@@ -226,7 +153,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack2.wav"/>
 			</sound>
-			<attack-strenght value="140"/>
+			<attack-strenght value="160"/>
 			<attack-var value="40"/>
 			<attack-range value="14"/>
 			<attack-type value="castle"/>
@@ -293,7 +220,9 @@
 			<type value="stop"/>
 			<name value="attack_off"/>
 			<image path="../tower/images/defense_tower_attack_off.bmp"/>
-			<unit-requirements/>
+			<unit-requirements>
+				<unit name="temple"/>
+			</unit-requirements>
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
 		</command>
@@ -301,7 +230,9 @@
 			<type value="attack_stopped"/>
 			<name value="attack_on"/>
 			<image path="../tower/images/defense_tower_attack_on.bmp"/>
-			<unit-requirements/>
+			<unit-requirements>
+				<unit name="temple"/>
+			</unit-requirements>
 			<upgrade-requirements/>
 			<attack-skill value="attack_skill"/>
                         <stop-skill value="stop_skill"/>

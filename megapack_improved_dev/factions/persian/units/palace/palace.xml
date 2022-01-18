@@ -65,34 +65,6 @@
 			<speed value="300" />
 			<anim-speed value="100" />
 			<animation path="models/temple.g3d" />
-                        <attack-boost>
-				<allow-multiple-boosts value="false" />
-				<radius value="12"/>
-                        	<target value="faction" include-self="false">
-					<unit-type name="fakir"/>
-					<unit-type name="flying_carpet"/>
-					<unit-type name="genie"/>
-					<unit-type name="magician"/>
-					<unit-type name="princess"/>
-					<unit-type name="stickfighter"/>
-					<unit-type name="swordman"/>
-					<unit-type name="worker"/>
-					<unit-type name="elephant"/>
-					<unit-type name="thunderstruck_elephant"/>
-				</target>
-				<max-hp value="0"/>
-				<max-ep value="0"/>
-				<sight value="0"/>
-				<attack-strenght value="40" value-percent-multiplier="true"/>
-				<attack-range value="0"/>
-				<armor value="10"/>
-				<move-speed value="0"/>
-				<production-speed value="0"/>
-				<particles value="true">
-				<!--originator-particle-file path="glow_particles.xml"/-->
-					<affected-particle-file path="glow_particles.xml"/>
-				</particles>
-                        </attack-boost>
 			<sound enabled="false" />
 		</skill>
 		<skill>
@@ -118,11 +90,11 @@
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
 			<speed value="20"/>
-			<anim-speed value="30"/>
+			<anim-speed value="20"/>
 			<animation path="models/temple.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="12"/>
+				<radius value="14"/>
                         	<target value="faction" include-self="false">
 					<unit-type name="fakir"/>
 					<unit-type name="flying_carpet"/>
@@ -135,7 +107,7 @@
 					<unit-type name="elephant"/>
 					<unit-type name="thunderstruck_elephant"/>
 				</target>
-				<max-hp value="0"/>
+				<max-hp value="0" regeneration="2"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
 				<attack-strenght value="40" value-percent-multiplier="true"/>
@@ -144,14 +116,13 @@
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 				<particles value="true">
-				<!--originator-particle-file path="glow_particles.xml"/-->
 					<affected-particle-file path="glow_particles.xml"/>
 				</particles>
                         </attack-boost>
 			<sound enabled="true" start-time="0.0">
 				<sound-file path="/sounds/throw2.wav"/>
 			</sound>
-			<attack-strenght value="140"/>
+			<attack-strenght value="160"/>
 			<attack-var value="40"/>
 			<attack-range value="14"/>
 			<attack-type value="castle"/>
@@ -179,34 +150,6 @@
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/temple.g3d" />
-                        <attack-boost>
-				<allow-multiple-boosts value="false" />
-				<radius value="12"/>
-                        	<target value="faction" include-self="false">
-					<unit-type name="fakir"/>
-					<unit-type name="flying_carpet"/>
-					<unit-type name="genie"/>
-					<unit-type name="magician"/>
-					<unit-type name="princess"/>
-					<unit-type name="stickfighter"/>
-					<unit-type name="swordman"/>
-					<unit-type name="worker"/>
-					<unit-type name="elephant"/>
-					<unit-type name="thunderstruck_elephant"/>
-				</target>
-				<max-hp value="0"/>
-				<max-ep value="0"/>
-				<sight value="0"/>
-				<attack-strenght value="40" value-percent-multiplier="true"/>
-				<attack-range value="0"/>
-				<armor value="10"/>
-				<move-speed value="0"/>
-				<production-speed value="0"/>
-				<particles value="true">
-				<!--originator-particle-file path="glow_particles.xml"/-->
-					<affected-particle-file path="glow_particles.xml"/>
-				</particles>
-                        </attack-boost>
 			<sound enabled="false" />
 		</skill>
 		<skill>
@@ -241,7 +184,9 @@
 			<type value="stop"/>
 			<name value="attack_off"/>
 			<image path="images/fire_off.bmp"/>
-			<unit-requirements/>
+			<unit-requirements>
+				<unit name="tent"/>
+			</unit-requirements>
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
 		</command>
@@ -249,7 +194,9 @@
 			<type value="attack_stopped"/>
 			<name value="attack_on"/>
 			<image path="images/fire.bmp"/>
-			<unit-requirements/>
+			<unit-requirements>
+				<unit name="tent"/>
+			</unit-requirements>
 			<upgrade-requirements/>
 			<attack-skill value="attack_skill"/>
 			<stop-skill value="stop_skill"/>
