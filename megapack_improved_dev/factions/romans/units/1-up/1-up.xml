@@ -12,7 +12,7 @@
 		<armor value="0"/>
 		<armor-type value="skin"/>
 		<sight value="0"/>
-		<time value="40"/>
+		<time value="2"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels/>

@@ -78,6 +78,10 @@
 			<particles value="false">
 			</particles>
                         </attack-boost>
+			<particles value="true">
+				<particle-file path="red_eyes_left.xml"/>
+				<particle-file path="red_eyes_right.xml"/>
+			</particles>
 			<sound enabled="false"/>
 		</skill>
 
@@ -88,6 +92,10 @@
 			<speed value="330"/>
 			<anim-speed value="200"/>
 			<animation path="models/bull_walking.g3d"/>
+			<particles value="true">
+				<particle-file path="red_eyes_left_move.xml"/>
+				<particle-file path="red_eyes_right_move.xml"/>
+			</particles>
 			<sound enabled="false"/>
 		</skill>
 
@@ -114,14 +122,17 @@
 			<attack-start-time value="0"/>
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
-				<sound enabled="false">
-			</sound>
+			<sound enabled="false"/>
 			</projectile>
 			<splash value="true">
 				<radius value="0"/>
 				<damage-all value="true"/>
 				<particle value="true" path="particle_splash.xml"/>
 			</splash>
+			<particles value="true">
+				<particle-file path="red_eyes_left_move.xml"/>
+				<particle-file path="red_eyes_right_move.xml"/>
+			</particles>
 		</skill>
 
 		<skill>
