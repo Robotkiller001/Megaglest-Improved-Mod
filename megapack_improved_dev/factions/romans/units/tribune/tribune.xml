@@ -7,7 +7,7 @@
 		<max-hp value="2000" regeneration="4" start-percentage="100"/>
 		<max-ep value="0"/>
 		<armor value="55"/>
-		<armor-type value="metal"/>
+		<armor-type value="metal2x"/>
 		<sight value="12"/>
 		<time value="40"/>
 		<multi-selection value="true"/>

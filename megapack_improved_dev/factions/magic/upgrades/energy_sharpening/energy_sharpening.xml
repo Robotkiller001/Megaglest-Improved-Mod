@@ -16,6 +16,7 @@
 		<unit name="summoner"/>
 		<unit name="dragon_rider"/>
 		<unit name="ghost_armor_swordmaster"/>
+		<unit name="necromante"/>
 		<unit name="archmage"/>
 	</effects>
 	<max-hp value="0"/>

@@ -5,7 +5,7 @@
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="600" regeneration="1" start-percentage="100"/>
-		<max-ep value="160" regeneration="2" start-percentage="30"/>
+		<max-ep value="240" regeneration="3" start-percentage="40"/>
 		<armor value="10"/>
 		<armor-type value="leather"/>
 		<sight value="7"/>
@@ -189,7 +189,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>
-			<ep-cost value="20"/>
+			<ep-cost value="30"/>
 			<speed value="40"/>
 			<anim-speed value="40"/>
 			<animation path="models/initiate_attacking.g3d"/>

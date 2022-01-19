@@ -14,6 +14,7 @@
 	<effects>
 		<unit name="daemon"/>
 		<unit name="ghost_armor"/>
+		<unit name="necromante"/>
 		<unit name="dragon"/>
 		<unit name="evil_dragon"/>
 		<unit name="ghost_armor_swordmaster"/>
