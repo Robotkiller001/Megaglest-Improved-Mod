@@ -29,7 +29,11 @@
 			<particle-file path="fire_particles.xml"/>
 			<particle-file path="smoke_particles.xml"/>
 		</damage-particles>
-		<unit-requirements/>
+		<unit-requirements>
+			<unit name="training_camp"/>
+			<unit name="blacksmith_shop"/>
+			<unit name="temple"/>
+		</unit-requirements>
 		<upgrade-requirements />
 		<resource-requirements>
 			<resource name="gold" amount="250" />

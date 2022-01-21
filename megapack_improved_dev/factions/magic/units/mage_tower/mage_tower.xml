@@ -201,7 +201,7 @@
 			<name value="attack_off"/>
 			<image path="images/tower_of_souls_attack_off.bmp"/>
 			<unit-requirements>
-				<unit name="library"/>
+				<unit name="archmage_tower"/>
 			</unit-requirements>
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
@@ -211,7 +211,7 @@
 			<name value="attack_on"/>
 			<image path="images/tower_of_souls_attack_on.bmp"/>
 			<unit-requirements>
-				<unit name="library"/>
+				<unit name="archmage_tower"/>
 			</unit-requirements>
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>

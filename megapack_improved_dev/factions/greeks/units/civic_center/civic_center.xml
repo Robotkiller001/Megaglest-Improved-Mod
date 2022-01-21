@@ -221,7 +221,7 @@
 			<name value="attack_off"/>
 			<image path="../tower/images/defense_tower_attack_off.bmp"/>
 			<unit-requirements>
-				<unit name="temple"/>
+				<unit name="palace"/>
 			</unit-requirements>
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
@@ -231,7 +231,7 @@
 			<name value="attack_on"/>
 			<image path="../tower/images/defense_tower_attack_on.bmp"/>
 			<unit-requirements>
-				<unit name="temple"/>
+				<unit name="palace"/>
 			</unit-requirements>
 			<upgrade-requirements/>
 			<attack-skill value="attack_skill"/>

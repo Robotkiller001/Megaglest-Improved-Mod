@@ -25,7 +25,6 @@
 		<light enabled="false" />
 		<rotationAllowed value="true" />
 		<unit-requirements>
-			<unit name="forum" />
 			<unit name="blacksmith_shop" />
 		</unit-requirements>
 		<upgrade-requirements />

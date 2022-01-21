@@ -9,7 +9,7 @@
     	<size value="0.6" />
     	<size-no-energy value="0.1" />
     	<speed value="30.0" />
-	<gravity value="0"/>
+	<gravity value="0.2"/>
     	<emission-rate value="2" />
     	<energy-max value="20" />
     	<energy-var value="2" />

@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="1"/>
-		<max-hp value="800" regeneration="-50"/>
+		<max-hp value="800" regeneration="-40"/>
 		<max-ep value="0" regeneration="0"/>
 		<armor value="40"/>
 		<armor-type value="leather"/>
@@ -76,6 +76,24 @@
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>
+                        <attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="0"/>
+                        	<target value="faction" include-self="true">
+					<unit-type name="ghost_armor" />
+				</target>
+				<max-hp value="0" regeneration="50"/>
+				<max-ep value="0"/>
+				<sight value="0"/>
+				<attack-strenght value="0" value-percent-multiplier="true"/>
+				<attack-range value="0"/>
+				<armor value="0"/>
+				<move-speed value="0"/>
+				<production-speed value="0"/>
+			<particles value="true">
+					<affected-particle-file path="healing_particles.xml"/>
+			</particles>
+                        </attack-boost>
 			<attack-start-time value="0.5"/>
 			<projectile value="false"/>
 			<splash value="false"/>

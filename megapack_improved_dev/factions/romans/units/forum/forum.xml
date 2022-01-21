@@ -217,7 +217,7 @@
 			<name value="attack_off"/>
 			<image path="images/air_ballista_attack_off.bmp"/>
 			<unit-requirements>
-				<unit name="temple"/>
+				<unit name="military_camp"/>
 			</unit-requirements>
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
@@ -227,7 +227,7 @@
 			<name value="attack_on"/>
 			<image path="images/air_ballista_attack.bmp"/>
 			<unit-requirements>
-				<unit name="temple"/>
+				<unit name="military_camp"/>
 			</unit-requirements>
 			<upgrade-requirements/>
 			<attack-skill value="attack_skill"/>

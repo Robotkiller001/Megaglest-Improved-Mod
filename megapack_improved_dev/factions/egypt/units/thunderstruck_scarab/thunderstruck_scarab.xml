@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="1"/>
-		<max-hp value="4500" regeneration="16" start-percentage="100"/>
+		<max-hp value="4500" regeneration="12" start-percentage="100"/>
 		<max-ep value="1000" regeneration="35" start-percentage="100"/>
 		<armor value="30"/>
 		<armor-type value="osiris_protection"/>
@@ -218,7 +218,7 @@
 			<attack-var value="0"/>
 			<attack-range value="12"/>
 			<attack-type value="energy"/>
-				<unit value="small_scarab" amount="6"/>
+				<unit value="small_scarab" amount="4"/>
 			<attack-start-time value="0.5"/>
 			<attack-fields>
 				<field value="land"/>

@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="700" regeneration="-25" start-percentage="100"/>
+		<max-hp value="600" regeneration="-25" start-percentage="100"/>
 		<max-ep value="0"/>
 		<armor value="20"/>
 		<armor-type value="organic"/>
@@ -78,13 +78,31 @@
 				<sound-file path="sounds/sattack2.wav"/>
 				<sound-file path="sounds/sattack3.wav"/>
 			</sound>
-			<attack-strenght value="110"/>
+			<attack-strenght value="120"/>
 			<attack-var value="30"/>
 			<attack-range value="1"/>
 			<attack-type value="sword"/>
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>
+                        <attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="0"/>
+                        	<target value="faction" include-self="true">
+					<unit-type name="ghost_armor" />
+				</target>
+				<max-hp value="0" regeneration="35"/>
+				<max-ep value="0"/>
+				<sight value="0"/>
+				<attack-strenght value="0" value-percent-multiplier="true"/>
+				<attack-range value="0"/>
+				<armor value="0"/>
+				<move-speed value="0"/>
+				<production-speed value="0"/>
+			<particles value="true">
+					<affected-particle-file path="healing_particles.xml"/>
+			</particles>
+                        </attack-boost>
 			<attack-start-time value="0.3"/>
 			<projectile value="false"/>
 			<splash value="false"/>

@@ -6,8 +6,8 @@
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="1100" regeneration="4" start-percentage="100"/>
-		<max-ep value="1500" regeneration="40" start-percentage="80"/>
-		<armor value="50"/>
+		<max-ep value="1000" regeneration="35" start-percentage="80"/>
+		<armor value="40"/>
 		<armor-type value="leather"/>
 		<sight value="12"/>
 		<time value="90"/>
@@ -115,7 +115,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>
-			<ep-cost value="1400"/>
+			<ep-cost value="1000"/>
 			<speed value="30"/>
 			<anim-speed value="100"/>
 			<animation path="models/necromante_summon.g3d"/>
@@ -144,7 +144,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="air_attack_skill"/>
-			<ep-cost value="1600"/>
+			<ep-cost value="1200"/>
 			<speed value="30"/>
 			<anim-speed value="100"/>
 			<animation path="models/necromante_summon.g3d"/>

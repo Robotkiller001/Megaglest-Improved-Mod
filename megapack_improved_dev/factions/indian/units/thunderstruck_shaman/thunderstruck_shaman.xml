@@ -7,7 +7,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="4500" regeneration="16" start-percentage="100"/>
+		<max-hp value="4500" regeneration="14" start-percentage="100"/>
 		<max-ep value="1000" regeneration="50" start-percentage="100"/>
 		<armor value="40"/>
 		<armor-type value="ancient_recalls"/>
@@ -118,7 +118,7 @@
 			<type value="repair"/>
 			<name value="repair_skill"/>
 			<ep-cost value="0"/>
-			<speed value="350"/>
+			<speed value="400"/>
 			<anim-speed value="210"/>
 			<animation path="models/shaman_repairing.g3d"/>
                         <attack-boost>
@@ -285,7 +285,7 @@
 			<type value="repair"/>
 			<name value="heal"/>
 			<ep-cost value="0"/>
-			<speed value="350"/>
+			<speed value="400"/>
 			<anim-speed value="210"/>
 			<animation path="models/shaman_healing.g3d"/>
                         <attack-boost>
@@ -317,7 +317,7 @@
 			<type value="build"/>
 			<name value="build_skill"/>
 			<ep-cost value="0"/>
-			<speed value="350"/>
+			<speed value="400"/>
 			<anim-speed value="210"/>
 			<animation path="models/shaman_repairing.g3d"/>
                         <attack-boost>
@@ -354,7 +354,7 @@
 			<type value="produce" />
 			<name value="produce_skill"/>
 			<ep-cost value="0" />
-			<speed value="500" />
+			<speed value="550" />
 			<anim-speed value="50" />
 			<animation path="models/shaman_healing.g3d" />
                         <attack-boost>
