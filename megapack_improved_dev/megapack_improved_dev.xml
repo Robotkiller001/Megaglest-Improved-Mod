@@ -13,6 +13,7 @@
 		<attack-type name="beat"/>
 		<attack-type name="slashing"/>
 		<attack-type name="magic"/>
+		<attack-type name="hell_fire"/>
 		<attack-type name="castle"/>
 		<attack-type name="scarab"/>
 		<attack-type name="shaman"/>

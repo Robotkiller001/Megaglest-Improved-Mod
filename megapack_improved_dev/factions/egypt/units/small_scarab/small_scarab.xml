@@ -80,7 +80,7 @@
 				<allow-multiple-boosts value="false" />
 				<radius value="0"/>
                         	<target value="faction" include-self="true">
-					<unit-type name="ghost_armor" />
+					<unit-type name="small_scarab" />
 				</target>
 				<max-hp value="0" regeneration="50"/>
 				<max-ep value="0"/>
