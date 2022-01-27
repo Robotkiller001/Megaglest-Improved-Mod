@@ -144,6 +144,12 @@
 		<damage-multiplier attack="impact" armor="advanced_protection" value="0.8"/>
 		<damage-multiplier attack="impact" armor="artemis_bless" value="0.8"/>
 
+		<damage-multiplier attack="hell_fire" armor="organic2x" value="0.8"/>
+		<damage-multiplier attack="hell_fire" armor="leather2x" value="0.8"/>
+		<damage-multiplier attack="hell_fire" armor="metal2x" value="0.8"/>
+		<damage-multiplier attack="hell_fire" armor="wood" value="0.5"/>
+		<damage-multiplier attack="hell_fire" armor="stone" value="0.4"/>
+
 		<damage-multiplier attack="castle" armor="osiris_protection" value="4.0"/>
 		<damage-multiplier attack="castle" armor="ancient_recalls" value="4.0"/>
 		<damage-multiplier attack="castle" armor="valak_power" value="4.0"/>
