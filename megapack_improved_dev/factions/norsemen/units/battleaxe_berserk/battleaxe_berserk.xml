@@ -31,7 +31,7 @@
                   	<upgrade name="mead"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="150"/>
+			<resource name="gold" amount="125"/>
 			<resource name="food" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -126,7 +126,7 @@
 				<sound-file path="sounds/daemon_attack8.wav"/>
 				<sound-file path="sounds/daemon_attack9.wav"/>
 			</sound>
-			<attack-strenght value="170"/>
+			<attack-strenght value="180"/>
 			<attack-var value="40"/>
 			<attack-range value="1"/>
 			<attack-type value="sword"/>
@@ -136,7 +136,7 @@
                         	<target value="faction" include-self="true">
 					<unit-type name="battleaxe_berserk" />
 				</target>
-				<max-hp value="0" regeneration="40"/>
+				<max-hp value="0" regeneration="30"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
 				<attack-strenght value="0" value-percent-multiplier="true"/>
