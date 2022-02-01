@@ -1,13 +1,13 @@
 <?xml version="1.0" standalone="yes"?>
 <projectile-particle-system>
     	<texture value="true" path="images/catapult_particle_proj.bmp" luminance="true"/>
-    	<model value="true" path="models/stone_model.g3d"/>
+    	<model value="true" path="models/stone_model2.g3d"/>
 	<primitive value="quad"/>
-	<offset x="0" y="2.0" z="0"/>
+	<offset x="-0.3" y="2.1" z="-0.05"/>
 	<color red="0.2" green="0.6" blue="0.9" alpha="0.6" />
 	<color-no-energy red="0.2" green="0.4" blue="0.4" alpha="0.0" />
-    	<size value="0.7" />
-    	<size-no-energy value="0.4" />
+    	<size value="1.5" />
+    	<size-no-energy value="0.8" />
     	<speed value="12.0" />
 	<gravity value="0.01"/>
     	<emission-rate value="16" />

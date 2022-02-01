@@ -7,16 +7,16 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="1300" regeneration="6" start-percentage="100"/>
-		<max-ep value="500" regeneration="12" start-percentage="35"/>
-		<armor value="50"/>
+		<max-hp value="1500" regeneration="6" start-percentage="100"/>
+		<max-ep value="750" regeneration="15" start-percentage="50"/>
+		<armor value="60"/>
 		<armor-type value="leather"/>
-		<sight value="11"/>
-		<time value="90"/>
+		<sight value="12"/>
+		<time value="110"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="elite" kills="6"/>
+			<level name="elite" kills="8"/>
 			<level name="general" kills="18"/>
 		</levels>
 		<fields>
@@ -30,8 +30,8 @@
 		<upgrade-requirements>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="wood" amount="125"/>
-			<resource name="gold" amount="200"/>
+			<resource name="wood" amount="150"/>
+			<resource name="gold" amount="250"/>
 			<resource name="food" amount="3"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -86,8 +86,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="200"/>
-			<anim-speed value="90"/>
+			<speed value="220"/>
+			<anim-speed value="100"/>
 			<animation path="models/valkyrie_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -96,8 +96,8 @@
 			<type value="move"/>
 			<name value="charge_skill"/>
 			<ep-cost value="0"/>
-			<speed value="230"/>
-			<anim-speed value="125"/>
+			<speed value="250"/>
+			<anim-speed value="130"/>
 			<animation path="models/valkyrie_charging.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -125,16 +125,16 @@
 				<max-hp value="0" regeneration="0"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
-				<attack-strenght value="-5" value-percent-multiplier="false"/>
+				<attack-strenght value="-6" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
-				<move-speed value="-25"/>
+				<move-speed value="-30"/>
 				<production-speed value="0"/>
 			<particles value="true">
 					<affected-particle-file path="slow_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="200"/>
+			<attack-strenght value="210"/>
 			<attack-var value="60"/>
 			<attack-range value="1"/>
 			<attack-type value="sword"/>
@@ -171,16 +171,16 @@
 				<max-hp value="0" regeneration="0"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
-				<attack-strenght value="-5" value-percent-multiplier="false"/>
+				<attack-strenght value="-6" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
-				<move-speed value="-25"/>
+				<move-speed value="-30"/>
 				<production-speed value="0"/>
 			<particles value="true">
 					<affected-particle-file path="slow_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="170"/>
+			<attack-strenght value="180"/>
 			<attack-var value="40"/>
 			<attack-range value="8"/>
 			<attack-type value="energy"/>

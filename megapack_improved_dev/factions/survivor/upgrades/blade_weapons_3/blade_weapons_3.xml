@@ -13,7 +13,7 @@
 		<unit name="catapult"/>
 	</effects>
 	<max-hp value="0" regeneration="0"/>
-	<max-ep value="500" regeneration="0"/>
+	<max-ep value="750" regeneration="0"/>
 	<sight value="0"/>
 	<attack-strenght value="140"/>
 	<attack-range value="0"/>

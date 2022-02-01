@@ -16,7 +16,7 @@
 		<unit name="mehen"/>
 	</effects>
 	<max-hp value="4000" regeneration="30"/>
-	<max-ep value="500" regeneration="10"/>
+	<max-ep value="750" regeneration="10"/>
 	<sight value="0"/>
 	<attack-strenght value="260"/>
 	<attack-range value="0"/>

@@ -202,7 +202,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="air_skill"/>
-			<ep-cost value="250"/>
+			<ep-cost value="300"/>
 			<speed value="60"/>
 			<anim-speed value="60"/>
 			<animation path="models/mehen_attack_air.g3d"/>
