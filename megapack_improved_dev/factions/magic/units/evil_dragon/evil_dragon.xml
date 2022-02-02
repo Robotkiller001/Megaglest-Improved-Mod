@@ -91,8 +91,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="1000"/>
-			<speed value="50"/>
-			<anim-speed value="50"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
 			<animation path="models/dragon_attacking.g3d"/>
 			<particles value="true">
 				<particle-file path="glow_particles.xml"/>
@@ -105,7 +105,7 @@
 			</sound>
 			<attack-strenght value="400"/>
 			<attack-var value="100"/>
-			<attack-range value="10"/>
+			<attack-range value="11"/>
 			<attack-type value="hell_fire"/>
 			<attack-fields>
 				<field value="land"/>
