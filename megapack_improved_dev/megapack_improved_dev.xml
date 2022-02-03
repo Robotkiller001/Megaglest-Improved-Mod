@@ -13,7 +13,6 @@
 		<attack-type name="beat"/>
 		<attack-type name="slashing"/>
 		<attack-type name="magic"/>
-		<attack-type name="mummy"/>
 		<attack-type name="hell_fire"/>
 		<attack-type name="castle"/>
 		<attack-type name="scarab"/>
@@ -37,7 +36,6 @@
 		<armor-type name="metal2x"/>
 		<armor-type name="stone"/>
 		<armor-type name="skin"/>
-		<armor-type name="mummy"/>
 		<armor-type name="osiris_protection"/>
 		<armor-type name="ancient_recalls"/>
 		<armor-type name="valak_power"/>
@@ -160,16 +158,6 @@
 		<damage-multiplier attack="hell_fire" armor="blessed_armor" value="0.8"/>
 		<damage-multiplier attack="hell_fire" armor="advanced_protection" value="0.8"/>
 		<damage-multiplier attack="hell_fire" armor="artemis_bless" value="0.8"/>
-
-		<damage-multiplier attack="mummy" armor="osiris_protection" value="0.8"/>
-		<damage-multiplier attack="mummy" armor="ancient_recalls" value="0.8"/>
-		<damage-multiplier attack="mummy" armor="valak_power" value="0.8"/>
-		<damage-multiplier attack="mummy" armor="odin_shield" value="0.8"/>
-		<damage-multiplier attack="mummy" armor="obsidian_aura" value="0.8"/>
-		<damage-multiplier attack="mummy" armor="blessed_armor" value="0.8"/>
-		<damage-multiplier attack="mummy" armor="advanced_protection" value="0.8"/>
-		<damage-multiplier attack="mummy" armor="artemis_bless" value="0.8"/>
-		<damage-multiplier attack="mummy" armor="survivor" value="1.25"/>
 
 		<damage-multiplier attack="castle" armor="osiris_protection" value="4.0"/>
 		<damage-multiplier attack="castle" armor="ancient_recalls" value="4.0"/>
