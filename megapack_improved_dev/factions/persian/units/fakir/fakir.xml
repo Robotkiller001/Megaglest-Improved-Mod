@@ -27,8 +27,8 @@
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="wood" amount="15"/>
-			<resource name="gold" amount="35"/>
+			<resource name="wood" amount="20"/>
+			<resource name="gold" amount="40"/>
 			<resource name="food" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -110,8 +110,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="100"/>
-			<anim-speed value="100"/>
+			<speed value="90"/>
+			<anim-speed value="90"/>
 			<animation path="models/fakir_attacking.g3d"/>
 			<sound enabled="true" start-time="0.07">
 				<sound-file path="$COMMONDATAPATH/sounds/stickfighter_attack1.wav"/>
@@ -127,7 +127,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/stickfighter_attack11.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/stickfighter_attack12.wav"/>
 			</sound>
-			<attack-strenght value="60"/>
+			<attack-strenght value="70"/>
 			<attack-var value="20"/>
 			<attack-range value="1"/>
 			<attack-type value="sword"/>

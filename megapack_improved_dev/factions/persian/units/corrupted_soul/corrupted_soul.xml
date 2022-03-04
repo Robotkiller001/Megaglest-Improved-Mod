@@ -106,7 +106,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>		
-			<ep-cost value="500"/>
+			<ep-cost value="450"/>
 			<speed value="60"/>
 			<anim-speed value="60"/>
 			<animation path="models/corrupted_soul_attack.g3d"/>
