@@ -7,9 +7,9 @@
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
-		<resource name="wood" amount="125"/>
 		<resource name="gold" amount="200"/>
-		<resource name="stone" amount="50"/>
+		<resource name="wood" amount="150"/>
+		<resource name="stone" amount="100"/>
 	</resource-requirements>
 	<effects>
 		<unit name="daemon"/>

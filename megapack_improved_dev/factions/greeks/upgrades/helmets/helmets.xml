@@ -10,6 +10,7 @@
 	<resource-requirements>
 		<resource name="gold" amount="200"/>
 		<resource name="wood" amount="200"/>
+		<resource name="stone" amount="50"/>
 	</resource-requirements>
 	<effects>
 		<unit name="hoplite"/>
