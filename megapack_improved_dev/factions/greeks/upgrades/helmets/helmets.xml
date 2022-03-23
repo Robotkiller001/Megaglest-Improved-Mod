@@ -16,7 +16,7 @@
 		<unit name="hoplite"/>
 		<unit name="cavalry"/>
 	</effects>
-	<max-hp value="150"/>
+	<max-hp value="100"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strength value="0"/>
