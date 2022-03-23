@@ -6,7 +6,7 @@
 		<height value="2"/>
 		<max-hp value="1200" regeneration="2" start-percentage="100"/>
 		<max-ep value="0"/>
-		<armor value="30"/>
+		<armor value="35"/>
 		<armor-type value="metal"/>
 		<sight value="10"/>
 		<time value="80"/>
@@ -122,7 +122,7 @@
                         	<target value="faction" include-self="true">
 					<unit-type name="ghost_armor" />
 				</target>
-				<max-hp value="0" regeneration="25"/>
+				<max-hp value="0" regeneration="20"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
 				<attack-strenght value="0" value-percent-multiplier="true"/>
