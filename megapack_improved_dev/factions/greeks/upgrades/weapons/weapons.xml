@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/piercing.bmp"/>
 	<image-cancel path="../shields/images/tech_upgrade_cancel.bmp"/>
-	<time value="350"/>
+	<time value="450"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<upgrade-requirements/>
@@ -22,7 +22,7 @@
 	<max-hp value="0"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
-	<attack-strength value="20"/>
+	<attack-strength value="30"/>
 	<attack-range value="0"/>
 	<armor value="0"/>
 	<move-speed value="0"/>

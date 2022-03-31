@@ -138,7 +138,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack3.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack4.wav"/>
 			</sound>
-			<attack-strength value="270"/>
+			<attack-strength value="260"/>
 			<attack-var value="70"/>
 			<attack-range value="11"/>
 			<attack-type value="alexander"/>
@@ -218,7 +218,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack3.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack4.wav"/>
 			</sound>
-			<attack-strength value="1100"/>
+			<attack-strength value="1000"/>
 			<attack-var value="200"/>
 			<attack-range value="13"/>
 			<attack-type value="alexander"/>
