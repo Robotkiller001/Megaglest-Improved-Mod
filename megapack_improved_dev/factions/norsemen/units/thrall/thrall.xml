@@ -189,7 +189,7 @@
 			<type value="harvest"/>
 			<name value="mine_skill"/>
 			<ep-cost value="0"/>
-			<speed value="250"/>
+			<speed value="225"/>
 			<anim-speed value="90"/>
 			<animation path="models/worker_mining.g3d"/>
 			<sound enabled="true" start-time="0.5">
@@ -209,7 +209,7 @@
 			<type value="harvest"/>
 			<name value="harvest_wood_skill"/>
 			<ep-cost value="0"/>
-			<speed value="250"/>
+			<speed value="200"/>
 			<anim-speed value="90"/>
 			<animation path="models/worker_harversting_wood.g3d"/>
 			<sound enabled="true" start-time="0.5">
@@ -342,7 +342,7 @@
 			<harvested-resources>
 				<resource name="wood"/>
 			</harvested-resources>
-			<max-load value="25"/>
+			<max-load value="20"/>
 			<hits-per-unit value="1"/>
 		</command>
 

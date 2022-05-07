@@ -167,7 +167,21 @@
 			<type value="harvest"/>
 			<name value="harvest_skill"/>
 			<ep-cost value="0"/>
-			<speed value="250"/>
+			<speed value="225"/>
+			<anim-speed value="80"/>
+			<animation path="models/initiate_harvesting.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/initiate_harvest1.wav"/>
+				<sound-file path="sounds/initiate_harvest2.wav"/>
+				<sound-file path="sounds/initiate_harvest3.wav"/>
+				<sound-file path="sounds/initiate_harvest4.wav"/>
+			</sound>
+		</skill>
+		<skill>
+			<type value="harvest"/>
+			<name value="harvest_wood_skill"/>
+			<ep-cost value="0"/>
+			<speed value="200"/>
 			<anim-speed value="80"/>
 			<animation path="models/initiate_harvesting.g3d"/>
 			<sound enabled="true" start-time="0">
@@ -353,13 +367,13 @@
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_wood_skill"/>
-			<harvest-skill value="harvest_skill"/>
+			<harvest-skill value="harvest_wood_skill"/>
 			<stop-loaded-skill value="stop_loaded_wood_skill"/>
 			<move-loaded-skill value="move_loaded_wood_skill"/>
 			<harvested-resources>
 				<resource name="wood"/>
 			</harvested-resources>
-			<max-load value="25"/>
+			<max-load value="20"/>
 			<hits-per-unit value="1"/>
 		</command>
 		<command>

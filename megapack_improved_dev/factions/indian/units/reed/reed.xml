@@ -33,7 +33,7 @@
 		<resource-requirements>
 			<resource name="gold" amount="175"/>
 			<resource name="wood" amount="100"/>
-			<resource name="stone" amount="100"/>
+			<resource name="stone" amount="50"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/reed.bmp"/>

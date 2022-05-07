@@ -4,7 +4,7 @@
 	<image path="images/stone.bmp"/>
 	<type value="tech">
 		<model path="models/stone.g3d"/>
-		<default-amount value="2500"/>
+		<default-amount value="2000"/>
 		<resource-number value="2"/>
 	</type>
 </resource>

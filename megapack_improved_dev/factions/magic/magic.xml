@@ -3,8 +3,8 @@
 <faction>
 	<starting-resources>
 		<resource name="gold" amount="400"/>
-		<resource name="wood" amount="400"/>
-		<resource name="stone" amount="500"/>
+		<resource name="wood" amount="300"/>
+		<resource name="stone" amount="400"/>
 		<resource name="energy" amount="18"/>
 		<resource name="1-up" amount="1"/>
 	</starting-resources>
