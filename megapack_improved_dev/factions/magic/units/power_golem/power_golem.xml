@@ -28,7 +28,7 @@
 		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="energy" amount="4"/>
-			<resource name="gold" amount="300"/>
+			<resource name="gold" amount="250"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/golem.bmp"/>
@@ -104,7 +104,7 @@
 			<type value="harvest"/>
 			<name value="harvest_skill"/>
 			<ep-cost value="0"/>
-			<speed value="700"/>
+			<speed value="600"/>
 			<anim-speed value="60"/>
 			<animation path="models/golem_attacking.g3d"/>
 			<sound enabled="true" start-time="0">
