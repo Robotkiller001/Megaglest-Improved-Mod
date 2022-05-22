@@ -4,9 +4,9 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="600" regeneration="2" start-percentage="100"/>
-		<max-ep value="1000" regeneration="15" start-percentage="30"/>
-		<armor value="20"/>
+		<max-hp value="500" regeneration="3" start-percentage="100"/>
+		<max-ep value="1000" regeneration="15" start-percentage="40"/>
+		<armor value="15"/>
 		<armor-type value="leather"/>
 		<sight value="10"/>
 		<time value="80"/>
@@ -112,8 +112,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="100"/>
-			<speed value="200"/>
-			<anim-speed value="200"/>
+			<speed value="250"/>
+			<anim-speed value="250"/>
 			<animation path="models/pharao_attacking.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack1.wav"/>
