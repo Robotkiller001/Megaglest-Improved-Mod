@@ -16,7 +16,7 @@
 		<unit name="guard" amount="0"/>
 		<unit name="gladiator" amount="0"/>
 	</starting-units>
-	<music value="true" path="music/romans.ogg"/>
+	<music value="true" path="music/music_romans.ogg"/>
 	<flat-particle-positions value="true"/>
 	<ai-behavior>
 		<warrior-units>

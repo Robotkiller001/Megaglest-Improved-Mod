@@ -16,7 +16,7 @@
 		<unit name="mistletoe_tree" amount="0"/>
 		<unit name="thunderstruck_thor" amount="0"/>
 	</starting-units>
-	<music value="true" path="music/manolo_camp-medieval.ogg"/>
+	<music value="true" path="music/music_norsemen.ogg"/>
 	<flat-particle-positions value="true"/>
 	<ai-behavior>
 		<warrior-units>

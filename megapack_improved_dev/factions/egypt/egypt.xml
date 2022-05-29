@@ -16,7 +16,7 @@
 		<unit name="stone_snake" amount="0"/>
 		<unit name="thunderstruck_scarab" amount="0"/>
 	</starting-units>
-	<music value="true" path="music/asak-jadeflange.ogg"/>
+	<music value="true" path="music/music_egypt.ogg"/>
 	<flat-particle-positions value="true"/>
 	<ai-behavior>
 		<warrior-units>

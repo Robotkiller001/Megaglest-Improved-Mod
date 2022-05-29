@@ -16,7 +16,7 @@
 		<unit name="thunderstruck_elephant" amount="0"/>
 		<unit name="magician" amount="0"/>
 	</starting-units>
-	<music value="true" path="music/aminos-together_together.ogg"/>
+	<music value="true" path="music/music_persian.ogg"/>
 	<flat-particle-positions value="true"/>
 	<ai-behavior>
 		<warrior-units>
