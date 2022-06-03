@@ -16,7 +16,7 @@
 		<unit name="engineer"/>
 		<unit name="farm"/>
 		<unit name="palace"/>
-		<unit name="priest"/>
+		<unit name="druid"/>
 		<unit name="temple"/>
 	</effects>
 	<max-hp value="0"/>

@@ -17,6 +17,7 @@
 		<unit name="cavalry"/>
 		<unit name="chariot"/>
 		<unit name="dragon"/>
+		<unit name="druid"/>
 		<unit name="hera"/>
 		<unit name="hoplite"/>
 		<unit name="onager"/>

@@ -13,6 +13,7 @@
 		<attack-type name="beat"/>
 		<attack-type name="slashing"/>
 		<attack-type name="magic"/>
+		<attack-type name="roots"/>
 		<attack-type name="hell_fire"/>
 		<attack-type name="castle"/>
 		<attack-type name="scarab"/>
@@ -158,6 +159,22 @@
 		<damage-multiplier attack="hell_fire" armor="blessed_armor" value="0.8"/>
 		<damage-multiplier attack="hell_fire" armor="advanced_protection" value="0.8"/>
 		<damage-multiplier attack="hell_fire" armor="artemis_bless" value="0.8"/>
+
+		<damage-multiplier attack="roots" armor="organic" value="1.5"/>
+		<damage-multiplier attack="roots" armor="organic2x" value="1.35"/>
+		<damage-multiplier attack="roots" armor="leather" value="1.4"/>
+		<damage-multiplier attack="roots" armor="leather2x" value="1.25"/>
+		<damage-multiplier attack="roots" armor="metal" value="0.5"/>
+		<damage-multiplier attack="roots" armor="metal2x" value="0.4"/>
+		<damage-multiplier attack="roots" armor="stone" value="0.5"/>
+		<damage-multiplier attack="roots" armor="osiris_protection" value="0.8"/>
+		<damage-multiplier attack="roots" armor="ancient_recalls" value="0.8"/>
+		<damage-multiplier attack="roots" armor="valak_power" value="0.8"/>
+		<damage-multiplier attack="roots" armor="odin_shield" value="0.8"/>
+		<damage-multiplier attack="roots" armor="obsidian_aura" value="0.8"/>
+		<damage-multiplier attack="roots" armor="blessed_armor" value="0.8"/>
+		<damage-multiplier attack="roots" armor="advanced_protection" value="0.8"/>
+		<damage-multiplier attack="roots" armor="artemis_bless" value="0.8"/>
 
 		<damage-multiplier attack="castle" armor="osiris_protection" value="4.0"/>
 		<damage-multiplier attack="castle" armor="ancient_recalls" value="4.0"/>

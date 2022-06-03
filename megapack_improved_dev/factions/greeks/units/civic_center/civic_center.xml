@@ -125,6 +125,7 @@
 					<unit-type name="cavalry"/>
 					<unit-type name="chariot"/>
 					<unit-type name="dragon"/>
+					<unit-type name="druid"/>
 					<unit-type name="hoplite"/>
 					<unit-type name="onager"/>
 					<unit-type name="peltast"/>

@@ -5,11 +5,11 @@
 		<max-unit-count value="8"/>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="700" regeneration="1"/>
-		<max-ep value="0" regeneration="0"/>
-		<armor value="20"/>
+		<max-hp value="1100" regeneration="3"/>
+		<max-ep value="500" regeneration="50" start-percentage="60"/>
+		<armor value="35"/>
 		<armor-type value="leather"/>
-		<sight value="10"/>
+		<sight value="11"/>
 		<time value="110"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="false"/>
@@ -29,7 +29,7 @@
 			<resource name="food" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
-		<image path="images/priest.bmp"/>
+		<image path="images/druid.bmp"/>
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="true" image-path="../barracks/images/meeting_point.bmp"/>
 		<selection-sounds enabled="true">
@@ -61,13 +61,14 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="55"/>
-			<animation path="models/pharao_standing.g3d"/>
+			<animation path="models/druid_idle1.g3d"/>
+			<animation path="models/druid_idle2.g3d"/>
 			<sound enabled="false"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
 				<radius value="0"/>
                         	<target value="faction" include-self="true">
-					<unit-type name="priest" />
+					<unit-type name="druid" />
 				</target>
 				<max-hp value="0" regeneration="4"/>
 				<max-ep value="0"/>
@@ -88,7 +89,7 @@
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="45"/>
-			<animation path="models/pharao_producing.g3d"/>
+			<animation path="models/druid_heal.g3d"/>
 			<sound enabled="true" start-time="0.3">
 				<sound-file path="$COMMONDATAPATH/sounds/summoner_summon1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/summoner_summon2.wav"/>
@@ -103,8 +104,39 @@
 			<ep-cost value="0"/>
 			<speed value="210"/>
 			<anim-speed value="50"/>
-			<animation path="models/pharao_walking.g3d"/>
+			<animation path="models/druid_walk.g3d"/>
 			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="attack"/>
+			<name value="attack_skill"/>
+			<ep-cost value="500"/>
+			<speed value="40"/>
+			<anim-speed value="40"/>
+			<animation path="models/druid_attack.g3d"/>
+			<particles value="false">
+			</particles>
+			<sound enabled="true" start-time="0.2">
+				<sound-file path="sounds/druid_attack1.wav"/>
+				<sound-file path="sounds/druid_attack2.wav"/>
+				<sound-file path="sounds/druid_attack3.wav"/>
+			</sound>
+			<attack-strenght value="350"/>
+			<attack-var value="70"/>
+			<attack-range value="4"/>
+			<attack-type value="roots"/>
+			<attack-start-time value="0.22"/>
+			<attack-fields>
+				<field value="land"/>
+			</attack-fields>
+			<projectile value="false">
+			</projectile>
+			<splash value="true">
+				<radius value="2"/>
+				<damage-all value="false"/>
+				<particle value="false"/>
+			</splash>
 		</skill>
 
 		<skill>
@@ -113,7 +145,7 @@
 			<ep-cost value="0"/>
 			<speed value="210"/>
 			<anim-speed value="60"/>
-			<animation path="models/pharao_healing.g3d"/>
+			<animation path="models/druid_heal.g3d"/>
 			<particles value="true">
 				<particle-file path="healing_particles.xml"/>
 			</particles>
@@ -128,7 +160,7 @@
 			<ep-cost value="0"/>
 			<speed value="90"/>
 			<anim-speed value="50"/>
-			<animation path="models/pharao_dying.g3d"/>
+			<animation path="models/druid_die.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/priest_die1.wav"/>
 				<sound-file path="sounds/priest_die2.wav"/>
@@ -162,11 +194,30 @@
 		</command>
 
 		<command>
+			<type value="attack"/>
+			<name value="attack"/>
+			<image path="images/druid_attack.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+		<command>
+			<type value="attack_stopped"/>
+			<name value="hold_position"/>
+			<image path="../archer/images/tech_hold.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+		<command>
 			<type value="produce"/>
 			<name value="summon_atlas"/>
 			<image path="../atlas/images/atlas.bmp"/>
 			<unit-requirements>
-				<unit name="priest"/>
 			</unit-requirements>
 			<upgrade-requirements/>
 			<produce-skill value="produce_skill"/>
@@ -200,7 +251,7 @@
 				<unit name="hoplite"/>
 				<unit name="engineer"/>
 				<unit name="peltast"/>
-				<unit name="priest"/>
+				<unit name="druid"/>
 				<unit name="psiloi"/>
 				<unit name="slave"/>
 			</repaired-units>
