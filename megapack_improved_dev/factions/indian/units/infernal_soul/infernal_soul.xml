@@ -12,7 +12,7 @@
 		<armor value="30"/>
 		<armor-type value="metal"/>
 		<sight value="10"/>
-		<time value="100"/>
+		<time value="90"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>

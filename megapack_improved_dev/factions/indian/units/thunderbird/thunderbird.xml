@@ -9,7 +9,7 @@
 		<armor value="40"/>
 		<armor-type value="organic2x"/>
 		<sight value="13"/>
-		<time value="250"/>
+		<time value="220"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
@@ -27,7 +27,7 @@
 		<resource-requirements>
 			<resource name="gold" amount="250"/>
 			<resource name="stone" amount="50"/>
-			<resource name="wood" amount="150"/>
+			<resource name="wood" amount="175"/>
 			<resource name="housing" amount="3"/>
 		</resource-requirements>
 		<resources-stored/>

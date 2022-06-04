@@ -2,7 +2,6 @@
 
 <unit>
 	<parameters>
-		<max-unit-count value="8"/>
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="1100" regeneration="3"/>
@@ -10,11 +9,13 @@
 		<armor value="35"/>
 		<armor-type value="leather"/>
 		<sight value="11"/>
-		<time value="110"/>
+		<time value="100"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="false"/>
 		<cellmap value="false"/>
-		<levels/>
+		<levels>
+			<level name="ancient" kills="6"/>
+		</levels>
 		<fields>
 			<field value="land"/>
 		</fields>

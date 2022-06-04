@@ -373,7 +373,7 @@
 			<harvested-resources>
 				<resource name="wood"/>
 			</harvested-resources>
-			<max-load value="20"/>
+			<max-load value="25"/>
 			<hits-per-unit value="1"/>
 		</command>
 		<command>

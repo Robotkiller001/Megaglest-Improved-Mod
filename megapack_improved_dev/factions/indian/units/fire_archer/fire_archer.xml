@@ -12,7 +12,7 @@
 		<armor value="25"/>
 		<armor-type value="leather"/>
 		<sight value="13"/>
-		<time value="90"/>
+		<time value="80"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
@@ -33,7 +33,7 @@
 		<upgrade-requirements/>
 		<resource-requirements>
 			<resource name="wood" amount="100"/>
-			<resource name="gold" amount="150"/>
+			<resource name="gold" amount="175"/>
 			<resource name="housing" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>

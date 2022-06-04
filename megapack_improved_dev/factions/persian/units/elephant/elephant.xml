@@ -12,7 +12,7 @@
 		<armor value="40"/>
 		<armor-type value="obsidian_aura"/>
 		<sight value="12"/>
-		<time value="160"/>
+		<time value="140"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>

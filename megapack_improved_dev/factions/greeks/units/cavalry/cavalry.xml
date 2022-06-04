@@ -9,7 +9,7 @@
 		<armor value="25"/>
 		<armor-type value="leather2x"/>
 		<sight value="10"/>
-		<time value="120"/>
+		<time value="110"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="false"/>
 		<cellmap value="false"/>
@@ -26,7 +26,7 @@
 			<upgrade name="barley_bales"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="wood" amount="100"/>
+			<resource name="wood" amount="125"/>
 			<resource name="gold" amount="200"/>
 			<resource name="food" amount="2"/>
 		</resource-requirements>

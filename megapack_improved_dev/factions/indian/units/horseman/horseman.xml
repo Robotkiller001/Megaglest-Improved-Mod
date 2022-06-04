@@ -12,7 +12,7 @@
 		<armor value="40"/>
 		<armor-type value="leather2x"/>
 		<sight value="10"/>
-		<time value="110"/>
+		<time value="100"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
@@ -30,7 +30,7 @@
                   	<upgrade name="iron"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="wood" amount="100"/>
+			<resource name="wood" amount="125"/>
 			<resource name="gold" amount="200"/>
 			<resource name="housing" amount="2"/>
 		</resource-requirements>

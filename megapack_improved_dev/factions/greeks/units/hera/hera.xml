@@ -11,7 +11,7 @@
 		<armor-type value="leather"/>
 		<max-unit-count value="1"/>
 		<sight value="14"/>
-		<time value="300"/>
+		<time value="250"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="false"/>
 		<cellmap value="false"/>
@@ -29,7 +29,7 @@
 			<upgrade name="pandoras_box"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="225"/>
+			<resource name="gold" amount="250"/>
 			<resource name="wood" amount="150"/>
 			<resource name="stone" amount="100"/>
 			<resource name="food" amount="3"/>

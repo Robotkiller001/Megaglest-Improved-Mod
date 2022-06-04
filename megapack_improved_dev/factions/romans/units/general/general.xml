@@ -10,7 +10,7 @@
 		<armor-type value="blessed_armor"/>
 		<max-unit-count value="4"/>
 		<sight value="12"/>
-		<time value="110"/>
+		<time value="100"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>

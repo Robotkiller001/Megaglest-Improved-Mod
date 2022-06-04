@@ -9,7 +9,7 @@
 		<armor value="35"/>
 		<armor-type value="metal"/>
 		<sight value="10"/>
-		<time value="110"/>
+		<time value="90"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
@@ -29,7 +29,7 @@
 			<upgrade name="strengthen_swords"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="wood" amount="125"/>
+			<resource name="wood" amount="150"/>
 			<resource name="gold" amount="125"/>
 			<resource name="food" amount="2"/>
 		</resource-requirements>
