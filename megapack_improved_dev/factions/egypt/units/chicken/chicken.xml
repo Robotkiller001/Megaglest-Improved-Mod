@@ -34,16 +34,17 @@
 		<image-cancel path="../spearman/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="sounds/chicken_select1.wav"/>
-			<sound path="sounds/chicken_select2.wav"/>
-			<sound path="sounds/chicken_select3.wav"/>
-			<sound path="sounds/chicken_select4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/chicken_select1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/chicken_select2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/chicken_select3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/chicken_select4.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="sounds/chicken_ack1.wav"/>
-			<sound path="sounds/chicken_ack2.wav"/>
-			<sound path="sounds/chicken_ack3.wav"/>
-			<sound path="sounds/chicken_ack4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/chicken_ack1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/chicken_ack2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/chicken_ack3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/chicken_ack4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/chicken_ack5.wav"/>
 		</command-sounds>
 
 	</parameters>
@@ -60,8 +61,10 @@
 			<anim-speed value="10"/>
 			<animation path="models/chicken_standing.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/chicken_standing1.wav"/>
-				<sound-file path="sounds/chicken_standing2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/chicken_idle.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
 			</sound>
 
 		</skill>
@@ -84,10 +87,7 @@
 			<anim-speed value="40"/>
 			<animation path="models/chicken_dying.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/chicken_die1.wav"/>
-				<sound-file path="sounds/chicken_die2.wav"/>
-				<sound-file path="sounds/chicken_die3.wav"/>
-				<sound-file path="sounds/chicken_die4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/chicken_die1.wav"/>
 			</sound>
 			<fade value="false"/>
 		</skill>

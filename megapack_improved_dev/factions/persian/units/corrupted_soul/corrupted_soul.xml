@@ -5,12 +5,12 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="1000" regeneration="6" start-percentage="100"/>
+		<max-hp value="1000" regeneration="4" start-percentage="100"/>
 		<max-ep value="3000" regeneration="40" start-percentage="40"/>
 		<armor value="30"/>
 		<armor-type value="leather"/>					
 		<sight value="13"/>
-		<time value="120"/>	
+		<time value="100"/>	
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
 		<levels>
@@ -29,9 +29,9 @@
 			<upgrade name="magic_level_2"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="300"/>
+			<resource name="gold" amount="275"/>
 			<resource name="wood" amount="175"/>
-			<resource name="food" amount="3"/>
+			<resource name="food" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/corrupted_soul.bmp"/>
@@ -67,9 +67,9 @@
 					<unit-type name="corrupted_soul"/>
 				</target>
 				<max-hp value="0" regeneration="1"/>
-				<max-ep value="0"  regeneration="2"/>
+				<max-ep value="0"  regeneration="1"/>
 				<sight value="0"/>
-				<attack-strenght value="5" value-percent-multiplier="false"/>
+				<attack-strenght value="0" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
 				<move-speed value="5"/>
@@ -92,9 +92,9 @@
 					<unit-type name="corrupted_soul"/>
 				</target>
 				<max-hp value="0" regeneration="1"/>
-				<max-ep value="0"  regeneration="2"/>
+				<max-ep value="0"  regeneration="1"/>
 				<sight value="0"/>
-				<attack-strenght value="5" value-percent-multiplier="false"/>
+				<attack-strenght value="0" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
 				<move-speed value="5"/>
@@ -106,7 +106,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>		
-			<ep-cost value="450"/>
+			<ep-cost value="300"/>
 			<speed value="60"/>
 			<anim-speed value="60"/>
 			<animation path="models/corrupted_soul_attack.g3d"/>
@@ -131,9 +131,9 @@
 					<unit-type name="corrupted_soul"/>
 				</target>
 				<max-hp value="0" regeneration="1"/>
-				<max-ep value="0"  regeneration="2"/>
+				<max-ep value="0"  regeneration="1"/>
 				<sight value="0"/>
-				<attack-strenght value="5" value-percent-multiplier="false"/>
+				<attack-strenght value="0" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
 				<move-speed value="5"/>

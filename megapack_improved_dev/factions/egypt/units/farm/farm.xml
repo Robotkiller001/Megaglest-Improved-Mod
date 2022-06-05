@@ -71,7 +71,30 @@
 			<speed value="300" />
 			<anim-speed value="50" />
 			<animation path="models/chickenfarm.g3d" />
-			<sound enabled="false" />
+			<sound enabled="true" start-time="0">
+				<sound-file path="$COMMONDATAPATH/sounds/chicken_idle.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/chicken_select1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/chicken_select2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/chicken_select3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/chicken_select4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/chicken_ack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/chicken_ack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/chicken_ack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/chicken_ack4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/chicken_ack5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+			</sound>
 		</skill>
 		<skill>
 			<type value="produce" />
@@ -80,7 +103,30 @@
 			<speed value="400" />
 			<anim-speed value="50" />
 			<animation path="models/chickenfarm.g3d" />
-			<sound enabled="false" />
+			<sound enabled="true" start-time="0">
+				<sound-file path="$COMMONDATAPATH/sounds/chicken_idle.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/chicken_select1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/chicken_select2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/chicken_select3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/chicken_select4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/chicken_ack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/chicken_ack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/chicken_ack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/chicken_ack4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/chicken_ack5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/null.wav"/>
+			</sound>
 		</skill>
 		<skill>
 			<type value="die" />
