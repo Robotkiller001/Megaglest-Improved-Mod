@@ -4,9 +4,9 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="1100" regeneration="3"/>
-		<max-ep value="500" regeneration="50" start-percentage="60"/>
-		<armor value="35"/>
+		<max-hp value="1200" regeneration="3"/>
+		<max-ep value="500" regeneration="40" start-percentage="60"/>
+		<armor value="40"/>
 		<armor-type value="leather"/>
 		<sight value="11"/>
 		<time value="100"/>
@@ -123,8 +123,8 @@
 				<sound-file path="sounds/druid_attack2.wav"/>
 				<sound-file path="sounds/druid_attack3.wav"/>
 			</sound>
-			<attack-strenght value="370"/>
-			<attack-var value="70"/>
+			<attack-strenght value="480"/>
+			<attack-var value="80"/>
 			<attack-range value="4"/>
 			<attack-type value="roots"/>
 			<attack-start-time value="0.24"/>

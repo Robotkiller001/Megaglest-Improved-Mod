@@ -78,7 +78,7 @@
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="210"/>
-			<anim-speed value="90"/>
+			<anim-speed value="80"/>
 			<animation path="models/survived_drake_rider_walk.g3d"/>
 			<sound enabled="false"/>
 			<particles value="true">

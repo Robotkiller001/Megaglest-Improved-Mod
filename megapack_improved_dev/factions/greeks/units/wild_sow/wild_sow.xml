@@ -29,7 +29,8 @@
 			<upgrade name="barley_bales"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="125"/>
+			<resource name="gold" amount="100"/>
+			<resource name="wood" amount="25"/>
 			<resource name="food" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -97,8 +98,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="60"/>
-			<anim-speed value="70"/>
+			<speed value="80"/>
+			<anim-speed value="80"/>
 			<animation path="models/wild_sow_attack.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/pig_attack1.wav"/>
