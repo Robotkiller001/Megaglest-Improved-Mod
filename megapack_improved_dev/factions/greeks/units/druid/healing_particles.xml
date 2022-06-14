@@ -10,7 +10,7 @@
 	<size value="0.45" />
 	<size-no-energy value="0.25" />
 	<radius value="1" />
-	<speed value="0.6" />
+	<speed value="0.5" />
 	<gravity value="0.1"/>
 	<emission-rate value="0.1" />
 	<energy-max value="40" />
