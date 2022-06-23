@@ -8,7 +8,7 @@
 		<unit name="survivor" amount="1"/>
 		<unit name="initiate" amount="0"/>
 		<unit name="battlemage" amount="0"/>
-		<unit name="archmage" amount="5"/>
+		<unit name="archmage" amount="0"/>
 		<unit name="worker" amount="0"/>
 		<unit name="technician" amount="0"/>
 		<unit name="catapult" amount="0"/>
