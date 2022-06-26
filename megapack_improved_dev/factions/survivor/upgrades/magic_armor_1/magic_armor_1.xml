@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/protect_blue.bmp"/>
 	<image-cancel path="images/magic_upgrade_cancel.bmp"/>
-	<time value="100"/>
+	<time value="75"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>

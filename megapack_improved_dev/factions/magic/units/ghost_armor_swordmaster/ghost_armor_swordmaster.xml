@@ -6,7 +6,7 @@
 		<height value="2"/>
 		<max-hp value="800" regeneration="4" start-percentage="100"/>
 		<max-ep value="0"/>
-		<armor value="15"/>
+		<armor value="10"/>
 		<armor-type value="metal"/>
 		<sight value="10"/>
 		<time value="60"/>
@@ -137,6 +137,23 @@
 			</projectile>
 
 			</projectiles>
+                        <attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="10"/>
+                        	<target value="foe" include-self="false">
+				</target>
+				<max-hp value="0" regeneration="0"/>
+				<max-ep value="0"/>
+				<sight value="0"/>
+				<attack-strenght value="-15" value-percent-multiplier="false"/>
+				<attack-range value="0"/>
+				<armor value="0"/>
+				<move-speed value="0"/>
+				<production-speed value="0"/>
+			<particles value="true">
+					<affected-particle-file path="broken_sword_particles.xml"/>
+			</particles>
+                        </attack-boost>
 			<splash value="true">
 				<radius value="0"/>
 				<damage-all value="false"/>

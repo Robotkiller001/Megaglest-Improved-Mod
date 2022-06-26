@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/evil_eye_red.bmp"/>
 	<image-cancel path="images/magic_upgrade_cancel.bmp"/>
-	<time value="160"/>
+	<time value="125"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>

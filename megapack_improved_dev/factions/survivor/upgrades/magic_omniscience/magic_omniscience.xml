@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/haste_fire.bmp"/>
 	<image-cancel path="images/magic_upgrade_cancel.bmp"/>
-	<time value="220"/>
+	<time value="225"/>
 	<unit-requirements/>
 	<upgrade-requirements>
 		<upgrade name="magic_armor_3"/>

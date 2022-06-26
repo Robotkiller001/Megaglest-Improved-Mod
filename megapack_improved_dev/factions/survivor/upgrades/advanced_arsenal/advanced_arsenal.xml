@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/robotics.bmp"/>
 	<image-cancel path="images/tech_upgrade_cancel.bmp"/>
-	<time value="220"/>
+	<time value="225"/>
 	<unit-requirements/>
 	<upgrade-requirements>
 		<upgrade name="blade_weapons_3"/>

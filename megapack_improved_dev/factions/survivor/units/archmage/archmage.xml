@@ -13,15 +13,15 @@
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="basic" kills="35"/>
-			<level name="advanced" kills="70"/>
-			<level name="expert" kills="110"/>
-			<level name="master" kills="160"/>
-			<level name="grandmaster" kills="220"/>
-			<level name="daemon" kills="300"/>
-			<level name="god" kills="425"/>
-			<level name="skygod" kills="600"/>
-			<level name="adpocalypse" kills="800"/>
+			<level name="basic" kills="30"/>
+			<level name="advanced" kills="60"/>
+			<level name="expert" kills="120"/>
+			<level name="master" kills="190"/>
+			<level name="grandmaster" kills="280"/>
+			<level name="daemon" kills="400"/>
+			<level name="god" kills="575"/>
+			<level name="skygod" kills="800"/>
+			<level name="adpocalypse" kills="1000"/>
 		</levels>
 		<fields>
 			<field value="land"/>
