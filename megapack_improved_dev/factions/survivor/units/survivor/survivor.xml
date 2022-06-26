@@ -43,8 +43,8 @@
 			<name value="stop_skill"/>
 			<ep-cost value="0"/>
 			<speed value="1000"/>
-			<anim-speed value="55"/>
-			<animation path="models/chest.g3d"/>
+			<anim-speed value="40"/>
+			<animation path="models/survivor_standing.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
 				<radius value="0"/>
@@ -70,8 +70,8 @@
 			<name value="be_built_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
-			<anim-speed value="55" />
-			<animation path="models/chest.g3d" />
+			<anim-speed value="40" />
+			<animation path="models/survivor_standing.g3d" />
 			<sound enabled="false" />
 		</skill>
 
@@ -79,9 +79,9 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="340"/>
-			<anim-speed value="180"/>
-			<animation path="models/chest.g3d"/>
+			<speed value="380"/>
+			<anim-speed value="50"/>
+			<animation path="models/survivor_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
@@ -91,26 +91,24 @@
 			<ep-cost value="0"/>
 			<speed value="500"/>
 			<anim-speed value="100"/>
-			<animation path="models/chest.g3d"/>
+			<animation path="models/survivor_standing.g3d"/>
 			<sound enabled="false"/>
-			<particles value="true">
-				<particle-file path="upgrade_particles.xml" />
-			</particles>
+			<particles value="false"/>
 		</skill>
 
 		<skill>
 			<type value="die"/>
 			<name value="die_skill"/>
 			<ep-cost value="0"/>
-			<speed value="90"/>
-			<anim-speed value="90"/>
-			<animation path="models/chest_item.g3d"/>
+			<speed value="120"/>
+			<anim-speed value="120"/>
+			<animation path="models/survivor_standing.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/worker_die1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/worker_die2.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/worker_die3.wav"/>
 			</sound>
-			<fade value="false"/>
+			<fade value="true"/>
 		</skill>
 
 	</skills>

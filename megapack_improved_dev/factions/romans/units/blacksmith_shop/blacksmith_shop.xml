@@ -24,6 +24,10 @@
 		<properties/>
 		<light enabled="false" />
 		<rotationAllowed value="true" />
+		<damage-particles value="true">
+			<particle-file path="fire_particles.xml"/>
+			<particle-file path="smoke_particles.xml"/>
+		</damage-particles>
 		<unit-requirements>
 			<unit name="forum" />
 		</unit-requirements>
@@ -67,8 +71,8 @@
 			<anim-speed value="50" />
 			<animation path="models/blacksmith.g3d" />
 			<particles value="true">
-				<particle-file path="fire_particles.xml"/>
-				<particle-file path="smoke_particles.xml"/>
+				<particle-file path="fire_particles2.xml"/>
+				<particle-file path="smoke_particles2.xml"/>
 			</particles>
 			<sound enabled="false" />
 		</skill>
@@ -80,8 +84,8 @@
 			<anim-speed value="150" />
 			<animation path="models/blacksmith_upgrade.g3d" />
 			<particles value="true">
-				<particle-file path="fire_particles.xml"/>
-				<particle-file path="smoke_particles.xml"/>
+				<particle-file path="fire_particles2.xml"/>
+				<particle-file path="smoke_particles2.xml"/>
 				<particle-file path="upgrade_particles.xml"/>
 			</particles>
 			<sound enabled="true" start-time="0.3">
@@ -104,6 +108,7 @@
 			<fade value="false"/>
 		</skill>
 	</skills>
+
 	<commands>
 		<command>
 			<type value="upgrade"/>
