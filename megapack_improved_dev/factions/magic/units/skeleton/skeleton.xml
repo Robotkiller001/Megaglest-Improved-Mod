@@ -78,7 +78,7 @@
 				<sound-file path="sounds/sattack2.wav"/>
 				<sound-file path="sounds/sattack3.wav"/>
 			</sound>
-			<attack-strenght value="120"/>
+			<attack-strenght value="130"/>
 			<attack-var value="30"/>
 			<attack-range value="1"/>
 			<attack-type value="sword"/>
@@ -91,7 +91,7 @@
                         	<target value="faction" include-self="true">
 					<unit-type name="skeleton" />
 				</target>
-				<max-hp value="0" regeneration="35"/>
+				<max-hp value="0" regeneration="30"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
 				<attack-strenght value="0" value-percent-multiplier="true"/>

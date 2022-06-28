@@ -218,7 +218,7 @@
 			<attack-var value="0"/>
 			<attack-range value="12"/>
 			<attack-type value="energy"/>
-				<unit value="small_scarab" amount="4"/>
+				<unit value="small_scarab" amount="3"/>
 			<attack-start-time value="0.5"/>
 			<attack-fields>
 				<field value="land"/>

@@ -92,7 +92,7 @@
                         	<target value="faction" include-self="true">
 					<unit-type name="ranged_skeleton" />
 				</target>
-				<max-hp value="0" regeneration="30"/>
+				<max-hp value="0" regeneration="32"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
 				<attack-strenght value="0" value-percent-multiplier="true"/>

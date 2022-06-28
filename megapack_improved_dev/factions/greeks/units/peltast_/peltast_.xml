@@ -111,7 +111,7 @@
                         	<target value="faction" include-self="true">
 					<unit-type name="peltast_" />
 				</target>
-				<max-hp value="0" regeneration="25"/>
+				<max-hp value="0" regeneration="27"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
 				<attack-strenght value="0" value-percent-multiplier="true"/>
