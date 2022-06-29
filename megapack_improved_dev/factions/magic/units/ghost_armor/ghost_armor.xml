@@ -84,8 +84,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="200"/>
-			<anim-speed value="140"/>
+			<speed value="210"/>
+			<anim-speed value="145"/>
 			<animation path="models/ghost_armor_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>

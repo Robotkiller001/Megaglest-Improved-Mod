@@ -120,7 +120,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="260"/>
+			<speed value="270"/>
 			<anim-speed value="170"/>
 			<animation path="models/archmage_walking.g3d"/>
 			<particles value="true">
