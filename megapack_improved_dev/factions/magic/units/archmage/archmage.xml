@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="600" regeneration="8"/>
+		<max-hp value="600" regeneration="6"/>
 		<max-ep value="4000" regeneration="50"/>
 		<armor value="20"/>
 		<armor-type value="leather"/>
@@ -31,7 +31,7 @@
 		<resource-requirements>
 			<resource name="gold" amount="175"/>
 			<resource name="wood" amount="125"/>
-			<resource name="energy" amount="2"/>
+			<resource name="energy" amount="3"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/archmage.bmp"/>
@@ -103,7 +103,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack15.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack16.wav"/>
 			</sound>
-			<attack-strenght value="270"/>
+			<attack-strenght value="260"/>
 			<attack-var value="70"/>
 			<attack-range value="10"/>
 			<attack-type value="energy"/>
@@ -155,7 +155,7 @@
 				<sound-file path="sounds/ground_attack3.wav"/>
 				<sound-file path="sounds/ground_attack4.wav"/>
 			</sound>
-			<attack-strenght value="800"/>
+			<attack-strenght value="850"/>
 			<attack-var value="150"/>
 			<attack-range value="10"/>
 			<attack-type value="energy"/>

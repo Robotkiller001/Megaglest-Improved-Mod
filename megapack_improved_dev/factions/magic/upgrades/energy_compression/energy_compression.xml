@@ -15,7 +15,6 @@
 		<unit name="dragon_rider"/>
 		<unit name="archmage"/>
 		<unit name="necromante"/>
-		<unit name="evil_dragon"/>
 	</effects>
 	<max-hp value="0" regeneration="0"/>
 	<max-ep value="500" regeneration="5"/>

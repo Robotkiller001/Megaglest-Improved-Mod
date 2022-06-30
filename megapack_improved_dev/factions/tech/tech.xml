@@ -34,8 +34,8 @@
 			<upgrade name="advanced_architecture"/>
 		</upgrades>
 		<static-values>
-			<static type-name="MinMinWarriorsExpandCpuUltra" value="5"/>
-			<static type-name="MinMinWarriorsExpandCpuMega" value="12"/>
+			<static type-name="MinMinWarriorsExpandCpuUltra" value="6"/>
+			<static type-name="MinMinWarriorsExpandCpuMega" value="14"/>
 		</static-values>
 	</ai-behavior>
 </faction>
