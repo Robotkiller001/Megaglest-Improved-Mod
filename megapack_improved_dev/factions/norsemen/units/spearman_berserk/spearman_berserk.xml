@@ -109,8 +109,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="160"/>
-			<anim-speed value="160"/>
+			<speed value="150"/>
+			<anim-speed value="150"/>
 			<animation path="models/spearman_attacking.g3d"/>
 			<sound enabled="true" start-time="0.47">
 				<sound-file path="sounds/swordman_attack1.wav"/>
@@ -126,7 +126,7 @@
 				<sound-file path="sounds/swordman_attack11.wav"/>
 				<sound-file path="sounds/swordman_attack12.wav"/>
 			</sound>
-			<attack-strenght value="100"/>
+			<attack-strenght value="110"/>
 			<attack-var value="30"/>
 			<attack-range value="1"/>
 			<attack-type value="piercing"/>
