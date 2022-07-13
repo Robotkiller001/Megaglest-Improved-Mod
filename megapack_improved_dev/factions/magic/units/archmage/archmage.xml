@@ -5,7 +5,7 @@
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="600" regeneration="6"/>
-		<max-ep value="3000" regeneration="50"/>
+		<max-ep value="3000" regeneration="55"/>
 		<armor value="20"/>
 		<armor-type value="leather"/>
 		<sight value="13"/>
@@ -83,7 +83,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="fire_ball_skill"/>
-			<ep-cost value="250"/>
+			<ep-cost value="300"/>
 			<speed value="60"/>
 			<anim-speed value="60"/>
 			<animation path="models/archmage_attacking.g3d"/>
