@@ -6,7 +6,7 @@
 		<height value="1"/>
 		<max-hp value="2400" regeneration="8" start-percentage="100"/>
 		<max-ep value="0"/>
-		<armor value="55"/>
+		<armor value="60"/>
 		<armor-type value="leather2x"/>
 		<sight value="13"/>
 		<time value="200"/>
@@ -124,8 +124,8 @@
 			<type value="attack"/>
 			<name value="arrow_skill"/>
 			<ep-cost value="0"/>
-			<speed value="90"/>
-			<anim-speed value="90"/>
+			<speed value="80"/>
+			<anim-speed value="80"/>
 			<animation path="models/airship_attacking.g3d"/>
 			<sound enabled="true" start-time="0.1">
 				<sound-file path="sounds/airship_attack1.wav"/>

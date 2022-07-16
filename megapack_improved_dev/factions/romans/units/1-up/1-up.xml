@@ -25,8 +25,8 @@
 		<upgrade-requirements/>
 		<resource-requirements>
 			<resource name="gold" amount="2500"/>
-			<resource name="wood" amount="1500"/>
-			<resource name="stone" amount="1500"/>
+			<resource name="wood" amount="1750"/>
+			<resource name="stone" amount="1750"/>
 			<resource name="1-up" amount="-1" />
 		</resource-requirements>
 		<resources-stored/>

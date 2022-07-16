@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="2"/>
 		<height value="1"/>
-		<max-hp value="1300" regeneration="5" start-percentage="100"/>
+		<max-hp value="1400" regeneration="4" start-percentage="100"/>
 		<max-ep value="0"/>
 		<armor value="35"/>
 		<armor-type value="organic2x"/>
@@ -107,10 +107,10 @@
 			<type value="attack"/>
 			<name value="molotov_skill"/>
 			<ep-cost value="0"/>
-			<speed value="70"/>
+			<speed value="110"/>
 			<anim-speed value="110"/>
 			<animation path="models/carpet_attacking.g3d"/>
-			<sound enabled="true" start-time="0.0">
+			<sound enabled="true" start-time="0.05">
 				<sound-file path="sounds/carpet_attack1.wav"/>
 				<sound-file path="sounds/carpet_attack2.wav"/>
 				<sound-file path="sounds/carpet_attack3.wav"/>

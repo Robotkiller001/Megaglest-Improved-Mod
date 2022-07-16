@@ -29,7 +29,6 @@
 		<unit-requirements>
 			<unit name="blacksmith" />
 			<unit name="mistletoe_tree" />
-			<unit name="mead_bar" />
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>

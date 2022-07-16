@@ -79,7 +79,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="375"/>
+			<speed value="370"/>
 			<anim-speed value="60"/>
 			<animation path="models/thunderbird.g3d"/>
 			<sound enabled="true" start-time="0">
@@ -91,7 +91,7 @@
 			<type value="move"/>
 			<name value="charge_skill"/>
 			<ep-cost value="0"/>
-			<speed value="450"/>
+			<speed value="440"/>
 			<anim-speed value="75"/>
 			<animation path="models/thunderbird.g3d"/>
 			<sound enabled="true" start-time="0">
@@ -103,8 +103,8 @@
 			<type value="attack"/>
 			<name value="attack_ground_skill"/>
 			<ep-cost value="0"/>
-			<speed value="60"/>
-			<anim-speed value="60"/>
+			<speed value="70"/>
+			<anim-speed value="70"/>
 			<animation path="models/thunderbird_attacking.g3d"/>
 			<sound enabled="true" start-time="0.2">
 				<sound-file path="sounds/ground_attack1.wav"/>
@@ -158,7 +158,7 @@
 				<sight value="0"/>
 				<attack-strenght value="0" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
-				<armor value="25"/>
+				<armor value="30"/>
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 			<particles value="false">

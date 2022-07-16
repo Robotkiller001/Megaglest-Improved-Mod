@@ -113,8 +113,6 @@
 				<particle-file path="glow_particles.xml"/>
 			</particles>
 			<sound enabled="true" start-time="0">
-				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall1.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall2.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall3.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall4.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall5.wav"/>
