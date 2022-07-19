@@ -8,7 +8,7 @@
 		<max-ep value="0"/>
 		<armor value="30"/>
 		<armor-type value="leather"/>
-		<sight value="10"/>
+		<sight value="11"/>
 		<time value="0"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="false"/>
@@ -93,8 +93,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="70"/>
-			<anim-speed value="70"/>
+			<speed value="80"/>
+			<anim-speed value="80"/>
 			<animation path="models/peltast_attack.g3d"/>
 			<sound enabled="true" start-time="0.4">
 				<sound-file path="/sounds/archer_attack1.ogg"/>

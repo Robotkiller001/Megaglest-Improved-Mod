@@ -11,7 +11,7 @@
 		<max-ep value="0"/>
 		<armor value="30"/>
 		<armor-type value="leather"/>
-		<sight value="10"/>
+		<sight value="11"/>
 		<time value="0"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
@@ -84,8 +84,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="100"/>
-			<anim-speed value="100"/>
+			<speed value="110"/>
+			<anim-speed value="110"/>
 			<animation path="models/worker_attacking.g3d"/>
 			<particles value="true">
 				<particle-file path="blood_particles.xml"/>

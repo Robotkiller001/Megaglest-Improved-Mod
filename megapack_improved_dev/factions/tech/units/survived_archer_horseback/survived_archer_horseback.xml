@@ -8,7 +8,7 @@
 		<max-ep value="0"/>
 		<armor value="30"/>
 		<armor-type value="leather"/>
-		<sight value="10"/>
+		<sight value="11"/>
 		<time value="0"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
@@ -92,8 +92,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="60"/>
-			<anim-speed value="60"/>
+			<speed value="70"/>
+			<anim-speed value="70"/>
 			<animation path="models/archer_attacking.g3d"/>
 			<particles value="true">
 				<particle-file path="blood_particles.xml"/>

@@ -27,7 +27,7 @@
 			<upgrade name="hell_gate"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="energy" amount="3"/>
+			<resource name="energy" amount="5"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/tower_of_souls.bmp"/>
@@ -65,9 +65,9 @@
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>
-			<ep-cost value="650"/>
-			<speed value="20"/>
-			<anim-speed value="20"/>
+			<ep-cost value="600"/>
+			<speed value="30"/>
+			<anim-speed value="30"/>
 			<animation path="models/tower_of_souls_standing.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/tower_attack1.wav"/>
