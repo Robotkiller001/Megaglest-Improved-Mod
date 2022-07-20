@@ -8,7 +8,7 @@
 		<max-ep value="0"/>
 		<armor value="30"/>
 		<armor-type value="leather"/>
-		<sight value="10"/>
+		<sight value="11"/>
 		<time value="0"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="false"/>
@@ -69,7 +69,7 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="45"/>
-			<animation path="models/peltast_idle.g3d"/>
+			<animation path="models/survived_chariot_idle.g3d"/>
 			<sound enabled="false"/>
 			<particles value="true">
 				<particle-file path="blood_particles.xml"/>
@@ -82,7 +82,7 @@
 			<ep-cost value="0"/>
 			<speed value="220"/>
 			<anim-speed value="125"/>
-			<animation path="models/peltast_walk.g3d"/>
+			<animation path="models/survived_chariot_walk.g3d"/>
 			<sound enabled="false"/>
 			<particles value="true">
 				<particle-file path="blood_particles.xml"/>
@@ -93,9 +93,9 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="70"/>
-			<anim-speed value="70"/>
-			<animation path="models/peltast_attack.g3d"/>
+			<speed value="80"/>
+			<anim-speed value="80"/>
+			<animation path="models/survived_chariot_attack.g3d"/>
 			<sound enabled="true" start-time="0.4">
 				<sound-file path="/sounds/archer_attack1.ogg"/>
 				<sound-file path="/sounds/archer_attack2.ogg"/>
@@ -133,7 +133,7 @@
 			<ep-cost value="0"/>
 			<speed value="60"/>
 			<anim-speed value="50"/>
-			<animation path="models/peltast_die.g3d"/>
+			<animation path="models/survived_chariot_die.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/archer_die1.ogg"/>
 				<sound-file path="sounds/archer_die2.ogg"/>

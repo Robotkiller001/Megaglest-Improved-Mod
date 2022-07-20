@@ -8,7 +8,7 @@
 		<max-ep value="0"/>
 		<armor value="25"/>
 		<armor-type value="metal"/>
-		<sight value="9"/>
+		<sight value="10"/>
 		<time value="0"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
@@ -93,8 +93,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="90"/>
-			<anim-speed value="90"/>
+			<speed value="100"/>
+			<anim-speed value="100"/>
 			<animation path="models/spear_man_attack.g3d"/>
 			<particles value="true">
 				<particle-file path="blood_particles.xml"/>

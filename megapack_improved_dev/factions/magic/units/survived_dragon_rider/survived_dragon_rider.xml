@@ -6,10 +6,10 @@
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="900" regeneration="3"/>
-		<max-ep value="1000" regeneration="15" start-percentage="100"/>
+		<max-ep value="1000" regeneration="20" start-percentage="100"/>
 		<armor value="30"/>
 		<armor-type value="leather"/>
-		<sight value="10"/>
+		<sight value="11"/>
 		<time value="0"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
@@ -90,8 +90,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="100"/>
-			<speed value="70"/>
-			<anim-speed value="70"/>
+			<speed value="75"/>
+			<anim-speed value="75"/>
 			<animation path="models/survived_drake_rider_attack.g3d"/>
 			<particles value="true">
 				<particle-file path="blood_particles.xml"/>

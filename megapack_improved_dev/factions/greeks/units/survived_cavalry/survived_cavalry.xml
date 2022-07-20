@@ -8,7 +8,7 @@
 		<max-ep value="0"/>
 		<armor value="45"/>
 		<armor-type value="leather"/>
-		<sight value="9"/>
+		<sight value="10"/>
 		<time value="0"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
@@ -79,8 +79,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="100"/>
-			<anim-speed value="100"/>
+			<speed value="110"/>
+			<anim-speed value="110"/>
 			<animation path="models/survived_cavalry_attack.g3d"/>
 			<sound enabled="true" start-time="0.47">
 				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack1.wav"/>
