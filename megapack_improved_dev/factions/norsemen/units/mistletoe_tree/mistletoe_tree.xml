@@ -53,7 +53,7 @@
 			<name value="be_built_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
-			<anim-speed value="2"/>
+			<anim-speed value="1"/>
 			<animation path="models/mistletoe_tree_build.g3d"/>
 			<sound enabled="false"/>
 			<type value="be_built"/>
