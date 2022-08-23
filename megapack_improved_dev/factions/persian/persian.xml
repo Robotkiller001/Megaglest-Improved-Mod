@@ -13,8 +13,8 @@
 		<unit name="snake_basket" amount="1"/>
 		<unit name="worker" amount="4"/>
 		<unit name="sheep" amount="1"/>
-		<unit name="thunderstruck_elephant" amount="0"/>
-		<unit name="magician" amount="0"/>
+		<unit name="fakir" amount="0"/>
+		<unit name="stickfighter" amount="0"/>
 	</starting-units>
 	<music value="true" path="music/music_persian.ogg"/>
 	<flat-particle-positions value="true"/>
