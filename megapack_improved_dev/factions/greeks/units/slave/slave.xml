@@ -266,6 +266,15 @@
 		</command>
 
 		<command>
+			<type value= "move"/>
+			<name value="move"/>
+			<image path="../archer/images/tech_move.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+		</command>
+
+		<command>
 			<type value="attack"/>
 			<name value="attack"/>
 			<image path="images/worker_attack.bmp"/>
@@ -275,15 +284,6 @@
 			</upgrade-requirements>
 			<move-skill value="move_skill"/>
 			<attack-skill value="attack_skill"/>
-		</command>
-
-		<command>
-			<type value= "move"/>
-			<name value="move"/>
-			<image path="../archer/images/tech_move.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<move-skill value="move_skill"/>
 		</command>
 
 		<command>

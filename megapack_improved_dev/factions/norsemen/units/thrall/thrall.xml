@@ -264,6 +264,15 @@
 		</command>
 
 		<command>
+			<type value= "move"/>
+			<name value="move"/>
+			<image path="../archer/images/tech_move.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+		</command>
+
+		<command>
 			<type value="attack"/>
 			<name value="attack"/>
 			<image path="images/worker_attack.bmp"/>
@@ -276,15 +285,6 @@
 		</command>
 
 		<command>
-			<type value= "move"/>
-			<name value="move"/>
-			<image path="../archer/images/tech_move.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<move-skill value="move_skill"/>
-		</command>
-
-		<command>
 			<type value= "build"/>
 			<name value="build_basic"/>
 			<image path="images/build_basic.bmp"/>
@@ -293,15 +293,15 @@
 			<move-skill value="move_skill"/>
 			<build-skill value="build_skill"/>
 			<buildings>
+				<building name="farm"/>
                                 <building name="house"/>
 				<building name="mead_bar"/>
 				<building name="bone_tent"/>
 				<building name="blacksmith"/>
-				<building name="farm"/>
-				<building name="valhalla"/>
 				<building name="thor_totem"/>
-				<building name="castle"/>
 				<building name="mistletoe_tree"/>
+				<building name="valhalla"/>
+				<building name="castle"/>
 			</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="true">

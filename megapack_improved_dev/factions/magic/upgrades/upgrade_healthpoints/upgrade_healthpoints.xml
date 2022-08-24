@@ -23,6 +23,7 @@
 		<unit name="initiate"/>
 		<unit name="necromante"/>
 		<unit name="power_golem"/>
+		<unit name="ranged_skeleton"/>
 		<unit name="stone_sentinel"/>
 		<unit name="summoner"/>
 		<unit name="survived_dragon_rider"/>

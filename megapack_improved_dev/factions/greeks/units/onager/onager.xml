@@ -31,7 +31,7 @@
 		<upgrade-requirements/>
 		<resource-requirements>
 			<resource name="gold" amount="100"/>
-			<resource name="wood" amount="200"/>
+			<resource name="wood" amount="175"/>
 			<resource name="food" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>

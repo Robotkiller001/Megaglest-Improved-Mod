@@ -241,7 +241,7 @@
 			<upgrade-requirements/>
 			<morph-skill value="build_ballista"/>
 			<morph-unit name= "oxybeles"/>
-			<discount value="20"/>
+			<discount value="0"/>
 		</command>
 
 		<command>
@@ -252,7 +252,7 @@
 			<upgrade-requirements />
 			<morph-skill value="build_onager"/>
 			<morph-unit name="onager"/>
-			<discount value="20"/>
+			<discount value="0"/>
 		</command>
 
 		<command>

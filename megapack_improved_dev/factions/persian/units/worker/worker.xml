@@ -273,6 +273,15 @@
 		</command>
 
 		<command>
+			<type value= "move"/>
+			<name value="move"/>
+			<image path="../genie/images/tech_move.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+		</command>
+
+		<command>
 			<type value="attack"/>
 			<name value="attack"/>
 			<image path="images/stone_attack.bmp"/>
@@ -280,15 +289,6 @@
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
 			<attack-skill value="attack_skill"/>
-		</command>
-
-		<command>
-			<type value= "move"/>
-			<name value="move"/>
-			<image path="../genie/images/tech_move.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<move-skill value="move_skill"/>
 		</command>
 
 		<command>
@@ -304,8 +304,8 @@
 				<building name="house"/>
 				<building name="temple"/>
 				<building name="tent"/>
-				<building name="minaret"/>
 				<building name="blacksmith"/>
+				<building name="minaret"/>
 				<building name="elephant_cage"/>
 				<building name="palace"/>
 			</buildings>

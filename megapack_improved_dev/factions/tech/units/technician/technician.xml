@@ -399,7 +399,7 @@
 			<upgrade-requirements/>
 			<morph-skill value="build_catapult"/>
 			<morph-unit name= "catapult"/>
-			<discount value="20"/>
+			<discount value="0"/>
 		</command>
 
 		<command>
@@ -410,7 +410,7 @@
 			<upgrade-requirements/>
 			<morph-skill value="build_battle_machine"/>
 			<morph-unit name= "battle_machine"/>
-			<discount value="20"/>
+			<discount value="0"/>
 		</command>
 
 		<command>
@@ -421,7 +421,7 @@
 			<upgrade-requirements/>
 			<morph-skill value="build_air_ballista"/>
 			<morph-unit name= "air_ballista"/>
-			<discount value="20"/>
+			<discount value="0"/>
 		</command>
 
 	</commands>

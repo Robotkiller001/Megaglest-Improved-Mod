@@ -30,7 +30,7 @@
 			<upgrade name="advanced_architecture"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="stone" amount="150"/>
+			<resource name="stone" amount="125"/>
 			<resource name="wood" amount="50"/>
 			<resource name="gold" amount="200"/>
 			<resource name="food" amount="2"/>

@@ -28,8 +28,8 @@
 			<upgrade name="bless_of_minerva"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="wood" amount="200"/>
 			<resource name="gold" amount="150"/>
+			<resource name="wood" amount="175"/>
 			<resource name="food" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>

@@ -138,7 +138,7 @@
 			<type value="morph"/>
 			<name value="morph_skill"/>
 			<ep-cost value="0"/>
-			<speed value="800"/>
+			<speed value="900"/>
 			<anim-speed value="90"/>
 			<animation path="models/swordman_standing.g3d"/>
 			<sound enabled="false"/>
@@ -208,7 +208,7 @@
 			<upgrade-requirements/>
 			<morph-skill value="morph_skill"/>
 			<morph-unit name= "guard"/>
-			<discount value="50"/>
+			<discount value="45"/>
 		</command>
 
 	</commands>
