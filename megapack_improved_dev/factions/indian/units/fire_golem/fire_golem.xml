@@ -107,7 +107,7 @@
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="70"/>
-			<anim-speed value="30"/>
+			<anim-speed value="25"/>
 			<animation path="models/golem_walking.g3d"/>
 			<particles value="true">
 				<particle-file path="fire_particles.xml"/>

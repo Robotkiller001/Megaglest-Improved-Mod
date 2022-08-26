@@ -96,7 +96,7 @@
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="160"/>
-			<anim-speed value="120"/>
+			<anim-speed value="110"/>
 			<animation path="models/summoner_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>

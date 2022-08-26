@@ -97,7 +97,7 @@
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="170"/>
-			<anim-speed value="130"/>
+			<anim-speed value="120"/>
 			<animation path="models/initiate_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -124,7 +124,7 @@
 			<name value="move_loaded_skill"/>
 			<ep-cost value="0"/>
 			<speed value="150"/>
-			<anim-speed value="120"/>
+			<anim-speed value="110"/>
 			<animation path="models/initiate_walking_loaded.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -133,7 +133,7 @@
 			<name value="move_loaded_wood_skill"/>
 			<ep-cost value="0"/>
 			<speed value="150"/>
-			<anim-speed value="120"/>
+			<anim-speed value="110"/>
 			<animation path="models/initiate_walking_loaded_wood.g3d"/>
 			<sound enabled="false"/>
 		</skill>

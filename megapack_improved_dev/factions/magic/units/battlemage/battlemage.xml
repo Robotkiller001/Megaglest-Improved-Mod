@@ -99,7 +99,7 @@
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="250"/>
-			<anim-speed value="100"/>
+			<anim-speed value="95"/>
 			<animation path="models/battlemage_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>
