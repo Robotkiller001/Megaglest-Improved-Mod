@@ -7,17 +7,17 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="600" regeneration="2" start-percentage="100"/>
+		<max-hp value="700" regeneration="2" start-percentage="100"/>
 		<max-ep value="0"/>
-		<armor value="20"/>
+		<armor value="25"/>
 		<armor-type value="leather"/>
 		<sight value="10"/>
-		<time value="40"/>
+		<time value="50"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="expert" kills="6"/>
-			<level name="elite" kills="16"/>
+			<level name="expert" kills="8"/>
+			<level name="elite" kills="18"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -102,8 +102,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="100"/>
-			<anim-speed value="100"/>
+			<speed value="120"/>
+			<anim-speed value="120"/>
 			<animation path="models/worker_attacking.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/axe_thrower_attack1.wav"/>
@@ -113,14 +113,14 @@
 				<sound-file path="$COMMONDATAPATH/sounds/axe_thrower_attack5.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/axe_thrower_attack6.wav"/>
 			</sound>
-			<attack-strenght value="130"/>
+			<attack-strenght value="140"/>
 			<attack-var value="40"/>
-			<attack-range value="7"/>
-			<attack-type value="piercing"/>
+			<attack-range value="8"/>
+			<attack-type value="sword"/>
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>
-			<attack-start-time value="0.8"/>
+			<attack-start-time value="0.7"/>
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
 				<sound enabled="false">

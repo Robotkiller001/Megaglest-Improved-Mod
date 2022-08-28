@@ -26,8 +26,8 @@
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="wood" amount="75"/>
 			<resource name="gold" amount="150"/>
+			<resource name="wood" amount="50"/>
 			<resource name="food" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -113,7 +113,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack13.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack14.wav"/>
 			</sound>
-			<attack-strenght value="120"/>
+			<attack-strenght value="110"/>
 			<attack-var value="30"/>
 			<attack-range value="1"/>
 			<attack-type value="sword"/>

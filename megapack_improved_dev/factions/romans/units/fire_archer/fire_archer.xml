@@ -4,17 +4,17 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="800" regeneration="2" start-percentage="100"/>
+		<max-hp value="700" regeneration="2" start-percentage="100"/>
 		<max-ep value="0"/>
-		<armor value="40"/>
+		<armor value="25"/>
 		<armor-type value="leather"/>
 		<sight value="13"/>
 		<time value="30"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="accurate" kills="8"/>
-			<level name="elite" kills="20"/>
+			<level name="accurate" kills="6"/>
+			<level name="elite" kills="18"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -27,8 +27,8 @@
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="wood" amount="100"/>
-			<resource name="gold" amount="150"/>
+			<resource name="wood" amount="75"/>
+			<resource name="gold" amount="125"/>
 			<resource name="food" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -122,8 +122,8 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack3.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack4.wav"/>
 			</sound>
-			<attack-strenght value="160"/>
-			<attack-var value="50"/>
+			<attack-strenght value="150"/>
+			<attack-var value="40"/>
 			<attack-range value="10"/>
 			<attack-type value="arrow"/>
 			<attack-start-time value="0.5"/>

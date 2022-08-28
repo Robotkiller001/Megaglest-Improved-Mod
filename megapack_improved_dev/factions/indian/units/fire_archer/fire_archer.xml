@@ -132,7 +132,7 @@
 			<attack-strenght value="150"/>
 			<attack-var value="40"/>
 			<attack-range value="10"/>
-			<attack-type value="piercing"/>
+			<attack-type value="arrow"/>
 			<attack-start-time value="0"/>
 			<attack-fields>
 				<field value="land"/>

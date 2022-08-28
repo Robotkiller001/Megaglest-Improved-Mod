@@ -7,17 +7,17 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="700" regeneration="3" start-percentage="100"/>
+		<max-hp value="700" regeneration="2" start-percentage="100"/>
 		<max-ep value="0"/>
-		<armor value="30"/>
+		<armor value="35"/>
 		<armor-type value="leather"/>
 		<sight value="10"/>
-		<time value="80"/>
+		<time value="90"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="expert" kills="6"/>
-			<level name="elite" kills="16"/>
+			<level name="expert" kills="8"/>
+			<level name="elite" kills="18"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -103,8 +103,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="110"/>
-			<anim-speed value="110"/>
+			<speed value="120"/>
+			<anim-speed value="120"/>
 			<animation path="models/worker_attacking.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/axe_thrower_attack1.wav"/>
@@ -117,7 +117,7 @@
 			<attack-strenght value="180"/>
 			<attack-var value="40"/>
 			<attack-range value="8"/>
-			<attack-type value="energy"/>
+			<attack-type value="sword"/>
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>

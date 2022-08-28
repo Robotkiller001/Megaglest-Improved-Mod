@@ -27,7 +27,7 @@
 	</upgrade-requirements>
 		<resource-requirements>
 			<resource name="gold" amount="150"/>
-			<resource name="wood" amount="75"/>
+			<resource name="wood" amount="50"/>
 			<resource name="food" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -106,8 +106,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="100"/>
-			<anim-speed value="100"/>
+			<speed value="90"/>
+			<anim-speed value="90"/>
 			<animation path="models/swordman_attacking.g3d"/>
 			<sound enabled="true" start-time="0.47">
 				<sound-file path="sounds/swordman_attack1.wav"/>
