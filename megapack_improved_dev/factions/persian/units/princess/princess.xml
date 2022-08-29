@@ -109,7 +109,7 @@
 			</sound>
 			<attack-strenght value="90"/>
 			<attack-var value="30"/>
-			<attack-range value="8"/>
+			<attack-range value="7"/>
 			<attack-type value="piercing"/>
 			<attack-fields>
 				<field value="land"/>
