@@ -46,7 +46,7 @@
 			<resource name="wood" amount-value="150" loss-value="50" allow-negative="false" />
 		</resources-death>
 		<image path="images/blacksmith.bmp"/>
-		<image-cancel path="../archer/images/tech_cancel.bmp"/>
+		<image-cancel path="../../cancel.bmp"/>
 		<meeting-point value="true" image-path="images/meeting_point.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">

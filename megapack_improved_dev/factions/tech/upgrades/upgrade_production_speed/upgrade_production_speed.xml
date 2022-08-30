@@ -2,7 +2,7 @@
 
 <upgrade>
 	<image path="images/upgrade_production_speed.png"/>
-	<image-cancel path="../images/tech_upgrade_cancel.bmp"/>
+	<image-cancel path="../../../cancel.bmp"/>
 	<time value="20"/>
 	<unit-requirements/>
 	<upgrade-requirements/>

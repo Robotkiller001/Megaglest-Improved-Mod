@@ -36,7 +36,7 @@
 			<resource name="stone" amount-value="500" loss-value="0" allow-negative="true" />
 		</resources-death>
 		<image path="images/initiate.bmp"/>
-		<image-cancel path="../archmage/images/magic_cancel.bmp"/>
+		<image-cancel path="../../cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
 			<sound path="sounds/initiate_select1.wav"/>

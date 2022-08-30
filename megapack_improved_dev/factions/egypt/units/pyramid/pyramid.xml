@@ -48,7 +48,7 @@
 			<resource name="food" amount-value="50" />
 		</resources-death>
 		<image path="images/pyramid.bmp" />
-		<image-cancel path="../spearman/images/tech_cancel.bmp"/>
+		<image-cancel path="../../cancel.bmp"/>
 		<meeting-point value="true" image-path="../desert_camp/images/meeting_point.bmp"/>
 		<selection-sounds enabled="true">
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />

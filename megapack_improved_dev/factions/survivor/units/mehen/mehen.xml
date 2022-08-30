@@ -46,7 +46,7 @@
 			<resource name="stone" amount-value="2500" loss-value="0" allow-negative="true" />
 		</resources-death>
 		<image path="images/mehen.bmp"/>
-		<image-cancel path="../snake/images/tech_cancel.bmp"/>
+		<image-cancel path="../../cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
 			<sound path="sounds/behemoth_select1.wav"/>

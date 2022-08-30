@@ -43,7 +43,7 @@
 			<resource name="food" amount-value="30" />
 		</resources-death>
 		<image path="images/farm.bmp"/>
-		<image-cancel path="../archer/images/tech_cancel.bmp"/>
+		<image-cancel path="../../cancel.bmp"/>
 		<meeting-point value="true" image-path="../barracks/images/meeting_point.bmp"/>
 		<selection-sounds enabled="true">
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav"/>
