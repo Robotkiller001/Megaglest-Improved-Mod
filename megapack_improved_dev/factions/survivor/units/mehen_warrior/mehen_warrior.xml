@@ -44,7 +44,7 @@
 			<resource name="stone" amount-value="1000" loss-value="0" allow-negative="true" />
 		</resources-death>
 		<image path="images/mehen_warrior.bmp"/>
-		<image-cancel path="../snake/images/tech_cancel.bmp"/>
+		<image-cancel path="../../cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
 			<sound path="$COMMONDATAPATH/sounds/archmage_select1.wav"/>

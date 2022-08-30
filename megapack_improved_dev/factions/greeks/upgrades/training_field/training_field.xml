@@ -2,7 +2,7 @@
 
 <upgrade>
 	<image path="images/training_field.bmp"/>
-	<image-cancel path="../shields/images/tech_upgrade_cancel.bmp"/>
+	<image-cancel path="../../../cancel.bmp"/>
 	<time value="350"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
