@@ -16,7 +16,7 @@
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="mad" kills="4"/>
+			<level name="mad" kills="3"/>
 		</levels>
 		<fields>
 			<field value="land"/>

@@ -159,7 +159,7 @@
 			<fade value="false"/>
 			<spawn start-time="0.8">
 				<unit value="swordman"/>
-				<amount value="4"/>
+				<amount value="6"/>
 				<health-percent min="80" max="100"/>
 				<probability value="100"/>
 			</spawn>

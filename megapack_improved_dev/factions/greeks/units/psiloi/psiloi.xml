@@ -17,7 +17,7 @@
 		<uniform-selection value="false"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="mythical" kills="4"/>
+			<level name="mythical" kills="3"/>
 		</levels>
 		<fields>
 			<field value="land"/>
