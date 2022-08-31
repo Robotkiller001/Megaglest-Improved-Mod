@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="no"?>
+
+<upgrade>
+	<image path="images/upgrade_damage.png"/>
+	<image-cancel path="../images/tech_upgrade_cancel.bmp"/>
+	<time value="20"/>
+	<unit-requirements/>
+	<upgrade-requirements/>
+	<resource-requirements>
+		<resource name="gold" amount="2500"/>
+		<resource name="wood" amount="1750"/>
+		<resource name="stone" amount="1750"/>
+	</resource-requirements>
+	<effects>
+		<unit name="corrupted_soul"/>
+		<unit name="fakir"/>
+		<unit name="flying_carpet"/>
+		<unit name="genie"/>
+		<unit name="magician"/>
+		<unit name="princess"/>
+		<unit name="survived_elephant"/>
+		<unit name="stickfighter"/>
+		<unit name="swordman"/>
+		<unit name="worker"/>
+		<unit name="elephant"/>
+		<unit name="thunderstruck_elephant"/>
+
+		<unit name="blacksmith"/>
+		<unit name="farm"/>
+		<unit name="elephant_cage"/>
+		<unit name="house"/>
+		<unit name="palace"/>
+		<unit name="temple"/>
+		<unit name="tent"/>
+	</effects>
+	<max-hp value="8" value-percent-multiplier="true"  regeneration="1"/>
+	<max-ep value="0"/>
+	<sight value="1"/>
+	<attack-strenght value="8" value-percent-multiplier="true"/>
+	<attack-range value="0"/>
+	<armor value="0"/>
+	<move-speed value="0"/>
+	<production-speed value="50"/>
+</upgrade>

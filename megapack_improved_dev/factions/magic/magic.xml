@@ -27,6 +27,7 @@
 			<upgrade name="faster_movement"/>
 			<upgrade name="golem_power"/>
 			<upgrade name="big_rock"/>
+			<upgrade name="trinity_upgrade"/>
 		</upgrades>
 		<building-units>
 			<unit name="energy_source" minimum="1"/>

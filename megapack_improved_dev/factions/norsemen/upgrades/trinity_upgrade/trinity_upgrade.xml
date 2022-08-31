@@ -1,13 +1,15 @@
 <?xml version="1.0" standalone="no"?>
 
 <upgrade>
-	<image path="images/upgrade_healthpoints.png"/>
+	<image path="images/upgrade_damage.png"/>
 	<image-cancel path="../images/tech_upgrade_cancel.bmp"/>
 	<time value="20"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
-		<resource name="1-up" amount="1"/>
+		<resource name="gold" amount="2500"/>
+		<resource name="wood" amount="1750"/>
+		<resource name="stone" amount="1750"/>
 	</resource-requirements>
 	<effects>
 		<unit name="archer"/>
@@ -27,13 +29,22 @@
 		<unit name="thrall"/>
 		<unit name="thor"/>
 		<unit name="thunderstruck_thor"/>
+
+		<unit name="blacksmith"/>
+		<unit name="bone_tent"/>
+		<unit name="castle"/>
+		<unit name="farm"/>
+		<unit name="house"/>
+		<unit name="mead_bar"/>
+		<unit name="mistletoe_tree"/>
+		<unit name="valhalla"/>
 	</effects>
-	<max-hp value="20" value-percent-multiplier="true"/>
+	<max-hp value="8" value-percent-multiplier="true"  regeneration="1"/>
 	<max-ep value="0"/>
-	<sight value="0"/>
-	<attack-strenght value="0"/>
+	<sight value="1"/>
+	<attack-strenght value="8" value-percent-multiplier="true"/>
 	<attack-range value="0"/>
 	<armor value="0"/>
 	<move-speed value="0"/>
-	<production-speed value="0"/>
+	<production-speed value="50"/>
 </upgrade>

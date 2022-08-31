@@ -34,6 +34,7 @@
 			<upgrade name="stables"/>
 			<upgrade name="petroleum"/>
 			<upgrade name="big_rock"/>
+			<upgrade name="trinity_upgrade"/>
 		</upgrades>
 		<static-values>
 			<static type-name="MinMinWarriorsExpandCpuUltra" value="6"/>

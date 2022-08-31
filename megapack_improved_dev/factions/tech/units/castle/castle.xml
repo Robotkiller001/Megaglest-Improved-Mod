@@ -242,14 +242,15 @@
 			<produced-upgrade name="upgrade_production_speed"/>
 		</command>
 		<command>
-			<type value="produce"/>
-			<name value="1-up" />
-			<image path="../1-up/images/1-up.png" />
+			<type value="upgrade"/>
+			<name value="upgrade_trinity_upgrade" />
+			<image path="../../upgrades/trinity_upgrade/images/trinity_upgrade.png" />
 			<unit-requirements />
 			<upgrade-requirements />
-			<produce-skill value="produce_skill"/>
-			<produced-unit name="1-up"/>
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="trinity_upgrade"/>
 		</command>
+
 
 	</commands>
 </unit>

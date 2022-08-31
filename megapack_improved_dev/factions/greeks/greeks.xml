@@ -32,10 +32,11 @@
 			<upgrade name="advanced_architecture"/>
 			<upgrade name="barley_bales"/>
 			<upgrade name="helmets"/>
-			<upgrade name="pandoras_box"/>
-			<upgrade name="royal_blessing"/>
 			<upgrade name="shields"/>
 			<upgrade name="weapons"/>
+			<upgrade name="pandoras_box"/>
+			<upgrade name="royal_blessing"/>
+			<upgrade name="trinity_upgrade"/>
 		</upgrades>
 		<static-values>
 			<static type-name="MinMinWarriorsExpandCpuUltra" value="6"/>

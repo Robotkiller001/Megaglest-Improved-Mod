@@ -15,6 +15,7 @@
 		<unit name="ibis"/>
 		<unit name="mummy"/>
 		<unit name="priest"/>
+		<unit name="slave"/>
 		<unit name="snake"/>
 		<unit name="stone_snake"/>
 		<unit name="spearman"/>

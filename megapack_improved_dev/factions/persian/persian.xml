@@ -29,6 +29,7 @@
 			<upgrade name="weapons"/>
 			<upgrade name="magic_level_1"/>
 			<upgrade name="magic_level_2"/>
+			<upgrade name="trinity_upgrade"/>
 		</upgrades>
 		<static-values>
 			<static type-name="MinMinWarriorsExpandCpuUltra" value="6"/>

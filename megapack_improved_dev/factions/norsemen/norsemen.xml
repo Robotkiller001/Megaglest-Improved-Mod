@@ -29,11 +29,12 @@
 		</building-units>
 		<upgrades>
 			<upgrade name="mead"/>
-			<upgrade name="root"/>
 			<upgrade name="arrow"/>
+			<upgrade name="root"/>
 			<upgrade name="iron"/>
 			<upgrade name="advanced_iron"/>
 			<upgrade name="holy_valkyrie"/>
+			<upgrade name="trinity_upgrade"/>
 		</upgrades>
 		<static-values>
 			<static type-name="MinMinWarriorsExpandCpuUltra" value="6"/>

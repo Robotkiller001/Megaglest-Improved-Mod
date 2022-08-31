@@ -33,6 +33,7 @@
 			<upgrade name="sign_of_mars"/>
 			<upgrade name="strengthen_swords"/>
 			<upgrade name="formations"/>
+			<upgrade name="trinity_upgrade"/>
 		</upgrades>
 		<static-values>
 			<static type-name="MinMinWarriorsExpandCpuUltra" value="6"/>
