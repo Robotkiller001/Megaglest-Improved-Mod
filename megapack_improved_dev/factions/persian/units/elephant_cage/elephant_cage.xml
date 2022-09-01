@@ -76,7 +76,7 @@
 			<name value="produce_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
-			<anim-speed value="300" />
+			<anim-speed value="250" />
 			<animation path="models/ehouse.g3d" />
 			<sound enabled="false" />
 		</skill>

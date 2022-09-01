@@ -65,7 +65,7 @@
 			<name value="produce_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
-			<anim-speed value="200" />
+			<anim-speed value="140" />
 			<animation path="models/tent2_produce.g3d" />
 			<particles value="true">
 				<particle-file path="ghost_particles.xml"/>
@@ -77,7 +77,7 @@
 			<name value="produce_corrupted_soul_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
-			<anim-speed value="150"/>
+			<anim-speed value="140"/>
 			<animation path="models/tent2_produce.g3d"/>
   			<sound enabled="false" />
 			<particles value="true">
@@ -89,7 +89,7 @@
 			<name value="produce_flying_carpet_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
-			<anim-speed value="150"/>
+			<anim-speed value="140"/>
 			<animation path="models/tent2_produce.g3d"/>
   			<sound enabled="false" />
 		</skill>
@@ -98,7 +98,7 @@
 			<name value="produce_magician_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
-			<anim-speed value="75"/>
+			<anim-speed value="140"/>
 			<animation path="models/tent2_produce.g3d"/>
   			<sound enabled="false" />
 		</skill>
@@ -116,7 +116,7 @@
 			<name value="upgrade_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
-			<anim-speed value="150" />
+			<anim-speed value="140" />
 			<animation path="models/tent2_upgrade.g3d" />
 			<particles value="true">
 				<particle-file path="magic_lvl1_particles.xml"/>
@@ -135,7 +135,7 @@
 			<name value="upgrade_skill2"/>
 			<ep-cost value="0" />
 			<speed value="300" />
-			<anim-speed value="150" />
+			<anim-speed value="140" />
 			<animation path="models/tent2_upgrade.g3d" />
 			<particles value="true">
 				<particle-file path="magic_lvl2_particles.xml"/>
