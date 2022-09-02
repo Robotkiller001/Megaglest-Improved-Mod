@@ -10,6 +10,7 @@
 		<resource name="1-up" amount="1"/>
 	</resource-requirements>
 	<effects>
+		<unit name="archmage_tower"/>
 		<unit name="behemoth"/>
 		<unit name="ghost_armor"/>
 		<unit name="library"/>

@@ -13,7 +13,7 @@
 		<unit name="archmage"/>
 	</effects>
 	<max-hp value="0" regeneration="0"/>
-	<max-ep value="600" regeneration="24"/>
+	<max-ep value="800" regeneration="14"/>
 	<sight value="0"/>
 	<attack-strenght value="140"/>
 	<attack-range value="0"/>

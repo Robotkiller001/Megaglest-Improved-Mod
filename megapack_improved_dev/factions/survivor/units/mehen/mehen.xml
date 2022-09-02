@@ -5,7 +5,7 @@
 		<size value="1"/>
 		<height value="1"/>
 		<max-hp value="3400" regeneration="45" start-percentage="100"/>
-		<max-ep value="500" regeneration="30"/>
+		<max-ep value="750" regeneration="35"/>
 		<armor value="25"/>
 		<armor-type value="survivor"/>
 		<sight value="15"/>
@@ -202,7 +202,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="air_skill"/>
-			<ep-cost value="300"/>
+			<ep-cost value="400"/>
 			<speed value="60"/>
 			<anim-speed value="60"/>
 			<animation path="models/mehen_attack_air.g3d"/>
