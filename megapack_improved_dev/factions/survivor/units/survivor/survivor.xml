@@ -79,8 +79,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="380"/>
-			<anim-speed value="50"/>
+			<speed value="400"/>
+			<anim-speed value="55"/>
 			<animation path="models/survivor_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>

@@ -124,8 +124,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="250"/>
-			<anim-speed value="140"/>
+			<speed value="270"/>
+			<anim-speed value="145"/>
 			<animation path="models/snake_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -133,8 +133,8 @@
 			<type value="move"/>
 			<name value="move_gold_skill"/>
 			<ep-cost value="0"/>
-			<speed value="250"/>
-			<anim-speed value="140"/>
+			<speed value="270"/>
+			<anim-speed value="145"/>
 			<animation path="models/snake_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -143,7 +143,7 @@
 			<type value="move"/>
 			<name value="move_loaded_skill"/>
 			<ep-cost value="0"/>
-			<speed value="210"/>
+			<speed value="230"/>
 			<anim-speed value="130"/>
 			<animation path="models/snake_walking.g3d"/>
 			<sound enabled="false"/>

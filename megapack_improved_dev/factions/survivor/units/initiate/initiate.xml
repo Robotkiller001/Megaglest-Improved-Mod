@@ -125,7 +125,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="240"/>
+			<speed value="260"/>
 			<anim-speed value="160"/>
 			<animation path="models/initiate_walking.g3d"/>
 			<particles value="true">
@@ -137,7 +137,7 @@
 			<type value="move"/>
 			<name value="move_gold_skill"/>
 			<ep-cost value="0"/>
-			<speed value="240"/>
+			<speed value="260"/>
 			<anim-speed value="160"/>
 			<animation path="models/initiate_walking.g3d"/>
 			<particles value="true">
@@ -149,7 +149,7 @@
 			<type value="move"/>
 			<name value="move_loaded_skill"/>
 			<ep-cost value="0"/>
-			<speed value="200"/>
+			<speed value="220"/>
 			<anim-speed value="150"/>
 			<animation path="models/initiate_walking_loaded.g3d"/>
 			<particles value="true">

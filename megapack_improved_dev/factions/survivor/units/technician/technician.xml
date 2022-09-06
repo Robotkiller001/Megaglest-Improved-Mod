@@ -171,7 +171,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="260"/>
+			<speed value="280"/>
 			<anim-speed value="220"/>
 			<animation path="models/technician_walking.g3d"/>
 			<sound enabled="false"/>
@@ -181,7 +181,7 @@
 			<type value="move"/>
 			<name value="move_loaded_skill"/>
 			<ep-cost value="0"/>
-			<speed value="210"/>
+			<speed value="230"/>
 			<anim-speed value="60"/>
 			<animation path="models/technician_walking_loaded.g3d"/>
 			<sound enabled="false"/>

@@ -97,7 +97,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="280"/>
+			<speed value="300"/>
 			<anim-speed value="90"/>
 			<animation path="models/mehen_warrior_walk.g3d"/>
 			<sound enabled="true" start-time="0.0">
