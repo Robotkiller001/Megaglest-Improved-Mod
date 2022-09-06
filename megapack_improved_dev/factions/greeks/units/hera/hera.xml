@@ -107,7 +107,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="240"/>
+			<speed value="260"/>
 			<anim-speed value="110"/>
 			<animation path="models/artamis_walk.g3d"/>
 			<sound enabled="false"/>

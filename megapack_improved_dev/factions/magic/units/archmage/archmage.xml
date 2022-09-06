@@ -88,8 +88,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="150"/>
-			<anim-speed value="120"/>
+			<speed value="170"/>
+			<anim-speed value="125"/>
 			<animation path="models/archmage_walking.g3d"/>
 			<particles value="true">
 				<particle-file path="glow_particles.xml"/>

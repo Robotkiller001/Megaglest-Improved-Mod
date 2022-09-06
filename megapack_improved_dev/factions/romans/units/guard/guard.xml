@@ -88,7 +88,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="210"/>
+			<speed value="260"/>
 			<anim-speed value="90"/>
 			<animation path="models/guard_walk.g3d"/>
 			<sound enabled="false"/>
@@ -145,16 +145,6 @@
 			<fade value="false"/>
 		</skill>
 
-		<skill>
-			<type value="move"/>
-			<name value="charge_skill"/>
-			<ep-cost value="0"/>
-			<speed value="240"/>
-			<anim-speed value="100"/>
-			<animation path="models/guard_walk.g3d"/>
-			<sound enabled="false"/>
-		</skill>
-
 	</skills>
 
 	<commands>
@@ -182,7 +172,7 @@
 			<image path="images/guard_attack.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
-			<move-skill value="charge_skill"/>
+			<move-skill value="move_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
 

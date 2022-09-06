@@ -13,7 +13,7 @@
 		<unit name="tower" amount="1"/>
 		<unit name="chicken" amount="1"/>
 		<unit name="slave" amount="4"/>
-		<unit name="survived_cavalry" amount="0"/>
+		<unit name="alexander" amount="0"/>
 		<unit name="chariot" amount="0"/>
 	</starting-units>
 	<ai-behavior>

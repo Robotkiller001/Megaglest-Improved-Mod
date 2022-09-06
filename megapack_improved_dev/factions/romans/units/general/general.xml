@@ -94,8 +94,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="210"/>
-			<anim-speed value="60"/>
+			<speed value="250"/>
+			<anim-speed value="70"/>
 			<animation path="models/general_walk.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
@@ -219,33 +219,6 @@
 			<fade value="false"/>
 		</skill>
 
-		<skill>
-			<type value="move"/>
-			<name value="charge_skill"/>
-			<ep-cost value="0"/>
-			<speed value="230"/>
-			<anim-speed value="70"/>
-			<animation path="models/general_walk.g3d"/>
-                        <attack-boost>
-				<allow-multiple-boosts value="false" />
-				<radius value="10"/>
-                        	<target value="faction" include-self="false">
-				</target>
-				<max-hp value="0" regeneration="2"/>
-				<max-ep value="0"/>
-				<sight value="1"/>
-				<attack-strenght value="10" value-percent-multiplier="true"/>
-				<attack-range value="0"/>
-				<armor value="5"/>
-				<move-speed value="0"/>
-				<production-speed value="0"/>
-				<particles value="true">
-					<affected-particle-file path="boost_particles.xml"/>
-				</particles>
-                        </attack-boost>
-			<sound enabled="false"/>
-		</skill>
-
 	</skills>
 
 	<commands>
@@ -273,7 +246,7 @@
 			<image path="images/guard_attack.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
-			<move-skill value="charge_skill"/>
+			<move-skill value="move_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
 

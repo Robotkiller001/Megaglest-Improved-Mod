@@ -55,7 +55,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="260"/>
+			<speed value="280"/>
 			<anim-speed value="150"/>
 			<animation path="models/skeleton_walk.g3d"/>
 			<sound enabled="true" start-time="0.0">

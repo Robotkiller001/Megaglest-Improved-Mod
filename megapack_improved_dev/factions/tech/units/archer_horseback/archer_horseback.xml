@@ -102,7 +102,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="420"/>
+			<speed value="440"/>
 			<anim-speed value="110"/>
 			<animation path="models/archer_horseback_walk.g3d"/>
 			<sound enabled="true" start-time="0">

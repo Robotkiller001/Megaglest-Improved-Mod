@@ -96,7 +96,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="210"/>
+			<speed value="230"/>
 			<anim-speed value="120"/>
 			<animation path="models/archer_walking.g3d"/>
 			<sound enabled="false"/>
@@ -106,7 +106,7 @@
 			<type value="move"/>
 			<name value="charge_skill"/>
 			<ep-cost value="0"/>
-			<speed value="230"/>
+			<speed value="250"/>
 			<anim-speed value="130"/>
 			<animation path="models/archer_walking.g3d"/>
 			<sound enabled="true" start-time="0.0">

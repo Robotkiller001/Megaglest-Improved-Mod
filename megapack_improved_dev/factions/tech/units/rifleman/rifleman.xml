@@ -102,7 +102,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="230"/>
+			<speed value="250"/>
 			<anim-speed value="130"/>
 			<animation path="models/rifleman_walk.g3d"/>
 			<sound enabled="false"/>

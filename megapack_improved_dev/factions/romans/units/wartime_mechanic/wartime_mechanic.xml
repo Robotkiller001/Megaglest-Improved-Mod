@@ -83,8 +83,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="170"/>
-			<anim-speed value="120"/>
+			<speed value="200"/>
+			<anim-speed value="130"/>
 			<animation path="models/wartime_mechanic_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -161,16 +161,6 @@
 			<speed value="250"/>
 			<anim-speed value="100"/>
 			<animation path="models/wartime_mechanic_heal.g3d"/>
-			<sound enabled="false"/>
-		</skill>
-
-		<skill>
-			<type value="move"/>
-			<name value="charge_skill"/>
-			<ep-cost value="0"/>
-			<speed value="180"/>
-			<anim-speed value="130"/>
-			<animation path="models/wartime_mechanic_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 

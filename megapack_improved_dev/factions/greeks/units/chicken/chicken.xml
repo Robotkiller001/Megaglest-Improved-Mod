@@ -73,8 +73,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="135"/>
-			<anim-speed value="155"/>
+			<speed value="150"/>
+			<anim-speed value="150"/>
 			<animation path="models/chicken_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>

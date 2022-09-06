@@ -108,8 +108,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="160"/>
-			<anim-speed value="80"/>
+			<speed value="180"/>
+			<anim-speed value="85"/>
 			<animation path="models/airship_walking.g3d"/>
 			<particles value="true">
 				<particle-file path="motor_particles.xml"/>

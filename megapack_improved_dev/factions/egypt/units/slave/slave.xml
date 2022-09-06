@@ -103,7 +103,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="190"/>
+			<speed value="210"/>
 			<anim-speed value="130"/>
 			<animation path="models/slave_walking.g3d"/>
 			<sound enabled="false"/>
@@ -113,9 +113,39 @@
 			<type value="move"/>
 			<name value="move_wood_skill"/>
 			<ep-cost value="0"/>
-			<speed value="220"/>
+			<speed value="240"/>
 			<anim-speed value="130"/>
 			<animation path="models/slave_walking_wood.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="move"/>
+			<name value="move_gold_skill"/>
+			<ep-cost value="0"/>
+			<speed value="240"/>
+			<anim-speed value="130"/>
+			<animation path="models/slave_walking_gold.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="move"/>
+			<name value="move_loaded_skill"/>
+			<ep-cost value="0"/>
+			<speed value="190"/>
+			<anim-speed value="100"/>
+			<animation path="models/slave_walking_loaded.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="move"/>
+			<name value="move_loaded_wood_skill"/>
+			<ep-cost value="0"/>
+			<speed value="190"/>
+			<anim-speed value="100"/>
+			<animation path="models/slave_walking_loaded_wood.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
@@ -139,36 +169,6 @@
 			</attack-fields>
 			<projectile value="false"/>
 			<splash value="false"/>
-		</skill>
-
-		<skill>
-			<type value="move"/>
-			<name value="move_gold_skill"/>
-			<ep-cost value="0"/>
-			<speed value="220"/>
-			<anim-speed value="130"/>
-			<animation path="models/slave_walking_gold.g3d"/>
-			<sound enabled="false"/>
-		</skill>
-
-		<skill>
-			<type value="move"/>
-			<name value="move_loaded_skill"/>
-			<ep-cost value="0"/>
-			<speed value="170"/>
-			<anim-speed value="100"/>
-			<animation path="models/slave_walking_loaded.g3d"/>
-			<sound enabled="false"/>
-		</skill>
-
-		<skill>
-			<type value="move"/>
-			<name value="move_loaded_wood_skill"/>
-			<ep-cost value="0"/>
-			<speed value="170"/>
-			<anim-speed value="100"/>
-			<animation path="models/slave_walking_loaded_wood.g3d"/>
-			<sound enabled="false"/>
 		</skill>
 
 		<skill>

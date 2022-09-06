@@ -82,8 +82,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="250"/>
-			<anim-speed value="150"/>
+			<speed value="270"/>
+			<anim-speed value="155"/>
 			<animation path="models/daemon_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>

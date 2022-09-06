@@ -94,7 +94,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="250"/>
+			<speed value="270"/>
 			<anim-speed value="110"/>
 			<animation path="models/battle_machine_walking.g3d"/>
                         <attack-boost>
@@ -125,6 +125,42 @@
 				<particle-file path="glow_particles.xml"/>
 			</particles>
 
+		</skill>
+
+		<skill>
+			<type value="move"/>
+			<name value="charge_skill"/>
+			<ep-cost value="0"/>
+			<speed value="310"/>
+			<anim-speed value="125"/>
+			<animation path="models/battle_machine_charging.g3d"/>
+                        <attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="7"/>
+                        	<target value="faction" include-self="true">
+				</target>
+				<max-hp value="0" regeneration="4"/>
+				<max-ep value="0"/>
+				<sight value="0"/>
+				<attack-strenght value="0" value-percent-multiplier="true"/>
+				<attack-range value="0"/>
+				<armor value="0"/>
+				<move-speed value="0"/>
+				<production-speed value="0"/>
+			<particles value="true">
+					<affected-particle-file path="healing_particles.xml"/>
+			</particles>
+                        </attack-boost>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/machine_walk1.wav"/>
+				<sound-file path="sounds/machine_walk2.wav"/>
+				<sound-file path="sounds/machine_walk3.wav"/>
+				<sound-file path="sounds/machine_walk4.wav"/>
+				<sound-file path="sounds/machine_walk5.wav"/>
+			</sound>
+			<particles value="true">
+				<particle-file path="glow_particles.xml"/>
+			</particles>
 		</skill>
 
 		<skill>
@@ -252,42 +288,6 @@
 				<health-percent min="80" max="100"/>
 				<probability value="100"/>
 			</spawn>
-		</skill>
-
-		<skill>
-			<type value="move"/>
-			<name value="charge_skill"/>
-			<ep-cost value="0"/>
-			<speed value="300"/>
-			<anim-speed value="125"/>
-			<animation path="models/battle_machine_charging.g3d"/>
-                        <attack-boost>
-				<allow-multiple-boosts value="false" />
-				<radius value="7"/>
-                        	<target value="faction" include-self="true">
-				</target>
-				<max-hp value="0" regeneration="4"/>
-				<max-ep value="0"/>
-				<sight value="0"/>
-				<attack-strenght value="0" value-percent-multiplier="true"/>
-				<attack-range value="0"/>
-				<armor value="0"/>
-				<move-speed value="0"/>
-				<production-speed value="0"/>
-			<particles value="true">
-					<affected-particle-file path="healing_particles.xml"/>
-			</particles>
-                        </attack-boost>
-			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/machine_walk1.wav"/>
-				<sound-file path="sounds/machine_walk2.wav"/>
-				<sound-file path="sounds/machine_walk3.wav"/>
-				<sound-file path="sounds/machine_walk4.wav"/>
-				<sound-file path="sounds/machine_walk5.wav"/>
-			</sound>
-			<particles value="true">
-				<particle-file path="glow_particles.xml"/>
-			</particles>
 		</skill>
 
 	</skills>

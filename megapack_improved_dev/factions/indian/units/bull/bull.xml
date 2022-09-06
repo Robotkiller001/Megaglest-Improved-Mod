@@ -89,7 +89,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="310"/>
+			<speed value="330"/>
 			<anim-speed value="190"/>
 			<animation path="models/bull_walking.g3d"/>
 			<particles value="true">

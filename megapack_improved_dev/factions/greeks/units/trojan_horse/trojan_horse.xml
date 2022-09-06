@@ -78,8 +78,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="170"/>
-			<anim-speed value="150"/>
+			<speed value="190"/>
+			<anim-speed value="160"/>
 			<animation path="models/trojan_horse_move.g3d"/>
 			<sound enabled="true" start-time="0.1">
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_walk1.wav"/>

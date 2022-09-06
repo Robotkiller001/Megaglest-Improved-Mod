@@ -109,8 +109,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="230"/>
-			<anim-speed value="85"/>
+			<speed value="250"/>
+			<anim-speed value="90"/>
 			<animation path="models/thor_walking.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />

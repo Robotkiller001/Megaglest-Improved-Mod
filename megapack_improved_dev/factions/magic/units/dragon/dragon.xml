@@ -80,8 +80,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="300"/>
-			<anim-speed value="75"/>
+			<speed value="320"/>
+			<anim-speed value="80"/>
 			<animation path="models/dragon_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>

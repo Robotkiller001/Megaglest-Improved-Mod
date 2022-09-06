@@ -89,7 +89,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="150"/>
+			<speed value="170"/>
 			<anim-speed value="100"/>
 			<animation path="models/ornager_walk.g3d"/>
 			<sound enabled="true" start-time="0.1">

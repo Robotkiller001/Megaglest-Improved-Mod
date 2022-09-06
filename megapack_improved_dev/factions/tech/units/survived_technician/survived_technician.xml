@@ -80,7 +80,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="210"/>
+			<speed value="230"/>
 			<anim-speed value="210"/>
 			<animation path="models/technician_walking.g3d"/>
 			<sound enabled="false"/>

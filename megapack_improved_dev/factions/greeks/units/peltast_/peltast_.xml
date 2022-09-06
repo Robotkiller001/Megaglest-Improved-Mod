@@ -77,7 +77,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="220"/>
+			<speed value="240"/>
 			<anim-speed value="125"/>
 			<animation path="models/peltast_walk.g3d"/>
 			<sound enabled="false"/>

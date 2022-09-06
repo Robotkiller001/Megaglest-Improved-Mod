@@ -89,7 +89,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="220"/>
+			<speed value="240"/>
 			<anim-speed value="125"/>
 			<animation path="models/genie_walking.g3d"/>
 			<particles value="true">
@@ -102,7 +102,7 @@
 			<type value="move"/>
 			<name value="charge_skill"/>
 			<ep-cost value="0"/>
-			<speed value="240"/>
+			<speed value="260"/>
 			<anim-speed value="125"/>
 			<animation path="models/genie_charging.g3d"/>
 			<particles value="true">

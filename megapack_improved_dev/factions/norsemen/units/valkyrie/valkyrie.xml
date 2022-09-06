@@ -86,7 +86,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="220"/>
+			<speed value="240"/>
 			<anim-speed value="90"/>
 			<animation path="models/valkyrie_walking.g3d"/>
 			<sound enabled="false"/>
@@ -96,7 +96,7 @@
 			<type value="move"/>
 			<name value="charge_skill"/>
 			<ep-cost value="0"/>
-			<speed value="250"/>
+			<speed value="270"/>
 			<anim-speed value="120"/>
 			<animation path="models/valkyrie_charging.g3d"/>
 			<sound enabled="false"/>

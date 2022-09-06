@@ -106,7 +106,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="190"/>
+			<speed value="210"/>
 			<anim-speed value="100"/>
 			<animation path="models/battle_machine_walking.g3d"/>
 			<sound enabled="true" start-time="0">
@@ -116,7 +116,22 @@
 				<sound-file path="sounds/machine_walk4.wav"/>
 				<sound-file path="sounds/machine_walk5.wav"/>
 			</sound>
+		</skill>
 
+		<skill>
+			<type value="move"/>
+			<name value="charge_skill"/>
+			<ep-cost value="0"/>
+			<speed value="260"/>
+			<anim-speed value="110"/>
+			<animation path="models/battle_machine_charging.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/machine_walk1.wav"/>
+				<sound-file path="sounds/machine_walk2.wav"/>
+				<sound-file path="sounds/machine_walk3.wav"/>
+				<sound-file path="sounds/machine_walk4.wav"/>
+				<sound-file path="sounds/machine_walk5.wav"/>
+			</sound>
 		</skill>
 
 		<skill>
@@ -199,22 +214,6 @@
 				<health-percent min="60" max="90"/>
 				<probability value="70"/>
 			</spawn>
-		</skill>
-
-		<skill>
-			<type value="move"/>
-			<name value="charge_skill"/>
-			<ep-cost value="0"/>
-			<speed value="250"/>
-			<anim-speed value="110"/>
-			<animation path="models/battle_machine_charging.g3d"/>
-			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/machine_walk1.wav"/>
-				<sound-file path="sounds/machine_walk2.wav"/>
-				<sound-file path="sounds/machine_walk3.wav"/>
-				<sound-file path="sounds/machine_walk4.wav"/>
-				<sound-file path="sounds/machine_walk5.wav"/>
-			</sound>
 		</skill>
 
 	</skills>

@@ -95,7 +95,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="250"/>
+			<speed value="270"/>
 			<anim-speed value="85"/>
 			<animation path="models/elephant_walk.g3d"/>
 			<particles value="true">
@@ -131,7 +131,7 @@
 			<type value="move"/>
 			<name value="charge_skill"/>
 			<ep-cost value="40"/>
-			<speed value="370"/>
+			<speed value="390"/>
 			<anim-speed value="140"/>
 			<animation path="models/elephant_walk.g3d"/>
 			<particles value="true">

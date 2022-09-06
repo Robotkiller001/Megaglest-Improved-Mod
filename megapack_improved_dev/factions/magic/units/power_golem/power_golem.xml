@@ -92,8 +92,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="65"/>
-			<anim-speed value="25"/>
+			<speed value="90"/>
+			<anim-speed value="30"/>
 			<animation path="models/golem_walking.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/golem_walk1.wav"/>

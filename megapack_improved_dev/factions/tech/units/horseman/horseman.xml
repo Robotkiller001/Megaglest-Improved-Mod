@@ -103,7 +103,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="480"/>
+			<speed value="500"/>
 			<anim-speed value="120"/>
 			<animation path="models/horseman_walking.g3d"/>
 			<sound enabled="true" start-time="0">

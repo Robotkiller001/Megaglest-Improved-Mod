@@ -102,7 +102,7 @@
 			<type value="move"/>
 			<name value="charge_skill"/>
 			<ep-cost value="0"/>
-			<speed value="280"/>
+			<speed value="300"/>
 			<anim-speed value="165"/>
 			<animation path="models/axeman_charging.g3d"/>
 			<sound enabled="false"/>

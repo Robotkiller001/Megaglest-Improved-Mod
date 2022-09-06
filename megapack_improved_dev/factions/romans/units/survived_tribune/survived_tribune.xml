@@ -66,8 +66,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="200"/>
-			<anim-speed value="55"/>
+			<speed value="240"/>
+			<anim-speed value="65"/>
 			<animation path="models/general_walk.g3d"/>
 			<sound enabled="false"/>
 			<particles value="true">
@@ -129,19 +129,6 @@
 			<fade value="false"/>
 		</skill>
 
-		<skill>
-			<type value="move"/>
-			<name value="charge_skill"/>
-			<ep-cost value="0"/>
-			<speed value="220"/>
-			<anim-speed value="65"/>
-			<animation path="models/general_walk.g3d"/>
-			<sound enabled="false"/>
-			<particles value="true">
-				<particle-file path="blood_particles.xml"/>
-			</particles>
-		</skill>
-
 	</skills>
 
 	<commands>
@@ -169,7 +156,7 @@
 			<image path="images/guard_attack.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
-			<move-skill value="charge_skill"/>
+			<move-skill value="move_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
 

@@ -78,7 +78,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="150"/>
+			<speed value="170"/>
 			<anim-speed value="150"/>
 			<animation path="models/sheep_walking.g3d"/>
                         <sound enabled="false" />

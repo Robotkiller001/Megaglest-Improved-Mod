@@ -88,7 +88,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="300"/>
+			<speed value="320"/>
 			<anim-speed value="300"/>
 			<animation path="models/wild_sow_walk.g3d"/>
 			<sound enabled="false"/>

@@ -87,7 +87,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="220"/>
+			<speed value="240"/>
 			<anim-speed value="145"/>
 			<animation path="models/princess_walking.g3d"/>
 			<sound enabled="false"/>
@@ -143,16 +143,6 @@
 			<fade value="false"/>
 		</skill>
 
-		<skill>
-			<type value="move"/>
-			<name value="charge_skill"/>
-			<ep-cost value="0"/>
-			<speed value="220"/>
-			<anim-speed value="145"/>
-			<animation path="models/princess_charging.g3d"/>
-			<sound enabled="false"/>
-		</skill>
-
 	</skills>
 
 	<commands>
@@ -180,7 +170,7 @@
 			<image path="images/princess_attack.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
-			<move-skill value="charge_skill"/>
+			<move-skill value="move_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
 

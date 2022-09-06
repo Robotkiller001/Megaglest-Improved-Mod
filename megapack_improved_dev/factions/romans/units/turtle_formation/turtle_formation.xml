@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="3"/>
 		<height value="2"/>
-		<max-hp value="3100"  regeneration="8" start-percentage="100"/>
+		<max-hp value="3100"  regeneration="6" start-percentage="100"/>
 		<max-ep value="0"/>
 		<armor value="50"/>
 		<armor-type value="metal2x"/>
@@ -88,7 +88,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="150"/>
+			<speed value="180"/>
 			<anim-speed value="110"/>
 			<animation path="models/tf2_walk.g3d"/>
 			<sound enabled="false"/>
@@ -145,16 +145,6 @@
 			<fade value="false"/>
 		</skill>
 
-		<skill>
-			<type value="move"/>
-			<name value="charge_skill"/>
-			<ep-cost value="0"/>
-			<speed value="160"/>
-			<anim-speed value="110"/>
-			<animation path="models/tf2_walk.g3d"/>
-			<sound enabled="false"/>
-		</skill>
-
 	</skills>
 
 	<commands>
@@ -182,7 +172,7 @@
 			<image path="images/guard_attack.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
-			<move-skill value="charge_skill"/>
+			<move-skill value="move_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
 

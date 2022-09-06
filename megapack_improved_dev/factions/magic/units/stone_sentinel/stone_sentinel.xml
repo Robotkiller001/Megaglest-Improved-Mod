@@ -56,8 +56,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="220"/>
-			<anim-speed value="240"/>
+			<speed value="240"/>
+			<anim-speed value="250"/>
 			<animation path="models/stone_sentinel_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>

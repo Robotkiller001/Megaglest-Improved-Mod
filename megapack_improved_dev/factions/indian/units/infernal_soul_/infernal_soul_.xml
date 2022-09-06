@@ -88,7 +88,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="220"/>
+			<speed value="240"/>
 			<anim-speed value="80"/>
 			<animation path="models/infernal_soul_walk.g3d"/>
 			<sound enabled="true" start-time="0.0">
@@ -106,7 +106,7 @@
 			<type value="move"/>
 			<name value="charge_skill"/>
 			<ep-cost value="0"/>
-			<speed value="240"/>
+			<speed value="260"/>
 			<anim-speed value="100"/>
 			<animation path="models/infernal_soul_charge.g3d"/>
 			<sound enabled="true" start-time="0.0">

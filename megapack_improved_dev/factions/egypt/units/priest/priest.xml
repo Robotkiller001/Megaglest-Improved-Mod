@@ -102,7 +102,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="210"/>
+			<speed value="230"/>
 			<anim-speed value="60"/>
 			<animation path="models/pharao_walking.g3d"/>
 			<sound enabled="false"/>
@@ -167,26 +167,6 @@
 				<particle-file path="healing_particles.xml"/>
 			</particles>
 		</skill>
-
-		<!--skill>
-			<type value="move"/>
-			<name value="charge_skill"/>
-			<ep-cost value="0"/>
-			<speed value="220"/>
-			<anim-speed value="125"/>
-			<animation path="models/spearman_charging.g3d"/>
-			<sound enabled="false"/>
-		</skill>
-
-		<skill>
-			<type value="morph"/>
-			<name value="morph_skill"/>
-			<ep-cost value="0"/>
-			<speed value="500"/>
-			<anim-speed value="80"/>
-			<animation path="models/spearman_standing.g3d"/>
-			<sound enabled="false"/>
-		</skill-->
 
 		<skill>
 			<type value="die"/>

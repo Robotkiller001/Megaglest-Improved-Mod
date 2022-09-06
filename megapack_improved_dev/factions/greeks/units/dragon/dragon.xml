@@ -81,8 +81,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="280"/>
-			<anim-speed value="75"/>
+			<speed value="300"/>
+			<anim-speed value="80"/>
 			<animation path="models/dragon_fly.g3d"/>
 			<sound enabled="false"/>
 		</skill>

@@ -86,8 +86,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="140"/>
-			<anim-speed value="90"/>
+			<speed value="160"/>
+			<anim-speed value="95"/>
 			<animation path="models/snake_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>

@@ -77,8 +77,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="350"/>
-			<anim-speed value="75"/>
+			<speed value="370"/>
+			<anim-speed value="80"/>
 			<animation path="models/dragon_walking.g3d"/>
 			<particles value="true">
 				<particle-file path="glow_particles.xml"/>

@@ -106,7 +106,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="520"/>
+			<speed value="540"/>
 			<anim-speed value="95"/>
 			<animation path="models/drake_rider_walking.g3d"/>
 			<particles value="true">

@@ -74,7 +74,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="280"/>
+			<speed value="300"/>
 			<anim-speed value="150"/>
 			<animation path="models/falcon.g3d"/>
 			<sound enabled="false"/>

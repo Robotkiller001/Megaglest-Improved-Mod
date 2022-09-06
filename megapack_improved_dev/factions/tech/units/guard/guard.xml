@@ -91,6 +91,16 @@
 		</skill>
 
 		<skill>
+			<type value="move"/>
+			<name value="charge_skill"/>
+			<ep-cost value="0"/>
+			<speed value="200"/>
+			<anim-speed value="120"/>
+			<animation path="models/guard_charging.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
@@ -139,16 +149,6 @@
 				<sound-file path="$COMMONDATAPATH/sounds/guard_die4.wav"/>
 			</sound>
 			<fade value="false"/>
-		</skill>
-
-		<skill>
-			<type value="move"/>
-			<name value="charge_skill"/>
-			<ep-cost value="0"/>
-			<speed value="180"/>
-			<anim-speed value="120"/>
-			<animation path="models/guard_charging.g3d"/>
-			<sound enabled="false"/>
 		</skill>
 
 	</skills>

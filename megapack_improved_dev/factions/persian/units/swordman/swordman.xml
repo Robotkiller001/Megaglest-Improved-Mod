@@ -86,18 +86,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="220"/>
-			<anim-speed value="90"/>
-			<animation path="models/swordman_walking.g3d"/>
-			<sound enabled="false"/>
-		</skill>
-
-		<skill>
-			<type value="move"/>
-			<name value="charge_skill"/>
-			<ep-cost value="0"/>
-			<speed value="220"/>
-			<anim-speed value="125"/>
+			<speed value="240"/>
+			<anim-speed value="100"/>
 			<animation path="models/swordman_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -133,16 +123,6 @@
 			<attack-start-time value="0"/>
 			<projectile value="false"/>
 			<splash value="false"/>
-		</skill>
-
-		<skill>
-			<type value="morph"/>
-			<name value="morph_skill"/>
-			<ep-cost value="0"/>
-			<speed value="500"/>
-			<anim-speed value="80"/>
-			<animation path="models/swordman_standing.g3d"/>
-			<sound enabled="false"/>
 		</skill>
 
 		<skill>
@@ -187,7 +167,7 @@
 			<image path="images/swordman_attack.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
-			<move-skill value="charge_skill"/>
+			<move-skill value="move_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
 
@@ -201,17 +181,6 @@
 			<stop-skill value="stop_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
-
-		<!--command>
-			<type value="morph"/>
-			<name value="promote_to_princess"/>
-			<image path="../princess/images/princess.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<morph-skill value="morph_skill"/>
-			<morph-unit name= "princess"/>
-			<discount value="60"/>
-		</command-->
 
 	</commands>
 </unit>

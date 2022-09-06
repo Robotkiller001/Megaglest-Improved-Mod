@@ -85,7 +85,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="180"/>
+			<speed value="200"/>
 			<anim-speed value="110"/>
 			<animation path="models/ghost_sword_thrower_walk.g3d"/>
 			<sound enabled="false"/>

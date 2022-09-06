@@ -84,8 +84,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="190"/>
-			<anim-speed value="110"/>
+			<speed value="260"/>
+			<anim-speed value="130"/>
 			<animation path="models/g_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -179,16 +179,6 @@
 			<fade value="false"/>
 		</skill>
 
-		<skill>
-			<type value="move"/>
-			<name value="charge_skill"/>
-			<ep-cost value="0"/>
-			<speed value="250"/>
-			<anim-speed value="130"/>
-			<animation path="models/g_walk.g3d"/>
-			<sound enabled="false"/>
-		</skill>
-
 	</skills>
 
 	<commands>
@@ -216,7 +206,7 @@
 			<image path="images/gladiator_attack.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
-			<move-skill value="charge_skill"/>
+			<move-skill value="move_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
 
@@ -226,7 +216,7 @@
 			<image path="images/gladiator_air_attack.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
-			<move-skill value="charge_skill"/>
+			<move-skill value="move_skill"/>
 			<attack-skill value="attack_air_skill"/>
 		</command>
 

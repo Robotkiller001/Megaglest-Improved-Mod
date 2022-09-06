@@ -67,20 +67,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="220"/>
-			<anim-speed value="90"/>
-				<animation path="models/spear_man_walk.g3d"/>
-			<sound enabled="false"/>
-			<particles value="true">
-				<particle-file path="blood_particles.xml"/>
-			</particles>
-		</skill>
-
-		<skill>
-			<type value="move"/>
-			<name value="charge_skill"/>
-			<ep-cost value="0"/>
-			<speed value="240"/>
+			<speed value="260"/>
 			<anim-speed value="125"/>
 				<animation path="models/spear_man_walk.g3d"/>
 			<sound enabled="false"/>
@@ -167,7 +154,7 @@
 			<image path="images/swordman_attack.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
-			<move-skill value="charge_skill"/>
+			<move-skill value="move_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
 
