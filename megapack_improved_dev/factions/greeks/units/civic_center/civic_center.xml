@@ -116,7 +116,7 @@
 			<animation path="models/civic_center.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="14"/>
+				<radius value="16"/>
                         	<target value="faction" include-self="false">
 					<unit-type name="alexander"/>
 					<unit-type name="archer"/>
@@ -139,12 +139,12 @@
 					<unit-type name="thunderstruck_alexander"/>
 				</target>
 				<max-hp value="0" regeneration="4"/>
-				<max-ep value="0"/>
+				<max-ep value="0" regeneration="40" value-percent-multiplier="true"/>
 				<sight value="0"/>
 				<attack-strenght value="40" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
 				<armor value="15"/>
-				<move-speed value="0"/>
+				<move-speed value="20"/>
 				<production-speed value="0"/>
 				<particles value="true">
 					<affected-particle-file path="glow_particles2.xml"/>
@@ -156,7 +156,7 @@
 			</sound>
 			<attack-strenght value="160"/>
 			<attack-var value="40"/>
-			<attack-range value="14"/>
+			<attack-range value="15"/>
 			<attack-type value="castle"/>
 			<attack-start-time value="0"/>
 			<attack-fields>
