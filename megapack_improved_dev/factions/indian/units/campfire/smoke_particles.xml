@@ -13,7 +13,7 @@
     	<speed value="2.0" />
 	<gravity value="0.001"/>
     	<emission-rate value="2" />
-    	<energy-max value="200" />
+    	<energy-max value="215" />
     	<energy-var value="0" />
 	<relative value="false" />
     	<fixed value="false" />
