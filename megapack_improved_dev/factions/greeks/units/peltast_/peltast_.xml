@@ -29,35 +29,35 @@
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="sounds/archer_select1.ogg"/>
-			<sound path="sounds/archer_select2.ogg"/>
-			<sound path="sounds/archer_select3.ogg"/>
-			<sound path="sounds/archer_select4.ogg"/>
-			<sound path="sounds/archer_select5.ogg"/>
-			<sound path="sounds/archer_select6.ogg"/>
-			<sound path="sounds/archer_select7.ogg"/>
-			<sound path="sounds/archer_select8.ogg"/>
-			<sound path="sounds/archer_select9.ogg"/>
-			<sound path="sounds/archer_select10.ogg"/>
-			<sound path="sounds/archer_select11.ogg"/>
+			<sound path="../peltast/sounds/archer_select1.ogg"/>
+			<sound path="../peltast/sounds/archer_select2.ogg"/>
+			<sound path="../peltast/sounds/archer_select3.ogg"/>
+			<sound path="../peltast/sounds/archer_select4.ogg"/>
+			<sound path="../peltast/sounds/archer_select5.ogg"/>
+			<sound path="../peltast/sounds/archer_select6.ogg"/>
+			<sound path="../peltast/sounds/archer_select7.ogg"/>
+			<sound path="../peltast/sounds/archer_select8.ogg"/>
+			<sound path="../peltast/sounds/archer_select9.ogg"/>
+			<sound path="../peltast/sounds/archer_select10.ogg"/>
+			<sound path="../peltast/sounds/archer_select11.ogg"/>
 
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="sounds/archer_ack1.ogg"/>
-			<sound path="sounds/archer_ack2.ogg"/>
-			<sound path="sounds/archer_ack3.ogg"/>
-			<sound path="sounds/archer_ack4.ogg"/>
-			<sound path="sounds/archer_ack5.ogg"/>
-			<sound path="sounds/archer_ack6.ogg"/>
-			<sound path="sounds/archer_ack7.ogg"/>
-			<sound path="sounds/archer_ack8.ogg"/>
-			<sound path="sounds/archer_ack9.ogg"/>
-			<sound path="sounds/archer_ack10.ogg"/>
-			<sound path="sounds/archer_ack11.ogg"/>
-			<sound path="sounds/archer_ack12.ogg"/>
-			<sound path="sounds/archer_ack13.ogg"/>
-			<sound path="sounds/archer_ack14.ogg"/>
-			<sound path="sounds/archer_ack15.ogg"/>
+			<sound path="../peltast/sounds/archer_ack1.ogg"/>
+			<sound path="../peltast/sounds/archer_ack2.ogg"/>
+			<sound path="../peltast/sounds/archer_ack3.ogg"/>
+			<sound path="../peltast/sounds/archer_ack4.ogg"/>
+			<sound path="../peltast/sounds/archer_ack5.ogg"/>
+			<sound path="../peltast/sounds/archer_ack6.ogg"/>
+			<sound path="../peltast/sounds/archer_ack7.ogg"/>
+			<sound path="../peltast/sounds/archer_ack8.ogg"/>
+			<sound path="../peltast/sounds/archer_ack9.ogg"/>
+			<sound path="../peltast/sounds/archer_ack10.ogg"/>
+			<sound path="../peltast/sounds/archer_ack11.ogg"/>
+			<sound path="../peltast/sounds/archer_ack12.ogg"/>
+			<sound path="../peltast/sounds/archer_ack13.ogg"/>
+			<sound path="../peltast/sounds/archer_ack14.ogg"/>
+			<sound path="../peltast/sounds/archer_ack15.ogg"/>
 		</command-sounds>
 	</parameters>
 
@@ -91,10 +91,9 @@
 			<anim-speed value="65"/>
 			<animation path="models/peltast_attack.g3d"/>
 			<sound enabled="true" start-time="0.4">
-				<sound-file path="/sounds/archer_attack1.ogg"/>
-				<sound-file path="/sounds/archer_attack2.ogg"/>
-				<sound-file path="/sounds/archer_attack3.ogg"/>
-				<sound-file path="/sounds/archer_attack4.ogg"/>
+				<sound-file path="../peltast/sounds/peltast_attack1.wav"/>
+				<sound-file path="../peltast/sounds/peltast_attack2.wav"/>
+				<sound-file path="../peltast/sounds/peltast_attack3.wav"/>
 			</sound>
 			<attack-strength value="160"/>
 			<attack-var value="40"/>
@@ -126,11 +125,11 @@
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
 				<sound enabled="true">
-					<sound-file path="/sounds/arrow_hit1.ogg"/>
-					<sound-file path="/sounds/arrow_hit2.ogg"/>
-					<sound-file path="/sounds/arrow_hit3.ogg"/>
-					<sound-file path="/sounds/arrow_hit4.ogg"/>
-					<sound-file path="/sounds/arrow_hit5.ogg"/>
+					<sound-file path="../peltast/sounds/arrow_hit1.ogg"/>
+					<sound-file path="../peltast/sounds/arrow_hit2.ogg"/>
+					<sound-file path="../peltast/sounds/arrow_hit3.ogg"/>
+					<sound-file path="../peltast/sounds/arrow_hit4.ogg"/>
+					<sound-file path="../peltast/sounds/arrow_hit5.ogg"/>
 				</sound>
 			</projectile>
 			<splash value="false"/>
