@@ -1,5 +1,3 @@
 # Megaglest Improved Project.
 
-In this mod i literally modified all the factions and i have created 1 prototypes of factions.
-
-License: https://creativecommons.org/licenses/by-nc-sa/3.0/us/
+In this mod i literally modified all the factions to try to make a better version of the original gameplay, with maybe more spicyness.
