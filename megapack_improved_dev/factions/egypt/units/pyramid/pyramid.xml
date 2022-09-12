@@ -122,8 +122,9 @@
 				</particles>
                         </attack-boost>
 			<sound enabled="true" start-time="0">
-				<sound-file path="$COMMONDATAPATH/sounds/defense_tower_attack1.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/defense_tower_attack2.wav"/>
+				<sound-file path="../sphinx/sounds/sphinx_attack1.wav"/>
+				<sound-file path="../sphinx/sounds/sphinx_attack2.wav"/>
+				<sound-file path="../sphinx/sounds/sphinx_attack3.wav"/>
 			</sound>
 			<attack-strenght value="160"/>
 			<attack-var value="40"/>

@@ -37,20 +37,18 @@
 		<image-cancel path="../spearman/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="$COMMONDATAPATH/sounds/archmage_select1.wav"/>
-			<sound path="$COMMONDATAPATH/sounds/archmage_select2.wav"/>
-			<sound path="$COMMONDATAPATH/sounds/archmage_select3.wav"/>
-			<sound path="$COMMONDATAPATH/sounds/archmage_select4.wav"/>
-			<sound path="$COMMONDATAPATH/sounds/archmage_select5.wav"/>
+			<sound path="../snake/sounds/snake_select1.wav"/>
+			<sound path="../snake/sounds/snake_select2.wav"/>
+			<sound path="../snake/sounds/snake_select3.wav"/>
+			<sound path="../snake/sounds/snake_select4.wav"/>
+			<sound path="../snake/sounds/snake_select5.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="$COMMONDATAPATH/sounds/archmage_ack1.wav"/>
-			<sound path="$COMMONDATAPATH/sounds/archmage_ack2.wav"/>
-			<sound path="$COMMONDATAPATH/sounds/archmage_ack3.wav"/>
-			<sound path="$COMMONDATAPATH/sounds/archmage_ack4.wav"/>
-			<sound path="$COMMONDATAPATH/sounds/archmage_ack5.wav"/>
-			<sound path="$COMMONDATAPATH/sounds/archmage_ack6.wav"/>
-			<sound path="$COMMONDATAPATH/sounds/archmage_ack7.wav"/>
+			<sound path="../snake/sounds/snake_select1.wav"/>
+			<sound path="../snake/sounds/snake_select2.wav"/>
+			<sound path="../snake/sounds/snake_select3.wav"/>
+			<sound path="../snake/sounds/snake_select4.wav"/>
+			<sound path="../snake/sounds/snake_select5.wav"/>
 		</command-sounds>
 	</parameters>
 
@@ -101,17 +99,10 @@
 			<anim-speed value="50"/>
 			<animation path="models/stone_snake_attack.g3d"/>
 			<sound enabled="true" start-time="0.5">
-				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack1.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack2.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack3.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack4.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack6.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack8.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack11.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack12.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack13.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack15.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack16.wav"/>
+				<sound-file path="../snake/sounds/snake_attack1.wav"/>
+				<sound-file path="../snake/sounds/snake_attack2.wav"/>
+				<sound-file path="../snake/sounds/snake_attack3.wav"/>
+				<sound-file path="../snake/sounds/snake_attack4.wav"/>
 			</sound>
 			<attack-strenght value="270"/>
 			<attack-var value="60"/>
@@ -121,7 +112,7 @@
 				<field value="land"/>
 				<field value="air"/>
 			</attack-fields>
-			<attack-start-time value="0.67"/>
+			<attack-start-time value="0.6"/>
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
 				<sound enabled="true">
@@ -144,8 +135,7 @@
 			<anim-speed value="50"/>
 			<animation path="models/stone_snake_die.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="$COMMONDATAPATH/sounds/archmage_die1.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/archmage_die2.wav"/>
+				<sound-file path="../snake/sounds/snake_die1.wav"/>
 			</sound>
 			<fade value="false"/>
 		</skill>

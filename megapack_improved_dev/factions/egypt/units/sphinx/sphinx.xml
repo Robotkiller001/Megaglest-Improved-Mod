@@ -74,14 +74,15 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="80"/>
-			<anim-speed value="80"/>
+			<speed value="70"/>
+			<anim-speed value="70"/>
 			<animation path="models/sphinx.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="$COMMONDATAPATH/sounds/defense_tower_attack1.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/defense_tower_attack2.wav"/>
+				<sound-file path="sounds/sphinx_attack1.wav"/>
+				<sound-file path="sounds/sphinx_attack2.wav"/>
+				<sound-file path="sounds/sphinx_attack3.wav"/>
 			</sound>
-			<attack-strenght value="220"/>
+			<attack-strenght value="230"/>
 			<attack-var value="50"/>
 			<attack-range value="12"/>
 			<attack-type value="castle"/>
@@ -97,7 +98,6 @@
 					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit2.wav"/>
 					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit3.wav"/>
 					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit4.wav"/>
-					<!--sound-file path="$COMMONDATAPATH/sounds/archmage_hit1.wav"/-->
 				</sound>
 			</projectile>
 			<splash value="true">

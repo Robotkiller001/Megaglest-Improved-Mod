@@ -4,7 +4,7 @@
 	<mode value="black"/>
     	<model value="true" path="models/stone_model.g3d"/>
 	<primitive value="quad"/>
-	<offset x="-0.45" y="1.62" z="1.65"/>
+	<offset x="-0.45" y="1.58" z="3.1"/>
 	<color red="0.4" green="0.4" blue="0.4" alpha="0.3" />
 	<color-no-energy red="0.3" green="0.3" blue="0.3" alpha="0.0" />
     	<size value="0.65" />
@@ -17,6 +17,6 @@
 	
 	<trajectory type="parabolic">
 		<speed value="12.5"/>
-		<scale value="2.5"/>
+		<scale value="2"/>
 	</trajectory>
 </projectile-particle-system>
