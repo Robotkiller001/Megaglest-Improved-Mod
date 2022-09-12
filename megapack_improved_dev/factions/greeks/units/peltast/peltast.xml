@@ -113,10 +113,9 @@
 			<anim-speed value="65"/>
 			<animation path="models/peltast_attack.g3d"/>
 			<sound enabled="true" start-time="0.4">
-				<sound-file path="/sounds/archer_attack1.ogg"/>
-				<sound-file path="/sounds/archer_attack2.ogg"/>
-				<sound-file path="/sounds/archer_attack3.ogg"/>
-				<sound-file path="/sounds/archer_attack4.ogg"/>
+				<sound-file path="/sounds/peltast_attack1.wav"/>
+				<sound-file path="/sounds/peltast_attack2.wav"/>
+				<sound-file path="/sounds/peltast_attack3.wav"/>
 			</sound>
 			<attack-strength value="110"/>
 			<attack-var value="40"/>

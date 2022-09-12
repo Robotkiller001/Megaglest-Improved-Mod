@@ -114,10 +114,9 @@
 			<anim-speed value="60"/>
 			<animation path="models/spearthrower_attacking.g3d"/>
 			<sound enabled="true" start-time="0.4">
-				<sound-file path="$COMMONDATAPATH/sounds/archer_attack1.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/archer_attack2.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/archer_attack3.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/archer_attack4.wav"/>
+				<sound-file path="sounds/spearthrower_attack1.wav"/>
+				<sound-file path="sounds/spearthrower_attack2.wav"/>
+				<sound-file path="sounds/spearthrower_attack3.wav"/>
 			</sound>
 			<attack-strenght value="120"/>
 			<attack-var value="40"/>
