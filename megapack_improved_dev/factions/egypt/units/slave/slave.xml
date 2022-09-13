@@ -318,6 +318,7 @@
 			<move-skill value="move_skill"/>
 			<repair-skill value="repair_skill"/>
 			<repaired-units>
+                                <unit name="stone_snake"/>
 				<unit name="farm"/>
 				<unit name="desert_camp"/>
 				<unit name="temple"/>

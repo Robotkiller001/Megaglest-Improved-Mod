@@ -9,7 +9,7 @@
 		<armor value="40"/>
 		<armor-type value="leather"/>
 		<sight value="11"/>
-		<time value="100"/>
+		<time value="90"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="false"/>
 		<cellmap value="false"/>
@@ -249,12 +249,15 @@
 				<unit name="atlas"/>
 				<unit name="cavalry"/>
 				<unit name="chicken"/>
+				<unit name="wild_sow"/>
 				<unit name="hoplite"/>
 				<unit name="engineer"/>
 				<unit name="peltast"/>
 				<unit name="druid"/>
 				<unit name="psiloi"/>
 				<unit name="slave"/>
+				<unit name="survived_cavalry"/>
+				<unit name="survived_chariot"/>
 			</repaired-units>
 		</command>
 

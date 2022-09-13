@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/shield1.bmp"/>
 	<image-cancel path="images/tech_upgrade_cancel.bmp"/>
-	<time value="500"/>
+	<time value="400"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
@@ -12,19 +12,20 @@
 		<resource name="stone" amount="100"/>
 	</resource-requirements>
 	<effects>
-		<unit name="archer"/>
-		<unit name="hoplite"/>
-		<unit name="peltast"/>
+		<unit name="atlas"/>
 		<unit name="cavalry"/>
+		<unit name="chariot"/>
+		<unit name="druid"/>
 		<unit name="dragon"/>
 		<unit name="wild_sow"/>
+		<unit name="psiloi"/>
 	</effects>
 	<max-hp value="50"/>
 	<max-ep value="0"/>
-	<sight value="1"/>
-	<attack-strength value="30"/>
+	<sight value="0"/>
+	<attack-strength value="20"/>
 	<attack-range value="0"/>
 	<armor value="10"/>
-	<move-speed value="0"/>
+	<move-speed value="30"/>
 	<production-speed value="0"/>
 </upgrade>

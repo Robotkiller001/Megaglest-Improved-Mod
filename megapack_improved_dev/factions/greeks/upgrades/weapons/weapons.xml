@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/piercing.bmp"/>
 	<image-cancel path="../shields/images/tech_upgrade_cancel.bmp"/>
-	<time value="450"/>
+	<time value="400"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<upgrade-requirements/>

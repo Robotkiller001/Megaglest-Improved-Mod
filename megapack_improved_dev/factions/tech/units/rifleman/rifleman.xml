@@ -112,8 +112,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="35"/>
-			<anim-speed value="35"/>
+			<speed value="40"/>
+			<anim-speed value="40"/>
 			<animation path="models/rifleman_fire.g3d"/>
 			<particles value="true" start-time="0.35" end-time="0.4">
 				<particle-file path="muzzlefire_particles.xml"/>

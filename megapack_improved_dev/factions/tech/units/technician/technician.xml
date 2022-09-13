@@ -351,6 +351,8 @@
 			<move-skill value="move_skill"/>
 			<repair-skill value="heal"/>
 			<repaired-units>
+				<unit name="archer_horseback"/>
+				<unit name="cow"/>
 				<unit name="worker"/>
 				<unit name="technician"/>
 				<unit name="swordman"/>
@@ -358,14 +360,15 @@
 				<unit name="rifleman"/>
 				<unit name="guard"/>
 				<unit name="horseman"/>
-				<unit name="archer_horseback"/>
-				<unit name="cow"/>
+				<unit name="survived_archer_horseback"/>
+				<unit name="survived_horseman"/>
+				<unit name="survived_technician"/>
 			</repaired-units>
 		</command>
 
 		<command>
 			<type value="harvest"/>
-			<name value="mine_gold"/>
+			<name value="mine"/>
 			<image path="images/technician_mine.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>

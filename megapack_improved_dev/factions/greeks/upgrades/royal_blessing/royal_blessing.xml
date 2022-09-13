@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/royal_blessing.bmp"/>
 	<image-cancel path="../shields/images/tech_upgrade_cancel.bmp"/>
-	<time value="400"/>
+	<time value="500"/>
 	<unit-requirements>
 	</unit-requirements>
 	<upgrade-requirements/>
@@ -13,21 +13,20 @@
 		<resource name="stone" amount="100"/>
 	</resource-requirements>
 	<effects>
-		<unit name="psiloi"/>
-		<unit name="chariot"/>
+		<unit name="archer"/>
 		<unit name="dragon"/>
-		<unit name="druid"/>
-		<unit name="atlas"/>
 		<unit name="hera"/>
+		<unit name="hoplite"/>
+		<unit name="peltast"/>
 		<unit name="alexander"/>
 		<unit name="thunderstruck_alexander"/>
 	</effects>
 	<max-hp value="100"/>
 	<max-ep value="0"/>
-	<sight value="0"/>
-	<attack-strength value="20"/>
+	<sight value="1"/>
+	<attack-strength value="30"/>
 	<attack-range value="0"/>
 	<armor value="10"/>
-	<move-speed value="30"/>
+	<move-speed value="0"/>
 	<production-speed value="0"/>
 </upgrade>

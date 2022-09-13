@@ -261,6 +261,7 @@
 			<repair-skill value="heal"/>
 			<repaired-units>
 				<unit name="worker"/>
+                                <unit name="fakir"/>
 				<unit name="magician"/>
 				<unit name="stickfighter"/>
 				<unit name="genie"/>
@@ -268,7 +269,8 @@
 				<unit name="swordman"/>
 				<unit name="sheep"/>
 				<unit name="elephant"/>
-                                <unit name="fakir"/>
+                                <unit name="corrupted_soul"/>
+                                <unit name="survived_elephant"/>
 			</repaired-units>
 		</command>
 
