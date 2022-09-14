@@ -4,7 +4,7 @@
 		<size value="2"/>
 		<height value="2"/>
 		<ai-build-size value="4"/>
-		<max-hp value="4500" regeneration="4" start-percentage="100"/>
+		<max-hp value="5000" regeneration="4" start-percentage="100"/>
 		<max-ep value="0"/>
 		<armor value="30"/>
 		<armor-type value="wood"/>
@@ -28,7 +28,8 @@
 			<upgrade name="bless_of_minerva"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="150"/>
+			<resource name="gold" amount="125"/>
+			<resource name="stone" amount="50"/>
 			<resource name="wood" amount="175"/>
 			<resource name="food" amount="2"/>
 		</resource-requirements>
@@ -91,17 +92,17 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="80"/>
-			<anim-speed value="80"/>
+			<speed value="70"/>
+			<anim-speed value="70"/>
 			<animation path="models/ballista_attack.g3d"/>
-			<sound enabled="true" start-time="0">
+			<sound enabled="true" start-time="0.25">
 				<sound-file path="$COMMONDATAPATH/sounds/ab_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/ab_attack2.wav"/>
 			</sound>
-			<attack-strenght value="200"/>
-			<attack-var value="50"/>
-			<attack-range value="14"/>
-			<attack-type value="piercing"/>
+			<attack-strenght value="260"/>
+			<attack-var value="60"/>
+			<attack-range value="13"/>
+			<attack-type value="impact"/>
 			<attack-start-time value="0.3"/>
 			<attack-fields>
 				<field value="land"/>
@@ -127,7 +128,7 @@
 			<name value="die_skill"/>
 			<ep-cost value="0"/>
 			<speed value="60"/>
-			<anim-speed value="1200"/>
+			<anim-speed value="60"/>
 			<animation path="models/ballista_die.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/ab_die1.wav"/>
