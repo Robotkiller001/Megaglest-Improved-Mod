@@ -13,7 +13,7 @@
 		<unit name="sphinx" amount="1"/>
 		<unit name="slave" amount="4"/>
 		<unit name="chicken" amount="1"/>
-		<unit name="ibis" amount="0"/>
+		<unit name="priest" amount="0"/>
 		<unit name="spearthrower" amount="0"/>
 	</starting-units>
 	<music value="true" path="music/music_egypt.ogg"/>

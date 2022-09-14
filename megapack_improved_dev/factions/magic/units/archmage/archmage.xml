@@ -89,7 +89,7 @@
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="170"/>
-			<anim-speed value="125"/>
+			<anim-speed value="110"/>
 			<animation path="models/archmage_walking.g3d"/>
 			<particles value="true">
 				<particle-file path="glow_particles.xml"/>
@@ -130,7 +130,7 @@
 			</attack-fields>
 			<attack-start-time value="0.5"/>
 			<projectile value="true">
-				<particle value="true" path="particle_proj.xml"/>
+				<particle value="true" path="fire_ball_particle_proj.xml"/>
 				<sound enabled="true">
 					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit1.wav"/>
 					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit2.wav"/>
@@ -185,7 +185,7 @@
 			<projectiles>
 			  
 			<projectile attack-start-time="0.2" damage-percentage="34">	
-				<particle value="true" path="particle_proj2.xml"/>
+				<particle value="true" path="particle_proj1.xml"/>
 				<hitsound enabled="true">
 					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit1.wav"/>
 					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit2.wav"/>
@@ -195,7 +195,7 @@
 			</projectile>
 			
 			<projectile attack-start-time="0.4" damage-percentage="33">	
-				<particle value="true" path="particle_proj3.xml"/>
+				<particle value="true" path="particle_proj2.xml"/>
 				<hitsound enabled="true">
 					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit1.wav"/>
 					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit2.wav"/>
@@ -205,7 +205,7 @@
 			</projectile>
 			
 			<projectile attack-start-time="0.6" damage-percentage="33">	
-				<particle value="true" path="particle_proj4.xml"/>
+				<particle value="true" path="particle_proj3.xml"/>
 				<hitsound enabled="true">
 					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit1.wav"/>
 					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit2.wav"/>

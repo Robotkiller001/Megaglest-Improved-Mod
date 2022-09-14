@@ -5,7 +5,7 @@
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="600" regeneration="1" start-percentage="100"/>
-		<max-ep value="240" regeneration="3" start-percentage="40"/>
+		<max-ep value="300" regeneration="3" start-percentage="50"/>
 		<armor value="10"/>
 		<armor-type value="leather"/>
 		<sight value="7"/>
@@ -97,7 +97,7 @@
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="190"/>
-			<anim-speed value="120"/>
+			<anim-speed value="110"/>
 			<animation path="models/initiate_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -106,7 +106,7 @@
 			<name value="move_wood_skill"/>
 			<ep-cost value="0"/>
 			<speed value="220"/>
-			<anim-speed value="130"/>
+			<anim-speed value="120"/>
 			<animation path="models/initiate_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -115,7 +115,7 @@
 			<name value="move_gold_skill"/>
 			<ep-cost value="0"/>
 			<speed value="220"/>
-			<anim-speed value="130"/>
+			<anim-speed value="120"/>
 			<animation path="models/initiate_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -124,7 +124,7 @@
 			<name value="move_loaded_skill"/>
 			<ep-cost value="0"/>
 			<speed value="170"/>
-			<anim-speed value="110"/>
+			<anim-speed value="100"/>
 			<animation path="models/initiate_walking_loaded.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -133,7 +133,7 @@
 			<name value="move_loaded_wood_skill"/>
 			<ep-cost value="0"/>
 			<speed value="170"/>
-			<anim-speed value="110"/>
+			<anim-speed value="100"/>
 			<animation path="models/initiate_walking_loaded_wood.g3d"/>
 			<sound enabled="false"/>
 		</skill>
