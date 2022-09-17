@@ -8,8 +8,8 @@
 		<max-hp value="8000" regeneration="8"/>
 		<max-ep value="1000" regeneration="40" start-percentage="60"/>
 		<max-unit-count value="1"/>
-		<armor value="60" />
-		<armor-type value="wood"/>
+		<armor value="55" />
+		<armor-type value="wood2x"/>
 		<sight value="14" />
 		<time value="260" />
 		<multi-selection value="true"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
 	<parameters>
-		<size value="7" />
+		<size value="4" />
 		<height value="3" />
 		<max-hp value="8000" regeneration="0"/>
 		<max-ep value="0" />
@@ -12,13 +12,10 @@
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
 		<cellmap value="true">
-			<row value="0000000"/>
-			<row value="1011111"/>
-			<row value="0000000"/>
-			<row value="1011111"/>
-			<row value="1011111"/>
-			<row value="1011111"/>
-			<row value="0000000"/>
+			<row value="1001"/>
+			<row value="0000"/>
+			<row value="1001"/>
+			<row value="1001"/>
 		</cellmap>
 		<levels/>
 		<fields>
@@ -56,7 +53,7 @@
 			<name value="stop_skill"/>
 			<ep-cost value="0" />
 			<speed value="100" />
-			<anim-speed value="100" />
+			<anim-speed value="80" />
 			<animation path="models/archery_barracks.g3d" />
 			<sound enabled="false" />
 		</skill>
@@ -76,7 +73,7 @@
 			<name value="upgrade_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
-			<anim-speed value="80" />
+			<anim-speed value="140" />
 			<animation path="models/archery_barracks.g3d" />
 			<sound enabled="false" />
 			<particles value="true">
@@ -89,28 +86,8 @@
 			<name value="produce_skill"/>	
 			<ep-cost value="0" />
 			<speed value="300" />
-			<anim-speed value="80" />
-			<animation path="models/archery_barracks_producing.g3d" />
-			<sound enabled="false" />
-		</skill>
-
-		<skill>
-			<type value="produce"/>
-			<name value="produce_archer_horseback"/>	
-			<ep-cost value="0" />
-			<speed value="300" />
-			<anim-speed value="80" />
-			<animation path="models/archery_barracks_producing3.g3d" />
-			<sound enabled="false" />
-		</skill>
-
-		<skill>
-			<type value="produce"/>
-			<name value="produce_rifleman"/>	
-			<ep-cost value="0" />
-			<speed value="300" />
-			<anim-speed value="40" />
-			<animation path="models/archery_barracks_producing2.g3d" />
+			<anim-speed value="140" />
+			<animation path="models/archery_barracks.g3d" />
 			<sound enabled="false" />
 		</skill>
 		
@@ -151,7 +128,7 @@
 			<image path="../archer_horseback/images/archer_horseback.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
-			<produce-skill value="produce_archer_horseback"/>
+			<produce-skill value="produce_skill"/>
 			<produced-unit name="archer_horseback"/>
 		</command>
 
@@ -161,7 +138,7 @@
 			<image path="../rifleman/images/rifleman.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
-			<produce-skill value="produce_rifleman"/>
+			<produce-skill value="produce_skill"/>
 			<produced-unit name="rifleman"/>
 		</command>
 

@@ -7,8 +7,8 @@
 		<ai-build-size value="4"/>
 		<max-hp value="2400" regeneration="10" start-percentage="100"/>
 		<max-ep value="1500" regeneration="15" start-percentage="100"/>
-		<armor value="65"/>
-		<armor-type value="stone"/>
+		<armor value="45"/>
+		<armor-type value="stone2x"/>
 		<sight value="12"/>
 		<time value="150"/>
 		<multi-selection value="true"/>
