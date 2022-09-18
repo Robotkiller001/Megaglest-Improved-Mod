@@ -6,7 +6,7 @@
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="1000" regeneration="4" start-percentage="100"/>
-		<max-ep value="3000" regeneration="40" start-percentage="40"/>
+		<max-ep value="3000" regeneration="80" start-percentage="40"/>
 		<armor value="30"/>
 		<armor-type value="leather"/>					
 		<sight value="13"/>
@@ -67,7 +67,7 @@
 					<unit-type name="corrupted_soul"/>
 				</target>
 				<max-hp value="0" regeneration="1"/>
-				<max-ep value="0"  regeneration="2"/>
+				<max-ep value="0"  regeneration="5"/>
 				<sight value="0"/>
 				<attack-strenght value="0" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
@@ -92,7 +92,7 @@
 					<unit-type name="corrupted_soul"/>
 				</target>
 				<max-hp value="0" regeneration="1"/>
-				<max-ep value="0"  regeneration="2"/>
+				<max-ep value="0"  regeneration="5"/>
 				<sight value="0"/>
 				<attack-strenght value="0" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
@@ -106,7 +106,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>		
-			<ep-cost value="300"/>
+			<ep-cost value="500"/>
 			<speed value="60"/>
 			<anim-speed value="60"/>
 			<animation path="models/corrupted_soul_attack.g3d"/>
@@ -131,7 +131,7 @@
 					<unit-type name="corrupted_soul"/>
 				</target>
 				<max-hp value="0" regeneration="1"/>
-				<max-ep value="0"  regeneration="2"/>
+				<max-ep value="0"  regeneration="5"/>
 				<sight value="0"/>
 				<attack-strenght value="0" value-percent-multiplier="false"/>
 				<attack-range value="0"/>

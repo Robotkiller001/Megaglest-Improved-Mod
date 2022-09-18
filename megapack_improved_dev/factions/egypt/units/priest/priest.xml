@@ -320,7 +320,7 @@
 			<upgrade-requirements/>
 			<morph-skill value="morph_skill"/>
 			<morph-unit name= "tornado_rider"/>
-			<discount value="30"/>
+			<discount value="20"/>
 		</command>
 
 	</commands>

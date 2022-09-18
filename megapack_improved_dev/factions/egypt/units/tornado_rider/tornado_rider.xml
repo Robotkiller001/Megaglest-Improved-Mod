@@ -9,7 +9,7 @@
 		<armor value="35"/>
 		<armor-type value="leather"/>
 		<sight value="11"/>
-		<time value="100"/>
+		<time value="80"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
