@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="1000" regeneration="4" start-percentage="100"/>
+		<max-hp value="900" regeneration="4" start-percentage="100"/>
 		<max-ep value="1000" regeneration="65" start-percentage="40"/>
 		<armor value="30"/>
 		<armor-type value="leather"/>
@@ -91,7 +91,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="300"/>
+			<speed value="310"/>
 			<anim-speed value="60"/>
 			<animation path="models/tornado_rider_walk.g3d"/>
 			<particles value="true">
@@ -101,7 +101,7 @@
                         <attack-boost>
 				<allow-multiple-boosts value="true" />
 				<radius value="8"/>
-                        	<target value="faction" include-self="false">
+                        	<target value="ally" include-self="false">
 				</target>
 				<max-hp value="0" regeneration="0"/>
 				<max-ep value="0"/>
@@ -109,7 +109,7 @@
 				<attack-strenght value="0" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
-				<move-speed value="5"/>
+				<move-speed value="3"/>
 				<production-speed value="0"/>
 			<particles value="true">
 				<affected-particle-file path="boost_particles.xml"/>
@@ -121,7 +121,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>
-			<ep-cost value="225"/>
+			<ep-cost value="250"/>
 			<speed value="80"/>
 			<anim-speed value="80"/>
 			<animation path="models/tornado_rider_attack.g3d"/>
@@ -214,7 +214,7 @@
                         <attack-boost>
 				<allow-multiple-boosts value="true" />
 				<radius value="8"/>
-                        	<target value="faction" include-self="false">
+                        	<target value="ally" include-self="false">
 				</target>
 				<max-hp value="0" regeneration="0"/>
 				<max-ep value="0"/>
@@ -222,7 +222,7 @@
 				<attack-strenght value="0" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
-				<move-speed value="5"/>
+				<move-speed value="3"/>
 				<production-speed value="0"/>
 			<particles value="true">
 				<affected-particle-file path="boost_particles.xml"/>
