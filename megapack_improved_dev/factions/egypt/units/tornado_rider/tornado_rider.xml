@@ -1,0 +1,292 @@
+<?xml version="1.0" standalone="no"?>
+
+<unit>
+	<parameters>
+		<size value="1"/>
+		<height value="2"/>
+		<max-hp value="1000" regeneration="4" start-percentage="100"/>
+		<max-ep value="1000" regeneration="35" start-percentage="40"/>
+		<armor value="35"/>
+		<armor-type value="leather"/>
+		<sight value="11"/>
+		<time value="80"/>
+		<multi-selection value="true"/>
+		<cellmap value="false"/>
+		<levels>
+			<level name="expert" kills="6"/>
+			<level name="elite" kills="16"/>
+		</levels>
+		<fields>
+			<field value="land"/>
+		</fields>
+		<properties/>
+		<light enabled="false"/>
+		<unit-requirements>
+		</unit-requirements>
+		<upgrade-requirements>
+			<upgrade name="summon_scarab"/>
+			<upgrade name="speedup_priest_production"/>
+		</upgrade-requirements>
+		<resource-requirements>
+			<resource name="gold" amount="100"/>
+			<resource name="wood" amount="100"/>
+			<resource name="food" amount="2"/>
+		</resource-requirements>
+		<resources-stored/>
+		<image path="images/tornado_rider.bmp"/>
+		<image-cancel path="../spearman/images/tech_cancel.bmp"/>
+		<meeting-point value="true" image-path="images/meeting_point.bmp"/>
+		<selection-sounds enabled="true">
+			<sound path="$COMMONDATAPATH/sounds/swordman_select1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/swordman_select2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/swordman_select3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/swordman_select4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/swordman_select5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/swordman_select6.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/swordman_select7.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="$COMMONDATAPATH/sounds/swordman_ack1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/swordman_ack2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/swordman_ack3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/swordman_ack4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/swordman_ack5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/swordman_ack6.wav"/>
+		</command-sounds>
+	</parameters>
+
+	<skills>
+
+		<skill>
+			<type value="stop"/>
+			<name value="stop_skill"/>
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="50"/>
+			<animation path="models/tornado_rider_stand.g3d"/>
+                        <attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="0"/>
+                        	<target value="faction" include-self="true">
+					<unit-type name="tornado_rider" />
+				</target>
+				<max-hp value="0" regeneration="4"/>
+				<max-ep value="0"/>
+				<sight value="0"/>
+				<attack-strenght value="0" value-percent-multiplier="true"/>
+				<attack-range value="0"/>
+				<armor value="0"/>
+				<move-speed value="0"/>
+				<production-speed value="0"/>
+			<particles value="false">
+			</particles>
+                        </attack-boost>
+			<particles value="true">
+				<particle-file path="stand_particles.xml"/>
+			</particles>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="move"/>
+			<name value="move_skill"/>
+			<ep-cost value="0"/>
+			<speed value="350"/>
+			<anim-speed value="60"/>
+			<animation path="models/tornado_rider_walk.g3d"/>
+			<particles value="true">
+				<particle-file path="walk_particles.xml"/>
+				<particle-file path="walk_particles2.xml"/>
+			</particles>
+                        <attack-boost>
+				<allow-multiple-boosts value="true" />
+				<radius value="8"/>
+                        	<target value="faction" include-self="false">
+				</target>
+				<max-hp value="0" regeneration="0"/>
+				<max-ep value="0"/>
+				<sight value="0"/>
+				<attack-strenght value="0" value-percent-multiplier="true"/>
+				<attack-range value="0"/>
+				<armor value="0"/>
+				<move-speed value="6"/>
+				<production-speed value="0"/>
+			<particles value="true">
+				<affected-particle-file path="boost_particles.xml"/>
+			</particles>
+                        </attack-boost>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="attack"/>
+			<name value="attack_skill"/>
+			<ep-cost value="150"/>
+			<speed value="80"/>
+			<anim-speed value="80"/>
+			<animation path="models/tornado_rider_attack.g3d"/>
+			<sound enabled="true" start-time="0.0">
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack6.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack8.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack11.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack12.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack13.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack15.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack16.wav"/>
+			</sound>
+			<sound enabled="true" start-time="0.3">
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack6.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack8.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack11.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack12.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack13.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack15.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack16.wav"/>
+			</sound>
+			<sound enabled="true" start-time="0.6">
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack6.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack8.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack11.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack12.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack13.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack15.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack16.wav"/>
+			</sound>
+			<attack-strenght value="220"/>
+			<attack-var value="50"/>
+			<attack-range value="10"/>
+			<attack-type value="energy"/>
+			<attack-start-time value="0"/>
+			<attack-fields>
+				<field value="land"/>
+				<field value="air"/>
+			</attack-fields>
+			<projectiles>
+			  
+			<projectile attack-start-time="0.05" damage-percentage="34">	
+				<particle value="true" path="particle_proj.xml"/>
+				<hitsound enabled="true">
+					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit1.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit2.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit3.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit4.wav"/>
+				</hitsound>
+			</projectile>
+			
+			<projectile attack-start-time="0.4" damage-percentage="33">	
+				<particle value="true" path="particle_proj.xml"/>
+				<hitsound enabled="true">
+					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit1.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit2.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit3.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit4.wav"/>
+				</hitsound>
+			</projectile>
+			
+			<projectile attack-start-time="0.75" damage-percentage="33">	
+				<particle value="true" path="particle_proj.xml"/>
+				<hitsound enabled="true">
+					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit1.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit2.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit3.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit4.wav"/>
+				</hitsound>
+			</projectile>
+
+			</projectiles>
+			<splash value="true">
+				<radius value="2"/>
+				<damage-all value="false"/>
+				<particle value="true" path="particle_splash.xml"/>
+			</splash>
+                        <attack-boost>
+				<allow-multiple-boosts value="true" />
+				<radius value="8"/>
+                        	<target value="faction" include-self="false">
+				</target>
+				<max-hp value="0" regeneration="0"/>
+				<max-ep value="0"/>
+				<sight value="0"/>
+				<attack-strenght value="0" value-percent-multiplier="true"/>
+				<attack-range value="0"/>
+				<armor value="0"/>
+				<move-speed value="6"/>
+				<production-speed value="0"/>
+			<particles value="true">
+				<affected-particle-file path="boost_particles.xml"/>
+			</particles>
+                        </attack-boost>
+		</skill>
+
+		<skill>
+			<type value="die"/>
+			<name value="die_skill"/>
+			<ep-cost value="0"/>
+			<speed value="90"/>
+			<anim-speed value="50"/>
+			<animation path="models/tornado_rider_die.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="$COMMONDATAPATH/sounds/technician_die1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_die2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_die3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_die4.wav"/>
+			</sound>
+			<fade value="false"/>
+		</skill>
+
+	</skills>
+
+	<commands>
+
+		<command>
+			<type value="stop"/>
+			<name value="stop"/>
+			<image path="../spearman/images/tech_stop.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+		</command>
+
+		<command>
+			<type value="move"/>
+			<name value="move"/>
+			<image path="../spearman/images/tech_move.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+		</command>
+
+		<command>
+			<type value="attack"/>
+			<name value="ice_nova"/>
+			<image path="images/priest_attack.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+		<command>
+			<type value="attack_stopped"/>
+			<name value="hold_position"/>
+			<image path="../spearman/images/tech_hold.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+	</commands>
+</unit>

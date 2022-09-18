@@ -18,6 +18,7 @@
 		<unit name="stone_snake"/>
 		<unit name="ibis"/>
 		<unit name="anubis_warrior"/>
+		<unit name="tornado_rider"/>
 		<unit name="thunderstruck_scarab"/>
 	</effects>
 	<max-hp value="100"/>

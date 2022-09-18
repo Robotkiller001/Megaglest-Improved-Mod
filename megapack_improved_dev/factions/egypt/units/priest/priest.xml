@@ -24,8 +24,7 @@
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="gold" amount="150"/>
-			<resource name="wood" amount="50"/>
+			<resource name="gold" amount="175"/>
 			<resource name="food" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -115,7 +114,7 @@
 			<speed value="180"/>
 			<anim-speed value="180"/>
 			<animation path="models/pharao_attacking.g3d"/>
-			<sound enabled="true" start-time="0">
+			<sound enabled="true" start-time="0.05">
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack2.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack3.wav"/>
@@ -128,7 +127,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack15.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack16.wav"/>
 			</sound>
-			<attack-strenght value="140"/>
+			<attack-strenght value="120"/>
 			<attack-var value="40"/>
 			<attack-range value="9"/>
 			<attack-type value="energy"/>
@@ -195,6 +194,16 @@
 			<particles value="true">
 				<particle-file path="upgrade_particles.xml"/>
 			</particles>
+		</skill>
+
+		<skill>
+			<type value="morph"/>
+			<name value="morph_skill"/>
+			<ep-cost value="0"/>
+			<speed value="500"/>
+			<anim-speed value="90"/>
+			<animation path="models/pharao_attacking.g3d"/>
+			<sound enabled="false"/>
 		</skill>
 
 	</skills>
@@ -298,10 +307,20 @@
 			<image path="../spearman/images/tech_hold.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements>
-				<!--upgrade name="training_field"/-->
 			</upgrade-requirements>
 			<stop-skill value="stop_skill"/>
 			<attack-skill value="attack_skill"/>
+		</command>
+
+		<command>
+			<type value="morph"/>
+			<name value="creating_strong_winds"/>
+			<image path="../tornado_rider/images/tornado_rider.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<morph-skill value="morph_skill"/>
+			<morph-unit name= "tornado_rider"/>
+			<discount value="30"/>
 		</command>
 
 	</commands>
