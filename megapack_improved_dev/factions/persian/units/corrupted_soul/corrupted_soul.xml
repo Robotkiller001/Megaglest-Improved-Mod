@@ -67,7 +67,7 @@
 					<unit-type name="corrupted_soul"/>
 				</target>
 				<max-hp value="0" regeneration="1"/>
-				<max-ep value="0"  regeneration="1"/>
+				<max-ep value="0"  regeneration="2"/>
 				<sight value="0"/>
 				<attack-strenght value="0" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
@@ -92,7 +92,7 @@
 					<unit-type name="corrupted_soul"/>
 				</target>
 				<max-hp value="0" regeneration="1"/>
-				<max-ep value="0"  regeneration="1"/>
+				<max-ep value="0"  regeneration="2"/>
 				<sight value="0"/>
 				<attack-strenght value="0" value-percent-multiplier="false"/>
 				<attack-range value="0"/>
@@ -131,7 +131,7 @@
 					<unit-type name="corrupted_soul"/>
 				</target>
 				<max-hp value="0" regeneration="1"/>
-				<max-ep value="0"  regeneration="1"/>
+				<max-ep value="0"  regeneration="2"/>
 				<sight value="0"/>
 				<attack-strenght value="0" value-percent-multiplier="false"/>
 				<attack-range value="0"/>

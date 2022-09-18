@@ -50,8 +50,8 @@
 			<type value="stop"/>
 			<name value="stop_skill"/>
 			<ep-cost value="0" />
-			<speed value="100" />
-			<anim-speed value="50" />
+			<speed value="300" />
+			<anim-speed value="40" />
 			<animation path="models/desert_camp.g3d" />
 			<sound enabled="false" />
 		</skill>
@@ -69,7 +69,7 @@
 			<name value="upgrade_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
-			<anim-speed value="300" />
+			<anim-speed value="80" />
 			<animation path="models/desert_camp.g3d" />
 			<sound enabled="false" />
 			<particles value="true">
@@ -78,20 +78,20 @@
 		</skill>
 		<skill>
 			<type value="produce"/>
-			<name value="produce_black_skill"/>
+			<name value="produce_spearman_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="40" />
-			<animation path="models/desert_camp_produce_black.g3d" />
+			<animation path="models/desert_camp_produce_spearman.g3d" />
 			<sound enabled="false" />
 		</skill>
 		<skill>
 			<type value="produce"/>
-			<name value="produce_white_skill"/>
+			<name value="produce_spearthrower_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
-			<anim-speed value="60" />
-			<animation path="models/desert_camp_produce_white.g3d" />
+			<anim-speed value="50" />
+			<animation path="models/desert_camp_produce_spearthrower.g3d" />
 			<sound enabled="false" />
 		</skill>
 		<skill>
@@ -118,7 +118,7 @@
 			<image path="../spearthrower/images/archer.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
-			<produce-skill value="produce_white_skill"/>
+			<produce-skill value="produce_spearthrower_skill"/>
 			<produced-unit name="spearthrower"/>
 		</command>
 		<command>
@@ -127,7 +127,7 @@
 			<image path="../spearman/images/swordman.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
-			<produce-skill value="produce_black_skill"/>
+			<produce-skill value="produce_spearman_skill"/>
 			<produced-unit name="spearman"/>
 		</command>
 		<command>
