@@ -6,7 +6,7 @@
 		<height value="2"/>
 		<max-hp value="1000" regeneration="4" start-percentage="100"/>
 		<max-ep value="1000" regeneration="65" start-percentage="40"/>
-		<armor value="35"/>
+		<armor value="30"/>
 		<armor-type value="leather"/>
 		<sight value="11"/>
 		<time value="80"/>
@@ -28,8 +28,8 @@
 			<upgrade name="speedup_priest_production"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="100"/>
-			<resource name="wood" amount="100"/>
+			<resource name="gold" amount="125"/>
+			<resource name="wood" amount="125"/>
 			<resource name="food" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -91,7 +91,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="320"/>
+			<speed value="300"/>
 			<anim-speed value="60"/>
 			<animation path="models/tornado_rider_walk.g3d"/>
 			<particles value="true">
@@ -164,7 +164,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack15.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack16.wav"/>
 			</sound>
-			<attack-strenght value="260"/>
+			<attack-strenght value="240"/>
 			<attack-var value="50"/>
 			<attack-range value="10"/>
 			<attack-type value="energy"/>
