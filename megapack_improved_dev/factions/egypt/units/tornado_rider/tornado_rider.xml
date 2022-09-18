@@ -5,11 +5,11 @@
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="1000" regeneration="4" start-percentage="100"/>
-		<max-ep value="1000" regeneration="35" start-percentage="40"/>
+		<max-ep value="1000" regeneration="65" start-percentage="40"/>
 		<armor value="35"/>
 		<armor-type value="leather"/>
 		<sight value="11"/>
-		<time value="80"/>
+		<time value="100"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
@@ -91,7 +91,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="350"/>
+			<speed value="320"/>
 			<anim-speed value="60"/>
 			<animation path="models/tornado_rider_walk.g3d"/>
 			<particles value="true">
@@ -109,7 +109,7 @@
 				<attack-strenght value="0" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
-				<move-speed value="6"/>
+				<move-speed value="5"/>
 				<production-speed value="0"/>
 			<particles value="true">
 				<affected-particle-file path="boost_particles.xml"/>
@@ -121,7 +121,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>
-			<ep-cost value="150"/>
+			<ep-cost value="225"/>
 			<speed value="80"/>
 			<anim-speed value="80"/>
 			<animation path="models/tornado_rider_attack.g3d"/>
@@ -164,7 +164,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack15.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack16.wav"/>
 			</sound>
-			<attack-strenght value="240"/>
+			<attack-strenght value="260"/>
 			<attack-var value="50"/>
 			<attack-range value="10"/>
 			<attack-type value="energy"/>
@@ -222,7 +222,7 @@
 				<attack-strenght value="0" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
-				<move-speed value="6"/>
+				<move-speed value="5"/>
 				<production-speed value="0"/>
 			<particles value="true">
 				<affected-particle-file path="boost_particles.xml"/>
