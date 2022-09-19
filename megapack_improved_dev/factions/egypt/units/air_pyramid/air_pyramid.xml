@@ -16,7 +16,6 @@
 			<row value="11"/>
 		</cellmap>
 		<levels>
-			<level name="elite" kills="10"/>
 		</levels>
 		<fields>
 			<field value="land"/>
