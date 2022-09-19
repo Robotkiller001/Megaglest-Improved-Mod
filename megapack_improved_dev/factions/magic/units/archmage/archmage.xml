@@ -101,8 +101,8 @@
 			<type value="attack"/>
 			<name value="fire_ball_skill"/>
 			<ep-cost value="500"/>
-			<speed value="50"/>
-			<anim-speed value="50"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
 			<animation path="models/archmage_attacking.g3d"/>
 			<particles value="true">
 				<particle-file path="glow_particles.xml"/>
@@ -121,7 +121,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack16.wav"/>
 			</sound>
 			<attack-strenght value="240"/>
-			<attack-var value="70"/>
+			<attack-var value="50"/>
 			<attack-range value="10"/>
 			<attack-type value="energy"/>
 			<attack-fields>
