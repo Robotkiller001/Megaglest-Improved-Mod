@@ -56,7 +56,8 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="models/library_construction.g3d" />
+			<animation path="models/library_construction_0.g3d" minHp="0" maxHp="4000"/>
+			<animation path="models/library_construction_50.g3d" minHp="4001" maxHp="8000"/>
 			<sound enabled="false" />
 		</skill>
 		<skill>

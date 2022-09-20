@@ -48,9 +48,10 @@
 			<type value="be_built"/>
 			<name value="be_built_skill"/>
 			<ep-cost value="0" />
-			<speed value="500" />
+			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="../mage_tower/construction_models/archmage_tower_construction.g3d" />
+			<animation path="models/archmage_tower_construction_0.g3d" minHp="0" maxHp="5000"/>
+			<animation path="models/archmage_tower_construction_50.g3d" minHp="5001" maxHp="10000"/>
 			<sound enabled="false"/>
 		</skill>
 		<skill>

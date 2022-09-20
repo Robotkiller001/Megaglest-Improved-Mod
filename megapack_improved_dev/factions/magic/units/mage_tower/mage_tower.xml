@@ -72,7 +72,8 @@
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="300"/>
-			<animation path="models/mage_tower_construction.g3d"/>
+			<animation path="models/mage_tower_construction_0.g3d" minHp="0" maxHp="6000"/>
+			<animation path="models/mage_tower_construction_50.g3d" minHp="6001" maxHp="12000"/>
 			<sound enabled="false"/>
 		</skill>
 		<skill>

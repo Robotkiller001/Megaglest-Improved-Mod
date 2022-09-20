@@ -90,6 +90,16 @@
 			<sound enabled="false"/>
 		</skill>
 		<skill>
+			<type value="be_built" />
+			<name value="be_built_skill"/>
+			<ep-cost value="0" />
+			<speed value="150"/>
+			<anim-speed value="300" />
+			<animation path="models/golem_construction_0.g3d" minHp="0" maxHp="1200"/>
+			<animation path="models/golem_construction_50.g3d" minHp="1201" maxHp="2400"/>
+			<sound enabled="false" />
+		</skill>
+		<skill>
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="100"/>
@@ -179,16 +189,6 @@
 				<health-percent min="60" max="80"/>
 				<probability value="100"/>
 			</spawn>
-		</skill>
-		<skill>
-			<type value="be_built" />
-			<name value="be_built_skill"/>
-			<ep-cost value="0" />
-			<speed value="120"/>
-			<speed value="120"/>
-			<anim-speed value="300" />
-			<animation path="models/golem_construction.g3d" />
-			<sound enabled="false" />
 		</skill>
 	</skills>
 

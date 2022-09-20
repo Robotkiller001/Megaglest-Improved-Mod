@@ -51,6 +51,15 @@
 			<sound enabled="false" />
 		</skill>
 		<skill>
+			<type value="be_built" />
+			<name value="be_built_skill"/>
+			<ep-cost value="0" />
+			<speed value="150"/>
+			<anim-speed value="300" />
+			<animation path="models/tower_of_souls_standing.g3d" />
+			<sound enabled="false" />
+		</skill>
+		<skill>
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
@@ -108,16 +117,6 @@
 			<anim-speed value="100"/>
 			<animation path="models/tower_of_souls_standing.g3d"/>
 			<sound enabled="false"/>
-		</skill>
-		<skill>
-			<type value="be_built" />
-			<name value="be_built_skill"/>
-			<ep-cost value="0" />
-			<speed value="120"/>
-			<speed value="120"/>
-			<anim-speed value="300" />
-			<animation path="../mage_tower/construction_models/tower_of_souls_construction.g3d" />
-			<sound enabled="false" />
 		</skill>
 		<skill>
 			<type value="die" />

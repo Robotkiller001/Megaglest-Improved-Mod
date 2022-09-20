@@ -58,10 +58,10 @@
 			<type value="be_built" />
 			<name value="be_built_skill"/>
 			<ep-cost value="0" />
-			<speed value="120"/>
-			<speed value="120"/>
+			<speed value="150"/>
 			<anim-speed value="300" />
-			<animation path="../mage_tower/construction_models/tower_of_souls_construction.g3d" />
+			<animation path="models/tower_of_souls_construction_0.g3d" minHp="0" maxHp="4500"/>
+			<animation path="models/tower_of_souls_construction_50.g3d" minHp="4501" maxHp="9000"/>
 			<sound enabled="false" />
 		</skill>
 		<skill>
