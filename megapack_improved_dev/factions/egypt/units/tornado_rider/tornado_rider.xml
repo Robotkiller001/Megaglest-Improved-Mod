@@ -5,7 +5,7 @@
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="900" regeneration="4" start-percentage="100"/>
-		<max-ep value="1000" regeneration="65" start-percentage="40"/>
+		<max-ep value="1500" regeneration="80" start-percentage="40"/>
 		<armor value="30"/>
 		<armor-type value="leather"/>
 		<sight value="11"/>
@@ -121,9 +121,9 @@
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>
-			<ep-cost value="250"/>
-			<speed value="80"/>
-			<anim-speed value="80"/>
+			<ep-cost value="450"/>
+			<speed value="50"/>
+			<anim-speed value="50"/>
 			<animation path="models/tornado_rider_attack.g3d"/>
 			<sound enabled="true" start-time="0.0">
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack1.wav"/>
@@ -164,7 +164,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack15.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack16.wav"/>
 			</sound>
-			<attack-strenght value="240"/>
+			<attack-strenght value="260"/>
 			<attack-var value="50"/>
 			<attack-range value="10"/>
 			<attack-type value="energy"/>

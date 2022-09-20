@@ -5,7 +5,7 @@
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="800" regeneration="3" start-percentage="100"/>
-		<max-ep value="1000" regeneration="80" start-percentage="40"/>
+		<max-ep value="1500" regeneration="100" start-percentage="40"/>
 		<armor value="40"/>
 		<armor-type value="leather"/>
 		<sight value="11"/>
@@ -22,8 +22,6 @@
 		<unit-requirements>
 		</unit-requirements>
 		<upgrade-requirements>
-			<upgrade name="summon_scarab"/>
-			<upgrade name="speedup_priest_production"/>
 		</upgrade-requirements>
 		<resource-requirements>
 		</resource-requirements>
@@ -81,9 +79,9 @@
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>
-			<ep-cost value="225"/>
-			<speed value="80"/>
-			<anim-speed value="80"/>
+			<ep-cost value="450"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
 			<animation path="models/survived_tornado_rider_attack.g3d"/>
 			<sound enabled="true" start-time="0.0">
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack1.wav"/>
@@ -124,7 +122,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack15.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack16.wav"/>
 			</sound>
-			<attack-strenght value="230"/>
+			<attack-strenght value="240"/>
 			<attack-var value="50"/>
 			<attack-range value="9"/>
 			<attack-type value="energy"/>
