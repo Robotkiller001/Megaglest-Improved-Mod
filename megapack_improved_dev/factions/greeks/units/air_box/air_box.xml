@@ -69,7 +69,8 @@
 			<speed value="120"/>
 			<speed value="120"/>
 			<anim-speed value="300" />
-			<animation path="models/box_build.g3d" />
+			<animation path="models/box_build_0.g3d" minHp="0" maxHp="4500"/>
+			<animation path="models/box_build_50.g3d" minHp="4501" maxHp="9000"/>
 			<sound enabled="false" />
 		</skill>
 
@@ -77,10 +78,10 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="100"/>
-			<anim-speed value="100"/>
-			<animation path="models/box_idle_attack.g3d"/>
-			<sound enabled="true" start-time="0">
+			<speed value="50"/>
+			<anim-speed value="50"/>
+			<animation path="models/box_attack.g3d"/>
+			<sound enabled="true" start-time="0.3">
 				<sound-file path="$COMMONDATAPATH/sounds/tower_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/tower_attack2.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/tower_attack3.wav"/>
@@ -88,7 +89,15 @@
 				<sound-file path="$COMMONDATAPATH/sounds/tower_attack5.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/tower_attack6.wav"/>
 			</sound>
-			<attack-strength value="260"/>
+			<sound enabled="true" start-time="0.55">
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack6.wav"/>
+			</sound>
+			<attack-strength value="320"/>
 			<attack-var value="80"/>
 			<attack-range value="16"/>
 			<attack-type value="castle"/>
@@ -96,14 +105,27 @@
 			<attack-fields>
 				<field value="air"/>
 			</attack-fields>
-			<projectile value="true">
+			<projectiles>
+			  
+			<projectile attack-start-time="0.3" damage-percentage="50">	
 				<particle value="true" path="particle_proj.xml"/>
-				<sound enabled="true">
+				<hitsound enabled="true">
 					<sound-file path="$COMMONDATAPATH/sounds/tower_hit1.wav"/>
 					<sound-file path="$COMMONDATAPATH/sounds/tower_hit2.wav"/>
 					<sound-file path="$COMMONDATAPATH/sounds/tower_hit3.wav"/>
-				</sound>
+				</hitsound>
 			</projectile>
+			
+			<projectile attack-start-time="0.55" damage-percentage="50">	
+				<particle value="true" path="particle_proj.xml"/>
+				<hitsound enabled="true">
+					<sound-file path="$COMMONDATAPATH/sounds/tower_hit1.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/tower_hit2.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/tower_hit3.wav"/>
+				</hitsound>
+			</projectile>
+
+			</projectiles>
 			<splash value="true">
 				<radius value="2"/>
 				<damage-all value="true"/>

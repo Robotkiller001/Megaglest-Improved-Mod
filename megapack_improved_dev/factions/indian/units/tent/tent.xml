@@ -50,10 +50,10 @@
 			<type value="be_built" />
 			<name value="be_built_skill"/>
 			<ep-cost value="0" />
-			<speed value="120"/>
-			<speed value="120"/>
+			<speed value="150"/>
 			<anim-speed value="300" />
-			<animation path="models/tent_construction.g3d" />
+			<animation path="models/tent_construction_0.g3d" minHp="0" maxHp="1500"/>
+			<animation path="models/tent_construction_50.g3d" minHp="1501" maxHp="3000"/>
 			<sound enabled="false"/>
 		</skill>
 		<skill>

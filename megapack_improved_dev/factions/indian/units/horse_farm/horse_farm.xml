@@ -48,9 +48,10 @@
 			<type value="be_built" />
 			<name value="be_built_skill"/>
 			<ep-cost value="0" />
-			<speed value="120"/>
-			<anim-speed value="0" />
-			<animation path="models/horsefarm_construction.g3d" />
+			<speed value="150"/>
+			<anim-speed value="150" />
+			<animation path="models/horsefarm_construction_0.g3d" minHp="0" maxHp="4000"/>
+			<animation path="models/horsefarm_construction_50.g3d" minHp="4001" maxHp="8000"/>
 			<sound enabled="false" />
 		</skill>
 		<skill>
@@ -76,7 +77,7 @@
 			<name value="die_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
-			<anim-speed value="0" />
+			<anim-speed value="300" />
 			<animation path="models/horsefarm_destroyed.g3d" />
 			<particles value="true">
 				<particle-file path="smoke_particles.xml"/>
@@ -99,6 +100,7 @@
 			</particles>
 		</skill>
 	</skills>
+
 	<commands>
 		<command>
 			<type value="produce"/>
@@ -109,24 +111,6 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="horseman"/>
 		</command>
-		<!--command>
-			<type value="produce"/>
-			<name value="produce_pig" />
-			<image path="../pig/images/pig.bmp" />
-			<unit-requirements />
-			<upgrade-requirements />
-			<produce-skill value="produce_skill"/>
-			<produced-unit name="pig"/>
-		</command>
-		<command>
-			<type value="produce"/>
-			<name value="produce_cow" />
-			<image path="../cow/images/cow.bmp" />
-			<unit-requirements />
-			<upgrade-requirements />
-			<produce-skill value="produce_skill"/>
-			<produced-unit name="cow"/>
-		</command-->
 		<command>
 			<type value="produce"/>
 			<name value="produce_bull" />

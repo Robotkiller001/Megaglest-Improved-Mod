@@ -45,10 +45,10 @@
 			<type value="be_built" />
 			<name value="be_built_skill"/>
 			<ep-cost value="0" />
-			<speed value="120"/>
-			<speed value="120"/>
-			<anim-speed value="0" />
-			<animation path="models/campfire_construction.g3d" />
+			<speed value="150"/>
+			<anim-speed value="150" />
+			<animation path="models/campfire_construction_0.g3d" minHp="0" maxHp="4000"/>
+			<animation path="models/campfire_construction_50.g3d" minHp="4001" maxHp="8000"/>
 			<sound enabled="false" />
 		</skill>
 		<skill>
@@ -69,7 +69,7 @@
 			<name value="die_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
-			<anim-speed value="0" />
+			<anim-speed value="300" />
 			<animation path="models/campfire_destroyed.g3d" />
 			<particles value="true">
 				<particle-file path="smoke_particles2.xml"/>

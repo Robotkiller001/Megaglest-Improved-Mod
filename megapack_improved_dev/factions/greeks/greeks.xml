@@ -13,8 +13,8 @@
 		<unit name="tower" amount="1"/>
 		<unit name="chicken" amount="1"/>
 		<unit name="slave" amount="4"/>
-		<unit name="alexander" amount="0"/>
-		<unit name="chariot" amount="0"/>
+		<unit name="air_box" amount="0"/>
+		<unit name="dragon" amount="0"/>
 	</starting-units>
 	<ai-behavior>
 		<warrior-units>
