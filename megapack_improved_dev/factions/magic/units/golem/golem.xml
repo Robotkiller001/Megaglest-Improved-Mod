@@ -96,7 +96,7 @@
 			<speed value="150"/>
 			<anim-speed value="300" />
 			<animation path="models/golem_construction_0.g3d" minHp="0" maxHp="1200"/>
-			<animation path="models/golem_construction_50.g3d" minHp="1201" maxHp="2400"/>
+			<animation path="models/golem_construction_50.g3d" minHp="1201" maxHp="3400"/>
 			<sound enabled="false" />
 		</skill>
 		<skill>

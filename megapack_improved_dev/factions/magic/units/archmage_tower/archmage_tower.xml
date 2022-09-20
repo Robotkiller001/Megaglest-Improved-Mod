@@ -51,7 +51,7 @@
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/archmage_tower_construction_0.g3d" minHp="0" maxHp="5000"/>
-			<animation path="models/archmage_tower_construction_50.g3d" minHp="5001" maxHp="10000"/>
+			<animation path="models/archmage_tower_construction_50.g3d" minHp="5001" maxHp="11000"/>
 			<sound enabled="false"/>
 		</skill>
 		<skill>

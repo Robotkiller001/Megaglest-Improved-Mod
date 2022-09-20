@@ -74,7 +74,7 @@
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/pyramid_construction_0.g3d" minHp="0" maxHp="6000"/>
-			<animation path="models/pyramid_construction_50.g3d" minHp="6001" maxHp="12000"/>
+			<animation path="models/pyramid_construction_50.g3d" minHp="6001" maxHp="14000"/>
 			<sound enabled="false" />
 		</skill>
 		<skill>

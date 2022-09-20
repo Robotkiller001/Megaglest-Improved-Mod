@@ -70,7 +70,7 @@
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/roundtent_construction_0.g3d" minHp="0" maxHp="4000"/>
-			<animation path="models/roundtent_construction_50.g3d" minHp="4001" maxHp="8000"/>
+			<animation path="models/roundtent_construction_50.g3d" minHp="4001" maxHp="9000"/>
 			<sound enabled="false" />
 		</skill>
 		<skill>

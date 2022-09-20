@@ -53,7 +53,7 @@
 			<speed value="150"/>
 			<anim-speed value="300" />
 			<animation path="models/tent_construction_0.g3d" minHp="0" maxHp="1500"/>
-			<animation path="models/tent_construction_50.g3d" minHp="1501" maxHp="3000"/>
+			<animation path="models/tent_construction_50.g3d" minHp="1501" maxHp="4000"/>
 			<sound enabled="false"/>
 		</skill>
 		<skill>
