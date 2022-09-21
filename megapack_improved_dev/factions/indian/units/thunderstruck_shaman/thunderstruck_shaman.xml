@@ -118,8 +118,8 @@
 			<type value="repair"/>
 			<name value="repair_skill"/>
 			<ep-cost value="0"/>
-			<speed value="400"/>
-			<anim-speed value="210"/>
+			<speed value="350"/>
+			<anim-speed value="120"/>
 			<animation path="models/shaman_repairing.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
@@ -285,8 +285,8 @@
 			<type value="repair"/>
 			<name value="heal"/>
 			<ep-cost value="0"/>
-			<speed value="400"/>
-			<anim-speed value="210"/>
+			<speed value="450"/>
+			<anim-speed value="180"/>
 			<animation path="models/shaman_healing.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
@@ -317,8 +317,8 @@
 			<type value="build"/>
 			<name value="build_skill"/>
 			<ep-cost value="0"/>
-			<speed value="400"/>
-			<anim-speed value="210"/>
+			<speed value="450"/>
+			<anim-speed value="180"/>
 			<animation path="models/shaman_repairing.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />

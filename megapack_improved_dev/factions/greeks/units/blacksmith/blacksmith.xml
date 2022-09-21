@@ -64,19 +64,20 @@
 			<name value="produce_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
-			<anim-speed value="300" />
-			<animation path="models/pers_blacksmith.g3d" />
+			<anim-speed value="100" />
+			<animation path="models/blacksmith.g3d" />
 			<sound enabled="false" />
 		</skill>
 
 		<skill>
+			<type value="be_built" />
 			<name value="be_built_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="models/pers_blacksmith_construction.g3d" />
+			<animation path="models/blacksmith_construction_0.g3d" minHp="0" maxHp="4000"/>
+			<animation path="models/blacksmith_construction_50.g3d" minHp="4001" maxHp="9000"/>
 			<sound enabled="false" />
-			<type value="be_built" />
 		</skill>
 
 		<skill>
@@ -84,8 +85,8 @@
 			<name value="stop_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
-			<anim-speed value="50" />
-			<animation path="models/pers_blacksmith.g3d" />
+			<anim-speed value="55" />
+			<animation path="models/blacksmith.g3d" />
 			<particles value="true">
 				<particle-file path="smoke_particles.xml"/>
 				<particle-file path="fire_particles.xml"/>
@@ -98,8 +99,8 @@
 			<name value="upgrade_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
-			<anim-speed value="150" />
-			<animation path="models/pers_blacksmith.g3d" />
+			<anim-speed value="100" />
+			<animation path="models/blacksmith.g3d" />
 			<particles value="true">
 				<particle-file path="smoke_particles_production.xml"/>
 				<particle-file path="fire_particles_production.xml"/>
@@ -121,7 +122,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="models/pers_blacksmith_destruction.g3d" />
+			<animation path="models/blacksmith_destruction.g3d" />
 			<particles value="true">
 				<particle-file path="smoke_particles_2.xml"/>
 				<particle-file path="glow_particles.xml"/>

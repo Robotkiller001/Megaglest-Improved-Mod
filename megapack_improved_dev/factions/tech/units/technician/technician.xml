@@ -128,8 +128,8 @@
 			<type value="repair"/>
 			<name value="repair_skill"/>
 			<ep-cost value="0"/>
-			<speed value="210"/>
-			<anim-speed value="210"/>
+			<speed value="200"/>
+			<anim-speed value="120"/>
 			<animation path="models/technician_repairing.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/technician_build1.wav"/>
@@ -178,8 +178,8 @@
 			<type value="repair"/>
 			<name value="heal"/>
 			<ep-cost value="0"/>
-			<speed value="210"/>
-			<anim-speed value="210"/>
+			<speed value="250"/>
+			<anim-speed value="180"/>
 			<animation path="models/technician_healing.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -189,7 +189,7 @@
 			<name value="build_skill"/>
 			<ep-cost value="0"/>
 			<speed value="250"/>
-			<anim-speed value="210"/>
+			<anim-speed value="180"/>
 			<animation path="models/technician_repairing.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/technician_build1.wav"/>

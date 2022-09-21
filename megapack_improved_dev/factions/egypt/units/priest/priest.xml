@@ -156,7 +156,7 @@
 			<type value="repair"/>
 			<name value="heal"/>
 			<ep-cost value="0"/>
-			<speed value="210"/>
+			<speed value="250"/>
 			<anim-speed value="110"/>
 			<animation path="models/pharao_healing.g3d"/>
 			<sound enabled="true" start-time="0.5">

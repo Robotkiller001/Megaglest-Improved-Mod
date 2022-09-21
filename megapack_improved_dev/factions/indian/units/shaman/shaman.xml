@@ -96,8 +96,8 @@
 			<type value="repair"/>
 			<name value="repair_skill"/>
 			<ep-cost value="0"/>
-			<speed value="220"/>
-			<anim-speed value="210"/>
+			<speed value="200"/>
+			<anim-speed value="120"/>
 			<animation path="models/shaman_repairing.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/shaman_build1.wav"/>
@@ -147,8 +147,8 @@
 			<type value="repair"/>
 			<name value="heal"/>
 			<ep-cost value="0"/>
-			<speed value="220"/>
-			<anim-speed value="210"/>
+			<speed value="250"/>
+			<anim-speed value="180"/>
 			<animation path="models/shaman_healing.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="$COMMONDATAPATH/sounds/shaman_heal1.wav"/>
@@ -159,8 +159,8 @@
 			<type value="build"/>
 			<name value="build_skill"/>
 			<ep-cost value="0"/>
-			<speed value="220"/>
-			<anim-speed value="210"/>
+			<speed value="250"/>
+			<anim-speed value="180"/>
 			<animation path="models/shaman_repairing.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/shaman_build1.wav"/>
