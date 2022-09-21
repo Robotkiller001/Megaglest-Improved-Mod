@@ -4,19 +4,19 @@
 	<parameters>
 		<size value="1"/>
 		<height value="1"/>
-		<max-hp value="4500" regeneration="12" start-percentage="100"/>
+		<max-hp value="6000" regeneration="16" start-percentage="100"/>
 		<max-ep value="1000" regeneration="35" start-percentage="100"/>
 		<armor value="30"/>
 		<armor-type value="osiris_protection"/>
-		<max-unit-count value="2"/>
+		<max-unit-count value="1"/>
 		<sight value="14"/>
-		<time value="70"/>
+		<time value="110"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="expert" kills="20"/>
-			<level name="master" kills="50"/>
-			<level name="legendary" kills="90"/>
+			<level name="expert" kills="25"/>
+			<level name="master" kills="60"/>
+			<level name="legendary" kills="105"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -29,8 +29,10 @@
 			<upgrade name="summon_scarab"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="300"/>
-			<resource name="food" amount="4"/>
+			<resource name="gold" amount="250"/>
+			<resource name="stone" amount="100"/>
+			<resource name="wood" amount="100"/>
+			<resource name="food" amount="5"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/scarab.bmp"/>
@@ -65,8 +67,8 @@
 			<animation path="models/scarab_standing.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="7"/>
-                        	<target value="faction" include-self="true">
+				<radius value="8"/>
+                        	<target value="faction" include-self="false">
 				</target>
 				<max-hp value="0" regeneration="4"/>
 				<max-ep value="0"/>
@@ -95,8 +97,8 @@
 			<animation path="models/scarab_walking.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="7"/>
-                        	<target value="faction" include-self="true">
+				<radius value="8"/>
+                        	<target value="faction" include-self="false">
 				</target>
 				<max-hp value="0" regeneration="4"/>
 				<max-ep value="0"/>
@@ -120,8 +122,8 @@
 			<type value="attack"/>
 			<name value="dung_attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="70"/>
-			<anim-speed value="70"/>
+			<speed value="80"/>
+			<anim-speed value="80"/>
 			<animation path="models/scarab_attacking.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack1.wav"/>
@@ -138,13 +140,13 @@
 			</sound>
                         <attack-boost>
 				<allow-multiple-boosts value="true" />
-				<radius value="7"/>
-                        	<target value="faction" include-self="false">
+				<radius value="8"/>
+                        	<target value="ally" include-self="false">
 				</target>
 				<max-hp value="0" regeneration="6"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
-				<attack-strenght value="5" value-percent-multiplier="true"/>
+				<attack-strenght value="10" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
 				<move-speed value="0"/>
@@ -153,7 +155,7 @@
 					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="290"/>
+			<attack-strenght value="320"/>
 			<attack-var value="80"/>
 			<attack-range value="8"/>
 			<attack-type value="scarab"/>
@@ -196,13 +198,13 @@
 			</sound>
                         <attack-boost>
 				<allow-multiple-boosts value="true" />
-				<radius value="7"/>
-                        	<target value="faction" include-self="false">
+				<radius value="8"/>
+                        	<target value="ally" include-self="false">
 				</target>
 				<max-hp value="0" regeneration="6"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
-				<attack-strenght value="5" value-percent-multiplier="true"/>
+				<attack-strenght value="10" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
 				<move-speed value="0"/>
@@ -218,7 +220,7 @@
 			<attack-var value="0"/>
 			<attack-range value="12"/>
 			<attack-type value="energy"/>
-				<unit value="small_scarab" amount="3"/>
+				<unit value="small_scarab" amount="4"/>
 			<attack-start-time value="0.5"/>
 			<attack-fields>
 				<field value="land"/>

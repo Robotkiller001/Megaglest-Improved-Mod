@@ -7,19 +7,19 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="4500" regeneration="14" start-percentage="100"/>
+		<max-hp value="6000" regeneration="18" start-percentage="100"/>
 		<max-ep value="1000" regeneration="50" start-percentage="100"/>
 		<armor value="40"/>
 		<armor-type value="ancient_recalls"/>
-		<max-unit-count value="2"/>
+		<max-unit-count value="1"/>
 		<sight value="14"/>
-		<time value="70"/>
+		<time value="110"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="expert" kills="20"/>
-			<level name="master" kills="50"/>
-			<level name="legendary" kills="90"/>
+			<level name="expert" kills="25"/>
+			<level name="master" kills="60"/>
+			<level name="legendary" kills="105"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -29,8 +29,10 @@
 		<unit-requirements/>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="gold" amount="300"/>
-			<resource name="housing" amount="4"/>
+			<resource name="gold" amount="250"/>
+			<resource name="stone" amount="100"/>
+			<resource name="wood" amount="100"/>
+			<resource name="food" amount="5"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/shaman.bmp"/>
@@ -63,8 +65,8 @@
 			<animation path="models/shaman_standing.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="7"/>
-                        	<target value="faction" include-self="true">
+				<radius value="8"/>
+                        	<target value="faction" include-self="false">
 				</target>
 				<max-hp value="0" regeneration="4"/>
 				<max-ep value="0"/>
@@ -93,8 +95,8 @@
 			<animation path="models/shaman_walking.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="7"/>
-                        	<target value="faction" include-self="true">
+				<radius value="8"/>
+                        	<target value="faction" include-self="false">
 				</target>
 				<max-hp value="0" regeneration="4"/>
 				<max-ep value="0"/>
@@ -118,13 +120,13 @@
 			<type value="repair"/>
 			<name value="repair_skill"/>
 			<ep-cost value="0"/>
-			<speed value="350"/>
+			<speed value="450"/>
 			<anim-speed value="120"/>
 			<animation path="models/shaman_repairing.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="7"/>
-                        	<target value="faction" include-self="true">
+				<radius value="8"/>
+                        	<target value="faction" include-self="false">
 				</target>
 				<max-hp value="0" regeneration="4"/>
 				<max-ep value="0"/>
@@ -156,21 +158,21 @@
 			<type value="attack"/>
 			<name value="molotov_skill"/>
 			<ep-cost value="0"/>
-			<speed value="50"/>
-			<anim-speed value="50"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
 			<animation path="models/shaman_attacking.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/shaman_attack.wav"/>
 			</sound>
                         <attack-boost>
 				<allow-multiple-boosts value="true" />
-				<radius value="7"/>
-                        	<target value="faction" include-self="false">
+				<radius value="8"/>
+                        	<target value="ally" include-self="false">
 				</target>
 				<max-hp value="0" regeneration="6"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
-				<attack-strenght value="5" value-percent-multiplier="true"/>
+				<attack-strenght value="10" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
 				<move-speed value="0"/>
@@ -179,7 +181,7 @@
 					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="290"/>
+			<attack-strenght value="320"/>
 			<attack-var value="80"/>
 			<attack-range value="8"/>
 			<attack-type value="shaman"/>
@@ -209,21 +211,21 @@
 			<type value="attack"/>
 			<name value="shadow_skill"/>
 			<ep-cost value="500"/>
-			<speed value="50"/>
-			<anim-speed value="50"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
 			<animation path="models/shaman_attacking2.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/shaman_attack.wav"/>
 			</sound>
                         <attack-boost>
 				<allow-multiple-boosts value="true" />
-				<radius value="7"/>
-                        	<target value="faction" include-self="false">
+				<radius value="8"/>
+                        	<target value="ally" include-self="false">
 				</target>
 				<max-hp value="0" regeneration="6"/>
 				<max-ep value="0"/>
 				<sight value="0"/>
-				<attack-strenght value="5" value-percent-multiplier="true"/>
+				<attack-strenght value="10" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
 				<move-speed value="0"/>
@@ -232,8 +234,8 @@
 					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="600"/>
-			<attack-var value="100"/>
+			<attack-strenght value="700"/>
+			<attack-var value="120"/>
 			<attack-range value="10"/>
 			<attack-type value="shaman"/>
 			<attack-start-time value="0.0"/>
@@ -244,7 +246,7 @@
 			<projectiles>
 			  
 			<projectile attack-start-time="0.5" damage-percentage="35">	
-				<particle value="true" path="particle_proj.xml"/>
+				<particle value="true" path="particle_proj1.xml"/>
 				<hitsound enabled="true">
 					<sound-file path="/sounds/shaman_hit1.wav"/>
 					<sound-file path="/sounds/shaman_hit2.wav"/>
@@ -285,13 +287,13 @@
 			<type value="repair"/>
 			<name value="heal"/>
 			<ep-cost value="0"/>
-			<speed value="450"/>
+			<speed value="550"/>
 			<anim-speed value="180"/>
 			<animation path="models/shaman_healing.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="7"/>
-                        	<target value="faction" include-self="true">
+				<radius value="8"/>
+                        	<target value="faction" include-self="false">
 				</target>
 				<max-hp value="0" regeneration="4"/>
 				<max-ep value="0"/>
@@ -317,13 +319,13 @@
 			<type value="build"/>
 			<name value="build_skill"/>
 			<ep-cost value="0"/>
-			<speed value="450"/>
+			<speed value="600"/>
 			<anim-speed value="180"/>
 			<animation path="models/shaman_repairing.g3d"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="7"/>
-                        	<target value="faction" include-self="true">
+				<radius value="8"/>
+                        	<target value="faction" include-self="false">
 				</target>
 				<max-hp value="0" regeneration="4"/>
 				<max-ep value="0"/>
@@ -354,13 +356,13 @@
 			<type value="produce" />
 			<name value="produce_skill"/>
 			<ep-cost value="0" />
-			<speed value="550" />
+			<speed value="700" />
 			<anim-speed value="50" />
 			<animation path="models/shaman_healing.g3d" />
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="7"/>
-                        	<target value="faction" include-self="true">
+				<radius value="8"/>
+                        	<target value="faction" include-self="false">
 				</target>
 				<max-hp value="0" regeneration="4"/>
 				<max-ep value="0"/>
