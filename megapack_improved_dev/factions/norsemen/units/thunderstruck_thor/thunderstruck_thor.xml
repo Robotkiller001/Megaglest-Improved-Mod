@@ -144,8 +144,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="60"/>
-			<anim-speed value="60"/>
+			<speed value="50"/>
+			<anim-speed value="50"/>
 			<animation path="models/thor_attacking.g3d"/>
 			<sound enabled="true" start-time="0.3">
 				<sound-file path="$COMMONDATAPATH/sounds/golem_attack1.wav"/>
@@ -167,7 +167,7 @@
 					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="470"/>
+			<attack-strenght value="480"/>
 			<attack-var value="120"/>
 			<attack-range value="2"/>
 			<attack-type value="thor"/>
