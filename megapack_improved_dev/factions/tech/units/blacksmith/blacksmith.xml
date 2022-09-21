@@ -54,13 +54,14 @@
 	</parameters>
 	<skills>
 		<skill>
+			<type value="be_built" />
 			<name value="be_built_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="models/blacksmith_construction.g3d" />
+			<animation path="models/blacksmith_construction_0.g3d" minHp="0" maxHp="4000"/>
+			<animation path="models/blacksmith_construction_50.g3d" minHp="4001" maxHp="9000"/>
 			<sound enabled="false" />
-			<type value="be_built" />
 		</skill>
 		<skill>
 			<type value="stop" />
