@@ -15,7 +15,7 @@
     	<energy-var value="10" />
 
 	<trajectory type="spiral">
-		<speed value="6.0"/>
+		<speed value="8.0"/>
 		<scale value="1"/>
 		<frequency value="0.5"/>
 	</trajectory>
