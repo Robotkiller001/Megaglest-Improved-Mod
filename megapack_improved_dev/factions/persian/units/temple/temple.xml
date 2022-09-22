@@ -51,7 +51,7 @@
 			<type value="stop"/>
 			<name value="stop_skill"/>
 			<ep-cost value="0" />
-			<speed value="50" />
+			<speed value="300" />
 			<anim-speed value="100" />
 			<animation path="models/temple.g3d" />
 			<sound enabled="false" />
@@ -62,7 +62,8 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="models/temple_construction.g3d" />
+			<animation path="models/temple_construction_0.g3d" minHp="0" maxHp="4000"/>
+			<animation path="models/temple_construction_50.g3d" minHp="4001" maxHp="9000"/>
 			<sound enabled="false" />
 		</skill>
 		<skill>

@@ -58,10 +58,10 @@
 			<type value="be_built" />
 			<name value="be_built_skill"/>
 			<ep-cost value="0" />
-			<speed value="120"/>
-			<speed value="120"/>
-			<anim-speed value="50" />
-			<animation path="models/farm_constructing.g3d" />
+			<speed value="150"/>
+			<anim-speed value="150" />
+			<animation path="models/farm_construction_0.g3d" minHp="0" maxHp="2000"/>
+			<animation path="models/farm_construction_50.g3d" minHp="2001" maxHp="5000"/>
 			<sound enabled="false" />
 		</skill>
 		<skill>
