@@ -152,7 +152,7 @@
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 			<particles value="true">
-					<affected-particle-file path="healing_particles.xml"/>
+					<affected-particle-file path="dmg_aura.xml"/>
 			</particles>
                         </attack-boost>
 			<attack-strenght value="320"/>
@@ -210,7 +210,7 @@
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 			<particles value="true">
-					<affected-particle-file path="healing_particles.xml"/>
+					<affected-particle-file path="dmg_aura.xml"/>
 			</particles>
                         </attack-boost>
 			<particles value="true">

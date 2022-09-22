@@ -84,7 +84,7 @@
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 			<particles value="true">
-					<affected-particle-file path="boost_particles.xml"/>
+					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
 			<sound enabled="false"/>
@@ -114,7 +114,7 @@
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 			<particles value="true">
-					<affected-particle-file path="boost_particles.xml"/>
+					<affected-particle-file path="healing_particles.xml"/>
 			</particles>
                         </attack-boost>
 			<sound enabled="false"/>
@@ -160,7 +160,7 @@
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 			<particles value="true">
-					<affected-particle-file path="boost_particles.xml"/>
+					<affected-particle-file path="dmg_aura.xml"/>
 			</particles>
                         </attack-boost>
 			<attack-strenght value="290"/>
@@ -202,7 +202,7 @@
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 			<particles value="true">
-					<affected-particle-file path="boost_particles.xml"/>
+					<affected-particle-file path="dmg_aura.xml"/>
 			</particles>
                         </attack-boost>
 			<attack-strenght value="1400"/>

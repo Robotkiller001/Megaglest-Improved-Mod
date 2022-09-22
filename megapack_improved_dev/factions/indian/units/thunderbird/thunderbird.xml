@@ -115,7 +115,7 @@
 			<attack-strenght value="240"/>
 			<attack-var value="50"/>
 			<attack-range value="7"/>
-			<attack-type value="energy"/>
+			<attack-type value="air_energy"/>
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>
@@ -146,7 +146,7 @@
 			<attack-strenght value="340"/>
 			<attack-var value="100"/>
 			<attack-range value="1"/>
-			<attack-type value="energy"/>
+			<attack-type value="sword"/>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
 				<radius value="0"/>

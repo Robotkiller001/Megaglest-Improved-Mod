@@ -120,7 +120,7 @@
 			<attack-strenght value="200"/>
 			<attack-var value="60"/>
 			<attack-range value="6"/>
-			<attack-type value="energy"/>
+			<attack-type value="air_energy"/>
 			<attack-start-time value="0.4"/>
 			<attack-fields>
 				<field value="land"/>

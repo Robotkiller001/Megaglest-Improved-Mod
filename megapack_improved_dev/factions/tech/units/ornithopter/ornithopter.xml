@@ -125,7 +125,7 @@
 			<attack-strenght value="170"/>
 			<attack-var value="60"/>
 			<attack-range value="6"/>
-			<attack-type value="energy"/>
+			<attack-type value="air_energy"/>
 			<attack-start-time value="0.4"/>
 			<attack-fields>
 				<field value="land"/>
@@ -157,7 +157,7 @@
 			<attack-strenght value="170"/>
 			<attack-var value="60"/>
 			<attack-range value="8"/>
-			<attack-type value="piercing"/>
+			<attack-type value="energy"/>
 			<attack-start-time value="0.5"/>
 			<attack-fields>
 				<field value="air"/>
