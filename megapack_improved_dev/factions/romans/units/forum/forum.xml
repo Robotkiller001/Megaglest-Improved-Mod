@@ -76,6 +76,16 @@
 			<sound enabled="false" />
 		</skill>
 		<skill>
+			<type value="be_built" />
+			<name value="be_built_skill"/>
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/forum_build_0.g3d" minHp="0" maxHp="6000"/>
+			<animation path="models/forum_build_50.g3d" minHp="6001" maxHp="14000"/>
+			<sound enabled="false" />
+		</skill>
+		<skill>
 			<type value="upgrade" />
 			<name value="upgrade_skill"/>		
 			<ep-cost value="0" />
@@ -156,15 +166,6 @@
 				<damage-all value="false"/>
 				<particle value="true" path="particle_splash.xml"/>
 			</splash>
-		</skill>
-		<skill>
-			<type value="be_built" />
-			<name value="be_built_skill"/>
-			<ep-cost value="0" />
-			<speed value="300" />
-			<anim-speed value="300" />
-			<animation path="models/forum_build.g3d" />
-			<sound enabled="false" />
 		</skill>
 		<skill>
 			<type value="produce" />

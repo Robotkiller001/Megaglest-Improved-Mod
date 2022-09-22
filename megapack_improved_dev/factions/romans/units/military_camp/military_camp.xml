@@ -59,7 +59,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="100" />
-			<animation path="models/recruiting_camp.g3d" />
+			<animation path="models/military_camp.g3d" />
 			<sound enabled="false" />
 		</skill>
 		<skill>
@@ -68,7 +68,8 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="models/recruiting_camp_build.g3d" />
+			<animation path="models/military_camp_build_0.g3d" minHp="0" maxHp="4000"/>
+			<animation path="models/military_camp_build_50.g3d" minHp="4001" maxHp="9000"/>
 			<sound enabled="false" />
 		</skill>
 		<skill>
@@ -77,16 +78,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="75" />
-			<animation path="models/recruiting_camp.g3d" />
-			<sound enabled="false" />
-		</skill>
-		<skill>
-			<type value="produce" />
-			<name value="produce_skill2"/>
-			<ep-cost value="0" />
-			<speed value="300" />
-			<anim-speed value="75" />
-			<animation path="models/recruiting_camp.g3d" />
+			<animation path="models/military_camp.g3d" />
 			<sound enabled="false" />
 		</skill>
 		<skill>
@@ -95,7 +87,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="150" />
-			<animation path="models/recruiting_camp.g3d" />
+			<animation path="models/military_camp.g3d" />
 			<sound enabled="false"/>
 			<particles value="true">
 				<particle-file path="upgrade_particles.xml"/>
@@ -107,7 +99,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="models/recruiting_camp_die.g3d" />
+			<animation path="models/military_camp_die.g3d" />
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall2.wav"/>
 			</sound>
@@ -131,25 +123,16 @@
 			<image path="../turtle_formation/images/guard.jpg" />
 			<unit-requirements />
 			<upgrade-requirements />
-			<produce-skill value="produce_skill2"/>
+			<produce-skill value="produce_skill"/>
 			<produced-unit name="turtle_formation"/>
 		</command>
-		<!--command>
-			<type value="produce"/>
-			<name value="produce_longbowman" />
-			<image path="../longbowman/images/archer.bmp" />
-			<unit-requirements />
-			<upgrade-requirements />
-			<produce-skill value="produce_skill2"/>
-			<produced-unit name="longbowman"/>
-		</command-->
 		<command>
 			<type value="produce"/>
 			<name value="produce_general" />
 			<image path="../general/images/guard.jpg" />
 			<unit-requirements />
 			<upgrade-requirements />
-			<produce-skill value="produce_skill2"/>
+			<produce-skill value="produce_skill"/>
 			<produced-unit name="general"/>
 		</command>
 		<command>

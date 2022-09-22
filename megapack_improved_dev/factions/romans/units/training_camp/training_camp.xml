@@ -67,7 +67,8 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="models/training_camp_build.g3d" />
+			<animation path="models/training_camp_build_0.g3d" minHp="0" maxHp="3500"/>
+			<animation path="models/training_camp_build_50.g3d" minHp="3501" maxHp="8000"/>
 			<sound enabled="false" />
 		</skill>
 		<skill>

@@ -8,7 +8,7 @@
 		<armor value="0" />
 		<armor-type value="wood"/>
 		<sight value="4" />
-		<time value="100" />
+		<time value="120" />
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
 		<cellmap value="true">
@@ -49,8 +49,8 @@
 			<type value="stop"/>
 			<name value="stop_skill"/>
 			<ep-cost value="0" />
-			<speed value="50" />
-			<anim-speed value="100" />
+			<speed value="300" />
+			<anim-speed value="150" />
 			<animation path="models/school.g3d" />
 			<sound enabled="false" />
 		</skill>
@@ -60,7 +60,8 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="models/school_build.g3d" />
+			<animation path="models/school_build_0.g3d" minHp="0" maxHp="4000"/>
+			<animation path="models/school_build_50.g3d" minHp="4001" maxHp="9000"/>
 			<sound enabled="false" />
 		</skill>
 		<skill>
@@ -78,7 +79,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="150" />
-			<animation path="models/school_pruduse.g3d" />
+			<animation path="models/school_produce.g3d" />
 			<sound enabled="false" />
 		</skill>
 		<skill>
@@ -87,7 +88,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="50" />
-			<animation path="models/school_pruduse2.g3d" />
+			<animation path="models/school_produce2.g3d" />
 			<sound enabled="false" />
 		</skill>
 		<skill>

@@ -64,6 +64,15 @@
 			<sound enabled="false"/>
 		</skill>
 		<skill>
+			<type value="move"/>
+			<name value="move_skill"/>
+			<ep-cost value="0"/>
+			<speed value="220"/>
+			<anim-speed value="125"/>
+			<animation path="models/snake_basket.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
