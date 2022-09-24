@@ -4,9 +4,9 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="10500"  regeneration="22" start-percentage="100"/>
+		<max-hp value="11500"  regeneration="22" start-percentage="100"/>
 		<max-ep value="1000" regeneration="50" start-percentage="100"/>
-		<armor value="40"/>
+		<armor value="45"/>
 		<armor-type value="blessed_armor"/>
 		<max-unit-count value="1"/>
 		<sight value="14"/>

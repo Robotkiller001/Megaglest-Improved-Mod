@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <unit-particle-system>
-	<texture value="true" path="images/dmg_aura.bmp" luminance="true" />
+	<texture value="true" path="images/dmg_aura.png" luminance="true" />
 	<primitive value="quad" />
 	<mode value="normal" />
 	<offset x="0" y="1" z="0.0" />

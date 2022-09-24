@@ -177,9 +177,9 @@
 		<damage-multiplier attack="air_energy" armor="leather2x" value="0.75"/>
 		<damage-multiplier attack="air_energy" armor="metal" value="0.75"/>
 		<damage-multiplier attack="air_energy" armor="metal2x" value="0.55"/>
-		<damage-multiplier attack="air_energy" armor="wood" value="0.5"/>
+		<damage-multiplier attack="air_energy" armor="wood" value="0.45"/>
 		<damage-multiplier attack="air_energy" armor="wood2x" value="0.75"/>
-		<damage-multiplier attack="air_energy" armor="stone" value="0.4"/>
+		<damage-multiplier attack="air_energy" armor="stone" value="0.35"/>
 		<damage-multiplier attack="air_energy" armor="stone2x" value="0.6"/>
 		<damage-multiplier attack="air_energy" armor="osiris_protection" value="0.8"/>
 		<damage-multiplier attack="air_energy" armor="ancient_recalls" value="0.8"/>

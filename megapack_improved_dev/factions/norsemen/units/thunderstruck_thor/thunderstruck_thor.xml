@@ -8,9 +8,9 @@
 	<parameters>
 		<size value="2"/>
 		<height value="4"/>
-		<max-hp value="11500" regeneration="22" start-percentage="100"/>
+		<max-hp value="12500" regeneration="22" start-percentage="100"/>
 		<max-ep value="1000" regeneration="50" start-percentage="100"/>
-		<armor value="50"/>
+		<armor value="55"/>
 		<armor-type value="odin_shield"/>
 		<max-unit-count value="1"/>
 		<sight value="14"/>

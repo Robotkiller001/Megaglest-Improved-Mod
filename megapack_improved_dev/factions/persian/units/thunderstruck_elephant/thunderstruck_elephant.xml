@@ -7,9 +7,9 @@
 	<parameters>
 		<size value="2"/>
 		<height value="2"/>
-		<max-hp value="10500" regeneration="22" start-percentage="100"/>
+		<max-hp value="11500" regeneration="22" start-percentage="100"/>
 		<max-ep value="1000" regeneration="50" start-percentage="100"/>
-		<armor value="50"/>
+		<armor value="55"/>
 		<armor-type value="obsidian_aura"/>
 		<max-unit-count value="1"/>
 		<sight value="14"/>

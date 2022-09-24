@@ -4,9 +4,9 @@
 	<parameters>
 		<size value="2"/>
 		<height value="4"/>
-		<max-hp value="12000" regeneration="22" start-percentage="100"/>
+		<max-hp value="13000" regeneration="22" start-percentage="100"/>
 		<max-ep value="1000" regeneration="50" start-percentage="100"/>
-		<armor value="70"/>
+		<armor value="75"/>
 		<armor-type value="valak_power"/>
 		<max-unit-count value="1"/>
 		<sight value="14"/>
