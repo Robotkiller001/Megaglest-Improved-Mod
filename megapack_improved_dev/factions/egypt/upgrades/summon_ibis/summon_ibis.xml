@@ -12,7 +12,6 @@
 		<resource name="stone" amount="50"/>
 	</resource-requirements>
 	<effects>
-		<unit name="spearthrower"/>
 		<unit name="scarab"/>
 		<unit name="snake"/>
 		<unit name="stone_snake"/>

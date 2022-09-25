@@ -85,7 +85,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="270"/>
+			<speed value="260"/>
 			<anim-speed value="120"/>
 			<animation path="models/anubis_walking.g3d"/>
 			<sound enabled="false"/>

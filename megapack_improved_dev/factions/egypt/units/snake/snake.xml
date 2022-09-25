@@ -15,7 +15,7 @@
 		<levels>
 			<level name="expert" kills="8"/>
 			<level name="master" kills="18"/>
-			<level name="grandmaster" kills="40"/>
+			<level name="grandmaster" kills="36"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -84,8 +84,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="160"/>
-			<anim-speed value="95"/>
+			<speed value="170"/>
+			<anim-speed value="100"/>
 			<animation path="models/snake_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -94,8 +94,8 @@
 			<type value="attack"/>
 			<name value="poison_shot_skill"/>
 			<ep-cost value="0"/>
-			<speed value="55"/>
-			<anim-speed value="55"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
 			<animation path="models/snake_attacking.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/snake_attack1.wav"/>
@@ -103,7 +103,7 @@
 				<sound-file path="sounds/snake_attack3.wav"/>
 				<sound-file path="sounds/snake_attack4.wav"/>
 			</sound>
-			<attack-strenght value="190"/>
+			<attack-strenght value="200"/>
 			<attack-var value="50"/>
 			<attack-range value="9"/>
 			<attack-type value="energy"/>

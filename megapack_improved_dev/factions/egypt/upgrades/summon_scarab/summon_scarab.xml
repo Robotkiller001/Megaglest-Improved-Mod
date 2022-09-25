@@ -15,7 +15,6 @@
 		<unit name="horus_scout"/>
 		<unit name="mummy"/>
 		<unit name="priest"/>
-		<unit name="spearman"/>
 		<unit name="anubis_warrior"/>
 	</effects>
 	<max-hp value="75"/>

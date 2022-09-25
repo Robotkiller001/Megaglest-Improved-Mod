@@ -102,7 +102,7 @@
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
 			<speed value="90"/>
-			<anim-speed value="85"/>
+			<anim-speed value="90"/>
 			<animation path="models/spearman_attacking.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/stickfighter_attack1.wav"/>

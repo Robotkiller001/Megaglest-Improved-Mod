@@ -164,8 +164,8 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack15.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack16.wav"/>
 			</sound>
-			<attack-strenght value="260"/>
-			<attack-var value="50"/>
+			<attack-strenght value="270"/>
+			<attack-var value="60"/>
 			<attack-range value="10"/>
 			<attack-type value="air_energy"/>
 			<attack-start-time value="0"/>
