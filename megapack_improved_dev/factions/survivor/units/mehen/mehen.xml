@@ -183,8 +183,8 @@
 					<affected-particle-file path="venom_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="220"/>
-			<attack-var value="80"/>
+			<attack-strenght value="230"/>
+			<attack-var value="70"/>
 			<attack-range value="1"/>
 			<attack-type value="survivor"/>
 			<attack-fields>

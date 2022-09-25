@@ -186,8 +186,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="70"/>
-			<anim-speed value="85"/>
+			<speed value="80"/>
+			<anim-speed value="80"/>
 			<animation path="models/worker_harversting_wood.g3d"/>
 			<sound enabled="true" start-time="0.47">
 				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack1.wav"/>

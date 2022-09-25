@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="1400"  regeneration="3" start-percentage="100"/>
+		<max-hp value="1500"  regeneration="3" start-percentage="100"/>
 		<max-ep value="0"/>
 		<armor value="50"/>
 		<armor-type value="metal"/>
@@ -27,8 +27,8 @@
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="wood" amount="100"/>
 			<resource name="gold" amount="175"/>
+			<resource name="wood" amount="100"/>
 			<resource name="food" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>

@@ -7,18 +7,18 @@
 	<parameters>
 		<size value="2"/>
 		<height value="2"/>
-		<max-hp value="2500" regeneration="6"/>
+		<max-hp value="2250" regeneration="6"/>
 		<max-ep value="0"/>
 		<armor value="40"/>
 		<armor-type value="leather"/>
 		<sight value="12"/>
-		<time value="140"/>
+		<time value="130"/>
 		<multi-selection value="true"/>
 		<uniform-selection value="false"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="expert" kills="10"/>
-			<level name="advanced" kills="25"/>
+			<level name="expert" kills="8"/>
+			<level name="advanced" kills="20"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -30,8 +30,8 @@
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="wood" amount="150"/>
 			<resource name="gold" amount="200"/>
+			<resource name="wood" amount="125"/>
 			<resource name="food" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -113,12 +113,11 @@
 			<speed value="60"/>
 			<anim-speed value="60"/>
 			<animation path="models/bram_attack.g3d"/>
-			<!--animation path="models/battering_ram_attack.g3d"/-->
 			<sound enabled="true" start-time="0.0">
 				<sound-file path="/sounds/golem_attack1.ogg"/>
 			</sound>
-			<attack-strength value="460"/>
-			<attack-var value="140"/>
+			<attack-strength value="420"/>
+			<attack-var value="130"/>
 			<attack-range value="2"/>
 			<attack-type value="impact"/>
 			<attack-start-time value="0.5"/>
