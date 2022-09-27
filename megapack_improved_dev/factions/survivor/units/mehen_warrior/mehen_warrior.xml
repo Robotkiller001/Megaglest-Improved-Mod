@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="1"/>
-		<max-hp value="1800" regeneration="30" start-percentage="100"/>
+		<max-hp value="1900" regeneration="30" start-percentage="100"/>
 		<max-ep value="0" regeneration="0"/>
 		<armor value="15"/>
 		<armor-type value="survivor"/>

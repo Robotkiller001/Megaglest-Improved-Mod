@@ -9,7 +9,7 @@
 		<height value="2"/>
 		<max-hp value="11500" regeneration="22" start-percentage="100"/>
 		<max-ep value="1000" regeneration="50" start-percentage="100"/>
-		<armor value="55"/>
+		<armor value="50"/>
 		<armor-type value="obsidian_aura"/>
 		<max-unit-count value="1"/>
 		<sight value="14"/>
@@ -73,7 +73,7 @@
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
 				<radius value="8"/>
-                        	<target value="faction" include-self="false">
+                        	<target value="faction" include-self="true">
 				</target>
 				<max-hp value="0" regeneration="4"/>
 				<max-ep value="0"/>

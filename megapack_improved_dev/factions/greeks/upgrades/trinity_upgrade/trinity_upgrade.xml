@@ -41,6 +41,8 @@
 		<unit name="farm"/>
 		<unit name="palace"/>
 		<unit name="temple"/>
+		<unit name="air_box"/>
+		<unit name="tower"/>
 	</effects>
 	<max-hp value="8" value-percent-multiplier="true"  regeneration="1"/>
 	<max-ep value="0"/>

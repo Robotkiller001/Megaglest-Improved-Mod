@@ -66,7 +66,7 @@
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
 				<radius value="8"/>
-                        	<target value="faction" include-self="false">
+                        	<target value="faction" include-self="true">
 				</target>
 				<max-hp value="0" regeneration="4"/>
 				<max-ep value="0"/>

@@ -36,6 +36,8 @@
 		<unit name="barracks"/>
 		<unit name="blacksmith"/>
 		<unit name="archery_barracks"/>
+		<unit name="air_ballista"/>
+		<unit name="defense_tower"/>
 	</effects>
 	<max-hp value="8" value-percent-multiplier="true"  regeneration="1"/>
 	<max-ep value="0"/>

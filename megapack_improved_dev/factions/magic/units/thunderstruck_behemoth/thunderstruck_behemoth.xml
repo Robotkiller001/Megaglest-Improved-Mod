@@ -4,9 +4,9 @@
 	<parameters>
 		<size value="2"/>
 		<height value="4"/>
-		<max-hp value="13000" regeneration="22" start-percentage="100"/>
+		<max-hp value="13000" regeneration="24" start-percentage="100"/>
 		<max-ep value="1000" regeneration="50" start-percentage="100"/>
-		<armor value="75"/>
+		<armor value="70"/>
 		<armor-type value="valak_power"/>
 		<max-unit-count value="1"/>
 		<sight value="14"/>
@@ -67,7 +67,7 @@
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
 				<radius value="8"/>
-                        	<target value="faction" include-self="false">
+                        	<target value="faction" include-self="true">
 				</target>
 				<max-hp value="0" regeneration="4"/>
 				<max-ep value="0"/>
@@ -169,7 +169,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill2"/>
-			<ep-cost value="1000"/>
+			<ep-cost value="800"/>
 			<speed value="50"/>
 			<anim-speed value="50"/>
 			<animation path="models/behemoth_attacking2.g3d"/>

@@ -12,7 +12,7 @@
 		<resource name="stone" amount="100"/>
 	</resource-requirements>
 	<effects>
-		<unit name="daemon"/>
+		<unit name="demon"/>
 		<unit name="ghost_armor"/>
 		<unit name="necromante"/>
 		<unit name="dragon"/>

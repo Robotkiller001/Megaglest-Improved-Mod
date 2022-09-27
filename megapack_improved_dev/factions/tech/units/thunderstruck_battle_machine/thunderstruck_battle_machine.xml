@@ -8,7 +8,7 @@
 		<ai-build-size value="3"/>
 		<max-hp value="12000" regeneration="22" start-percentage="100"/>
 		<max-ep value="1000" regeneration="50" start-percentage="100"/>
-		<armor value="55"/>
+		<armor value="50"/>
 		<armor-type value="advanced_protection"/>
 		<max-unit-count value="1"/>
 		<sight value="14"/>
@@ -72,7 +72,7 @@
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
 				<radius value="8"/>
-                        	<target value="faction" include-self="false">
+                        	<target value="faction" include-self="true">
 				</target>
 				<max-hp value="0" regeneration="4"/>
 				<max-ep value="0"/>

@@ -177,9 +177,9 @@
 		<damage-multiplier attack="air_energy" armor="leather2x" value="0.75"/>
 		<damage-multiplier attack="air_energy" armor="metal" value="0.75"/>
 		<damage-multiplier attack="air_energy" armor="metal2x" value="0.55"/>
-		<damage-multiplier attack="air_energy" armor="wood" value="0.45"/>
+		<damage-multiplier attack="air_energy" armor="wood" value="0.5"/>
 		<damage-multiplier attack="air_energy" armor="wood2x" value="0.75"/>
-		<damage-multiplier attack="air_energy" armor="stone" value="0.35"/>
+		<damage-multiplier attack="air_energy" armor="stone" value="0.4"/>
 		<damage-multiplier attack="air_energy" armor="stone2x" value="0.6"/>
 		<damage-multiplier attack="air_energy" armor="osiris_protection" value="0.8"/>
 		<damage-multiplier attack="air_energy" armor="ancient_recalls" value="0.8"/>
@@ -208,39 +208,39 @@
 		<damage-multiplier attack="roots" armor="advanced_protection" value="0.8"/>
 		<damage-multiplier attack="roots" armor="artemis_bless" value="0.8"/>
 
-		<damage-multiplier attack="castle" armor="osiris_protection" value="4.5"/>
-		<damage-multiplier attack="castle" armor="ancient_recalls" value="4.5"/>
-		<damage-multiplier attack="castle" armor="valak_power" value="4.5"/>
-		<damage-multiplier attack="castle" armor="odin_shield" value="4.5"/>
-		<damage-multiplier attack="castle" armor="obsidian_aura" value="4.5"/>
-		<damage-multiplier attack="castle" armor="blessed_armor" value="4.5"/>
-		<damage-multiplier attack="castle" armor="advanced_protection" value="4.5"/>
-		<damage-multiplier attack="castle" armor="artemis_bless" value="4.5"/>
-		<damage-multiplier attack="castle" armor="survivor" value="9.0"/>
+		<damage-multiplier attack="castle" armor="osiris_protection" value="4.0"/>
+		<damage-multiplier attack="castle" armor="ancient_recalls" value="4.0"/>
+		<damage-multiplier attack="castle" armor="valak_power" value="4.0"/>
+		<damage-multiplier attack="castle" armor="odin_shield" value="4.0"/>
+		<damage-multiplier attack="castle" armor="obsidian_aura" value="4.0"/>
+		<damage-multiplier attack="castle" armor="blessed_armor" value="4.0"/>
+		<damage-multiplier attack="castle" armor="advanced_protection" value="4.0"/>
+		<damage-multiplier attack="castle" armor="artemis_bless" value="4.0"/>
+		<damage-multiplier attack="castle" armor="survivor" value="8.0"/>
 
-		<damage-multiplier attack="scarab" armor="survivor" value="2.5"/>
-		<damage-multiplier attack="shaman" armor="survivor" value="2.5"/>
-		<damage-multiplier attack="behemoth" armor="survivor" value="2.5"/>
-		<damage-multiplier attack="thor" armor="survivor" value="2.5"/>
-		<damage-multiplier attack="elephant" armor="survivor" value="2.5"/>
-		<damage-multiplier attack="general" armor="survivor" value="2.5"/>
-		<damage-multiplier attack="battle_machine" armor="survivor" value="2.5"/>
-		<damage-multiplier attack="alexander" armor="survivor" value="2.5"/>
+		<damage-multiplier attack="scarab" armor="survivor" value="3.0"/>
+		<damage-multiplier attack="shaman" armor="survivor" value="3.0"/>
+		<damage-multiplier attack="behemoth" armor="survivor" value="3.0"/>
+		<damage-multiplier attack="thor" armor="survivor" value="3.0"/>
+		<damage-multiplier attack="elephant" armor="survivor" value="3.0"/>
+		<damage-multiplier attack="general" armor="survivor" value="3.0"/>
+		<damage-multiplier attack="battle_machine" armor="survivor" value="3.0"/>
+		<damage-multiplier attack="alexander" armor="survivor" value="3.0"/>
 
-		<damage-multiplier attack="survivor" armor="osiris_protection" value="0.6"/>
-		<damage-multiplier attack="survivor" armor="ancient_recalls" value="0.6"/>
-		<damage-multiplier attack="survivor" armor="valak_power" value="0.6"/>
-		<damage-multiplier attack="survivor" armor="odin_shield" value="0.6"/>
-		<damage-multiplier attack="survivor" armor="obsidian_aura" value="0.6"/>
-		<damage-multiplier attack="survivor" armor="blessed_armor" value="0.6"/>
-		<damage-multiplier attack="survivor" armor="advanced_protection" value="0.6"/>
-		<damage-multiplier attack="survivor" armor="artemis_bless" value="0.6"/>
+		<damage-multiplier attack="survivor" armor="osiris_protection" value="0.5"/>
+		<damage-multiplier attack="survivor" armor="ancient_recalls" value="0.5"/>
+		<damage-multiplier attack="survivor" armor="valak_power" value="0.5"/>
+		<damage-multiplier attack="survivor" armor="odin_shield" value="0.5"/>
+		<damage-multiplier attack="survivor" armor="obsidian_aura" value="0.5"/>
+		<damage-multiplier attack="survivor" armor="blessed_armor" value="0.5"/>
+		<damage-multiplier attack="survivor" armor="advanced_protection" value="0.5"/>
+		<damage-multiplier attack="survivor" armor="artemis_bless" value="0.5"/>
 		<damage-multiplier attack="survivor" armor="organic2x" value="0.85"/>
 		<damage-multiplier attack="survivor" armor="leather2x" value="0.85"/>
 		<damage-multiplier attack="survivor" armor="metal2x" value="0.85"/>
-		<damage-multiplier attack="survivor" armor="wood" value="0.55"/>
+		<damage-multiplier attack="survivor" armor="wood" value="0.5"/>
 		<damage-multiplier attack="survivor" armor="wood2x" value="0.85"/>
-		<damage-multiplier attack="survivor" armor="stone" value="0.45"/>
+		<damage-multiplier attack="survivor" armor="stone" value="0.4"/>
 		<damage-multiplier attack="survivor" armor="stone2x" value="0.85"/>
 
 	</damage-multipliers>

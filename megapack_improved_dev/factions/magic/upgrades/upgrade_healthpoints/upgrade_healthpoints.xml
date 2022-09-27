@@ -13,7 +13,7 @@
 		<unit name="archmage"/>
 		<unit name="skeleton"/>
 		<unit name="battlemage"/>
-		<unit name="daemon"/>
+		<unit name="demon"/>
 		<unit name="dragon"/>
 		<unit name="dragon_rider"/>
 		<unit name="evil_dragon"/>

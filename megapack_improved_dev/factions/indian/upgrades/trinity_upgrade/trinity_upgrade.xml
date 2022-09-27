@@ -39,6 +39,7 @@
 		<unit name="round_tent"/>
 		<unit name="tent"/>
 		<unit name="totem"/>
+		<unit name="beehive"/>
 	</effects>
 	<max-hp value="8" value-percent-multiplier="true"  regeneration="1"/>
 	<max-ep value="0"/>

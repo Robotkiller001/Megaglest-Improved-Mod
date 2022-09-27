@@ -13,7 +13,7 @@
 		<unit name="initiate"/>
 		<unit name="battlemage"/>
 		<unit name="necromante"/>
-		<unit name="daemon"/>
+		<unit name="demon"/>
 		<unit name="skeleton"/>
 		<unit name="ghost_armor"/>
 		<unit name="ghost_armor_swordmaster"/>

@@ -228,12 +228,12 @@
 
 		<command>
 			<type value="produce"/>
-			<name value="summon_daemon" />
-			<image path="images/summoner_daemon.bmp"/>
+			<name value="summon_demon" />
+			<image path="images/summoner_demon.bmp"/>
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="summon_skill"/>
-			<produced-unit name="daemon"/>
+			<produced-unit name="demon"/>
 		</command>
 
 		<command>

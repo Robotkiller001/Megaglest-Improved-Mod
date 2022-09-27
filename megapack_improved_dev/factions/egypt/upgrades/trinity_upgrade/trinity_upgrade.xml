@@ -33,6 +33,8 @@
 		<unit name="obelisk"/>
 		<unit name="pyramid"/>
 		<unit name="temple"/>
+		<unit name="air_pyramid"/>
+		<unit name="sphinx"/>
 	</effects>
 	<max-hp value="8" value-percent-multiplier="true"  regeneration="1"/>
 	<max-ep value="0"/>

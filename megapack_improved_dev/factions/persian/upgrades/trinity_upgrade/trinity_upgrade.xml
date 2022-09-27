@@ -32,6 +32,8 @@
 		<unit name="palace"/>
 		<unit name="temple"/>
 		<unit name="tent"/>
+		<unit name="snake_basket"/>
+		<unit name="minaret"/>
 	</effects>
 	<max-hp value="8" value-percent-multiplier="true"  regeneration="1"/>
 	<max-ep value="0"/>

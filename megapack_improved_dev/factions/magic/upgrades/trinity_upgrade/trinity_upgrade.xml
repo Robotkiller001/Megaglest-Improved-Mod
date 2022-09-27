@@ -15,7 +15,7 @@
 		<unit name="archmage"/>
 		<unit name="skeleton"/>
 		<unit name="battlemage"/>
-		<unit name="daemon"/>
+		<unit name="demon"/>
 		<unit name="dragon"/>
 		<unit name="dragon_rider"/>
 		<unit name="evil_dragon"/>
@@ -36,6 +36,9 @@
 		<unit name="mage_tower"/>
 		<unit name="summoner_guild"/>
 		<unit name="wicker_behemoth"/>
+		<unit name="archmage_tower"/>
+		<unit name="tower_of_souls"/>
+		<unit name="tower_of_souls_moving"/>
 	</effects>
 	<max-hp value="8" value-percent-multiplier="true"  regeneration="1"/>
 	<max-ep value="0"/>

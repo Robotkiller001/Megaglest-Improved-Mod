@@ -84,8 +84,8 @@
 				<sound-file path="sounds/eagle_attack3.wav"/>
 				<sound-file path="sounds/eagle_attack4.wav"/>
 			</sound>
-			<attack-strenght value="230"/>
-			<attack-var value="60"/>
+			<attack-strenght value="240"/>
+			<attack-var value="70"/>
 			<attack-range value="16"/>
 			<attack-type value="castle"/>
 			<attack-start-time value="0.25"/>
