@@ -98,7 +98,7 @@
                         	<target value="faction" include-self="false">
 					<unit-type name="archmage"/>
 					<unit-type name="battlemage"/>
-					<unit-type name="daemon"/>
+					<unit-type name="demon"/>
 					<unit-type name="dragon"/>
 					<unit-type name="dragon_rider"/>
 					<unit-type name="evil_dragon"/>
