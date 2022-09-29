@@ -17,7 +17,7 @@
 		<unit name="chariot"/>
 		<unit name="druid"/>
 		<unit name="dragon"/>
-		<unit name="wild_sow"/>
+		<unit name="hunting_wolf"/>
 		<unit name="psiloi"/>
 	</effects>
 	<max-hp value="50"/>

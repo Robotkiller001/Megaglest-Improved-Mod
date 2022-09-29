@@ -128,6 +128,7 @@
 					<unit-type name="dragon"/>
 					<unit-type name="druid"/>
 					<unit-type name="hoplite"/>
+					<unit-type name="hunting_wolf"/>
 					<unit-type name="onager"/>
 					<unit-type name="peltast"/>
 					<unit-type name="peltast_"/>
@@ -136,7 +137,6 @@
 					<unit-type name="survived_cavalry"/>
 					<unit-type name="survived_chariot"/>
 					<unit-type name="swordman"/>
-					<unit-type name="wild_sow"/>
 					<unit-type name="thunderstruck_alexander"/>
 				</target>
 				<max-hp value="0" regeneration="4"/>

@@ -102,7 +102,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack2.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack3.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack4.wav"/>
-				<sound-file path="sounds/guard_attack5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack5.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack6.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack7.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack8.wav"/>
@@ -133,10 +133,9 @@
 			<anim-speed value="40"/>
 			<animation path="models/g_attack_air.g3d"/>
 			<sound enabled="true" start-time="0.2">
-				<sound-file path="$COMMONDATAPATH/sounds/archer_attack1.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/archer_attack2.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/archer_attack3.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/archer_attack4.wav"/>
+				<sound-file path="/sounds/gladiator_attack1.wav"/>
+				<sound-file path="/sounds/gladiator_attack2.wav"/>
+				<sound-file path="/sounds/gladiator_attack3.wav"/>
 			</sound>
 			<attack-strenght value="170"/>
 			<attack-var value="40"/>

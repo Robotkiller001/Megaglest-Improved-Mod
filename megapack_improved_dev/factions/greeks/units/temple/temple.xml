@@ -14,8 +14,8 @@
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
 		<cellmap value="true">
-			<row value="101"/>
-			<row value="000"/>
+			<row value="111"/>
+			<row value="111"/>
 			<row value="101"/>
 		</cellmap>
 		<levels/>

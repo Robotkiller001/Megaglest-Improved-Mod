@@ -21,6 +21,7 @@
 		<unit name="dragon"/>
 		<unit name="druid"/>
 		<unit name="hera"/>
+		<unit name="hunting_wolf"/>
 		<unit name="hoplite"/>
 		<unit name="onager"/>
 		<unit name="oxybeles"/>
@@ -31,7 +32,6 @@
 		<unit name="survived_cavalry"/>
 		<unit name="survived_chariot"/>
 		<unit name="swordman"/>
-		<unit name="wild_sow"/>
 		<unit name="thunderstruck_alexander"/>
 
 		<unit name="barracks"/>
