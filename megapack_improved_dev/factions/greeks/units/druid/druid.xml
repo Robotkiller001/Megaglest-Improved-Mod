@@ -123,7 +123,7 @@
 				<sound-file path="sounds/druid_attack2.wav"/>
 				<sound-file path="sounds/druid_attack3.wav"/>
 			</sound>
-			<attack-strenght value="520"/>
+			<attack-strenght value="550"/>
 			<attack-var value="100"/>
 			<attack-range value="4"/>
 			<attack-type value="roots"/>

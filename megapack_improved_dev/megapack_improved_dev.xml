@@ -190,11 +190,11 @@
 		<damage-multiplier attack="air_energy" armor="advanced_protection" value="0.8"/>
 		<damage-multiplier attack="air_energy" armor="artemis_bless" value="0.8"/>
 
-		<damage-multiplier attack="roots" armor="organic" value="1.5"/>
-		<damage-multiplier attack="roots" armor="organic2x" value="1.35"/>
-		<damage-multiplier attack="roots" armor="leather" value="1.4"/>
-		<damage-multiplier attack="roots" armor="leather2x" value="1.25"/>
-		<damage-multiplier attack="roots" armor="metal" value="0.5"/>
+		<damage-multiplier attack="roots" armor="organic" value="1.4"/>
+		<damage-multiplier attack="roots" armor="organic2x" value="1.25"/>
+		<damage-multiplier attack="roots" armor="leather" value="1.3"/>
+		<damage-multiplier attack="roots" armor="leather2x" value="1.15"/>
+		<damage-multiplier attack="roots" armor="metal" value="0.55"/>
 		<damage-multiplier attack="roots" armor="metal2x" value="0.4"/>
 		<damage-multiplier attack="roots" armor="wood2x" value="0.8"/>
 		<damage-multiplier attack="roots" armor="stone" value="0.6"/>
