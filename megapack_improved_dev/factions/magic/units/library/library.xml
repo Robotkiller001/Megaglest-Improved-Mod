@@ -102,7 +102,7 @@
 		<command>
 			<type value="upgrade"/>
 			<name value="research_energy_compression"/>
-			<image path="../../upgrades/energy_compression/images/enchant_sky.png"/>
+			<image path="../../upgrades/energy_compression/images/energy_compression.bmp"/>
 			<unit-requirements />
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
@@ -111,7 +111,7 @@
 		<command>
 			<type value="upgrade"/>
 			<name value="research_energy_sharpening"/>
-			<image path="../../upgrades/energy_sharpening/images/fireball_eerie.png"/>
+			<image path="../../upgrades/energy_sharpening/images/energy_sharpening.bmp"/>
 			<unit-requirements />
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
@@ -120,7 +120,7 @@
 		<command>
 			<type value="upgrade" />
 			<name value="research_hell_gate" />
-			<image path="../../upgrades/hell_gate/images/evil_eye_red.png" />
+			<image path="../../upgrades/hell_gate/images/hell_gate.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
@@ -129,7 +129,7 @@
 		<command>
 			<type value="upgrade"/>
 			<name value="research_big_rock"/>
-			<image path="../../upgrades/big_rock/images/rock_plain.png"/>
+			<image path="../../upgrades/big_rock/images/big_rock.bmp"/>
 			<unit-requirements />
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
@@ -138,7 +138,7 @@
 		<command>
 			<type value="upgrade" />
 			<name value="research_faster_movement" />
-			<image path="../../upgrades/faster_movement/images/haste_fire.png" />
+			<image path="../../upgrades/faster_movement/images/faster_movement.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
