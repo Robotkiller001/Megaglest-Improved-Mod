@@ -4,17 +4,17 @@
 	<parameters>
 		<size value="3"/>
 		<height value="2"/>
-		<max-hp value="3100"  regeneration="6" start-percentage="100"/>
+		<max-hp value="2000"  regeneration="5" start-percentage="100"/>
 		<max-ep value="0"/>
-		<armor value="50"/>
+		<armor value="40"/>
 		<armor-type value="metal2x"/>
 		<sight value="10"/>
-		<time value="100"/>
+		<time value="110"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="expert" kills="8"/>
-			<level name="elite" kills="18"/>
+			<level name="expert" kills="6"/>
+			<level name="elite" kills="14"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -142,6 +142,12 @@
 				<sound-file path="$COMMONDATAPATH/sounds/guard_die3.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_die4.wav"/>
 			</sound>
+			<spawn start-time="0.8">
+				<unit value="survived_cavalry"/>
+				<amount value="4"/>
+				<health-percent min="70" max="80"/>
+				<probability value="100"/>
+			</spawn>
 			<fade value="false"/>
 		</skill>
 

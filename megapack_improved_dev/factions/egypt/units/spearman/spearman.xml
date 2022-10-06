@@ -150,7 +150,7 @@
 		<command>
 			<type value="stop"/>
 			<name value="stop"/>
-			<image path="../spearman/images/tech_stop.bmp"/>
+			<image path="images/tech_stop.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
@@ -159,7 +159,7 @@
 		<command>
 			<type value="move"/>
 			<name value="move"/>
-			<image path="../spearman/images/tech_move.bmp"/>
+			<image path="images/tech_move.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
@@ -168,7 +168,7 @@
 		<command>
 			<type value="attack"/>
 			<name value="attack"/>
-			<image path="images/swordman_attack.bmp"/>
+			<image path="images/spearman_attack.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
@@ -178,7 +178,7 @@
 		<command>
 			<type value="attack_stopped"/>
 			<name value="hold_position"/>
-			<image path="../spearman/images/tech_hold.bmp"/>
+			<image path="images/tech_hold.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
