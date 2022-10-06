@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="1500"  regeneration="3" start-percentage="100"/>
+		<max-hp value="1400"  regeneration="3" start-percentage="100"/>
 		<max-ep value="0"/>
 		<armor value="50"/>
 		<armor-type value="metal"/>
@@ -116,7 +116,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack13.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack14.wav"/>
 			</sound>
-			<attack-strenght value="130"/>
+			<attack-strenght value="140"/>
 			<attack-var value="40"/>
 			<attack-range value="1"/>
 			<attack-type value="sword"/>

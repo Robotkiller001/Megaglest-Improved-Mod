@@ -7,7 +7,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="900" regeneration="3" start-percentage="100"/>
+		<max-hp value="1000" regeneration="3" start-percentage="100"/>
 		<max-ep value="0"/>
 		<armor value="30"/>
 		<armor-type value="leather"/>
@@ -111,8 +111,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="110"/>
-			<anim-speed value="110"/>
+			<speed value="90"/>
+			<anim-speed value="90"/>
 			<animation path="models/axeman_attacking.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/daemon_attack1.wav"/>
@@ -124,8 +124,8 @@
 				<sound-file path="sounds/daemon_attack7.wav"/>
 				<sound-file path="sounds/daemon_attack8.wav"/>
 			</sound>
-			<attack-strenght value="150"/>
-			<attack-var value="30"/>
+			<attack-strenght value="160"/>
+			<attack-var value="40"/>
 			<attack-range value="1"/>
 			<attack-type value="sword"/>
 			<attack-fields>

@@ -7,9 +7,9 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="1000" regeneration="2" start-percentage="100"/>
+		<max-hp value="1100" regeneration="2" start-percentage="100"/>
 		<max-ep value="0"/>
-		<armor value="30"/>
+		<armor value="35"/>
 		<armor-type value="leather"/>
 		<sight value="9"/>
 		<time value="50"/>
