@@ -97,7 +97,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/tower_attack5.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/tower_attack6.wav"/>
 			</sound>
-			<attack-strength value="310"/>
+			<attack-strength value="320"/>
 			<attack-var value="80"/>
 			<attack-range value="16"/>
 			<attack-type value="castle"/>

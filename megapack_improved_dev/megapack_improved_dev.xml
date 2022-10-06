@@ -37,8 +37,10 @@
 		<armor-type name="metal2x"/>
 		<armor-type name="wood"/>
 		<armor-type name="wood2x"/>
+		<armor-type name="wood3x"/>
 		<armor-type name="stone"/>
 		<armor-type name="stone2x"/>
+		<armor-type name="stone3x"/>
 		<armor-type name="osiris_protection"/>
 		<armor-type name="ancient_recalls"/>
 		<armor-type name="valak_power"/>
@@ -57,10 +59,12 @@
 		<damage-multiplier attack="arrow" armor="leather2x" value="1.25"/>
 		<damage-multiplier attack="arrow" armor="wood" value="0.85"/>
 		<damage-multiplier attack="arrow" armor="wood2x" value="0.85"/>
+		<damage-multiplier attack="arrow" armor="wood3x" value="0.85"/>
 		<damage-multiplier attack="arrow" armor="metal" value="0.75"/>
 		<damage-multiplier attack="arrow" armor="metal2x" value="0.75"/>
 		<damage-multiplier attack="arrow" armor="stone" value="0.6"/>
 		<damage-multiplier attack="arrow" armor="stone2x" value="0.6"/>
+		<damage-multiplier attack="arrow" armor="stone3x" value="0.6"/>
 		<damage-multiplier attack="arrow" armor="osiris_protection" value="0.8"/>
 		<damage-multiplier attack="arrow" armor="ancient_recalls" value="0.8"/>
 		<damage-multiplier attack="arrow" armor="valak_power" value="0.8"/>
@@ -74,8 +78,10 @@
 		<damage-multiplier attack="sword" armor="organic2x" value="1.25"/>
 		<damage-multiplier attack="sword" armor="wood" value="0.85"/>
 		<damage-multiplier attack="sword" armor="wood2x" value="0.85"/>
+		<damage-multiplier attack="sword" armor="wood3x" value="0.85"/>
 		<damage-multiplier attack="sword" armor="stone" value="0.6"/>
 		<damage-multiplier attack="sword" armor="stone2x" value="0.6"/>
+		<damage-multiplier attack="sword" armor="stone3x" value="0.6"/>
 		<damage-multiplier attack="sword" armor="metal" value="0.75"/>
 		<damage-multiplier attack="sword" armor="metal2x" value="0.75"/>
 		<damage-multiplier attack="sword" armor="osiris_protection" value="0.8"/>
@@ -89,8 +95,10 @@
 
 		<damage-multiplier attack="beat" armor="wood" value="0.8"/>
 		<damage-multiplier attack="beat" armor="wood2x" value="0.8"/>
+		<damage-multiplier attack="beat" armor="wood3x" value="0.8"/>
 		<damage-multiplier attack="beat" armor="stone" value="0.55"/>
 		<damage-multiplier attack="beat" armor="stone2x" value="0.55"/>
+		<damage-multiplier attack="beat" armor="stone3x" value="0.55"/>
 		<damage-multiplier attack="beat" armor="metal" value="0.7"/>
 		<damage-multiplier attack="beat" armor="metal2x" value="0.7"/>
 		<damage-multiplier attack="beat" armor="osiris_protection" value="0.8"/>
@@ -108,8 +116,10 @@
 		<damage-multiplier attack="energy" armor="metal" value="0.75"/>
 		<damage-multiplier attack="energy" armor="metal2x" value="0.55"/>
 		<damage-multiplier attack="energy" armor="wood2x" value="0.75"/>
+		<damage-multiplier attack="energy" armor="wood3x" value="0.75"/>
 		<damage-multiplier attack="energy" armor="stone" value="0.8"/>
 		<damage-multiplier attack="energy" armor="stone2x" value="0.6"/>
+		<damage-multiplier attack="energy" armor="stone3x" value="0.6"/>
 		<damage-multiplier attack="energy" armor="osiris_protection" value="0.8"/>
 		<damage-multiplier attack="energy" armor="ancient_recalls" value="0.8"/>
 		<damage-multiplier attack="energy" armor="valak_power" value="0.8"/>
@@ -125,8 +135,10 @@
 		<damage-multiplier attack="piercing" armor="metal2x" value="0.75"/>
 		<damage-multiplier attack="piercing" armor="wood" value="0.85"/>
 		<damage-multiplier attack="piercing" armor="wood2x" value="0.85"/>
+		<damage-multiplier attack="piercing" armor="wood3x" value="0.85"/>
 		<damage-multiplier attack="piercing" armor="stone" value="0.6"/>
 		<damage-multiplier attack="piercing" armor="stone2x" value="0.6"/>
+		<damage-multiplier attack="piercing" armor="stone3x" value="0.6"/>
 		<damage-multiplier attack="piercing" armor="osiris_protection" value="0.8"/>
 		<damage-multiplier attack="piercing" armor="ancient_recalls" value="0.8"/>
 		<damage-multiplier attack="piercing" armor="valak_power" value="0.8"/>
@@ -144,8 +156,10 @@
 		<damage-multiplier attack="impact" armor="metal2x" value="1.15"/>
 		<damage-multiplier attack="impact" armor="wood" value="2.25"/>
 		<damage-multiplier attack="impact" armor="wood2x" value="1.3"/>
+		<damage-multiplier attack="impact" armor="wood3x" value="1.5"/>
 		<damage-multiplier attack="impact" armor="stone" value="2.0"/>
 		<damage-multiplier attack="impact" armor="stone2x" value="1.1"/>
+		<damage-multiplier attack="impact" armor="stone3x" value="1.4"/>
 		<damage-multiplier attack="impact" armor="osiris_protection" value="0.8"/>
 		<damage-multiplier attack="impact" armor="ancient_recalls" value="0.8"/>
 		<damage-multiplier attack="impact" armor="valak_power" value="0.8"/>
@@ -159,10 +173,12 @@
 		<damage-multiplier attack="hell_fire" armor="organic2x" value="0.9"/>
 		<damage-multiplier attack="hell_fire" armor="leather2x" value="0.8"/>
 		<damage-multiplier attack="hell_fire" armor="metal2x" value="0.8"/>
-		<damage-multiplier attack="hell_fire" armor="wood" value="0.3"/>
+		<damage-multiplier attack="hell_fire" armor="wood" value="0.35"/>
 		<damage-multiplier attack="hell_fire" armor="wood2x" value="0.5"/>
-		<damage-multiplier attack="hell_fire" armor="stone" value="0.2"/>
+		<damage-multiplier attack="hell_fire" armor="wood3x" value="0.25"/>
+		<damage-multiplier attack="hell_fire" armor="stone" value="0.25"/>
 		<damage-multiplier attack="hell_fire" armor="stone2x" value="0.4"/>
+		<damage-multiplier attack="hell_fire" armor="stone3x" value="0.15"/>
 		<damage-multiplier attack="hell_fire" armor="osiris_protection" value="0.8"/>
 		<damage-multiplier attack="hell_fire" armor="ancient_recalls" value="0.8"/>
 		<damage-multiplier attack="hell_fire" armor="valak_power" value="0.8"/>
@@ -177,10 +193,12 @@
 		<damage-multiplier attack="air_energy" armor="leather2x" value="0.75"/>
 		<damage-multiplier attack="air_energy" armor="metal" value="0.75"/>
 		<damage-multiplier attack="air_energy" armor="metal2x" value="0.55"/>
-		<damage-multiplier attack="air_energy" armor="wood" value="0.5"/>
+		<damage-multiplier attack="air_energy" armor="wood" value="0.55"/>
 		<damage-multiplier attack="air_energy" armor="wood2x" value="0.75"/>
-		<damage-multiplier attack="air_energy" armor="stone" value="0.4"/>
+		<damage-multiplier attack="air_energy" armor="wood3x" value="0.45"/>
+		<damage-multiplier attack="air_energy" armor="stone" value="0.45"/>
 		<damage-multiplier attack="air_energy" armor="stone2x" value="0.6"/>
+		<damage-multiplier attack="air_energy" armor="stone3x" value="0.35"/>
 		<damage-multiplier attack="air_energy" armor="osiris_protection" value="0.8"/>
 		<damage-multiplier attack="air_energy" armor="ancient_recalls" value="0.8"/>
 		<damage-multiplier attack="air_energy" armor="valak_power" value="0.8"/>
@@ -197,8 +215,10 @@
 		<damage-multiplier attack="roots" armor="metal" value="0.55"/>
 		<damage-multiplier attack="roots" armor="metal2x" value="0.4"/>
 		<damage-multiplier attack="roots" armor="wood2x" value="0.8"/>
+		<damage-multiplier attack="roots" armor="wood3x" value="0.8"/>
 		<damage-multiplier attack="roots" armor="stone" value="0.6"/>
 		<damage-multiplier attack="roots" armor="stone2x" value="0.45"/>
+		<damage-multiplier attack="roots" armor="stone3x" value="0.45"/>
 		<damage-multiplier attack="roots" armor="osiris_protection" value="0.8"/>
 		<damage-multiplier attack="roots" armor="ancient_recalls" value="0.8"/>
 		<damage-multiplier attack="roots" armor="valak_power" value="0.8"/>
@@ -238,10 +258,12 @@
 		<damage-multiplier attack="survivor" armor="organic2x" value="0.85"/>
 		<damage-multiplier attack="survivor" armor="leather2x" value="0.85"/>
 		<damage-multiplier attack="survivor" armor="metal2x" value="0.85"/>
-		<damage-multiplier attack="survivor" armor="wood" value="0.5"/>
+		<damage-multiplier attack="survivor" armor="wood" value="0.6"/>
 		<damage-multiplier attack="survivor" armor="wood2x" value="0.85"/>
-		<damage-multiplier attack="survivor" armor="stone" value="0.4"/>
+		<damage-multiplier attack="survivor" armor="wood3x" value="0.4"/>
+		<damage-multiplier attack="survivor" armor="stone" value="0.5"/>
 		<damage-multiplier attack="survivor" armor="stone2x" value="0.85"/>
+		<damage-multiplier attack="survivor" armor="stone3x" value="0.3"/>
 
 	</damage-multipliers>
 </tech-tree>

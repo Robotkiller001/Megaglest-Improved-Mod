@@ -6,7 +6,7 @@
 		<max-hp value="12000" regeneration="10"/>
 		<max-ep value="0" />
 		<armor value="40" />
-		<armor-type value="stone"/>
+		<armor-type value="stone2x"/>
 		<sight value="14" />
 		<time value="300" />
 		<multi-selection value="true"/>
