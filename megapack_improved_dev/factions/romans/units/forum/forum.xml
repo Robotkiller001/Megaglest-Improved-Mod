@@ -237,7 +237,7 @@
 		<command>
 			<type value="upgrade"/>
 			<name value="upgrade_damage" />
-			<image path="../../upgrades/upgrade_damage/images/upgrade_damage.png" />
+			<image path="../../upgrades/upgrade_damage/images/upgrade_damage.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
@@ -246,7 +246,7 @@
 		<command>
 			<type value="upgrade"/>
 			<name value="upgrade_healthpoints" />
-			<image path="../../upgrades/upgrade_healthpoints/images/upgrade_healthpoints.png" />
+			<image path="../../upgrades/upgrade_healthpoints/images/upgrade_healthpoints.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
@@ -255,7 +255,7 @@
 		<command>
 			<type value="upgrade"/>
 			<name value="upgrade_production_speed" />
-			<image path="../../upgrades/upgrade_production_speed/images/upgrade_production_speed.png" />
+			<image path="../../upgrades/upgrade_production_speed/images/upgrade_production_speed.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
@@ -264,7 +264,7 @@
 		<command>
 			<type value="upgrade"/>
 			<name value="upgrade_trinity_upgrade" />
-			<image path="../../upgrades/trinity_upgrade/images/trinity_upgrade.png" />
+			<image path="../../upgrades/trinity_upgrade/images/trinity_upgrade.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
