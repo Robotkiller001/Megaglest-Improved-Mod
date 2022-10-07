@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <unit-particle-system>
-    	<texture value="true" path="images/banner_boost_particle.png" luminance="true"/>
+    	<texture value="true" path="images/banner_boost_particle.bmp" luminance="true"/>
 	<primitive value="quad"/>
 	<offset x="0" y="2.5" z="0.0"/>
 	<direction x="0" y="0" z="0"/>
