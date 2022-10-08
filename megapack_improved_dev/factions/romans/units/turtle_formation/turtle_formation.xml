@@ -88,8 +88,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="180"/>
-			<anim-speed value="110"/>
+			<speed value="200"/>
+			<anim-speed value="120"/>
 			<animation path="models/tf2_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -117,8 +117,8 @@
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack13.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack14.wav"/>
 			</sound>
-			<attack-strenght value="200"/>
-			<attack-var value="50"/>
+			<attack-strenght value="220"/>
+			<attack-var value="60"/>
 			<attack-range value="2"/>
 			<attack-type value="piercing"/>
 			<attack-fields>
@@ -144,7 +144,7 @@
 			</sound>
 			<spawn start-time="0.8">
 				<unit value="survived_cavalry"/>
-				<amount value="4"/>
+				<amount value="3"/>
 				<health-percent min="70" max="80"/>
 				<probability value="100"/>
 			</spawn>

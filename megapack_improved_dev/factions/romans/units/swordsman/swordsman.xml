@@ -85,7 +85,7 @@
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="210"/>
-			<anim-speed value="130"/>
+			<anim-speed value="120"/>
 			<animation path="models/swordsman_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>

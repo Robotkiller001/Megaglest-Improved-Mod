@@ -164,7 +164,7 @@
 			</particles>
                         </attack-boost>
 			<attack-strenght value="290"/>
-			<attack-var value="80"/>
+			<attack-var value="70"/>
 			<attack-range value="1"/>
 			<attack-type value="general"/>
 			<attack-fields>
@@ -216,7 +216,7 @@
 			<attack-start-time value="0.7"/>
 			<projectile value="false"/>
 			<splash value="true">
-				<radius value="2"/>
+				<radius value="3"/>
 				<damage-all value="false"/>
 				<particle value="false"/>
 			</splash>

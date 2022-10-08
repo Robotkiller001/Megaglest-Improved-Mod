@@ -1,10 +1,10 @@
 <?xml version="1.0" standalone="no"?>
 
 <resource>
-	<image path="images/1-up.png"/>
+	<image path="images/1-up.bmp"/>
 	<type value="tech">
 		<model path="models/gold.g3d"/>
-		<default-amount value="1000"/>
+		<default-amount value="1"/>
 		<resource-number value="4"/>
 	</type>
 </resource>
