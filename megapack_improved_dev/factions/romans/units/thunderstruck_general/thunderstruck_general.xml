@@ -130,7 +130,7 @@
 			<speed value="110"/>
 			<anim-speed value="110"/>
 			<animation path="models/general_attack.g3d"/>
-			<sound enabled="true" start-time="0">
+			<sound enabled="true" start-time="0.15">
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack2.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack3.wav"/>
@@ -170,7 +170,7 @@
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>
-			<attack-start-time value="0"/>
+			<attack-start-time value="0.25"/>
 			<projectile value="false"/>
 			<splash value="false"/>
 			<particles value="true">

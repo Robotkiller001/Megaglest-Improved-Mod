@@ -127,7 +127,7 @@
 			<sound enabled="true" start-time="0.3">
 				<sound-file path="$COMMONDATAPATH/sounds/golem_attack1.wav"/>
 			</sound>
-			<attack-strenght value="420"/>
+			<attack-strenght value="450"/>
 			<attack-var value="100"/>
 			<attack-range value="2"/>
 			<attack-type value="impact"/>
@@ -152,8 +152,8 @@
 				<sound-file path="$COMMONDATAPATH/sounds/air_attack3.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/air_attack4.wav"/>
 			</sound>
-			<attack-strenght value="290"/>
-			<attack-var value="80"/>
+			<attack-strenght value="280"/>
+			<attack-var value="70"/>
 			<attack-range value="10"/>
 			<attack-type value="piercing"/>
 			<attack-fields>
