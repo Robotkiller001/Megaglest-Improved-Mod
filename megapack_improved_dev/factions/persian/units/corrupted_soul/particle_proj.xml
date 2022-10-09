@@ -6,8 +6,8 @@
 	<offset x="0" y="2.1" z="0"/>
 	<color red="0.0" green="0.0" blue="0.0" alpha="1.0" />
 	<color-no-energy red="0.0" green="0.0" blue="0.0" alpha="0.2" />
-    	<size value="1.1" />
-    	<size-no-energy value="0.45" />
+    	<size value="1.4" />
+    	<size-no-energy value="0.6" />
     	<speed value="12.0" />
 	<gravity value="0.01"/>
     	<emission-rate value="16" />

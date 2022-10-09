@@ -107,8 +107,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>		
 			<ep-cost value="500"/>
-			<speed value="60"/>
-			<anim-speed value="60"/>
+			<speed value="55"/>
+			<anim-speed value="55"/>
 			<animation path="models/corrupted_soul_attack.g3d"/>
 			<sound enabled="true" start-time="0.4">
 				<sound-file path="sounds/shade14.wav"/>
@@ -118,7 +118,7 @@
 			<attack-strenght value="450"/>
 			<attack-var value="100"/>
 			<attack-range value="10"/>
-			<attack-type value="magic"/>
+			<attack-type value="energy"/>
 			<attack-fields>
 				<field value="land"/>
 				<field value="air"/>
@@ -148,7 +148,11 @@
 					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit4.wav"/>
 				</sound>
 			</projectile>
-			<splash value="false"/>
+			<splash value="true">
+				<radius value="1"/>
+				<damage-all value="false"/>
+				<particle value="false"/>
+			</splash>
 		</skill>
 
 		<skill>

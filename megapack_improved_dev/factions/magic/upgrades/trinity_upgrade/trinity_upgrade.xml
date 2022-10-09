@@ -32,6 +32,7 @@
 		<unit name="behemoth"/>
 		<unit name="thunderstruck_behemoth"/>
 
+		<unit name="energy_source"/>
 		<unit name="library"/>
 		<unit name="mage_tower"/>
 		<unit name="summoner_guild"/>
