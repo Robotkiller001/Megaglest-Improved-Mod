@@ -64,8 +64,8 @@
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="300"/>
-			<animation path="models/tower_build_0.g3d" minHp="0" maxHp="4000"/>
-			<animation path="models/tower_build_50.g3d" minHp="4001" maxHp="9000"/>
+			<animation path="models/tower_build_0.g3d" minHp="0" maxHp="4500"/>
+			<animation path="models/tower_build_50.g3d" minHp="4501" maxHp="10000"/>
 			<sound enabled="false"/>
 		</skill>
 
