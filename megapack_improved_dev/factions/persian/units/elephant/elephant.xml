@@ -209,8 +209,8 @@
 			<spawn start-time="0.8">
 				<unit value="survived_elephant"/>
 				<amount value="1"/>
-				<health-percent min="60" max="90"/>
-				<probability value="70"/>
+				<health-percent min="70" max="90"/>
+				<probability value="60"/>
 			</spawn>
 		</skill>
 
