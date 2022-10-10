@@ -33,6 +33,7 @@
 		<unit name="survived_chariot"/>
 		<unit name="swordman"/>
 		<unit name="thunderstruck_alexander"/>
+		<unit name="trojan_horse"/>
 
 		<unit name="barracks"/>
 		<unit name="blacksmith"/>

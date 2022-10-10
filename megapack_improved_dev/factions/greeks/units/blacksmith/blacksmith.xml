@@ -104,6 +104,7 @@
 			<particles value="true">
 				<particle-file path="smoke_particles_production.xml"/>
 				<particle-file path="fire_particles_production.xml"/>
+				<particle-file path="upgrade_particles.xml" />
 			</particles>
 			<sound enabled="true" start-time="0.3">
 				<sound-file path="$COMMONDATAPATH/sounds/anvil1.wav"/>
@@ -111,9 +112,6 @@
 				<sound-file path="$COMMONDATAPATH/sounds/anvil3.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/anvil4.wav"/>
 			</sound>
-			<particles value="true">
-				<particle-file path="upgrade_particles.xml" />
-			</particles>
 		</skill>
 
 		<skill>

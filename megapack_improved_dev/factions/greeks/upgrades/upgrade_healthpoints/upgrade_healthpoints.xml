@@ -31,6 +31,7 @@
 		<unit name="survived_chariot"/>
 		<unit name="swordman"/>
 		<unit name="thunderstruck_alexander"/>
+		<unit name="trojan_horse"/>
 	</effects>
 	<max-hp value="20" value-percent-multiplier="true"/>
 	<max-ep value="0"/>
