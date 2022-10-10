@@ -23,6 +23,7 @@
 			<unit name="worker" minimum="6"/>
 		</warrior-units>
 		<upgrades>
+			<upgrade name="upgrade_damage"/>
 			<upgrade name="nails"/>
 			<upgrade name="corn_and_wicker"/>
 			<upgrade name="shield"/>

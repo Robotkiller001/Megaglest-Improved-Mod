@@ -23,6 +23,7 @@
 			<unit name="slave" minimum="6"/>
 		</warrior-units>
 		<upgrades>
+			<upgrade name="upgrade_healthpoints"/>
 			<upgrade name="training_field"/>
 			<upgrade name="advanced_architecture"/>
 			<upgrade name="jupiter"/>

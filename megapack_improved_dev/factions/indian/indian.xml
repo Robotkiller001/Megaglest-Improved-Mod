@@ -27,6 +27,7 @@
 			<unit name="round_tent" minimum="1"/>
 		</building-units>
 		<upgrades>
+			<upgrade name="upgrade_healthpoints"/>
 			<upgrade name="training_field"/>
 			<upgrade name="iron"/>
 			<upgrade name="bull_food"/>

@@ -28,6 +28,7 @@
 			<unit name="obelisk" minimum="3"/>
 		</building-units>
 		<upgrades>
+			<upgrade name="upgrade_damage"/>
 			<upgrade name="spear_weapons"/>
 			<upgrade name="speedup_priest_production"/>
 			<upgrade name="summon_scarab"/>

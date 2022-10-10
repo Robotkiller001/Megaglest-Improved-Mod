@@ -28,6 +28,7 @@
 			<unit name="bone_tent" minimum="1"/>
 		</building-units>
 		<upgrades>
+			<upgrade name="upgrade_healthpoints"/>
 			<upgrade name="mead"/>
 			<upgrade name="arrow"/>
 			<upgrade name="root"/>

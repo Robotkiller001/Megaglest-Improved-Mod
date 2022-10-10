@@ -28,6 +28,7 @@
 			<unit name="palace" minimum="1"/>
 		</building-units>
 		<upgrades>
+			<upgrade name="upgrade_damage"/>
 			<upgrade name="training_field"/>
 			<upgrade name="advanced_architecture"/>
 			<upgrade name="barley_bales"/>

@@ -20,6 +20,7 @@
 	<flat-particle-positions value="true"/>
 	<ai-behavior>
 		<upgrades>
+			<upgrade name="upgrade_damage"/>
 			<upgrade name="ancient_summoning"/>
 			<upgrade name="energy_sharpening"/>
 			<upgrade name="hell_gate"/>
