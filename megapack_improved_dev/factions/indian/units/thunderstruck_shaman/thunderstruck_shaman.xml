@@ -234,8 +234,8 @@
 					<affected-particle-file path="dmg_aura.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="700"/>
-			<attack-var value="120"/>
+			<attack-strenght value="750"/>
+			<attack-var value="150"/>
 			<attack-range value="10"/>
 			<attack-type value="shaman"/>
 			<attack-start-time value="0.0"/>

@@ -90,7 +90,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="270"/>
+			<speed value="280"/>
 			<anim-speed value="90"/>
 			<animation path="models/behemoth_walking.g3d"/>
                         <attack-boost>
@@ -169,7 +169,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill2"/>
-			<ep-cost value="800"/>
+			<ep-cost value="700"/>
 			<speed value="50"/>
 			<anim-speed value="50"/>
 			<animation path="models/behemoth_attacking2.g3d"/>
