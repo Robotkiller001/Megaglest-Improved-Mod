@@ -30,8 +30,8 @@
 		<upgrade-requirements>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="wood" amount="175"/>
-			<resource name="gold" amount="250"/>
+			<resource name="gold" amount="225"/>
+			<resource name="wood" amount="150"/>
 			<resource name="food" amount="3"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -180,7 +180,7 @@
 					<affected-particle-file path="slow_particles.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="180"/>
+			<attack-strenght value="170"/>
 			<attack-var value="40"/>
 			<attack-range value="8"/>
 			<attack-type value="energy"/>

@@ -14,7 +14,7 @@
 	<effects>
 		<unit name="valkyrie"/>
 	</effects>
-	<max-hp value="200"/>
+	<max-hp value="100"/>
 	<max-ep value="0" regeneration="0"/>
 	<sight value="0"/>
 	<attack-strenght value="30"/>
