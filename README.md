@@ -1,4 +1,4 @@
-# Megaglest Improved Project   [![Badge License]][License]
+# Megaglest Improved Project
 
 *Modifications to improve the game-play experience of **[MegaGlest]**.*
 
