@@ -13,6 +13,7 @@
 	</resource-requirements>
 	<effects>
 		<unit name="anubis_warrior"/>
+		<unit name="chicken"/>
 		<unit name="horus_scout"/>
 		<unit name="ibis"/>
 		<unit name="mummy"/>
@@ -42,6 +43,6 @@
 	<attack-strenght value="8" value-percent-multiplier="true"/>
 	<attack-range value="0"/>
 	<armor value="0"/>
-	<move-speed value="0"/>
+	<move-speed value="4" value-percent-multiplier="true"/>
 	<production-speed value="50"/>
 </upgrade>

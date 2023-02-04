@@ -110,7 +110,7 @@
 				<sound-file path="sounds/ghost_armor_attack9.wav"/>
 				<sound-file path="sounds/ghost_armor_attack10.wav"/>
 			</sound>
-			<attack-strenght value="170"/>
+			<attack-strenght value="180"/>
 			<attack-var value="50"/>
 			<attack-range value="8"/>
 			<attack-type value="sword"/>

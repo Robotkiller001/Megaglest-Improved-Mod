@@ -18,6 +18,7 @@
 		<unit name="genie"/>
 		<unit name="magician"/>
 		<unit name="princess"/>
+		<unit name="sheep"/>
 		<unit name="survived_elephant"/>
 		<unit name="stickfighter"/>
 		<unit name="swordman"/>
@@ -41,6 +42,6 @@
 	<attack-strenght value="8" value-percent-multiplier="true"/>
 	<attack-range value="0"/>
 	<armor value="0"/>
-	<move-speed value="0"/>
+	<move-speed value="4" value-percent-multiplier="true"/>
 	<production-speed value="50"/>
 </upgrade>

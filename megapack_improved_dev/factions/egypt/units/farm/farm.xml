@@ -100,7 +100,7 @@
 			<type value="produce" />
 			<name value="produce_skill"/>
 			<ep-cost value="0" />
-			<speed value="400" />
+			<speed value="300" />
 			<anim-speed value="50" />
 			<animation path="models/chickenfarm.g3d" />
 			<sound enabled="true" start-time="0">

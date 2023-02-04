@@ -31,8 +31,8 @@
 		</unit-requirements>
 		<upgrade-requirements />
 		<resource-requirements>
-			<resource name="gold" amount="150"/>
-			<resource name="stone" amount="125"/>
+			<resource name="gold" amount="125"/>
+			<resource name="stone" amount="150"/>
 			<resource name="wood" amount="75"/>
 		</resource-requirements>
 		<resources-stored>

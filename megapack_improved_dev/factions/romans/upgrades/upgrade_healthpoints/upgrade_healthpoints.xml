@@ -18,6 +18,7 @@
 		<unit name="fire_archer"/>
 		<unit name="gladiator"/>
 		<unit name="guard"/>
+		<unit name="pig"/>
 		<unit name="slave"/>
 		<unit name="spearman"/>
 		<unit name="swordsman"/>

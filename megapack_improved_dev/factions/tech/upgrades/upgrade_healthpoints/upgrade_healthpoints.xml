@@ -13,17 +13,18 @@
 		<unit name="airship"/>
 		<unit name="archer"/>
 		<unit name="archer_horseback"/>
+		<unit name="battle_machine"/>
 		<unit name="catapult"/>
-		<unit name="rifleman"/>
+		<unit name="cow"/>
 		<unit name="guard"/>
 		<unit name="horseman"/>
 		<unit name="ornithopter"/>
-		<unit name="swordman"/>
-		<unit name="technician"/>
+		<unit name="rifleman"/>
 		<unit name="survived_archer_horseback"/>
 		<unit name="survived_technician"/>
 		<unit name="survived_horseman"/>
-		<unit name="battle_machine"/>
+		<unit name="swordman"/>
+		<unit name="technician"/>
 		<unit name="thunderstruck_battle_machine"/>
 		<unit name="worker"/>
 	</effects>

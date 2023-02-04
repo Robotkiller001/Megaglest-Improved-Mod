@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no"?>
 
 <upgrade>
-	<image path="images/upgrade_healthpoints.png"/>
+	<image path="images/upgrade_speed.bmp"/>
 	<image-cancel path="../images/tech_upgrade_cancel.bmp"/>
 	<time value="20"/>
 	<unit-requirements/>
@@ -33,13 +33,20 @@
 		<unit name="swordman"/>
 		<unit name="thunderstruck_alexander"/>
 		<unit name="trojan_horse"/>
+
+		<unit name="barracks"/>
+		<unit name="blacksmith"/>
+		<unit name="civic_center"/>
+		<unit name="farm"/>
+		<unit name="palace"/>
+		<unit name="temple"/>
 	</effects>
-	<max-hp value="20" value-percent-multiplier="true"/>
+	<max-hp value="0"/>
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strenght value="0"/>
 	<attack-range value="0"/>
 	<armor value="0"/>
-	<move-speed value="0"/>
-	<production-speed value="0"/>
+	<move-speed value="10" value-percent-multiplier="true"/>
+	<production-speed value="75"/>
 </upgrade>

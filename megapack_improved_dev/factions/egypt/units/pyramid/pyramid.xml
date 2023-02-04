@@ -231,12 +231,12 @@
 		</command>
 		<command>
 			<type value="upgrade"/>
-			<name value="upgrade_production_speed" />
-			<image path="../../upgrades/upgrade_production_speed/images/upgrade_production_speed.bmp" />
+			<name value="upgrade_speed" />
+			<image path="../../upgrades/upgrade_speed/images/upgrade_speed.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
-			<produced-upgrade name="upgrade_production_speed"/>
+			<produced-upgrade name="upgrade_speed"/>
 		</command>
 		<command>
 			<type value="upgrade"/>

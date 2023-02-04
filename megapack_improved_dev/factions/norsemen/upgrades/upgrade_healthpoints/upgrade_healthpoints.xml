@@ -11,9 +11,10 @@
 	</resource-requirements>
 	<effects>
 		<unit name="archer"/>
-		<unit name="battleaxe"/>
 		<unit name="axe_thrower"/>
+		<unit name="battleaxe"/>
 		<unit name="battleaxe_berserk"/>
+		<unit name="cow"/>
 		<unit name="crossbow"/>
 		<unit name="cudgel_lady"/>
 		<unit name="flying_valkyrie"/>

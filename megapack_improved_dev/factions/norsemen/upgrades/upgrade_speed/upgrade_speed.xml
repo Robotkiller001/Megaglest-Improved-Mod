@@ -1,23 +1,21 @@
 <?xml version="1.0" standalone="no"?>
 
 <upgrade>
-	<image path="images/upgrade_damage.png"/>
+	<image path="images/upgrade_production_speed.png"/>
 	<image-cancel path="../images/tech_upgrade_cancel.bmp"/>
 	<time value="20"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
-		<resource name="gold" amount="2250"/>
-		<resource name="wood" amount="1500"/>
-		<resource name="stone" amount="1500"/>
+		<resource name="1-up" amount="1"/>
 	</resource-requirements>
 	<effects>
 		<unit name="archer"/>
-		<unit name="battleaxe"/>
 		<unit name="axe_thrower"/>
+		<unit name="battleaxe"/>
 		<unit name="battleaxe_berserk"/>
-		<unit name="crossbow"/>
 		<unit name="cow"/>
+		<unit name="crossbow"/>
 		<unit name="cudgel_lady"/>
 		<unit name="flying_valkyrie"/>
 		<unit name="spearman"/>
@@ -39,14 +37,13 @@
 		<unit name="mead_bar"/>
 		<unit name="mistletoe_tree"/>
 		<unit name="valhalla"/>
-		<unit name="thor_totem"/>
 	</effects>
-	<max-hp value="8" value-percent-multiplier="true"  regeneration="1"/>
+	<max-hp value="0"/>
 	<max-ep value="0"/>
-	<sight value="1"/>
-	<attack-strenght value="8" value-percent-multiplier="true"/>
+	<sight value="0"/>
+	<attack-strenght value="0"/>
 	<attack-range value="0"/>
 	<armor value="0"/>
-	<move-speed value="4" value-percent-multiplier="true"/>
-	<production-speed value="50"/>
+	<move-speed value="10" value-percent-multiplier="true"/>
+	<production-speed value="75"/>
 </upgrade>
