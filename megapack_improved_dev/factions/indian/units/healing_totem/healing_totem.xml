@@ -3,7 +3,7 @@
 	<parameters>
 		<size value="0" />
 		<height value="2" />
-		<max-hp value="18" regeneration="-2"/>
+		<max-hp value="16" regeneration="-2"/>
 		<max-ep value="0" />
 		<armor value="0" />
 		<armor-type value="stone"/>
