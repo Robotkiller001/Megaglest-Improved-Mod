@@ -8,7 +8,7 @@
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="6000" regeneration="16" start-percentage="100"/>
-		<max-ep value="1000" regeneration="50" start-percentage="100"/>
+		<max-ep value="1000" regeneration="40" start-percentage="100"/>
 		<armor value="40"/>
 		<armor-type value="ancient_recalls"/>
 		<max-unit-count value="1"/>
@@ -209,13 +209,15 @@
 
 		<skill>
 			<type value="attack"/>
-			<name value="shadow_skill"/>
-			<ep-cost value="500"/>
+			<name value="totem_skill"/>
+			<ep-cost value="1000"/>
 			<speed value="60"/>
 			<anim-speed value="60"/>
-			<animation path="models/shaman_attacking2.g3d"/>
+			<animation path="models/shaman_repairing.g3d"/>
 			<sound enabled="true" start-time="0.5">
-				<sound-file path="sounds/shaman_attack.wav"/>
+				<sound-file path="sounds/shaman_prod1.wav"/>
+				<sound-file path="sounds/shaman_prod2.wav"/>
+				<sound-file path="sounds/shaman_prod3.wav"/>
 			</sound>
                         <attack-boost>
 				<allow-multiple-boosts value="true" />
@@ -234,53 +236,18 @@
 					<affected-particle-file path="dmg_aura.xml"/>
 			</particles>
                         </attack-boost>
-			<attack-strenght value="750"/>
-			<attack-var value="150"/>
+			<attack-strenght value="-100"/>
+			<attack-var value="0"/>
 			<attack-range value="10"/>
 			<attack-type value="shaman"/>
 			<attack-start-time value="0.0"/>
+				<unit value="healing_totem" amount="1"/>
 			<attack-fields>
 				<field value="land"/>
 				<field value="air"/>
 			</attack-fields>
-			<projectiles>
-			  
-			<projectile attack-start-time="0.5" damage-percentage="35">	
-				<particle value="true" path="particle_proj1.xml"/>
-				<hitsound enabled="true">
-					<sound-file path="/sounds/shaman_hit1.wav"/>
-					<sound-file path="/sounds/shaman_hit2.wav"/>
-				</hitsound>
-			</projectile>
-			
-			<projectile attack-start-time="0.5" damage-percentage="35">	
-				<particle value="true" path="particle_proj2.xml"/>
-				<hitsound enabled="true">
-					<sound-file path="/sounds/shaman_hit1.wav"/>
-					<sound-file path="/sounds/shaman_hit2.wav"/>
-				</hitsound>
-			</projectile>
-
-			<projectile attack-start-time="0.5" damage-percentage="30">	
-				<particle value="true" path="particle_proj3.xml"/>
-				<hitsound enabled="true">
-					<sound-file path="/sounds/shaman_hit1.wav"/>
-					<sound-file path="/sounds/shaman_hit2.wav"/>
-				</hitsound>
-			</projectile>
-
-			</projectiles>
-
-			<splash value="true">
-				<radius value="1"/>
-				<damage-all value="false"/>
-				<particle value="true" path="particle_splash.xml"/>
-			</splash>
-			<particles value="true">
-				<particle-file path="glow_particles.xml"/>
-				<particle-file path="attack_particles.xml"/>
-				<particle-file path="attack_particles2.xml"/>
-			</particles>
+			<projectile value="false"/>
+			<splash value="false"/>
 		</skill>
 
 		<skill>
@@ -472,12 +439,12 @@
 
 		<command>
 			<type value="attack"/>
-			<name value="mastery_of_shadows"/>
-			<image path="images/shadow_molotov.bmp"/>
+			<name value="mastery_of_totems"/>
+			<image path="images/healing_totem.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
-			<attack-skill value="shadow_skill"/>
+			<attack-skill value="totem_skill"/>
 		</command>
 
 		<command>

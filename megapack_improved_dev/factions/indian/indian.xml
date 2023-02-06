@@ -12,7 +12,7 @@
 		<unit name="beehive" amount="1"/>
 		<unit name="worker" amount="4"/>
 		<unit name="stickfighter" amount="0"/>
-		<unit name="thunderbird" amount="0"/>
+		<unit name="thunderstruck_shaman" amount="0"/>
 	</starting-units>
 	<music value="true" path="music/music_indian.ogg"/>
 	<flat-particle-positions value="true"/>

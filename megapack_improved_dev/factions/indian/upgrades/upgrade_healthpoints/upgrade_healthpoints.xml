@@ -16,6 +16,7 @@
 		<unit name="bull"/>
 		<unit name="fire_archer"/>
 		<unit name="fire_golem"/>
+		<unit name="healing_totem"/>
 		<unit name="horseman"/>
 		<unit name="infernal_soul"/>
 		<unit name="infernal_soul_"/>
