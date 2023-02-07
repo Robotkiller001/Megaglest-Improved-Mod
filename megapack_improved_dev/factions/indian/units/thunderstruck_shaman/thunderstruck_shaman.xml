@@ -8,7 +8,7 @@
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="6000" regeneration="16" start-percentage="100"/>
-		<max-ep value="1500" regeneration="40" start-percentage="100"/>
+		<max-ep value="1500" regeneration="30" start-percentage="100"/>
 		<armor value="40"/>
 		<armor-type value="ancient_recalls"/>
 		<max-unit-count value="1"/>
