@@ -14,7 +14,7 @@
 		<unit name="slave" amount="4"/>
 		<unit name="axe_man" amount="0"/>
 		<unit name="guard" amount="0"/>
-		<unit name="gladiator" amount="0"/>
+		<unit name="thunderstruck_general" amount="0"/>
 	</starting-units>
 	<music value="true" path="music/music_romans.ogg"/>
 	<flat-particle-positions value="true"/>

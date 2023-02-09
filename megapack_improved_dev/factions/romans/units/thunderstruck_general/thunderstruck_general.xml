@@ -185,8 +185,21 @@
 			<speed value="35"/>
 			<anim-speed value="35"/>
 			<animation path="models/general_attack2.g3d"/>
-			<sound enabled="true" start-time="0.7">
-				<sound-file path="sounds/thunderstruck_general_sword.wav"/>
+			<sound enabled="true" start-time="0.2">
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack6.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack7.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack8.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack9.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack10.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack11.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack12.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack13.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack14.wav"/>
 			</sound>
                         <attack-boost>
 				<allow-multiple-boosts value="true" />
@@ -207,20 +220,25 @@
                         </attack-boost>
 			<attack-strenght value="1400"/>
 			<attack-var value="250"/>
-			<attack-range value="3"/>
+			<attack-range value="5"/>
 			<attack-type value="general"/>
 			<attack-fields>
 				<field value="land"/>
 				<field value="air"/>
 			</attack-fields>
 			<attack-start-time value="0.7"/>
-			<projectile value="false"/>
+			<projectile value="true">
+				<particle value="true" path="particle_proj.xml"/>
+				<sound enabled="true">
+					<sound-file path="sounds/thunderstruck_general_sword.wav"/>
+				</sound>
+			</projectile>
 			<splash value="true">
 				<radius value="3"/>
 				<damage-all value="false"/>
 				<particle value="false"/>
 			</splash>
-			<shake enabled="true" intensity="1000" duration="120" start-time="0.7">
+			<shake enabled="true" intensity="1000" duration="120" start-time="0.92">
 				<self enabled="true" visible="false" in-camera-view="true" camera-distance-affected="false"/>
 				<team enabled="true" visible="false" in-camera-view="true" camera-distance-affected="false"/>
 				<enemy enabled="true" visible="true" in-camera-view="true" camera-distance-affected="true"/>
