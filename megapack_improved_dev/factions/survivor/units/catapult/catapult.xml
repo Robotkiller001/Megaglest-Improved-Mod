@@ -6,7 +6,7 @@
 		<height value="2"/>
 		<ai-build-size value="3"/>
 		<max-hp value="2800" regeneration="40"/>
-		<max-ep value="1250" regeneration="90"/>
+		<max-ep value="1500" regeneration="90"/>
 		<armor value="20"/>
 		<armor-type value="survivor"/>
 		<sight value="15"/>
@@ -112,8 +112,8 @@
 			<name value="upgrade_skill"/>
 			<ep-cost value="0" />
 			<speed value="500" />
-			<anim-speed value="40" />
-			<animation path="models/catapult_walking.g3d" />
+			<anim-speed value="210" />
+			<animation path="models/catapult_upgrading.g3d" />
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/technician_build1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/technician_build2.wav"/>
@@ -233,6 +233,47 @@
 			</splash>
 		</skill>
 
+		<skill>
+			<type value="attack"/>
+			<name value="airship_skill"/>
+			<ep-cost value="6000"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
+			<animation path="models/catapult_attacking3.g3d"/>
+			<sound enabled="true" start-time="0.5">
+				<sound-file path="$COMMONDATAPATH/sounds/technician_ack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_ack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_ack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_ack4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_ack5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_ack6.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_ack7.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_ack8.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_ack9.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_ack10.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_ack11.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_ack12.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_ack13.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_ack14.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_ack15.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_ack16.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_ack17.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_ack18.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_ack19.wav"/>
+			</sound>
+			<attack-strenght value="-1000"/>
+			<attack-var value="0"/>
+			<attack-range value="16"/>
+			<attack-type value="survivor"/>
+			<attack-start-time value="0.0"/>
+				<unit value="airship" amount="1"/>
+			<attack-fields>
+				<field value="land"/>
+				<field value="air"/>
+			</attack-fields>
+			<projectile value="false"/>
+			<splash value="false"/>
+		</skill>
 
 		<skill>
 			<type value="die"/>
@@ -326,6 +367,18 @@
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
 			<attack-skill value="hell_fire_skill"/>
+		</command>
+
+		<command>
+			<type value="attack"/>
+			<name value="help_from_above"/>
+			<image path="images/airship.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements>
+				<upgrade name="advanced_arsenal"/>
+			</upgrade-requirements>
+			<move-skill value="move_skill"/>
+			<attack-skill value="airship_skill"/>
 		</command>
 
 		<command>

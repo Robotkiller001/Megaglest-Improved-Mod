@@ -5,7 +5,7 @@
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="2800" regeneration="40"/>
-		<max-ep value="1250" regeneration="80"/>
+		<max-ep value="1500" regeneration="80"/>
 		<armor value="20"/>
 		<armor-type value="survivor"/>
 		<sight value="15"/>
@@ -221,8 +221,8 @@
 				<sound-file path="sounds/ground_attack3.wav"/>
 				<sound-file path="sounds/ground_attack4.wav"/>
 			</sound>
-			<attack-strenght value="1700"/>
-			<attack-var value="300"/>
+			<attack-strenght value="1600"/>
+			<attack-var value="250"/>
 			<attack-range value="12"/>
 			<attack-type value="survivor"/>
 			<attack-fields>
@@ -267,6 +267,51 @@
 				<radius value="5"/>
 				<damage-all value="false"/>
 				<particle value="true" path="fire_splash.xml"/>
+			</splash>
+		</skill>
+		<skill>
+			<type value="attack"/>
+			<name value="meteorite_skill"/>
+			<ep-cost value="6000"/>
+			<speed value="35"/>
+			<anim-speed value="35"/>
+			<animation path="models/archmage_attacking3.g3d"/>
+			<particles value="true" start-time="0.15" end-time="0.5">
+				<particle-file path="glow_particles.xml"/>
+				<particle-file path="particle_beam.xml"/>
+			</particles>
+			<sound enabled="true" start-time="0">
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack6.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack8.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack11.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack12.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack13.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack15.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack16.wav"/>
+			</sound>
+			<attack-strenght value="5000"/>
+			<attack-var value="1000"/>
+			<attack-range value="18"/>
+			<attack-type value="survivor"/>
+			<attack-fields>
+				<field value="land"/>
+				<field value="air"/>
+			</attack-fields>
+			<attack-start-time value="0.75"/>
+			<projectile value="true">
+				<particle value="true" path="meteorite_proj.xml"/>
+				<sound enabled="true">
+					<sound-file path="sounds/meteorite.wav"/>
+				</sound>
+			</projectile>
+			<splash value="true">
+				<radius value="25"/>
+				<damage-all value="false"/>
+				<particle value="true" path="meteorite_splash.xml"/>
 			</splash>
 		</skill>
 		<skill>
@@ -318,6 +363,17 @@
 		 	<upgrade-requirements/>
 			<move-skill value="move_skill"/>
 			<attack-skill value="static_fire_skill"/>
+		</command>
+		<command>
+			<type value="attack"/>
+			<name value="meteorite"/>
+			<image path="images/meteorite.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements>
+				<upgrade name="magic_omniscience"/>
+			</upgrade-requirements>
+			<move-skill value="move_skill"/>
+			<attack-skill value="meteorite_skill"/>
 		</command>
 		<command>
 			<type value="harvest"/>
