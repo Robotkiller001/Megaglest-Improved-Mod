@@ -1,0 +1,93 @@
+<?xml version="1.0" standalone="no"?>
+
+<unit>
+
+	<!-- *** parameters *** -->
+
+	<parameters>
+		<size value="0"/>
+		<height value="0"/>
+		<max-hp value="9" regeneration="-3"/>
+		<max-ep value="0"/>
+		<armor value="0"/>
+		<armor-type value="survivor"/>
+		<sight value="8"/>
+		<time value="0"/>
+		<multi-selection value="false"/>
+		<cellmap value="false"/>
+		<levels/>
+		<fields>
+			<field value="land"/>
+		</fields>
+		<properties/>
+		<light enabled="false"/>
+		<unit-requirements/>
+		<upgrade-requirements/>
+		<resource-requirements/>
+		<resources-stored>
+		</resources-stored>
+		<image path="images/hell_gate.bmp"/>
+		<image-cancel path="images/tech_cancel.bmp"/>
+		<meeting-point value="false"/>
+		<selection-sounds enabled="false"/>
+		<command-sounds enabled="false"/>
+	</parameters>
+
+	<!-- *** skills *** -->
+
+	<skills>
+
+		<skill>
+			<type value="stop"/>
+			<name value="stop_skill"/>
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="40"/>
+			<animation path="models/fire.g3d"/>
+                        <attack-boost>
+				<allow-multiple-boosts value="true" />
+				<radius value="11"/>
+                        	<target value="foe" include-self="false">
+				</target>
+				<max-hp value="0" regeneration="-30"/>
+				<max-ep value="0"/>
+				<sight value="0"/>
+				<attack-strenght value="0" value-percent-multiplier="true"/>
+				<attack-range value="0"/>
+				<armor value="0"/>
+				<move-speed value="-35" value-percent-multiplier="true"/>
+				<production-speed value="0"/>
+			<particles value="false">
+			</particles>
+                        </attack-boost>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="die"/>
+			<name value="die_skill"/>
+			<ep-cost value="0"/>
+			<speed value="150"/>
+			<anim-speed value="150"/>
+			<animation path="models/fire.g3d"/>
+			<sound enabled="false"/>
+			<fade value="true"/>
+		</skill>
+
+	</skills>
+
+	<!-- *** commands *** -->
+
+	<commands>
+
+		<command>
+			<type value= "stop"/>
+			<name value="stop"/>
+			<image path="images/tech_stop.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+		</command>
+
+	</commands>
+</unit>

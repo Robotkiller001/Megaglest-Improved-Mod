@@ -9,10 +9,10 @@
 	<color-no-energy red="1.0" green="0.5" blue="0.5" alpha="0.0" />
     	<size value="5.0" />
     	<size-no-energy value="3.5" />
-    	<speed value="15" />
+    	<speed value="14" />
 	<gravity value="-0.01"/>
     	<emission-rate value="45" />
-    	<energy-max value="120" />
+    	<energy-max value="110" />
     	<energy-var value="5" />
 
 	<emission-rate-fade value="1"/>

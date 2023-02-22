@@ -9,7 +9,7 @@
 		<armor value="15"/>
 		<armor-type value="survivor"/>
 		<sight value="12"/>
-		<time value="60"/>
+		<time value="65"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
@@ -19,7 +19,7 @@
 			<level name="master" kills="28"/>
 			<level name="grandmaster" kills="46"/>
 			<level name="mayor" kills="72"/>
-			<level name="imperator" kills="100"/>
+			<level name="king" kills="100"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -33,7 +33,7 @@
 			<upgrade name="scales_1"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="600"/>
+			<resource name="gold" amount="500"/>
 		</resource-requirements>
 		<resources-stored>
 			<resource name= "gold" amount="1600"/>

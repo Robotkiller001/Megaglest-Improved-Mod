@@ -5,20 +5,20 @@
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="2800" regeneration="40"/>
-		<max-ep value="1500" regeneration="80"/>
+		<max-ep value="1250" regeneration="80"/>
 		<armor value="20"/>
 		<armor-type value="survivor"/>
 		<sight value="15"/>
-		<time value="135"/>
+		<time value="140"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="basic" kills="30"/>
-			<level name="advanced" kills="60"/>
-			<level name="expert" kills="120"/>
-			<level name="master" kills="190"/>
-			<level name="grandmaster" kills="280"/>
-			<level name="daemon" kills="400"/>
+			<level name="basic" kills="25"/>
+			<level name="advanced" kills="50"/>
+			<level name="expert" kills="110"/>
+			<level name="master" kills="180"/>
+			<level name="grandmaster" kills="275"/>
+			<level name="demon" kills="400"/>
 			<level name="god" kills="575"/>
 			<level name="skygod" kills="800"/>
 			<level name="adpocalypse" kills="1000"/>
@@ -34,7 +34,7 @@
 			<upgrade name="magic_armor_2"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="1200"/>
+			<resource name="gold" amount="1000"/>
 		</resource-requirements>
 		<resources-stored>
 			<resource name= "gold" amount="3000"/>
@@ -273,8 +273,8 @@
 			<type value="attack"/>
 			<name value="meteorite_skill"/>
 			<ep-cost value="6000"/>
-			<speed value="35"/>
-			<anim-speed value="35"/>
+			<speed value="30"/>
+			<anim-speed value="30"/>
 			<animation path="models/archmage_attacking3.g3d"/>
 			<particles value="true" start-time="0.15" end-time="0.5">
 				<particle-file path="glow_particles.xml"/>
@@ -295,13 +295,14 @@
 			</sound>
 			<attack-strenght value="5000"/>
 			<attack-var value="1000"/>
-			<attack-range value="18"/>
+			<attack-range value="16"/>
 			<attack-type value="survivor"/>
 			<attack-fields>
 				<field value="land"/>
 				<field value="air"/>
 			</attack-fields>
 			<attack-start-time value="0.75"/>
+			<unit value="fire" amount="1" spawnAtTarget="true"/>
 			<projectile value="true">
 				<particle value="true" path="meteorite_proj.xml"/>
 				<sound enabled="true">
@@ -309,7 +310,7 @@
 				</sound>
 			</projectile>
 			<splash value="true">
-				<radius value="25"/>
+				<radius value="20"/>
 				<damage-all value="false"/>
 				<particle value="true" path="meteorite_splash.xml"/>
 			</splash>

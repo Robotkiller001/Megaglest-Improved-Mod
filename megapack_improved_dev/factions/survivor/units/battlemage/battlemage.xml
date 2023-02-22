@@ -9,7 +9,7 @@
 		<armor value="15"/>
 		<armor-type value="survivor"/>
 		<sight value="12"/>
-		<time value="60"/>
+		<time value="65"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
@@ -18,8 +18,8 @@
 			<level name="expert" kills="16"/>
 			<level name="master" kills="30"/>
 			<level name="grandmaster" kills="48"/>
-			<level name="god" kills="72"/>
-			<level name="skygod" kills="100"/>
+			<level name="demon" kills="72"/>
+			<level name="god" kills="100"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -32,7 +32,7 @@
 			<upgrade name="magic_armor_1"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="600"/>
+			<resource name="gold" amount="500"/>
 		</resource-requirements>
 		<resources-stored>
 			<resource name= "gold" amount="1600"/>
