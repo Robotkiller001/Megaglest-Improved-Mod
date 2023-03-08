@@ -7,18 +7,17 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="2000" regeneration="6"/>
+		<max-hp value="1400" regeneration="4"/>
 		<max-ep value="0"/>
-		<armor value="30"/>
-		<armor-type value="ancient_recalls"/>
+		<armor value="40"/>
+		<armor-type value="leather"/>
 		<sight value="12"/>
 		<time value="120"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="expert" kills="10"/>
-			<level name="master" kills="24"/>
-			<level name="legendary" kills="42"/>
+			<level name="expert" kills="8"/>
+			<level name="master" kills="20"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -28,9 +27,8 @@
 		<unit-requirements/>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="gold" amount="250"/>
-			<resource name="wood" amount="150"/>
-			<resource name="stone" amount="150"/>
+			<resource name="gold" amount="225"/>
+			<resource name="wood" amount="125"/>
 			<resource name="housing" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -120,10 +118,10 @@
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/shaman_attack.wav"/>
 			</sound>
-			<attack-strenght value="210"/>
+			<attack-strenght value="200"/>
 			<attack-var value="60"/>
 			<attack-range value="7"/>
-			<attack-type value="shaman"/>
+			<attack-type value="energy"/>
 			<attack-start-time value="0.5"/>
 			<attack-fields>
 				<field value="land"/>

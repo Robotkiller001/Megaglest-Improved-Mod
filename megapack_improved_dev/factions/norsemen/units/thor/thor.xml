@@ -8,18 +8,17 @@
 	<parameters>
 		<size value="2"/>
 		<height value="3"/>
-		<max-hp value="4500" regeneration="8"/>
-		<max-ep value="300" regeneration="15" start-percentage="35"/>
-		<armor value="40"/>
-		<armor-type value="odin_shield"/>
+		<max-hp value="4000" regeneration="6"/>
+		<max-ep value="350" regeneration="15" start-percentage="35"/>
+		<armor value="50"/>
+		<armor-type value="leather"/>
 		<sight value="12"/>
 		<time value="80"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="expert" kills="10"/>
-			<level name="master" kills="22"/>
-			<level name="legendary" kills="36"/>
+			<level name="expert" kills="8"/>
+			<level name="master" kills="18"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -34,8 +33,8 @@
 		<upgrade-requirements>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="250"/>
-			<resource name="wood" amount="100"/>
+			<resource name="gold" amount="225"/>
+			<resource name="wood" amount="50"/>
 			<resource name="food" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -138,10 +137,10 @@
 			<sound enabled="true" start-time="0.3">
 				<sound-file path="$COMMONDATAPATH/sounds/golem_attack1.wav"/>
 			</sound>
-			<attack-strenght value="280"/>
+			<attack-strenght value="270"/>
 			<attack-var value="80"/>
 			<attack-range value="2"/>
-			<attack-type value="thor"/>
+			<attack-type value="energy"/>
 			<attack-start-time value="0.6"/>
 			<attack-fields>
 				<field value="land"/>
@@ -157,7 +156,7 @@
               	<skill>
 			<type value="attack"/>
 			<name value="attack_air_skill"/>
-			<ep-cost value="65"/>
+			<ep-cost value="70"/>
 			<speed value="80"/>
 			<anim-speed value="80"/>
 			<animation path="models/thor_airattacking.g3d"/>
@@ -168,9 +167,9 @@
 				<sound-file path="$COMMONDATAPATH/sounds/air_attack4.wav"/>
 			</sound>
 			<attack-strenght value="170"/>
-			<attack-var value="60"/>
+			<attack-var value="50"/>
 			<attack-range value="9"/>
-			<attack-type value="thor"/>
+			<attack-type value="energy"/>
 			<attack-fields>
 				<field value="air"/>
 			</attack-fields>

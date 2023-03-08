@@ -29,9 +29,9 @@
 			<upgrade name="pandoras_box"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="250"/>
-			<resource name="stone" amount="100"/>
-			<resource name="wood" amount="100"/>
+			<resource name="gold" amount="300"/>
+			<resource name="stone" amount="150"/>
+			<resource name="wood" amount="150"/>
 			<resource name="food" amount="5"/>
 		</resource-requirements>
 		<resources-stored/>

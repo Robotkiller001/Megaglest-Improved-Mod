@@ -6,18 +6,17 @@
 		<size value="2"/>
 		<height value="3"/>
 		<ai-build-size value="3"/>
-		<max-hp value="4000" regeneration="8" start-percentage="100"/>
+		<max-hp value="3500" regeneration="6" start-percentage="100"/>
 		<max-ep value="0"/>
-		<armor value="40"/>
-		<armor-type value="advanced_protection"/>
+		<armor value="55"/>
+		<armor-type value="wood"/>
 		<sight value="12"/>
-		<time value="120"/>
+		<time value="110"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="expert" kills="10"/>
-			<level name="master" kills="22"/>
-			<level name="legendary" kills="36"/>
+			<level name="expert" kills="8"/>
+			<level name="master" kills="18"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -33,9 +32,8 @@
 			<upgrade name="robotics"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="250"/>
+			<resource name="gold" amount="200"/>
 			<resource name="wood" amount="100"/>
-			<resource name="stone" amount="100"/>
 			<resource name="food" amount="2"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -146,10 +144,10 @@
 				<sound-file path="sounds/machine_attack1b.wav"/>
 				<sound-file path="sounds/machine_attack1c.wav"/>
 			</sound>
-			<attack-strenght value="270"/>
-			<attack-var value="80"/>
+			<attack-strenght value="260"/>
+			<attack-var value="70"/>
 			<attack-range value="1"/>
-			<attack-type value="battle_machine"/>
+			<attack-type value="sword"/>
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>
@@ -162,7 +160,7 @@
 			<type value="attack"/>
 			<name value="attack_arrow_skill"/>
 			<ep-cost value="0"/>
-			<speed value="50"/>
+			<speed value="60"/>
 			<anim-speed value="60"/>
 			<animation path="models/battle_machine_attacking2.g3d"/>
 			<sound enabled="true" start-time="0.5">
@@ -170,10 +168,10 @@
 				<sound-file path="sounds/machine_attack2b.wav"/>
 				<sound-file path="sounds/machine_attack2c.wav"/>
 			</sound>
-			<attack-strenght value="190"/>
+			<attack-strenght value="180"/>
 			<attack-var value="50"/>
 			<attack-range value="8"/>
-			<attack-type value="battle_machine"/>
+			<attack-type value="arrow"/>
 			<attack-start-time value="0.5"/>
 			<attack-fields>
 				<field value="air"/>

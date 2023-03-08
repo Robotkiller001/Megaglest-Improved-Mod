@@ -238,14 +238,14 @@
 		<damage-multiplier attack="castle" armor="artemis_bless" value="4.0"/>
 		<damage-multiplier attack="castle" armor="survivor" value="8.0"/>
 
-		<damage-multiplier attack="scarab" armor="survivor" value="3.0"/>
-		<damage-multiplier attack="shaman" armor="survivor" value="3.0"/>
-		<damage-multiplier attack="behemoth" armor="survivor" value="3.0"/>
-		<damage-multiplier attack="thor" armor="survivor" value="3.0"/>
-		<damage-multiplier attack="elephant" armor="survivor" value="3.0"/>
-		<damage-multiplier attack="general" armor="survivor" value="3.0"/>
-		<damage-multiplier attack="battle_machine" armor="survivor" value="3.0"/>
-		<damage-multiplier attack="alexander" armor="survivor" value="3.0"/>
+		<damage-multiplier attack="scarab" armor="survivor" value="4.5"/>
+		<damage-multiplier attack="shaman" armor="survivor" value="4.5"/>
+		<damage-multiplier attack="behemoth" armor="survivor" value="4.5"/>
+		<damage-multiplier attack="thor" armor="survivor" value="4.5"/>
+		<damage-multiplier attack="elephant" armor="survivor" value="4.5"/>
+		<damage-multiplier attack="general" armor="survivor" value="4.5"/>
+		<damage-multiplier attack="battle_machine" armor="survivor" value="4.5"/>
+		<damage-multiplier attack="alexander" armor="survivor" value="4.5"/>
 
 		<damage-multiplier attack="survivor" armor="osiris_protection" value="0.5"/>
 		<damage-multiplier attack="survivor" armor="ancient_recalls" value="0.5"/>
