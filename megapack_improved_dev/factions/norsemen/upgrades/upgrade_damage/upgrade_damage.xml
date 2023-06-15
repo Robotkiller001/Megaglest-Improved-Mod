@@ -25,6 +25,7 @@
 		<unit name="valkyrie"/>
 		<unit name="wild_sow"/>
 		<unit name="thrall"/>
+		<unit name="thrall_berserk"/>
 		<unit name="thor"/>
 		<unit name="thunderstruck_thor"/>
 	</effects>

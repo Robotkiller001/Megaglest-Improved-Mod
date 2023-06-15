@@ -12,7 +12,7 @@
 		<unit name="castle" amount="1"/>
 		<unit name="cow" amount="1"/>
 		<unit name="thrall" amount="4"/>
-		<unit name="flying_valkyrie" amount="0"/>
+		<unit name="thrall_berserk" amount="0"/>
 		<unit name="axe_thrower" amount="0"/>
 		<unit name="thunderstruck_thor" amount="0"/>
 	</starting-units>

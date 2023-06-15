@@ -141,7 +141,7 @@
 			<ep-cost value="0"/>
 			<speed value="500"/>
 			<anim-speed value="80"/>
-			<animation path="../spearman_berserk/models/spearman_morphing.g3d"/>
+			<animation path="models/spearman_morphing.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 

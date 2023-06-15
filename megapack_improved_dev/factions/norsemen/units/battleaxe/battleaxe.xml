@@ -142,7 +142,7 @@
 			<ep-cost value="0"/>
 			<speed value="500"/>
 			<anim-speed value="50"/>
-			<animation path="../battleaxe_berserk/models/axeman_morphing.g3d"/>
+			<animation path="models/axeman_morphing.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 

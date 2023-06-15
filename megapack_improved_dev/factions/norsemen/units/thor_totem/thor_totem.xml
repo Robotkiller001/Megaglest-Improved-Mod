@@ -142,7 +142,7 @@
 			<upgrade-requirements/>
 			<morph-skill value="build_thor"/>
 			<morph-unit name="thor"/>
-			<discount value="40"/>
+			<discount value="0"/>
 		</command>
 	</commands>
 </unit>
