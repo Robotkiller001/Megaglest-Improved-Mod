@@ -3,7 +3,7 @@
 	<parameters>
 		<size value="0" />
 		<height value="2" />
-		<max-hp value="200" regeneration="-20"/>
+		<max-hp value="220" regeneration="-20"/>
 		<max-ep value="0" />
 		<armor value="0" />
 		<armor-type value="stone"/>
@@ -49,7 +49,7 @@
 			<sound enabled="false" />
                         <attack-boost>
 				<allow-multiple-boosts value="true" />
-				<radius value="11"/>
+				<radius value="13"/>
                         	<target value="ally" include-self="false">
 				</target>
 				<max-hp value="0" regeneration="75"/>
