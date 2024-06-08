@@ -38,13 +38,13 @@
 			<sound path="$COMMONDATAPATH/sounds/worker_select4.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="sounds/worker_ack1.wav"/>
-			<sound path="sounds/worker_ack2.wav"/>
-			<sound path="sounds/worker_ack3.wav"/>
-			<sound path="sounds/worker_ack4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/worker_ack1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/worker_ack2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/worker_ack3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/worker_ack4.wav"/>
 			<sound path="$COMMONDATAPATH/sounds/worker_ack5.wav"/>
 			<sound path="$COMMONDATAPATH/sounds/worker_ack6.wav"/>
-			<sound path="sounds/worker_ack7.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/worker_ack7.wav"/>
 		</command-sounds>
 	</parameters>
 

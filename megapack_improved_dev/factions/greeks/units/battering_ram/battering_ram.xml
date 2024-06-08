@@ -39,19 +39,19 @@
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="../slave/sounds/worker_select1.ogg"/>
-			<sound path="../slave/sounds/worker_select2.ogg"/>
-			<sound path="../slave/sounds/worker_select3.ogg"/>
-			<sound path="../slave/sounds/worker_select4.ogg"/>
+			<sound path="$COMMONDATAPATH/sounds/worker_select1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/worker_select2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/worker_select3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/worker_select4.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="../slave/sounds/worker_ack1.ogg"/>
-			<sound path="../slave/sounds/worker_ack2.ogg"/>
-			<sound path="../slave/sounds/worker_ack3.ogg"/>
-			<sound path="../slave/sounds/worker_ack4.ogg"/>
-			<sound path="../slave/sounds/worker_ack5.ogg"/>
-			<sound path="../slave/sounds/worker_ack6.ogg"/>
-			<sound path="../slave/sounds/worker_ack7.ogg"/>
+			<sound path="$COMMONDATAPATH/sounds/worker_ack1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/worker_ack2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/worker_ack3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/worker_ack4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/worker_ack5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/worker_ack6.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/worker_ack7.wav"/>
 		</command-sounds>
 
 	</parameters>
@@ -96,12 +96,12 @@
 			<anim-speed value="95"/>
 			<animation path="models/bram_walk.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/catapult_walk1.ogg"/>
-				<sound-file path="sounds/catapult_walk2.ogg"/>
-				<sound-file path="sounds/catapult_walk3.ogg"/>
-				<sound-file path="sounds/catapult_walk4.ogg"/>
-				<sound-file path="sounds/catapult_walk5.ogg"/>
-				<sound-file path="sounds/catapult_walk6.ogg"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_walk1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_walk2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_walk3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_walk4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_walk5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_walk6.wav"/>
 			</sound>
 
 		</skill>
@@ -114,7 +114,7 @@
 			<anim-speed value="60"/>
 			<animation path="models/bram_attack.g3d"/>
 			<sound enabled="true" start-time="0.0">
-				<sound-file path="/sounds/golem_attack1.ogg"/>
+				<sound-file path="$COMMONDATAPATH/sounds/golem_attack1.wav"/>
 			</sound>
 			<attack-strength value="420"/>
 			<attack-var value="130"/>
@@ -141,9 +141,9 @@
 			<animation path="models/bram_die.g3d"/>
 			<!--animation path="models/battering_ram_die.g3d"/-->
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/golem_die1.ogg"/>
-				<sound-file path="sounds/golem_die2.ogg"/>
-				<sound-file path="sounds/golem_die3.ogg"/>
+				<sound-file path="$COMMONDATAPATH/sounds/golem_die1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/golem_die2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/golem_die3.wav"/>
 			</sound>
                         <fade value="false"/>
 		</skill>

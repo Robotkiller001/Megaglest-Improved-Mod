@@ -100,7 +100,7 @@
 				<particle-file path="blood_particles.xml"/>
 			</particles>
 			<sound enabled="true" start-time="0.35">
-				<sound-file path="sounds/technician_attack.wav"/>
+				<sound-file path="../technician/sounds/technician_attack.wav"/>
 			</sound>
 			<attack-strenght value="250"/>
 			<attack-var value="90"/>
@@ -113,8 +113,8 @@
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
 				<sound enabled="true">
-					<sound-file path="/sounds/technician_hit1.wav"/>
-					<sound-file path="/sounds/technician_hit2.wav"/>
+					<sound-file path="../technician/sounds/technician_hit1.wav"/>
+					<sound-file path="../technician/sounds/technician_hit2.wav"/>
 				</sound>
 			</projectile>
 			<splash value="true">

@@ -41,35 +41,35 @@
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="../cavalry/sounds/horseman_select1.ogg"/>
-			<sound path="../cavalry/sounds/horseman_select2.ogg"/>
-			<sound path="../cavalry/sounds/horseman_select3.ogg"/>
-			<sound path="../cavalry/sounds/horseman_select4.ogg"/>
-			<sound path="../cavalry/sounds/horseman_select5.ogg"/>
-			<sound path="../cavalry/sounds/horseman_select6.ogg"/>
-			<sound path="../cavalry/sounds/horseman_select7.ogg"/>
-			<sound path="../cavalry/sounds/horseman_select8.ogg"/>
-			<sound path="../cavalry/sounds/horseman_select9.ogg"/>
-			<sound path="../cavalry/sounds/horseman_select10.ogg"/>
-			<sound path="../cavalry/sounds/horseman_select11.ogg"/>
-			<sound path="../cavalry/sounds/horseman_select12.ogg"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_select1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_select2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_select3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_select4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_select5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_select6.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_select7.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_select8.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_select9.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_select10.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_select11.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_select12.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="../cavalry/sounds/horseman_ack1.ogg"/>
-			<sound path="../cavalry/sounds/horseman_ack2.ogg"/>
-			<sound path="../cavalry/sounds/horseman_ack3.ogg"/>
-			<sound path="../cavalry/sounds/horseman_ack4.ogg"/>
-			<sound path="../cavalry/sounds/horseman_ack5.ogg"/>
-			<sound path="../cavalry/sounds/horseman_ack6.ogg"/>
-			<sound path="../cavalry/sounds/horseman_ack7.ogg"/>
-			<sound path="../cavalry/sounds/horseman_ack8.ogg"/>
-			<sound path="../cavalry/sounds/horseman_ack9.ogg"/>
-			<sound path="../cavalry/sounds/horseman_ack10.ogg"/>
-			<sound path="../cavalry/sounds/horseman_ack11.ogg"/>
-			<sound path="../cavalry/sounds/horseman_ack12.ogg"/>
-			<sound path="../cavalry/sounds/horseman_ack13.ogg"/>
-			<sound path="../cavalry/sounds/horseman_ack14.ogg"/>
-			<sound path="../cavalry/sounds/horseman_ack15.ogg"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_ack1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_ack2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_ack3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_ack4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_ack5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_ack6.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_ack7.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_ack8.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_ack9.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_ack10.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_ack11.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_ack12.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_ack13.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_ack14.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/horseman_ack15.wav"/>
 		</command-sounds>
 
 	</parameters>
@@ -111,9 +111,9 @@
 			<anim-speed value="110"/>
 			<animation path="models/chariot_walk.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="../cavalry/sounds/horseman_walk1.ogg"/>
-				<sound-file path="../cavalry/sounds/horseman_walk2.ogg"/>
-				<sound-file path="../cavalry/sounds/horseman_walk3.ogg"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_walk1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_walk2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_walk3.wav"/>
 			</sound>
 
 		</skill>
@@ -154,9 +154,9 @@
 			<anim-speed value="60"/>
 			<animation path="models/chariot_die.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/machine_die1.ogg"/>
-				<sound-file path="sounds/machine_die2.ogg"/>
-				<sound-file path="sounds/machine_die3.ogg"/>
+				<sound-file path="sounds/machine_die1.wav"/>
+				<sound-file path="sounds/machine_die2.wav"/>
+				<sound-file path="sounds/machine_die3.wav"/>
 			</sound>
 			<fade value="false"/>
 			<spawn start-time="0.8">
@@ -175,9 +175,9 @@
 			<anim-speed value="120"/>
 			<animation path="models/chariot_walk.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="../cavalry/sounds/horseman_walk1.ogg"/>
-				<sound-file path="../cavalry/sounds/horseman_walk2.ogg"/>
-				<sound-file path="../cavalry/sounds/horseman_walk3.ogg"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_walk1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_walk2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_walk3.wav"/>
 			</sound>
 
 		</skill>

@@ -117,11 +117,11 @@
 			</particles>
                         </attack-boost>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/machine_walk1.wav"/>
-				<sound-file path="sounds/machine_walk2.wav"/>
-				<sound-file path="sounds/machine_walk3.wav"/>
-				<sound-file path="sounds/machine_walk4.wav"/>
-				<sound-file path="sounds/machine_walk5.wav"/>
+				<sound-file path="../battle_machine/sounds/machine_walk1.wav"/>
+				<sound-file path="../battle_machine/sounds/machine_walk2.wav"/>
+				<sound-file path="../battle_machine/sounds/machine_walk3.wav"/>
+				<sound-file path="../battle_machine/sounds/machine_walk4.wav"/>
+				<sound-file path="../battle_machine/sounds/machine_walk5.wav"/>
 			</sound>
 			<particles value="true">
 				<particle-file path="glow_particles.xml"/>
@@ -154,11 +154,11 @@
 			</particles>
                         </attack-boost>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/machine_walk1.wav"/>
-				<sound-file path="sounds/machine_walk2.wav"/>
-				<sound-file path="sounds/machine_walk3.wav"/>
-				<sound-file path="sounds/machine_walk4.wav"/>
-				<sound-file path="sounds/machine_walk5.wav"/>
+				<sound-file path="../battle_machine/sounds/machine_walk1.wav"/>
+				<sound-file path="../battle_machine/sounds/machine_walk2.wav"/>
+				<sound-file path="../battle_machine/sounds/machine_walk3.wav"/>
+				<sound-file path="../battle_machine/sounds/machine_walk4.wav"/>
+				<sound-file path="../battle_machine/sounds/machine_walk5.wav"/>
 			</sound>
 			<particles value="true">
 				<particle-file path="glow_particles.xml"/>
@@ -173,9 +173,9 @@
 			<anim-speed value="90"/>
 			<animation path="models/battle_machine_attacking.g3d"/>
 			<sound enabled="true" start-time="0.1">
-				<sound-file path="sounds/machine_attack1.wav"/>
-				<sound-file path="sounds/machine_attack1b.wav"/>
-				<sound-file path="sounds/machine_attack1c.wav"/>
+				<sound-file path="../battle_machine/sounds/machine_attack1.wav"/>
+				<sound-file path="../battle_machine/sounds/machine_attack1b.wav"/>
+				<sound-file path="../battle_machine/sounds/machine_attack1c.wav"/>
 			</sound>
                         <attack-boost>
 				<allow-multiple-boosts value="true" />
@@ -233,7 +233,7 @@
 				<move-speed value="0"/>
 				<production-speed value="0"/>
 			<particles value="true">
-					<affected-particle-file path="dmg_aura.xml"/>
+				<affected-particle-file path="dmg_aura.xml"/>
 			</particles>
                         </attack-boost>
 			<attack-strenght value="360"/>
@@ -279,9 +279,9 @@
 			<anim-speed value="60"/>
 			<animation path="models/battle_machine_dying.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/machine_die1.wav"/>
-				<sound-file path="sounds/machine_die2.wav"/>
-				<sound-file path="sounds/machine_die3.wav"/>
+				<sound-file path="../battle_machine/sounds/machine_die1.wav"/>
+				<sound-file path="../battle_machine/sounds/machine_die2.wav"/>
+				<sound-file path="../battle_machine/sounds/machine_die3.wav"/>
 			</sound>
 			<fade value="false"/>
 			<spawn start-time="0.8">

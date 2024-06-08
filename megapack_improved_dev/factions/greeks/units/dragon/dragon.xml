@@ -37,12 +37,12 @@
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="sounds/dragon_select1.ogg"/>
-			<sound path="sounds/dragon_select2.ogg"/>
+			<sound path="sounds/dragon_select1.wav"/>
+			<sound path="sounds/dragon_select2.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="sounds/dragon_ack1.ogg"/>
-			<sound path="sounds/dragon_ack2.ogg"/>
+			<sound path="sounds/dragon_ack1.wav"/>
+			<sound path="sounds/dragon_ack2.wav"/>
 		</command-sounds>
 
 	</parameters>
@@ -95,10 +95,10 @@
 			<anim-speed value="60"/>
 			<animation path="models/dragon_attack.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/dragon_attack1.ogg"/>
-				<sound-file path="sounds/dragon_attack2.ogg"/>
-				<sound-file path="sounds/dragon_attack3.ogg"/>
-				<sound-file path="sounds/dragon_attack4.ogg"/>
+				<sound-file path="sounds/dragon_attack1.wav"/>
+				<sound-file path="sounds/dragon_attack2.wav"/>
+				<sound-file path="sounds/dragon_attack3.wav"/>
+				<sound-file path="sounds/dragon_attack4.wav"/>
 			</sound>
 			<attack-strength value="280"/>
 			<attack-var value="70"/>
@@ -110,12 +110,12 @@
 			</attack-fields>
 			<attack-start-time value="0.3"/>
 			<projectile value="true">
-				<particle value="true" path="particle_proj.xml"/>
+			<particle value="true" path="particle_proj.xml"/>
 				<sound enabled="true">
-				<sound-file path="sounds/dragon_hit1.ogg"/>
-				<sound-file path="sounds/dragon_hit2.ogg"/>
-				<sound-file path="sounds/dragon_hit3.ogg"/>
-				<sound-file path="sounds/dragon_hit4.ogg"/>
+				<sound-file path="$COMMONDATAPATH/sounds/dragon_hit1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/dragon_hit2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/dragon_hit3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/dragon_hit4.wav"/>
 			</sound>
 			</projectile>
 			<splash value="true">
@@ -134,8 +134,8 @@
 			<anim-speed value="120"/>
 			<animation path="models/dragon_die.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/dragon_die1.ogg"/>
-				<sound-file path="sounds/dragon_die2.ogg"/>
+				<sound-file path="sounds/dragon_die1.wav"/>
+				<sound-file path="sounds/dragon_die2.wav"/>
 			</sound>
 			<fade value="false"/>
 		</skill>

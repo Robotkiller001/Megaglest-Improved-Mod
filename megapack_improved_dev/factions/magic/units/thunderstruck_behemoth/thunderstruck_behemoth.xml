@@ -41,18 +41,18 @@
 		<image-cancel path="../archmage/images/magic_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="sounds/behemoth_select1.wav"/>
-			<sound path="sounds/behemoth_select2.wav"/>
-			<sound path="sounds/behemoth_select3.wav"/>
-			<sound path="sounds/behemoth_select4.wav"/>
+			<sound path="../behemoth/sounds/behemoth_select1.wav"/>
+			<sound path="../behemoth/sounds/behemoth_select2.wav"/>
+			<sound path="../behemoth/sounds/behemoth_select3.wav"/>
+			<sound path="../behemoth/sounds/behemoth_select4.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="sounds/behemoth_ack1.wav"/>
-			<sound path="sounds/behemoth_ack2.wav"/>
-			<sound path="sounds/behemoth_ack3.wav"/>
-			<sound path="sounds/behemoth_ack4.wav"/>
-			<sound path="sounds/behemoth_ack5.wav"/>
-			<sound path="sounds/behemoth_ack6.wav"/>
+			<sound path="../behemoth/sounds/behemoth_ack1.wav"/>
+			<sound path="../behemoth/sounds/behemoth_ack2.wav"/>
+			<sound path="../behemoth/sounds/behemoth_ack3.wav"/>
+			<sound path="../behemoth/sounds/behemoth_ack4.wav"/>
+			<sound path="../behemoth/sounds/behemoth_ack5.wav"/>
+			<sound path="../behemoth/sounds/behemoth_ack6.wav"/>
 		</command-sounds>
 	</parameters>
 
@@ -111,8 +111,8 @@
 			</particles>
                         </attack-boost>
 			<sound enabled="true" start-time="0.4">
-				<sound-file path="sounds/behemoth_walk1.wav"/>
-				<sound-file path="sounds/behemoth_walk2.wav"/>
+				<sound-file path="../behemoth/sounds/behemoth_walk1.wav"/>
+				<sound-file path="../behemoth/sounds/behemoth_walk2.wav"/>
 			</sound>
 			<particles value="true">
 				<particle-file path="glow_particles.xml"/>
@@ -126,14 +126,14 @@
 			<anim-speed value="80"/>
 			<animation path="models/behemoth_attacking.g3d"/>
 			<sound enabled="true" start-time="0.15">
-				<sound-file path="sounds/behemoth_attack1a.wav"/>
-				<sound-file path="sounds/behemoth_attack1b.wav"/>
-				<sound-file path="sounds/behemoth_attack1c.wav"/>
-				<sound-file path="sounds/behemoth_attack1d.wav"/>
-				<sound-file path="sounds/behemoth_attack1e.wav"/>
-				<sound-file path="sounds/behemoth_attack1f.wav"/>
-				<sound-file path="sounds/behemoth_attack1g.wav"/>
-				<sound-file path="sounds/behemoth_attack1h.wav"/>
+				<sound-file path="../behemoth/sounds/behemoth_attack1a.wav"/>
+				<sound-file path="../behemoth/sounds/behemoth_attack1b.wav"/>
+				<sound-file path="../behemoth/sounds/behemoth_attack1c.wav"/>
+				<sound-file path="../behemoth/sounds/behemoth_attack1d.wav"/>
+				<sound-file path="../behemoth/sounds/behemoth_attack1e.wav"/>
+				<sound-file path="../behemoth/sounds/behemoth_attack1f.wav"/>
+				<sound-file path="../behemoth/sounds/behemoth_attack1g.wav"/>
+				<sound-file path="../behemoth/sounds/behemoth_attack1h.wav"/>
 			</sound>
                         <attack-boost>
 				<allow-multiple-boosts value="true" />
@@ -222,10 +222,10 @@
 			<anim-speed value="100"/>
 			<animation path="models/behemoth_dying.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/behemoth_die1.wav"/>
-				<sound-file path="sounds/behemoth_die2.wav"/>
-				<sound-file path="sounds/behemoth_die3.wav"/>
-				<sound-file path="sounds/behemoth_die4.wav"/>
+				<sound-file path="../behemoth/sounds/behemoth_die1.wav"/>
+				<sound-file path="../behemoth/sounds/behemoth_die2.wav"/>
+				<sound-file path="../behemoth/sounds/behemoth_die3.wav"/>
+				<sound-file path="../behemoth/sounds/behemoth_die4.wav"/>
 			</sound>
 			<fade value="false"/>
 		</skill>

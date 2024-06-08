@@ -39,17 +39,17 @@
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="sounds/shaman_select1.wav"/>
-			<sound path="sounds/shaman_select2.wav"/>
-			<sound path="sounds/shaman_select3.wav"/>
-			<sound path="sounds/shaman_select4.wav"/>
-			<sound path="sounds/shaman_select5.wav"/>
+			<sound path="../shaman/sounds/shaman_select1.wav"/>
+			<sound path="../shaman/sounds/shaman_select2.wav"/>
+			<sound path="../shaman/sounds/shaman_select3.wav"/>
+			<sound path="../shaman/sounds/shaman_select4.wav"/>
+			<sound path="../shaman/sounds/shaman_select5.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="sounds/shaman_ack1.wav"/>
-			<sound path="sounds/shaman_ack2.wav"/>
-			<sound path="sounds/shaman_ack3.wav"/>
-			<sound path="sounds/shaman_ack4.wav"/>
+			<sound path="../shaman/sounds/shaman_ack1.wav"/>
+			<sound path="../shaman/sounds/shaman_ack2.wav"/>
+			<sound path="../shaman/sounds/shaman_ack3.wav"/>
+			<sound path="../shaman/sounds/shaman_ack4.wav"/>
 		</command-sounds>
 
 	</parameters>
@@ -141,12 +141,12 @@
 			</particles>
                         </attack-boost>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/shaman_build1.wav"/>
-				<sound-file path="sounds/shaman_build2.wav"/>
-				<sound-file path="sounds/shaman_build3.wav"/>
-				<sound-file path="sounds/shaman_build4.wav"/>
-				<sound-file path="sounds/shaman_build5.wav"/>
-				<sound-file path="sounds/shaman_build6.wav"/>
+				<sound-file path="../shaman/sounds/shaman_build1.wav"/>
+				<sound-file path="../shaman/sounds/shaman_build2.wav"/>
+				<sound-file path="../shaman/sounds/shaman_build3.wav"/>
+				<sound-file path="../shaman/sounds/shaman_build4.wav"/>
+				<sound-file path="../shaman/sounds/shaman_build5.wav"/>
+				<sound-file path="../shaman/sounds/shaman_build6.wav"/>
 			</sound>
 			<particles value="true">
 				<particle-file path="glow_particles.xml"/>
@@ -162,7 +162,7 @@
 			<anim-speed value="60"/>
 			<animation path="models/shaman_attacking.g3d"/>
 			<sound enabled="true" start-time="0.5">
-				<sound-file path="sounds/shaman_attack.wav"/>
+				<sound-file path="../shaman/sounds/shaman_attack.wav"/>
 			</sound>
                         <attack-boost>
 				<allow-multiple-boosts value="true" />
@@ -193,8 +193,8 @@
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
 				<sound enabled="true">
-					<sound-file path="/sounds/shaman_hit1.wav"/>
-					<sound-file path="/sounds/shaman_hit2.wav"/>
+					<sound-file path="../shaman/sounds/shaman_hit1.wav"/>
+					<sound-file path="../shaman/sounds/shaman_hit2.wav"/>
 				</sound>
 			</projectile>
 			<splash value="true">
@@ -215,9 +215,9 @@
 			<anim-speed value="60"/>
 			<animation path="models/shaman_repairing.g3d"/>
 			<sound enabled="true" start-time="0.5">
-				<sound-file path="sounds/shaman_prod1.wav"/>
-				<sound-file path="sounds/shaman_prod2.wav"/>
-				<sound-file path="sounds/shaman_prod3.wav"/>
+				<sound-file path="../shaman/sounds/shaman_prod1.wav"/>
+				<sound-file path="../shaman/sounds/shaman_prod2.wav"/>
+				<sound-file path="../shaman/sounds/shaman_prod3.wav"/>
 			</sound>
                         <attack-boost>
 				<allow-multiple-boosts value="true" />
@@ -307,12 +307,12 @@
 			</particles>
                         </attack-boost>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/shaman_build1.wav"/>
-				<sound-file path="sounds/shaman_build2.wav"/>
-				<sound-file path="sounds/shaman_build3.wav"/>
-				<sound-file path="sounds/shaman_build4.wav"/>
-				<sound-file path="sounds/shaman_build5.wav"/>
-				<sound-file path="sounds/shaman_build6.wav"/>
+				<sound-file path="../shaman/sounds/shaman_build1.wav"/>
+				<sound-file path="../shaman/sounds/shaman_build2.wav"/>
+				<sound-file path="../shaman/sounds/shaman_build3.wav"/>
+				<sound-file path="../shaman/sounds/shaman_build4.wav"/>
+				<sound-file path="../shaman/sounds/shaman_build5.wav"/>
+				<sound-file path="../shaman/sounds/shaman_build6.wav"/>
 			</sound>
 			<particles value="true">
 				<particle-file path="glow_particles.xml"/>
@@ -344,9 +344,9 @@
 			</particles>
                         </attack-boost>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/shaman_prod1.wav"/>
-				<sound-file path="sounds/shaman_prod2.wav"/>
-				<sound-file path="sounds/shaman_prod3.wav"/>
+				<sound-file path="../shaman/sounds/shaman_prod1.wav"/>
+				<sound-file path="../shaman/sounds/shaman_prod2.wav"/>
+				<sound-file path="../shaman/sounds/shaman_prod3.wav"/>
 			</sound>
 			<particles value="true">
 				<particle-file path="glow_particles.xml"/>
@@ -361,10 +361,10 @@
 			<anim-speed value="50"/>
 			<animation path="models/shaman_dying.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/shaman_die1.wav"/>
-				<sound-file path="sounds/shaman_die2.wav"/>
-				<sound-file path="sounds/shaman_die3.wav"/>
-				<sound-file path="sounds/shaman_die4.wav"/>
+				<sound-file path="../shaman/sounds/shaman_die1.wav"/>
+				<sound-file path="../shaman/sounds/shaman_die2.wav"/>
+				<sound-file path="../shaman/sounds/shaman_die3.wav"/>
+				<sound-file path="../shaman/sounds/shaman_die4.wav"/>
 			</sound>
 			<fade value="false"/>
 		</skill>

@@ -30,31 +30,31 @@
 		<image-cancel path="../archmage/images/magic_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="sounds/summoner_select2.wav"/>
-			<sound path="sounds/summoner_select3.wav"/>
-			<sound path="sounds/summoner_select5.wav"/>
-			<sound path="sounds/summoner_select6.wav"/>
-			<sound path="sounds/summoner_select7.wav"/>
-			<sound path="sounds/summoner_select10.wav"/>
-			<sound path="sounds/summoner_select11.wav"/>
-			<sound path="sounds/summoner_select14.wav"/>
-			<sound path="sounds/summoner_select15.wav"/>
-			<sound path="sounds/summoner_select16.wav"/>
-			<sound path="sounds/summoner_select17.wav"/>
+			<sound path="../summoner/sounds/summoner_select2.wav"/>
+			<sound path="../summoner/sounds/summoner_select3.wav"/>
+			<sound path="../summoner/sounds/summoner_select5.wav"/>
+			<sound path="../summoner/sounds/summoner_select6.wav"/>
+			<sound path="../summoner/sounds/summoner_select7.wav"/>
+			<sound path="../summoner/sounds/summoner_select10.wav"/>
+			<sound path="../summoner/sounds/summoner_select11.wav"/>
+			<sound path="../summoner/sounds/summoner_select14.wav"/>
+			<sound path="../summoner/sounds/summoner_select15.wav"/>
+			<sound path="../summoner/sounds/summoner_select16.wav"/>
+			<sound path="../summoner/sounds/summoner_select17.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="sounds/summoner_ack1.wav"/>
-			<sound path="sounds/summoner_ack2.wav"/>
-			<sound path="sounds/summoner_ack3.wav"/>
-			<sound path="sounds/summoner_ack4.wav"/>
-			<sound path="sounds/summoner_ack5.wav"/>
-			<sound path="sounds/summoner_ack6.wav"/>
-			<sound path="sounds/summoner_ack7.wav"/>
-			<sound path="sounds/summoner_ack8.wav"/>
-			<sound path="sounds/summoner_ack9.wav"/>
-			<sound path="sounds/summoner_ack10.wav"/>
-			<sound path="sounds/summoner_ack11.wav"/>
-			<sound path="sounds/summoner_ack12.wav"/>
+			<sound path="../summoner/sounds/summoner_ack1.wav"/>
+			<sound path="../summoner/sounds/summoner_ack2.wav"/>
+			<sound path="../summoner/sounds/summoner_ack3.wav"/>
+			<sound path="../summoner/sounds/summoner_ack4.wav"/>
+			<sound path="../summoner/sounds/summoner_ack5.wav"/>
+			<sound path="../summoner/sounds/summoner_ack6.wav"/>
+			<sound path="../summoner/sounds/summoner_ack7.wav"/>
+			<sound path="../summoner/sounds/summoner_ack8.wav"/>
+			<sound path="../summoner/sounds/summoner_ack9.wav"/>
+			<sound path="../summoner/sounds/summoner_ack10.wav"/>
+			<sound path="../summoner/sounds/summoner_ack11.wav"/>
+			<sound path="../summoner/sounds/summoner_ack12.wav"/>
 		</command-sounds>
 	</parameters>
 
@@ -139,10 +139,10 @@
 			<anim-speed value="80"/>
 			<animation path="models/survived_drake_rider_die.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/summoner_die1.wav"/>
-				<sound-file path="sounds/summoner_die2.wav"/>
-				<sound-file path="sounds/summoner_die3.wav"/>
-				<sound-file path="sounds/summoner_die4.wav"/>
+				<sound-file path="../summoner/sounds/summoner_die1.wav"/>
+				<sound-file path="../summoner/sounds/summoner_die2.wav"/>
+				<sound-file path="../summoner/sounds/summoner_die3.wav"/>
+				<sound-file path="../summoner/sounds/summoner_die4.wav"/>
 			</sound>
 			<fade value="false"/>
 		</skill>

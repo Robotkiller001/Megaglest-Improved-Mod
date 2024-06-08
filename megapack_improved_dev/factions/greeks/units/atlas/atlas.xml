@@ -39,20 +39,20 @@
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="/sounds/atlas_select1.ogg"/>
-			<sound path="/sounds/atlas_select2.ogg"/>
-			<sound path="/sounds/select1.ogg"/>
-			<sound path="/sounds/select2.ogg"/>
-			<sound path="/sounds/select3.ogg"/>
-			<sound path="/sounds/select4.ogg"/>
-			<sound path="/sounds/select5.ogg"/>
+			<sound path="/sounds/atlas_select1.wav"/>
+			<sound path="/sounds/atlas_select2.wav"/>
+			<sound path="/sounds/select1.wav"/>
+			<sound path="/sounds/select2.wav"/>
+			<sound path="/sounds/select3.wav"/>
+			<sound path="/sounds/select4.wav"/>
+			<sound path="/sounds/select5.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-		        <sound path="/sounds/ack1.ogg"/>
-			<sound path="/sounds/ack2.ogg"/>
-			<sound path="/sounds/ack3.ogg"/>
-			<sound path="/sounds/ack4.ogg"/>
-			<sound path="/sounds/ack5.ogg"/>
+		        <sound path="/sounds/ack1.wav"/>
+			<sound path="/sounds/ack2.wav"/>
+			<sound path="/sounds/ack3.wav"/>
+			<sound path="/sounds/ack4.wav"/>
+			<sound path="/sounds/ack5.wav"/>
 		</command-sounds>
 
 	</parameters>
@@ -108,8 +108,8 @@
 			<anim-speed value="50"/>
 			<animation path="models/atlas_attack.g3d"/>
 			<sound enabled="true" start-time="0.65">
-				<sound-file path="/sounds/hit1.ogg"/>
-				<sound-file path="/sounds/hit2.ogg"/>
+				<sound-file path="/sounds/hit1.wav"/>
+				<sound-file path="/sounds/hit2.wav"/>
 			</sound>
 			<attack-strength value="350"/>
 			<attack-var value="50"/>
@@ -135,10 +135,10 @@
 			<anim-speed value="30"/>
 			<animation path="models/atlas_die.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/die1.ogg"/>
-				<sound-file path="sounds/die2.ogg"/>
-				<sound-file path="sounds/die3.ogg"/>
-				<sound-file path="sounds/die4.ogg"/>
+				<sound-file path="sounds/die1.wav"/>
+				<sound-file path="sounds/die2.wav"/>
+				<sound-file path="sounds/die3.wav"/>
+				<sound-file path="sounds/die4.wav"/>
 			</sound>
                         <fade value="false"/>
 		</skill>

@@ -35,19 +35,19 @@
 		<image-cancel path="../archmage/images/magic_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="sounds/ghost_armor_select1.wav"/>
-			<sound path="sounds/ghost_armor_select2.wav"/>
-			<sound path="sounds/ghost_armor_select3.wav"/>
-			<sound path="sounds/ghost_armor_select4.wav"/>
+			<sound path="../ghost_armor/sounds/ghost_armor_select1.wav"/>
+			<sound path="../ghost_armor/sounds/ghost_armor_select2.wav"/>
+			<sound path="../ghost_armor/sounds/ghost_armor_select3.wav"/>
+			<sound path="../ghost_armor/sounds/ghost_armor_select4.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="sounds/ghost_armor_ack1.wav"/>
-			<sound path="sounds/ghost_armor_ack2.wav"/>
-			<sound path="sounds/ghost_armor_ack3.wav"/>
-			<sound path="sounds/ghost_armor_ack4.wav"/>
-			<sound path="sounds/ghost_armor_ack5.wav"/>
-			<sound path="sounds/ghost_armor_ack6.wav"/>
-			<sound path="sounds/ghost_armor_ack7.wav"/>
+			<sound path="../ghost_armor/sounds/ghost_armor_ack1.wav"/>
+			<sound path="../ghost_armor/sounds/ghost_armor_ack2.wav"/>
+			<sound path="../ghost_armor/sounds/ghost_armor_ack3.wav"/>
+			<sound path="../ghost_armor/sounds/ghost_armor_ack4.wav"/>
+			<sound path="../ghost_armor/sounds/ghost_armor_ack5.wav"/>
+			<sound path="../ghost_armor/sounds/ghost_armor_ack6.wav"/>
+			<sound path="../ghost_armor/sounds/ghost_armor_ack7.wav"/>
 		</command-sounds>
 
 	</parameters>
@@ -99,16 +99,16 @@
 			<anim-speed value="60"/>
 			<animation path="models/ghost_sword_thrower_attack.g3d"/>
 			<sound enabled="true" start-time="0.7">
-				<sound-file path="sounds/ghost_armor_attack1.wav"/>
-				<sound-file path="sounds/ghost_armor_attack2.wav"/>
-				<sound-file path="sounds/ghost_armor_attack3.wav"/>
-				<sound-file path="sounds/ghost_armor_attack4.wav"/>
-				<sound-file path="sounds/ghost_armor_attack5.wav"/>
-				<sound-file path="sounds/ghost_armor_attack6.wav"/>
-				<sound-file path="sounds/ghost_armor_attack7.wav"/>
-				<sound-file path="sounds/ghost_armor_attack8.wav"/>
-				<sound-file path="sounds/ghost_armor_attack9.wav"/>
-				<sound-file path="sounds/ghost_armor_attack10.wav"/>
+				<sound-file path="../ghost_armor/sounds/ghost_armor_attack1.wav"/>
+				<sound-file path="../ghost_armor/sounds/ghost_armor_attack2.wav"/>
+				<sound-file path="../ghost_armor/sounds/ghost_armor_attack3.wav"/>
+				<sound-file path="../ghost_armor/sounds/ghost_armor_attack4.wav"/>
+				<sound-file path="../ghost_armor/sounds/ghost_armor_attack5.wav"/>
+				<sound-file path="../ghost_armor/sounds/ghost_armor_attack6.wav"/>
+				<sound-file path="../ghost_armor/sounds/ghost_armor_attack7.wav"/>
+				<sound-file path="../ghost_armor/sounds/ghost_armor_attack8.wav"/>
+				<sound-file path="../ghost_armor/sounds/ghost_armor_attack9.wav"/>
+				<sound-file path="../ghost_armor/sounds/ghost_armor_attack10.wav"/>
 			</sound>
 			<attack-strenght value="180"/>
 			<attack-var value="50"/>
@@ -170,11 +170,11 @@
 			<anim-speed value="120"/>
 			<animation path="models/ghost_sword_thrower_die.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/ghost_armor_die1.wav"/>
-				<sound-file path="sounds/ghost_armor_die2.wav"/>
-				<sound-file path="sounds/ghost_armor_die3.wav"/>
-				<sound-file path="sounds/ghost_armor_die4.wav"/>
-				<sound-file path="sounds/ghost_armor_die5.wav"/>
+				<sound-file path="../ghost_armor/sounds/ghost_armor_die1.wav"/>
+				<sound-file path="../ghost_armor/sounds/ghost_armor_die2.wav"/>
+				<sound-file path="../ghost_armor/sounds/ghost_armor_die3.wav"/>
+				<sound-file path="../ghost_armor/sounds/ghost_armor_die4.wav"/>
+				<sound-file path="../ghost_armor/sounds/ghost_armor_die5.wav"/>
 			</sound>
 			<fade value="false"/>
 		</skill>
